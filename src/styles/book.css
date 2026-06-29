@@ -62,3 +62,37 @@ p{margin:0 0 20px;font-size:18.5px}
 .bullets{margin:0 0 20px;padding-left:20px}
 .bullets li{margin:0 0 9px;font-size:17px}
 .bullets li::marker{color:var(--ink-soft)}
+/* ---- Chapter One: Levels of Organization (scroll scene) ---- */
+.lo{position:relative}
+.lo-intro{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:16px;padding:24px}
+.lo-intro-art{width:min(440px,82vw);aspect-ratio:4/3;border:1px dashed var(--line);border-radius:18px;display:grid;place-items:center;color:var(--ink-soft);font-family:system-ui,sans-serif;font-size:12px;background:#f6efe3}
+.lo-kicker{font-family:system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--c-ayurveda)}
+.lo-title{font-size:clamp(28px,6vw,44px);margin:0;max-width:16ch;line-height:1.12;font-weight:600}
+.lo-hint{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);animation:loBob 1.8s ease-in-out infinite}
+@keyframes loBob{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(6px);opacity:1}}
+.lo-scene{position:relative}
+.lo-sticky{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.lo-art-wrap{position:relative;width:min(340px,72vw);height:min(360px,76vw)}
+.lo-stage{position:absolute;inset:0;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;text-align:center}
+.lo-stage.is-active{opacity:1;pointer-events:auto}
+.lo-art{width:62%;height:auto;aspect-ratio:1/1;display:grid;place-items:center}
+.lo-art svg{width:100%;height:100%;overflow:visible}
+.lo-cap{margin-top:14px}
+.lo-cap .lo-step-no{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--c-physiology);color:#fff;font-family:system-ui,sans-serif;font-size:13px;font-weight:700;margin-bottom:8px}
+.lo-cap h3{margin:0 0 4px;font-size:24px}
+.lo-cap p{margin:0 auto;font-size:15.5px;color:var(--ink-soft);max-width:34ch}
+@media (prefers-reduced-motion: no-preference){
+  .lo-stage.is-active .lo-art{animation:loPop .7s cubic-bezier(.2,.7,.2,1) both}
+  .lo-stage.is-active .lo-cap{animation:loRise .6s ease .12s both}
+}
+@keyframes loPop{0%{opacity:0;transform:scale(.62)}60%{opacity:1}100%{opacity:1;transform:scale(1)}}
+@keyframes loRise{0%{opacity:0;transform:translateY(16px)}100%{opacity:1;transform:translateY(0)}}
+.lo-replay{position:absolute;bottom:max(20px,4vh);left:50%;transform:translateX(-50%);border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);cursor:pointer}
+.lo-replay:hover{color:var(--ink)}
+.lo-dots{position:absolute;right:max(16px,3vw);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px}
+.lo-dot{width:9px;height:9px;border-radius:50%;border:0;background:var(--line);cursor:pointer;padding:0}
+.lo-dot.is-on{background:var(--c-physiology);transform:scale(1.25)}
+.lo-step{height:100svh}
+.lo-synthesis{max-width:660px;margin:0 auto;padding:8svh 22px 30px;text-align:center}
+.lo-synthesis h3{font-size:26px;margin:0 0 14px}
+.lo-synthesis p{font-size:18.5px}
