@@ -1,0 +1,138 @@
+---
+import content from '../data/content.json';
+import glossary from '../data/glossary.json';
+import '../styles/book.css';
+
+const CATS = {
+  ayurveda:   { label: 'Ayurveda',   color: 'var(--c-ayurveda)' },
+  physiology: { label: 'Physiology', color: 'var(--c-physiology)' },
+  anatomy:    { label: 'Anatomy',    color: 'var(--c-anatomy)' },
+};
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{content.title} — An Interactive Ayurveda Book</title>
+</head>
+<body>
+  <header class="site">
+    {content.invocation && <div class="invocation">{content.invocation}</div>}
+    <div class="kicker">An Interactive Ayurveda Book</div>
+    <h1>{content.title}</h1>
+    <p class="sub">{content.subtitle}</p>
+    <div class="legend">
+      {Object.entries(CATS).map(([k, c]) => (
+        <span><i class="dot" style={`background:${c.color}`}></i> {c.label}</span>
+      ))}
+    </div>
+  </header>
+
+  <div class="wrap">
+    {content.chapters.map((ch) => (
+      <section>
+        <h2 class="chapter">{ch.kicker}</h2>
+        <h3>{ch.title}</h3>
+        {ch.blocks.map((b) => (
+          b.type === 'level' ? (
+            <div class="level">
+              <div class="thumb">image<br/>goes here</div>
+              <div class="lc">
+                <h4>{b.name}</h4>
+                {b.info && <p>{b.info}</p>}
+              </div>
+            </div>
+          ) : b.type === 'h' ? (
+            <h4 class="subhead">{b.text}</h4>
+          ) : b.type === 'list' ? (
+            <ul class="bullets">
+              {b.items.map((it) => (
+                <li>
+                  {it.map((s) => (
+                    s.term
+                      ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button>
+                      : <Fragment>{s.t}</Fragment>
+                  ))}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>
+              {b.segments.map((s) => (
+                s.term
+                  ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button>
+                  : <Fragment>{s.t}</Fragment>
+              ))}
+            </p>
+          )
+        ))}
+      </section>
+    ))}
+
+    <div class="footnote">
+      Red = Ayurveda · Amber = Physiology · Olive = Anatomy. Tap any colored word to explore it; close to return to your place.
+    </div>
+  </div>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <button class="close-x" id="closeX" aria-label="Close and return">×</button>
+      <span class="cat-pill" id="catPill">Term</span>
+      <h3 id="dTitle">Term</h3>
+      <div class="phon" id="dPhon"></div>
+    </div>
+    <div class="drawer-body" id="dBody"></div>
+    <div class="back-hint">← Close to jump back exactly where you were reading.</div>
+  </aside>
+
+  <script id="glossary-data" type="application/json" set:html={JSON.stringify(glossary)} />
+
+  <script>
+    const CATS = {
+      ayurveda:   { label: 'Ayurveda',   color: 'var(--c-ayurveda)' },
+      physiology: { label: 'Physiology', color: 'var(--c-physiology)' },
+      anatomy:    { label: 'Anatomy',    color: 'var(--c-anatomy)' },
+    };
+    const GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
+    const scrim = document.getElementById('scrim');
+    const drawer = document.getElementById('drawer');
+    const catPill = document.getElementById('catPill');
+    const dTitle = document.getElementById('dTitle');
+    const dPhon = document.getElementById('dPhon');
+    const dBody = document.getElementById('dBody');
+    let savedY = 0;
+    function openTerm(key) {
+      const g = GLOSSARY[key];
+      if (!g) return;
+      savedY = window.scrollY;
+      const cat = CATS[g.cat] || { label: 'Term', color: 'var(--ink)' };
+      catPill.textContent = cat.label;
+      catPill.style.background = cat.color;
+      dTitle.textContent = g.title;
+      dTitle.style.color = cat.color;
+      dPhon.textContent = g.phon || '';
+      dBody.innerHTML = g.body || '<p><em>Definition coming soon.</em></p>';
+      scrim.classList.add('open');
+      drawer.classList.add('open');
+      drawer.setAttribute('aria-hidden', 'false');
+      history.pushState({ term: key }, '');
+    }
+    function closeTerm(push) {
+      scrim.classList.remove('open');
+      drawer.classList.remove('open');
+      drawer.setAttribute('aria-hidden', 'true');
+      window.scrollTo({ top: savedY });
+      if (push && history.state && history.state.term) history.back();
+    }
+    document.querySelectorAll('.term').forEach((b) =>
+      b.addEventListener('click', () => openTerm(b.dataset.term))
+    );
+    document.getElementById('closeX').addEventListener('click', () => closeTerm(true));
+    scrim.addEventListener('click', () => closeTerm(true));
+    window.addEventListener('popstate', () => closeTerm(false));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeTerm(true); });
+  </script>
+</body>
+</html>
