@@ -23,7 +23,7 @@ h3{font-size:26px;margin:6px 0 18px;font-weight:600}
 p{margin:0 0 20px;font-size:18.5px}
 .term{cursor:pointer;font-weight:600;border:0;background:transparent;font:inherit;
   padding:0 1px;position:relative;color:inherit;transition:background .18s ease;border-radius:4px;}
-.term::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:2px;border-radius:2px}
+.term::after{content:none}
 .term:hover{background:rgba(0,0,0,.05)}
 .term[data-cat="ayurveda"]{color:var(--c-ayurveda)} .term[data-cat="ayurveda"]::after{background:var(--c-ayurveda)}
 .term[data-cat="physiology"]{color:var(--c-physiology)} .term[data-cat="physiology"]::after{background:var(--c-physiology)}
