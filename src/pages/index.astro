@@ -9,14 +9,20 @@ const CATS = {
   anatomy:    { label: 'Anatomy',    color: 'var(--c-anatomy)' },
 };
 
-// Placeholder SVGs for the levels-of-organization stages.
-// Swap any of these for a Lottie container later (see the <div class="lo-art"> slot).
+// Real artwork for the levels-of-organization stages (files live in /public/anim).
+// Index aligns with the level order: Chemical, Cellular, Tissue, Organ, System.
+const STAGE_MEDIA = [
+  { type: 'lottie', src: '/anim/atom.json' },
+  { type: 'lottie', src: '/anim/cell.json' },
+  { type: 'lottie', src: '/anim/Tissue.json' },
+  { type: 'lottie', src: '/anim/heart.json' },
+  { type: 'svg',    src: '/anim/BodyMainClothes.svg' },
+];
+
+// Fallback placeholder SVGs (used only if a media file is missing).
 const ART = [
-  `<svg viewBox="0 0 120 120" fill="none"><g stroke="var(--c-physiology)" stroke-width="2"><ellipse cx="60" cy="60" rx="46" ry="17"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(60 60 60)"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(120 60 60)"/></g><circle cx="60" cy="60" r="9" fill="var(--ink)"/><circle cx="106" cy="60" r="4" fill="var(--c-physiology)"/><circle cx="37" cy="33" r="3.5" fill="var(--c-physiology)"/></svg>`,
-  `<svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="44" fill="#f6efe3" stroke="var(--c-physiology)" stroke-width="2"/><circle cx="60" cy="60" r="16" fill="var(--ink)" opacity=".85"/><circle cx="40" cy="44" r="5" fill="var(--c-physiology)"/><circle cx="82" cy="72" r="6" fill="var(--c-physiology)"/><circle cx="74" cy="40" r="3" fill="var(--c-physiology)"/></svg>`,
-  `<svg viewBox="0 0 120 120"><g fill="#f6efe3" stroke="var(--c-physiology)" stroke-width="2"><circle cx="44" cy="46" r="18"/><circle cx="74" cy="44" r="18"/><circle cx="58" cy="72" r="18"/><circle cx="86" cy="74" r="15"/><circle cx="34" cy="74" r="14"/></g><g fill="var(--ink)" opacity=".8"><circle cx="44" cy="46" r="5"/><circle cx="74" cy="44" r="5"/><circle cx="58" cy="72" r="5"/><circle cx="86" cy="74" r="4"/><circle cx="34" cy="74" r="4"/></g></svg>`,
-  `<svg viewBox="0 0 120 120"><path d="M40 28 C70 18 96 34 92 60 C88 86 64 100 46 92 C28 84 22 60 30 46 C34 38 34 32 40 28 Z" fill="#f6efe3" stroke="var(--c-anatomy)" stroke-width="2.5"/><path d="M52 44 C64 40 76 48 74 60" stroke="var(--c-anatomy)" stroke-width="2" fill="none"/></svg>`,
-  `<svg viewBox="0 0 120 120"><circle cx="60" cy="24" r="10" fill="none" stroke="var(--ink)" stroke-width="2.5"/><path d="M60 34 L60 86 M60 50 L40 70 M60 50 L80 70 M60 86 L46 108 M60 86 L74 108" stroke="var(--ink)" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M60 40 C50 48 70 56 60 66 C50 74 68 80 60 86" stroke="var(--c-anatomy)" stroke-width="2.5" fill="none"/></svg>`,
+  `<svg viewBox="0 0 120 120" fill="none"><g stroke="var(--c-physiology)" stroke-width="2"><ellipse cx="60" cy="60" rx="46" ry="17"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(60 60 60)"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(120 60 60)"/></g><circle cx="60" cy="60" r="9" fill="var(--ink)"/></svg>`,
+  ``, ``, ``, ``,
 ];
 
 const chapters = content.chapters;
@@ -48,16 +54,23 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <div class="lo-scene">
         <div class="lo-sticky">
           <div class="lo-art-wrap">
-            {loStages.map((s, i) => (
-              <figure class="lo-stage" data-stage={i}>
-                <div class="lo-art" set:html={ART[i] || ''}></div>
-                <figcaption class="lo-cap">
-                  <span class="lo-step-no">{i + 1}</span>
-                  <h3>{s.name}</h3>
-                  <p>{s.info}</p>
-                </figcaption>
-              </figure>
-            ))}
+            {loStages.map((s, i) => {
+              const m = STAGE_MEDIA[i];
+              return (
+                <figure class="lo-stage" data-stage={i}>
+                  {m && m.type === 'lottie'
+                    ? <div class="lo-art" data-lottie={m.src}></div>
+                    : m && m.type === 'svg'
+                    ? <div class="lo-art"><img class="lo-svg" data-svg src={m.src} alt={s.name} /></div>
+                    : <div class="lo-art" set:html={ART[i] || ''}></div>}
+                  <figcaption class="lo-cap">
+                    <span class="lo-step-no">{i + 1}</span>
+                    <h3>{s.name}</h3>
+                    <p>{s.info}</p>
+                  </figcaption>
+                </figure>
+              );
+            })}
           </div>
           <button class="lo-replay" id="loReplay">↻ Replay</button>
           <div class="lo-dots" id="loDots"></div>
@@ -178,7 +191,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
   </script>
 
   <script>
-    // Levels-of-Organization scroll scene
+    // Levels-of-Organization scroll scene, with Lottie + SVG artwork
+    import lottie from 'lottie-web';
     const scene = document.querySelector('.lo-scene');
     if (scene) {
       const stages = [...scene.querySelectorAll('.lo-stage')];
@@ -186,6 +200,19 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const dotsWrap = document.getElementById('loDots');
       const replay = document.getElementById('loReplay');
       let active = 0;
+
+      const players = stages.map((st) => {
+        const el = st.querySelector('[data-lottie]');
+        if (!el) return null;
+        return lottie.loadAnimation({ container: el, renderer: 'svg', loop: true, autoplay: false, path: el.dataset.lottie });
+      });
+
+      function playMedia(i) {
+        players.forEach((p, n) => { if (p) { if (n === i) { p.goToAndPlay(0, true); } else { p.pause(); } } });
+        const svg = stages[i].querySelector('[data-svg]');
+        if (svg) { const base = svg.getAttribute('src').split('?')[0]; svg.setAttribute('src', base + '?t=' + Date.now()); }
+      }
+
       const dots = stages.map((_, i) => {
         const d = document.createElement('button');
         d.className = 'lo-dot' + (i === 0 ? ' is-on' : '');
@@ -194,21 +221,23 @@ const rest = isLO ? chapters.slice(1) : chapters;
         dotsWrap.appendChild(d);
         return d;
       });
+
       function show(i, force) {
         if (i === active && !force) return;
         if (force) { stages[i].classList.remove('is-active'); void stages[i].offsetWidth; }
         stages.forEach((s, n) => s.classList.toggle('is-active', n === i));
         dots.forEach((d, n) => d.classList.toggle('is-on', n === i));
-        // Lottie hook: if a player is dropped into the active stage, play it.
-        const player = stages[i].querySelector('[data-lottie]');
-        if (player && typeof player.play === 'function') { try { player.stop(); player.play(); } catch (e) {} }
         active = i;
+        playMedia(i);
       }
+
       const io = new IntersectionObserver((entries) => {
         entries.forEach((e) => { if (e.isIntersecting) show(+e.target.dataset.step, false); });
       }, { rootMargin: '-50% 0px -50% 0px' });
       steps.forEach((s) => io.observe(s));
+
       stages[0].classList.add('is-active');
+      playMedia(0);
       replay.addEventListener('click', () => show(active, true));
     }
   </script>

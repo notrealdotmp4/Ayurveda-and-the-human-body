@@ -1,1 +1,866 @@
-{"madhura avastha paka":{"cat":"ayurveda","title":"Madhura avastha pāka","phon":"","body":"<p>The sweet stage of digestion, beginning in the mouth.</p>"},"bodhaka kapha":{"cat":"ayurveda","title":"Bodhaka kapha","phon":"","body":"<p>The subtype of kapha in the mouth that moistens food and enables taste.</p>"},"oral cavity":{"cat":"anatomy","title":"Oral cavity","phon":"","body":"<p>The mouth — where digestion begins.</p>"},"the bhutas":{"cat":"ayurveda","title":"The bhūtas","phon":"","body":"<p>The five great elements: earth, water, fire, air, and ether.</p>"},"madhura":{"cat":"ayurveda","title":"Madhura","phon":"","body":"<p>Sweet — one of the six tastes.</p>"},"prthivi":{"cat":"ayurveda","title":"Prthivī","phon":"","body":"<p>Earth — one of the five elements.</p>"},"apas":{"cat":"ayurveda","title":"Āpas","phon":"","body":"<p>Water — one of the five elements.</p>"},"saliva":{"cat":"physiology","title":"Saliva","phon":"","body":"<p>Watery fluid in the mouth that begins digestion.</p>"},"salivary glands":{"cat":"anatomy","title":"Salivary glands","phon":"","body":"<p>Glands that secrete saliva into the mouth.</p>"},"parotid":{"cat":"anatomy","title":"Parotid","phon":"","body":"<p>The largest pair of salivary glands, in front of the ears.</p>"},"submandibular":{"cat":"anatomy","title":"Submandibular","phon":"","body":"<p>Salivary glands beneath the lower jaw.</p>"},"sublingual":{"cat":"anatomy","title":"Sublingual","phon":"","body":"<p>Salivary glands under the tongue.</p>"},"mastication":{"cat":"physiology","title":"Mastication","phon":"","body":"<p>Chewing — the mechanical breakdown of food.</p>"},"mechanical digestion":{"cat":"physiology","title":"Mechanical digestion","phon":"","body":"<p>Physically breaking food into smaller pieces.</p>"},"chemical digestion":{"cat":"physiology","title":"Chemical digestion","phon":"","body":"<p>Breaking food down with enzymes and acids.</p>"},"amylase":{"cat":"physiology","title":"Amylase","phon":"","body":"<p>An enzyme that breaks down starches.</p>"},"bolus":{"cat":"physiology","title":"Bolus","phon":"","body":"<p>The ball of chewed food ready to be swallowed.</p>"},"jihva":{"cat":"ayurveda","title":"Jihvā","phon":"","body":"<p>The tongue — the organ of taste.</p>"},"tongue":{"cat":"anatomy","title":"Tongue","phon":"","body":"<p>The muscular organ of taste and speech.</p>"},"hypothalamus":{"cat":"anatomy","title":"Hypothalamus","phon":"","body":"<p>A brain region governing many automatic body functions.</p>"},"sadhaka pitta":{"cat":"ayurveda","title":"Sādhaka pitta","phon":"","body":"<p>The subtype of pitta in the heart and brain governing perception and cognition.</p>"},"prana vayu":{"cat":"ayurveda","title":"Prāna vāyu","phon":"","body":"<p>The subtype of vata governing intake — breath and swallowing.</p>"},"pharynx":{"cat":"anatomy","title":"Pharynx","phon":"","body":"<p>The throat — the passage behind the mouth leading to the esophagus.</p>"},"esophagus":{"cat":"anatomy","title":"Esophagus","phon":"","body":"<p>The muscular tube carrying food from throat to stomach.</p>"},"peristalsis":{"cat":"physiology","title":"Peristalsis","phon":"","body":"<p>Wave-like muscle contractions that move food along.</p>"},"fundus":{"cat":"anatomy","title":"Fundus","phon":"","body":"<p>The upper, dome-shaped part of the stomach.</p>"},"samana vayu":{"cat":"ayurveda","title":"Samāna vāyu","phon":"","body":"<p>The subtype of vata that churns and moves food through digestion.</p>"},"rasa dhatu":{"cat":"ayurveda","title":"Rasa dhātu","phon":"","body":"<p>Plasma — the first and most basic body tissue.</p>"},"thyroid":{"cat":"anatomy","title":"Thyroid","phon":"","body":"<p>The gland in the neck that regulates metabolism.</p>"},"lungs":{"cat":"anatomy","title":"Lungs","phon":"","body":"<p>The organs of breathing and gas exchange.</p>"},"vipaka":{"cat":"ayurveda","title":"Vipāka","phon":"","body":"<p>The post-digestive effect — the lasting taste a food leaves after digestion.</p>"},"anabolic":{"cat":"physiology","title":"Anabolic","phon":"","body":"<p>Building up — processes that construct body tissue.</p>"},"kapha dosha":{"cat":"ayurveda","title":"Kapha dosha","phon":"","body":"<p>The dosha of structure and cohesion (earth and water).</p>"},"amashaya":{"cat":"ayurveda","title":"Āmāshaya","phon":"","body":"<p>The stomach.</p>"},"central stomach":{"cat":"anatomy","title":"Central stomach","phon":"","body":"<p>The main body of the stomach.</p>"},"bhutas":{"cat":"ayurveda","title":"Bhūtas","phon":"","body":"<p>The five great elements: earth, water, fire, air, and ether.</p>"},"amla":{"cat":"ayurveda","title":"Amla","phon":"","body":"<p>Sour — one of the six tastes.</p>"},"agni":{"cat":"ayurveda","title":"Āgni","phon":"","body":"<p>The metabolic fire that transforms food into nourishment.</p>"},"jathara agni":{"cat":"ayurveda","title":"Jāthara agni","phon":"","body":"<p>The central digestive fire of the stomach and small intestine.</p>"},"pachaka pitta":{"cat":"ayurveda","title":"Pāchaka pitta","phon":"","body":"<p>The subtype of pitta in the stomach that drives digestion.</p>"},"hydrochloric acid hcl":{"cat":"physiology","title":"Hydrochloric acid (HCl)","phon":"","body":"<p>Strong stomach acid that breaks down food and kills germs.</p>"},"pathogens":{"cat":"physiology","title":"Pathogens","phon":"","body":"<p>Disease-causing microbes.</p>"},"pepsin":{"cat":"physiology","title":"Pepsin","phon":"","body":"<p>A stomach enzyme that breaks down protein.</p>"},"hcl":{"cat":"physiology","title":"HCl","phon":"","body":"<p>Hydrochloric acid — strong stomach acid.</p>"},"kledaka kapha":{"cat":"ayurveda","title":"Kledaka kapha","phon":"","body":"<p>The subtype of kapha in the stomach that moistens and protects its lining.</p>"},"mucous membrane":{"cat":"physiology","title":"Mucous membrane","phon":"","body":"<p>The protective lining of the digestive tract.</p>"},"shleshma dhara kala":{"cat":"ayurveda","title":"Shleshma dhārā kalā","phon":"","body":"<p>The mucous-membrane layer protecting the stomach lining.</p>"},"chyme":{"cat":"physiology","title":"Chyme","phon":"","body":"<p>The semi-liquid mass of partly digested food.</p>"},"annadrava":{"cat":"ayurveda","title":"Anna-drava","phon":"","body":"<p>Food liquefied into chyme during digestion.</p>"},"pyloric valve":{"cat":"anatomy","title":"Pyloric valve","phon":"","body":"<p>The opening from the stomach into the small intestine.</p>"},"pyloric sphincter":{"cat":"anatomy","title":"Pyloric sphincter","phon":"","body":"<p>The ring of muscle controlling the pyloric valve.</p>"},"duodenum":{"cat":"anatomy","title":"Duodenum","phon":"","body":"<p>The first section of the small intestine.</p>"},"virya":{"cat":"ayurveda","title":"Vīrya","phon":"","body":"<p>The potency of a substance — its warming or cooling energy.</p>"},"ushna":{"cat":"ayurveda","title":"Ushna","phon":"","body":"<p>Warming potency.</p>"},"shita":{"cat":"ayurveda","title":"Shīta","phon":"","body":"<p>Cooling potency.</p>"},"metabolic":{"cat":"physiology","title":"Metabolic","phon":"","body":"<p>Relating to the body’s energy-producing chemistry.</p>"},"pitta dosha":{"cat":"ayurveda","title":"Pitta dosha","phon":"","body":"<p>The dosha of transformation (fire and water).</p>"},"lavana avastha paka":{"cat":"ayurveda","title":"Lavana avastha pāka","phon":"","body":"<p>The salty stage of digestion, in the first part of the small intestine.</p>"},"lavana":{"cat":"ayurveda","title":"Lavana","phon":"","body":"<p>Salty — one of the six tastes.</p>"},"stomach":{"cat":"anatomy","title":"Stomach","phon":"","body":"<p>The organ where food is churned and broken down by acid.</p>"},"the small intestine secretes":{"cat":"anatomy","title":"The small intestine secretes","phon":"","body":"<p>The small intestine releases its own digestive enzymes.</p>"},"mucus":{"cat":"physiology","title":"Mucus","phon":"","body":"<p>Slippery protective fluid lining the gut.</p>"},"small intestine":{"cat":"anatomy","title":"Small intestine","phon":"","body":"<p>Where most digestion and absorption of nutrients occurs.</p>"},"liver":{"cat":"anatomy","title":"Liver","phon":"","body":"<p>The organ that produces bile and processes nutrients.</p>"},"pancreas":{"cat":"anatomy","title":"Pancreas","phon":"","body":"<p>The gland that secretes digestive enzymes and hormones.</p>"},"duct":{"cat":"anatomy","title":"Duct","phon":"","body":"<p>A tube carrying secretions, such as bile or enzymes.</p>"},"secretin":{"cat":"physiology","title":"Secretin","phon":"","body":"<p>A hormone that triggers release of bicarbonate to neutralize acid.</p>"},"bicarbonates":{"cat":"physiology","title":"Bicarbonates","phon":"","body":"<p>Alkaline compounds that neutralize stomach acid.</p>"},"kloma agni":{"cat":"ayurveda","title":"Kloma agni","phon":"","body":"<p>The digestive fire associated with the pancreas.</p>"},"hydrochloric acid":{"cat":"physiology","title":"Hydrochloric acid","phon":"","body":"<p>Strong stomach acid that breaks down food and kills germs.</p>"},"cholecystokinin":{"cat":"physiology","title":"Cholecystokinin","phon":"","body":"<p>A hormone that releases bile and pancreatic enzymes.</p>"},"cck":{"cat":"physiology","title":"CCK","phon":"","body":"<p>Cholecystokinin — a hormone releasing bile and enzymes.</p>"},"pancreatic digestive enzymes":{"cat":"physiology","title":"Pancreatic digestive enzymes","phon":"","body":"<p>Enzymes from the pancreas that break down food.</p>"},"bile":{"cat":"physiology","title":"Bile","phon":"","body":"<p>Liver fluid that emulsifies fats for digestion.</p>"},"ranjaka pitta":{"cat":"ayurveda","title":"Rañjaka pitta","phon":"","body":"<p>The subtype of pitta in the liver that colors blood and bile.</p>"},"gallbladder":{"cat":"anatomy","title":"Gallbladder","phon":"","body":"<p>The organ that stores and releases bile.</p>"},"kidneys":{"cat":"anatomy","title":"Kidneys","phon":"","body":"<p>Organs that filter the blood and form urine.</p>"},"katu avastha paka":{"cat":"ayurveda","title":"Katu avastha pāka","phon":"","body":"<p>The pungent stage of digestion, in the jejunum.</p>"},"jejunum":{"cat":"anatomy","title":"Jejunum","phon":"","body":"<p>The second section of the small intestine.</p>"},"katu":{"cat":"ayurveda","title":"Katu","phon":"","body":"<p>Pungent — one of the six tastes.</p>"},"vayu":{"cat":"ayurveda","title":"Vāyu","phon":"","body":"<p>Wind or air; the vital movement-force, also called vata.</p>"},"thermogenesis":{"cat":"physiology","title":"Thermogenesis","phon":"","body":"<p>The production of heat by the body.</p>"},"gi tract":{"cat":"anatomy","title":"GI tract","phon":"","body":"<p>The gastrointestinal tract — the whole digestive passage.</p>"},"ileum":{"cat":"anatomy","title":"Ileum","phon":"","body":"<p>The third and longest section of the small intestine.</p>"},"colon":{"cat":"anatomy","title":"Colon","phon":"","body":"<p>The main part of the large intestine.</p>"},"ahara rasa":{"cat":"ayurveda","title":"Āhāra rasa","phon":"","body":"<p>The nutrient essence extracted from food.</p>"},"chyle":{"cat":"physiology","title":"Chyle","phon":"","body":"<p>Milky fluid of absorbed fats carried by the lymph.</p>"},"heart":{"cat":"anatomy","title":"Heart","phon":"","body":"<p>The organ that pumps blood through the body.</p>"},"diaphragm":{"cat":"anatomy","title":"Diaphragm","phon":"","body":"<p>The muscle beneath the lungs that drives breathing.</p>"},"vata dosha":{"cat":"ayurveda","title":"Vāta dosha","phon":"","body":"<p>The dosha of movement (air and space).</p>"},"tikta avastha paka":{"cat":"ayurveda","title":"Tikta avastha pāka","phon":"","body":"<p>The bitter stage of digestion, in the ileum.</p>"},"tikta":{"cat":"ayurveda","title":"Tikta","phon":"","body":"<p>Bitter — one of the six tastes.</p>"},"akasha":{"cat":"ayurveda","title":"Ākāsha","phon":"","body":"<p>Ether or space — one of the five elements.</p>"},"villi":{"cat":"anatomy","title":"Villi","phon":"","body":"<p>Tiny finger-like projections in the intestine that absorb nutrients.</p>"},"spleen":{"cat":"anatomy","title":"Spleen","phon":"","body":"<p>An organ involved in blood filtering and immunity.</p>"},"catabolic":{"cat":"physiology","title":"Catabolic","phon":"","body":"<p>Breaking down — processes that release energy.</p>"},"kashaya avastha paka":{"cat":"ayurveda","title":"Kashāya avastha pāka","phon":"","body":"<p>The astringent stage of digestion, in the large intestine.</p>"},"pakvashaya":{"cat":"ayurveda","title":"Pakvashaya","phon":"","body":"<p>The large intestine.</p>"},"large intestine":{"cat":"anatomy","title":"Large intestine","phon":"","body":"<p>Where water is absorbed and waste is formed; the colon.</p>"},"kashaya":{"cat":"ayurveda","title":"Kashāya","phon":"","body":"<p>Astringent — one of the six tastes.</p>"},"apana vayu":{"cat":"ayurveda","title":"Apāna vāyu","phon":"","body":"<p>The downward-moving subtype of vata governing elimination.</p>"},"ileocecal valve":{"cat":"anatomy","title":"Ileocecal valve","phon":"","body":"<p>The valve between the small and large intestine.</p>"},"cecum":{"cat":"anatomy","title":"Cecum","phon":"","body":"<p>The pouch at the start of the large intestine.</p>"},"ascending colon":{"cat":"anatomy","title":"Ascending colon","phon":"","body":"<p>The first, upward-running part of the colon.</p>"},"hepatic flexure":{"cat":"anatomy","title":"Hepatic flexure","phon":"","body":"<p>The bend in the colon near the liver.</p>"},"transverse colon":{"cat":"anatomy","title":"Transverse colon","phon":"","body":"<p>The horizontal part of the colon.</p>"},"splenic flexure":{"cat":"anatomy","title":"Splenic flexure","phon":"","body":"<p>The bend in the colon near the spleen.</p>"},"descending colon":{"cat":"anatomy","title":"Descending colon","phon":"","body":"<p>The downward-running part of the colon.</p>"},"purisha":{"cat":"ayurveda","title":"Purīsha","phon":"","body":"<p>Formed waste — feces.</p>"},"sigmoid colon":{"cat":"anatomy","title":"Sigmoid colon","phon":"","body":"<p>The S-shaped final section of the colon before the rectum.</p>"},"poshaka vata":{"cat":"ayurveda","title":"Poshaka vata","phon":"","body":"<p>The nourishing aspect of vata supporting bodily functions.</p>"},"rectum":{"cat":"anatomy","title":"Rectum","phon":"","body":"<p>The final straight section of the large intestine.</p>"},"anal canal":{"cat":"anatomy","title":"Anal canal","phon":"","body":"<p>The short passage at the end of the rectum.</p>"},"anus":{"cat":"anatomy","title":"Anus","phon":"","body":"<p>The opening through which waste leaves the body.</p>"},"ruksha":{"cat":"ayurveda","title":"Ruksha","phon":"","body":"<p>Dry — a Vāta quality (dry skin, hair, and organs).</p>"},"laghu":{"cat":"ayurveda","title":"Laghu","phon":"","body":"<p>Light — a quality giving a thin frame and scanty sleep.</p>"},"khara":{"cat":"ayurveda","title":"Khara","phon":"","body":"<p>Rough — a Vāta quality (cracked skin, cracking joints).</p>"},"sukshma":{"cat":"ayurveda","title":"Sukshma","phon":"","body":"<p>Subtle — a Vāta quality (fine tremors and subtle fears).</p>"},"chala":{"cat":"ayurveda","title":"Chala","phon":"","body":"<p>Mobile — a Vāta quality (restlessness, fast movement).</p>"},"vishada":{"cat":"ayurveda","title":"Vishada","phon":"","body":"<p>Clear — a Vāta quality (clarity, but also a sense of emptiness).</p>"},"akruti":{"cat":"ayurveda","title":"Ākruti","phon":"","body":"<p>The physical form or constitution of a person.</p>"},"vishama agni":{"cat":"ayurveda","title":"Vishama Agni","phon":"","body":"<p>Variable digestive fire — Vāta’s irregular appetite.</p>"},"sarpa":{"cat":"ayurveda","title":"Sarpa","phon":"","body":"<p>Serpent — the Vāta pulse, fast and thin like a moving snake.</p>"},"tikshna":{"cat":"ayurveda","title":"Tikshna","phon":"","body":"<p>Sharp — a Pitta quality (sharp intellect, penetrating eyes).</p>"},"drava":{"cat":"ayurveda","title":"Drava","phon":"","body":"<p>Liquid — a Pitta quality (sweat, frequent urination, loose stools).</p>"},"snigdha":{"cat":"ayurveda","title":"Snigdha","phon":"","body":"<p>Oily — a quality giving soft, oily skin and hair.</p>"},"saram":{"cat":"ayurveda","title":"Saram","phon":"","body":"<p>Spreading — a Pitta quality (rashes or inflammation that spread).</p>"},"visra":{"cat":"ayurveda","title":"Visra","phon":"","body":"<p>Fleshy or fetid smell — a Pitta body-odor quality.</p>"},"tikshna agni":{"cat":"ayurveda","title":"Tikshna Agni","phon":"","body":"<p>Sharp digestive fire — Pitta’s strong, intense appetite.</p>"},"manduka":{"cat":"ayurveda","title":"Manduka","phon":"","body":"<p>Frog — the Pitta pulse, jumping, bounding, and forceful.</p>"},"guru":{"cat":"ayurveda","title":"Guru","phon":"","body":"<p>Heavy — a Kapha quality (heavy bones and muscles).</p>"},"manda":{"cat":"ayurveda","title":"Manda","phon":"","body":"<p>Slow or dull — a Kapha quality (slow movement and metabolism).</p>"},"shlakshna":{"cat":"ayurveda","title":"Shlakshna","phon":"","body":"<p>Smooth — a Kapha quality (smoothness of skin and organs).</p>"},"sandra":{"cat":"ayurveda","title":"Sandra","phon":"","body":"<p>Dense — a Kapha quality (thickset body, compact tissues).</p>"},"mrudu":{"cat":"ayurveda","title":"Mrudu","phon":"","body":"<p>Soft — a Kapha quality (soft skin, gentle nature).</p>"},"sthira":{"cat":"ayurveda","title":"Sthira","phon":"","body":"<p>Stable or static — a Kapha quality (steadiness, sedentary tendency).</p>"},"picchila":{"cat":"ayurveda","title":"Picchila","phon":"","body":"<p>Cloudy or sticky — a Kapha quality (cohesion; mental fog when imbalanced).</p>"},"avila":{"cat":"ayurveda","title":"Avila","phon":"","body":"<p>Cloudy — a Kapha quality paired with picchila.</p>"},"sthula":{"cat":"ayurveda","title":"Sthula","phon":"","body":"<p>Gross or large — a Kapha quality (visible bulk).</p>"},"manda agni":{"cat":"ayurveda","title":"Manda Agni","phon":"","body":"<p>Slow digestive fire — Kapha’s steady but sluggish appetite.</p>"},"hamsa":{"cat":"ayurveda","title":"Hamsa","phon":"","body":"<p>Swan — the Kapha pulse, slow, deep, and wavy.</p>"},"gunas":{"cat":"ayurveda","title":"Gunas","phon":"","body":"<p>The qualities or attributes that define each dosha.</p>"}}
+{
+  "madhura avastha paka": {
+    "cat": "ayurveda",
+    "title": "Madhura avastha pāka",
+    "phon": "",
+    "body": "<p>The sweet stage of digestion, beginning in the mouth.</p>"
+  },
+  "bodhaka kapha": {
+    "cat": "ayurveda",
+    "title": "Bodhaka kapha",
+    "phon": "",
+    "body": "<p>The subtype of kapha in the mouth that moistens food and enables taste.</p>"
+  },
+  "oral cavity": {
+    "cat": "anatomy",
+    "title": "Oral cavity",
+    "phon": "",
+    "body": "<p>The mouth — where digestion begins.</p>"
+  },
+  "the bhutas": {
+    "cat": "ayurveda",
+    "title": "The bhūtas",
+    "phon": "",
+    "body": "<p>The five great elements: earth, water, fire, air, and ether.</p>"
+  },
+  "madhura": {
+    "cat": "ayurveda",
+    "title": "Madhura",
+    "phon": "",
+    "body": "<p>Sweet — one of the six tastes.</p>"
+  },
+  "prthivi": {
+    "cat": "ayurveda",
+    "title": "Prthivī",
+    "phon": "",
+    "body": "<p>Earth — one of the five elements.</p>"
+  },
+  "apas": {
+    "cat": "ayurveda",
+    "title": "Āpas",
+    "phon": "",
+    "body": "<p>Water — one of the five elements.</p>"
+  },
+  "saliva": {
+    "cat": "physiology",
+    "title": "Saliva",
+    "phon": "",
+    "body": "<p>Watery fluid in the mouth that begins digestion.</p>"
+  },
+  "salivary glands": {
+    "cat": "anatomy",
+    "title": "Salivary glands",
+    "phon": "",
+    "body": "<p>Glands that secrete saliva into the mouth.</p>"
+  },
+  "parotid": {
+    "cat": "anatomy",
+    "title": "Parotid",
+    "phon": "",
+    "body": "<p>The largest pair of salivary glands, in front of the ears.</p>"
+  },
+  "submandibular": {
+    "cat": "anatomy",
+    "title": "Submandibular",
+    "phon": "",
+    "body": "<p>Salivary glands beneath the lower jaw.</p>"
+  },
+  "sublingual": {
+    "cat": "anatomy",
+    "title": "Sublingual",
+    "phon": "",
+    "body": "<p>Salivary glands under the tongue.</p>"
+  },
+  "mastication": {
+    "cat": "physiology",
+    "title": "Mastication",
+    "phon": "",
+    "body": "<p>Chewing — the mechanical breakdown of food.</p>"
+  },
+  "mechanical digestion": {
+    "cat": "physiology",
+    "title": "Mechanical digestion",
+    "phon": "",
+    "body": "<p>Physically breaking food into smaller pieces.</p>"
+  },
+  "chemical digestion": {
+    "cat": "physiology",
+    "title": "Chemical digestion",
+    "phon": "",
+    "body": "<p>Breaking food down with enzymes and acids.</p>"
+  },
+  "amylase": {
+    "cat": "physiology",
+    "title": "Amylase",
+    "phon": "",
+    "body": "<p>An enzyme that breaks down starches.</p>"
+  },
+  "bolus": {
+    "cat": "physiology",
+    "title": "Bolus",
+    "phon": "",
+    "body": "<p>The ball of chewed food ready to be swallowed.</p>"
+  },
+  "jihva": {
+    "cat": "ayurveda",
+    "title": "Jihvā",
+    "phon": "",
+    "body": "<p>The tongue — the organ of taste.</p>"
+  },
+  "tongue": {
+    "cat": "anatomy",
+    "title": "Tongue",
+    "phon": "",
+    "body": "<p>The muscular organ of taste and speech.</p>"
+  },
+  "hypothalamus": {
+    "cat": "anatomy",
+    "title": "Hypothalamus",
+    "phon": "",
+    "body": "<p>A brain region governing many automatic body functions.</p>"
+  },
+  "sadhaka pitta": {
+    "cat": "ayurveda",
+    "title": "Sādhaka pitta",
+    "phon": "",
+    "body": "<p>The subtype of pitta in the heart and brain governing perception and cognition.</p>"
+  },
+  "prana vayu": {
+    "cat": "ayurveda",
+    "title": "Prāna vāyu",
+    "phon": "",
+    "body": "<p>The subtype of vata governing intake — breath and swallowing.</p>"
+  },
+  "pharynx": {
+    "cat": "anatomy",
+    "title": "Pharynx",
+    "phon": "",
+    "body": "<p>The throat — the passage behind the mouth leading to the esophagus.</p>"
+  },
+  "esophagus": {
+    "cat": "anatomy",
+    "title": "Esophagus",
+    "phon": "",
+    "body": "<p>The muscular tube carrying food from throat to stomach.</p>"
+  },
+  "peristalsis": {
+    "cat": "physiology",
+    "title": "Peristalsis",
+    "phon": "",
+    "body": "<p>Wave-like muscle contractions that move food along.</p>"
+  },
+  "fundus": {
+    "cat": "anatomy",
+    "title": "Fundus",
+    "phon": "",
+    "body": "<p>The upper, dome-shaped part of the stomach.</p>"
+  },
+  "samana vayu": {
+    "cat": "ayurveda",
+    "title": "Samāna vāyu",
+    "phon": "",
+    "body": "<p>The subtype of vata that churns and moves food through digestion.</p>"
+  },
+  "rasa dhatu": {
+    "cat": "ayurveda",
+    "title": "Rasa dhātu",
+    "phon": "",
+    "body": "<p>Plasma — the first and most basic body tissue.</p>"
+  },
+  "thyroid": {
+    "cat": "anatomy",
+    "title": "Thyroid",
+    "phon": "",
+    "body": "<p>The gland in the neck that regulates metabolism.</p>"
+  },
+  "lungs": {
+    "cat": "anatomy",
+    "title": "Lungs",
+    "phon": "",
+    "body": "<p>The organs of breathing and gas exchange.</p>"
+  },
+  "vipaka": {
+    "cat": "ayurveda",
+    "title": "Vipāka",
+    "phon": "",
+    "body": "<p>The post-digestive effect — the lasting taste a food leaves after digestion.</p>"
+  },
+  "anabolic": {
+    "cat": "physiology",
+    "title": "Anabolic",
+    "phon": "",
+    "body": "<p>Building up — processes that construct body tissue.</p>"
+  },
+  "kapha dosha": {
+    "cat": "ayurveda",
+    "title": "Kapha dosha",
+    "phon": "",
+    "body": "<p>The dosha of structure and cohesion (earth and water).</p>"
+  },
+  "amashaya": {
+    "cat": "ayurveda",
+    "title": "Āmāshaya",
+    "phon": "",
+    "body": "<p>The stomach.</p>"
+  },
+  "central stomach": {
+    "cat": "anatomy",
+    "title": "Central stomach",
+    "phon": "",
+    "body": "<p>The main body of the stomach.</p>"
+  },
+  "bhutas": {
+    "cat": "ayurveda",
+    "title": "Bhūtas",
+    "phon": "",
+    "body": "<p>The five great elements: earth, water, fire, air, and ether.</p>"
+  },
+  "amla": {
+    "cat": "ayurveda",
+    "title": "Amla",
+    "phon": "",
+    "body": "<p>Sour — one of the six tastes.</p>"
+  },
+  "agni": {
+    "cat": "ayurveda",
+    "title": "Āgni",
+    "phon": "",
+    "body": "<p>The metabolic fire that transforms food into nourishment.</p>"
+  },
+  "jathara agni": {
+    "cat": "ayurveda",
+    "title": "Jāthara agni",
+    "phon": "",
+    "body": "<p>The central digestive fire of the stomach and small intestine.</p>"
+  },
+  "pachaka pitta": {
+    "cat": "ayurveda",
+    "title": "Pāchaka pitta",
+    "phon": "",
+    "body": "<p>The subtype of pitta in the stomach that drives digestion.</p>"
+  },
+  "hydrochloric acid hcl": {
+    "cat": "physiology",
+    "title": "Hydrochloric acid (HCl)",
+    "phon": "",
+    "body": "<p>Strong stomach acid that breaks down food and kills germs.</p>"
+  },
+  "pathogens": {
+    "cat": "physiology",
+    "title": "Pathogens",
+    "phon": "",
+    "body": "<p>Disease-causing microbes.</p>"
+  },
+  "pepsin": {
+    "cat": "physiology",
+    "title": "Pepsin",
+    "phon": "",
+    "body": "<p>A stomach enzyme that breaks down protein.</p>"
+  },
+  "hcl": {
+    "cat": "physiology",
+    "title": "HCl",
+    "phon": "",
+    "body": "<p>Hydrochloric acid — strong stomach acid.</p>"
+  },
+  "kledaka kapha": {
+    "cat": "ayurveda",
+    "title": "Kledaka kapha",
+    "phon": "",
+    "body": "<p>The subtype of kapha in the stomach that moistens and protects its lining.</p>"
+  },
+  "mucous membrane": {
+    "cat": "physiology",
+    "title": "Mucous membrane",
+    "phon": "",
+    "body": "<p>The protective lining of the digestive tract.</p>"
+  },
+  "shleshma dhara kala": {
+    "cat": "ayurveda",
+    "title": "Shleshma dhārā kalā",
+    "phon": "",
+    "body": "<p>The mucous-membrane layer protecting the stomach lining.</p>"
+  },
+  "chyme": {
+    "cat": "physiology",
+    "title": "Chyme",
+    "phon": "",
+    "body": "<p>The semi-liquid mass of partly digested food.</p>"
+  },
+  "annadrava": {
+    "cat": "ayurveda",
+    "title": "Anna-drava",
+    "phon": "",
+    "body": "<p>Food liquefied into chyme during digestion.</p>"
+  },
+  "pyloric valve": {
+    "cat": "anatomy",
+    "title": "Pyloric valve",
+    "phon": "",
+    "body": "<p>The opening from the stomach into the small intestine.</p>"
+  },
+  "pyloric sphincter": {
+    "cat": "anatomy",
+    "title": "Pyloric sphincter",
+    "phon": "",
+    "body": "<p>The ring of muscle controlling the pyloric valve.</p>"
+  },
+  "duodenum": {
+    "cat": "anatomy",
+    "title": "Duodenum",
+    "phon": "",
+    "body": "<p>The first section of the small intestine.</p>"
+  },
+  "virya": {
+    "cat": "ayurveda",
+    "title": "Vīrya",
+    "phon": "",
+    "body": "<p>The potency of a substance — its warming or cooling energy.</p>"
+  },
+  "ushna": {
+    "cat": "ayurveda",
+    "title": "Ushna",
+    "phon": "",
+    "body": "<p>Warming potency.</p>"
+  },
+  "shita": {
+    "cat": "ayurveda",
+    "title": "Shīta",
+    "phon": "",
+    "body": "<p>Cooling potency.</p>"
+  },
+  "metabolic": {
+    "cat": "physiology",
+    "title": "Metabolic",
+    "phon": "",
+    "body": "<p>Relating to the body’s energy-producing chemistry.</p>"
+  },
+  "pitta dosha": {
+    "cat": "ayurveda",
+    "title": "Pitta dosha",
+    "phon": "",
+    "body": "<p>The dosha of transformation (fire and water).</p>"
+  },
+  "lavana avastha paka": {
+    "cat": "ayurveda",
+    "title": "Lavana avastha pāka",
+    "phon": "",
+    "body": "<p>The salty stage of digestion, in the first part of the small intestine.</p>"
+  },
+  "lavana": {
+    "cat": "ayurveda",
+    "title": "Lavana",
+    "phon": "",
+    "body": "<p>Salty — one of the six tastes.</p>"
+  },
+  "stomach": {
+    "cat": "anatomy",
+    "title": "Stomach",
+    "phon": "",
+    "body": "<p>The organ where food is churned and broken down by acid.</p>"
+  },
+  "the small intestine secretes": {
+    "cat": "anatomy",
+    "title": "The small intestine secretes",
+    "phon": "",
+    "body": "<p>The small intestine releases its own digestive enzymes.</p>"
+  },
+  "mucus": {
+    "cat": "physiology",
+    "title": "Mucus",
+    "phon": "",
+    "body": "<p>Slippery protective fluid lining the gut.</p>"
+  },
+  "small intestine": {
+    "cat": "anatomy",
+    "title": "Small intestine",
+    "phon": "",
+    "body": "<p>Where most digestion and absorption of nutrients occurs.</p>"
+  },
+  "liver": {
+    "cat": "anatomy",
+    "title": "Liver",
+    "phon": "",
+    "body": "<p>The organ that produces bile and processes nutrients.</p>"
+  },
+  "pancreas": {
+    "cat": "anatomy",
+    "title": "Pancreas",
+    "phon": "",
+    "body": "<p>The gland that secretes digestive enzymes and hormones.</p>"
+  },
+  "duct": {
+    "cat": "anatomy",
+    "title": "Duct",
+    "phon": "",
+    "body": "<p>A tube carrying secretions, such as bile or enzymes.</p>"
+  },
+  "secretin": {
+    "cat": "physiology",
+    "title": "Secretin",
+    "phon": "",
+    "body": "<p>A hormone that triggers release of bicarbonate to neutralize acid.</p>"
+  },
+  "bicarbonates": {
+    "cat": "physiology",
+    "title": "Bicarbonates",
+    "phon": "",
+    "body": "<p>Alkaline compounds that neutralize stomach acid.</p>"
+  },
+  "kloma agni": {
+    "cat": "ayurveda",
+    "title": "Kloma agni",
+    "phon": "",
+    "body": "<p>The digestive fire associated with the pancreas.</p>"
+  },
+  "hydrochloric acid": {
+    "cat": "physiology",
+    "title": "Hydrochloric acid",
+    "phon": "",
+    "body": "<p>Strong stomach acid that breaks down food and kills germs.</p>"
+  },
+  "cholecystokinin": {
+    "cat": "physiology",
+    "title": "Cholecystokinin",
+    "phon": "",
+    "body": "<p>A hormone that releases bile and pancreatic enzymes.</p>"
+  },
+  "cck": {
+    "cat": "physiology",
+    "title": "CCK",
+    "phon": "",
+    "body": "<p>Cholecystokinin — a hormone releasing bile and enzymes.</p>"
+  },
+  "pancreatic digestive enzymes": {
+    "cat": "physiology",
+    "title": "Pancreatic digestive enzymes",
+    "phon": "",
+    "body": "<p>Enzymes from the pancreas that break down food.</p>"
+  },
+  "bile": {
+    "cat": "physiology",
+    "title": "Bile",
+    "phon": "",
+    "body": "<p>Liver fluid that emulsifies fats for digestion.</p>"
+  },
+  "ranjaka pitta": {
+    "cat": "ayurveda",
+    "title": "Rañjaka pitta",
+    "phon": "",
+    "body": "<p>The subtype of pitta in the liver that colors blood and bile.</p>"
+  },
+  "gallbladder": {
+    "cat": "anatomy",
+    "title": "Gallbladder",
+    "phon": "",
+    "body": "<p>The organ that stores and releases bile.</p>"
+  },
+  "kidneys": {
+    "cat": "anatomy",
+    "title": "Kidneys",
+    "phon": "",
+    "body": "<p>Organs that filter the blood and form urine.</p>"
+  },
+  "katu avastha paka": {
+    "cat": "ayurveda",
+    "title": "Katu avastha pāka",
+    "phon": "",
+    "body": "<p>The pungent stage of digestion, in the jejunum.</p>"
+  },
+  "jejunum": {
+    "cat": "anatomy",
+    "title": "Jejunum",
+    "phon": "",
+    "body": "<p>The second section of the small intestine.</p>"
+  },
+  "katu": {
+    "cat": "ayurveda",
+    "title": "Katu",
+    "phon": "",
+    "body": "<p>Pungent — one of the six tastes.</p>"
+  },
+  "vayu": {
+    "cat": "ayurveda",
+    "title": "Vāyu",
+    "phon": "",
+    "body": "<p>Wind or air; the vital movement-force, also called vata.</p>"
+  },
+  "thermogenesis": {
+    "cat": "physiology",
+    "title": "Thermogenesis",
+    "phon": "",
+    "body": "<p>The production of heat by the body.</p>"
+  },
+  "gi tract": {
+    "cat": "anatomy",
+    "title": "GI tract",
+    "phon": "",
+    "body": "<p>The gastrointestinal tract — the whole digestive passage.</p>"
+  },
+  "ileum": {
+    "cat": "anatomy",
+    "title": "Ileum",
+    "phon": "",
+    "body": "<p>The third and longest section of the small intestine.</p>"
+  },
+  "colon": {
+    "cat": "anatomy",
+    "title": "Colon",
+    "phon": "",
+    "body": "<p>The main part of the large intestine.</p>"
+  },
+  "ahara rasa": {
+    "cat": "ayurveda",
+    "title": "Āhāra rasa",
+    "phon": "",
+    "body": "<p>The nutrient essence extracted from food.</p>"
+  },
+  "chyle": {
+    "cat": "physiology",
+    "title": "Chyle",
+    "phon": "",
+    "body": "<p>Milky fluid of absorbed fats carried by the lymph.</p>"
+  },
+  "heart": {
+    "cat": "anatomy",
+    "title": "Heart",
+    "phon": "",
+    "body": "<p>The organ that pumps blood through the body.</p>"
+  },
+  "diaphragm": {
+    "cat": "anatomy",
+    "title": "Diaphragm",
+    "phon": "",
+    "body": "<p>The muscle beneath the lungs that drives breathing.</p>"
+  },
+  "vata dosha": {
+    "cat": "ayurveda",
+    "title": "Vāta dosha",
+    "phon": "",
+    "body": "<p>The dosha of movement (air and space).</p>"
+  },
+  "tikta avastha paka": {
+    "cat": "ayurveda",
+    "title": "Tikta avastha pāka",
+    "phon": "",
+    "body": "<p>The bitter stage of digestion, in the ileum.</p>"
+  },
+  "tikta": {
+    "cat": "ayurveda",
+    "title": "Tikta",
+    "phon": "",
+    "body": "<p>Bitter — one of the six tastes.</p>"
+  },
+  "akasha": {
+    "cat": "ayurveda",
+    "title": "Ākāsha",
+    "phon": "",
+    "body": "<p>Ether or space — one of the five elements.</p>"
+  },
+  "villi": {
+    "cat": "anatomy",
+    "title": "Villi",
+    "phon": "",
+    "body": "<p>Tiny finger-like projections in the intestine that absorb nutrients.</p>"
+  },
+  "spleen": {
+    "cat": "anatomy",
+    "title": "Spleen",
+    "phon": "",
+    "body": "<p>An organ involved in blood filtering and immunity.</p>"
+  },
+  "catabolic": {
+    "cat": "physiology",
+    "title": "Catabolic",
+    "phon": "",
+    "body": "<p>Breaking down — processes that release energy.</p>"
+  },
+  "kashaya avastha paka": {
+    "cat": "ayurveda",
+    "title": "Kashāya avastha pāka",
+    "phon": "",
+    "body": "<p>The astringent stage of digestion, in the large intestine.</p>"
+  },
+  "pakvashaya": {
+    "cat": "ayurveda",
+    "title": "Pakvashaya",
+    "phon": "",
+    "body": "<p>The large intestine.</p>"
+  },
+  "large intestine": {
+    "cat": "anatomy",
+    "title": "Large intestine",
+    "phon": "",
+    "body": "<p>Where water is absorbed and waste is formed; the colon.</p>"
+  },
+  "kashaya": {
+    "cat": "ayurveda",
+    "title": "Kashāya",
+    "phon": "",
+    "body": "<p>Astringent — one of the six tastes.</p>"
+  },
+  "apana vayu": {
+    "cat": "ayurveda",
+    "title": "Apāna vāyu",
+    "phon": "",
+    "body": "<p>The downward-moving subtype of vata governing elimination.</p>"
+  },
+  "ileocecal valve": {
+    "cat": "anatomy",
+    "title": "Ileocecal valve",
+    "phon": "",
+    "body": "<p>The valve between the small and large intestine.</p>"
+  },
+  "cecum": {
+    "cat": "anatomy",
+    "title": "Cecum",
+    "phon": "",
+    "body": "<p>The pouch at the start of the large intestine.</p>"
+  },
+  "ascending colon": {
+    "cat": "anatomy",
+    "title": "Ascending colon",
+    "phon": "",
+    "body": "<p>The first, upward-running part of the colon.</p>"
+  },
+  "hepatic flexure": {
+    "cat": "anatomy",
+    "title": "Hepatic flexure",
+    "phon": "",
+    "body": "<p>The bend in the colon near the liver.</p>"
+  },
+  "transverse colon": {
+    "cat": "anatomy",
+    "title": "Transverse colon",
+    "phon": "",
+    "body": "<p>The horizontal part of the colon.</p>"
+  },
+  "splenic flexure": {
+    "cat": "anatomy",
+    "title": "Splenic flexure",
+    "phon": "",
+    "body": "<p>The bend in the colon near the spleen.</p>"
+  },
+  "descending colon": {
+    "cat": "anatomy",
+    "title": "Descending colon",
+    "phon": "",
+    "body": "<p>The downward-running part of the colon.</p>"
+  },
+  "purisha": {
+    "cat": "ayurveda",
+    "title": "Purīsha",
+    "phon": "",
+    "body": "<p>Formed waste — feces.</p>"
+  },
+  "sigmoid colon": {
+    "cat": "anatomy",
+    "title": "Sigmoid colon",
+    "phon": "",
+    "body": "<p>The S-shaped final section of the colon before the rectum.</p>"
+  },
+  "poshaka vata": {
+    "cat": "ayurveda",
+    "title": "Poshaka vata",
+    "phon": "",
+    "body": "<p>The nourishing aspect of vata supporting bodily functions.</p>"
+  },
+  "rectum": {
+    "cat": "anatomy",
+    "title": "Rectum",
+    "phon": "",
+    "body": "<p>The final straight section of the large intestine.</p>"
+  },
+  "anal canal": {
+    "cat": "anatomy",
+    "title": "Anal canal",
+    "phon": "",
+    "body": "<p>The short passage at the end of the rectum.</p>"
+  },
+  "anus": {
+    "cat": "anatomy",
+    "title": "Anus",
+    "phon": "",
+    "body": "<p>The opening through which waste leaves the body.</p>"
+  },
+  "ruksha": {
+    "cat": "ayurveda",
+    "title": "Ruksha",
+    "phon": "",
+    "body": "<p>Dry — a Vāta quality (dry skin, hair, and organs).</p>"
+  },
+  "laghu": {
+    "cat": "ayurveda",
+    "title": "Laghu",
+    "phon": "",
+    "body": "<p>Light — a quality giving a thin frame and scanty sleep.</p>"
+  },
+  "khara": {
+    "cat": "ayurveda",
+    "title": "Khara",
+    "phon": "",
+    "body": "<p>Rough — a Vāta quality (cracked skin, cracking joints).</p>"
+  },
+  "sukshma": {
+    "cat": "ayurveda",
+    "title": "Sukshma",
+    "phon": "",
+    "body": "<p>Subtle — a Vāta quality (fine tremors and subtle fears).</p>"
+  },
+  "chala": {
+    "cat": "ayurveda",
+    "title": "Chala",
+    "phon": "",
+    "body": "<p>Mobile — a Vāta quality (restlessness, fast movement).</p>"
+  },
+  "vishada": {
+    "cat": "ayurveda",
+    "title": "Vishada",
+    "phon": "",
+    "body": "<p>Clear — a Vāta quality (clarity, but also a sense of emptiness).</p>"
+  },
+  "akruti": {
+    "cat": "ayurveda",
+    "title": "Ākruti",
+    "phon": "",
+    "body": "<p>The physical form or constitution of a person.</p>"
+  },
+  "vishama agni": {
+    "cat": "ayurveda",
+    "title": "Vishama Agni",
+    "phon": "",
+    "body": "<p>Variable digestive fire — Vāta’s irregular appetite.</p>"
+  },
+  "sarpa": {
+    "cat": "ayurveda",
+    "title": "Sarpa",
+    "phon": "",
+    "body": "<p>Serpent — the Vāta pulse, fast and thin like a moving snake.</p>"
+  },
+  "tikshna": {
+    "cat": "ayurveda",
+    "title": "Tikshna",
+    "phon": "",
+    "body": "<p>Sharp — a Pitta quality (sharp intellect, penetrating eyes).</p>"
+  },
+  "drava": {
+    "cat": "ayurveda",
+    "title": "Drava",
+    "phon": "",
+    "body": "<p>Liquid — a Pitta quality (sweat, frequent urination, loose stools).</p>"
+  },
+  "snigdha": {
+    "cat": "ayurveda",
+    "title": "Snigdha",
+    "phon": "",
+    "body": "<p>Oily — a quality giving soft, oily skin and hair.</p>"
+  },
+  "saram": {
+    "cat": "ayurveda",
+    "title": "Saram",
+    "phon": "",
+    "body": "<p>Spreading — a Pitta quality (rashes or inflammation that spread).</p>"
+  },
+  "visra": {
+    "cat": "ayurveda",
+    "title": "Visra",
+    "phon": "",
+    "body": "<p>Fleshy or fetid smell — a Pitta body-odor quality.</p>"
+  },
+  "tikshna agni": {
+    "cat": "ayurveda",
+    "title": "Tikshna Agni",
+    "phon": "",
+    "body": "<p>Sharp digestive fire — Pitta’s strong, intense appetite.</p>"
+  },
+  "manduka": {
+    "cat": "ayurveda",
+    "title": "Manduka",
+    "phon": "",
+    "body": "<p>Frog — the Pitta pulse, jumping, bounding, and forceful.</p>"
+  },
+  "guru": {
+    "cat": "ayurveda",
+    "title": "Guru",
+    "phon": "",
+    "body": "<p>Heavy — a Kapha quality (heavy bones and muscles).</p>"
+  },
+  "manda": {
+    "cat": "ayurveda",
+    "title": "Manda",
+    "phon": "",
+    "body": "<p>Slow or dull — a Kapha quality (slow movement and metabolism).</p>"
+  },
+  "shlakshna": {
+    "cat": "ayurveda",
+    "title": "Shlakshna",
+    "phon": "",
+    "body": "<p>Smooth — a Kapha quality (smoothness of skin and organs).</p>"
+  },
+  "sandra": {
+    "cat": "ayurveda",
+    "title": "Sandra",
+    "phon": "",
+    "body": "<p>Dense — a Kapha quality (thickset body, compact tissues).</p>"
+  },
+  "mrudu": {
+    "cat": "ayurveda",
+    "title": "Mrudu",
+    "phon": "",
+    "body": "<p>Soft — a Kapha quality (soft skin, gentle nature).</p>"
+  },
+  "sthira": {
+    "cat": "ayurveda",
+    "title": "Sthira",
+    "phon": "",
+    "body": "<p>Stable or static — a Kapha quality (steadiness, sedentary tendency).</p>"
+  },
+  "picchila": {
+    "cat": "ayurveda",
+    "title": "Picchila",
+    "phon": "",
+    "body": "<p>Cloudy or sticky — a Kapha quality (cohesion; mental fog when imbalanced).</p>"
+  },
+  "avila": {
+    "cat": "ayurveda",
+    "title": "Avila",
+    "phon": "",
+    "body": "<p>Cloudy — a Kapha quality paired with picchila.</p>"
+  },
+  "sthula": {
+    "cat": "ayurveda",
+    "title": "Sthula",
+    "phon": "",
+    "body": "<p>Gross or large — a Kapha quality (visible bulk).</p>"
+  },
+  "manda agni": {
+    "cat": "ayurveda",
+    "title": "Manda Agni",
+    "phon": "",
+    "body": "<p>Slow digestive fire — Kapha’s steady but sluggish appetite.</p>"
+  },
+  "hamsa": {
+    "cat": "ayurveda",
+    "title": "Hamsa",
+    "phon": "",
+    "body": "<p>Swan — the Kapha pulse, slow, deep, and wavy.</p>"
+  },
+  "gunas": {
+    "cat": "ayurveda",
+    "title": "Gunas",
+    "phon": "",
+    "body": "<p>The qualities or attributes that define each dosha.</p>"
+  },
+  "amla avastha paka": {
+    "cat": "ayurveda",
+    "title": "Amla avastha pāka",
+    "phon": "",
+    "body": "<p>The sour stage of digestion, occurring in the stomach.</p>"
+  },
+  "enzymes": {
+    "cat": "physiology",
+    "title": "Enzymes",
+    "phon": "",
+    "body": "<p>Proteins that speed up the body’s chemical reactions, such as breaking down food.</p>"
+  }
+}
