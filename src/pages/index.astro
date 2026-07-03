@@ -35,6 +35,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{content.title} — An Interactive Ayurveda Book</title>
+  <script is:inline>try{if(localStorage.getItem('seenIntro'))document.documentElement.classList.add('skip-intro');var _fs=localStorage.getItem('tlb-fontsize');if(_fs)document.documentElement.classList.add(_fs);}catch(e){}</script>
 </head>
 <body>
   {isLO && (
@@ -67,7 +68,10 @@ const rest = isLO ? chapters.slice(1) : chapters;
               );
             })}
           </div>
-          <button class="lo-replay" id="loReplay">↻ Replay</button>
+          <div class="lo-controls">
+            <button class="lo-replay" id="loReplay">↻ Replay</button>
+            <button class="lo-skip" id="loSkip">Skip ↓</button>
+          </div>
           <div class="lo-dots" id="loDots"></div>
         </div>
         {loStages.map((s, i) => (<div class="lo-step" data-step={i}></div>))}
@@ -138,6 +142,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
     </button>
     <button class="tbar-btn" data-tool="jump" title="Jump to bookmark" aria-label="Jump to bookmark">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v16l-5-4-5 4z"/><path d="M12 14l-2.5-2.5M12 14l2.5-2.5M12 8v6"/></svg>
+    </button>
+    <button class="tbar-btn" data-tool="text" title="Text size" aria-label="Text size">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5V6.5h9v2M7.5 6.5v11M5.5 17.5h4"/><path d="M13 13.5v-1.4h8v1.4M17 12.1v6.4M15 18.5h4"/></svg>
     </button>
   </nav>
 
@@ -219,7 +226,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     // Levels-of-Organization scroll scene (Lottie)
     import lottie from 'lottie-web';
     const scene = document.querySelector('.lo-scene');
-    if (scene) {
+    if (scene && !document.documentElement.classList.contains('skip-intro')) {
       const stages = [...scene.querySelectorAll('.lo-stage')];
       const steps = [...scene.querySelectorAll('.lo-step')];
       const dotsWrap = document.getElementById('loDots');
@@ -247,6 +254,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
         stages.forEach((s, n) => s.classList.toggle('is-active', n === i));
         dots.forEach((d, n) => d.classList.toggle('is-on', n === i));
         active = i; playMedia(i);
+        if (i === stages.length - 1) { try { localStorage.setItem('seenIntro', '1'); } catch (e) {} }
       }
       const io = new IntersectionObserver((entries) => {
         entries.forEach((e) => { if (e.isIntersecting) show(+e.target.dataset.step, false); });
@@ -255,6 +263,12 @@ const rest = isLO ? chapters.slice(1) : chapters;
       stages[0].classList.add('is-active');
       playMedia(0);
       replay.addEventListener('click', () => show(active, true));
+      const skipBtn = document.getElementById('loSkip');
+      if (skipBtn) skipBtn.addEventListener('click', () => {
+        try { localStorage.setItem('seenIntro', '1'); } catch (e) {}
+        const after = document.querySelector('.lo-synthesis') || document.querySelector('header.site');
+        if (after) after.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
     }
   </script>
 
@@ -262,8 +276,17 @@ const rest = isLO ? chapters.slice(1) : chapters;
     // Toolbox + hero modal + notebook + bookmark
     const T = document.getElementById('toast');
     function toast(msg) { T.textContent = msg; T.classList.add('show'); clearTimeout(T._t); T._t = setTimeout(() => T.classList.remove('show'), 1900); }
+    const FS_STEPS = ['', 'fs-m', 'fs-l'], FS_LABELS = ['Normal', 'Large', 'Larger'];
+    function applyFS(c) { const d = document.documentElement; d.classList.remove('fs-m', 'fs-l'); if (c) d.classList.add(c); try { localStorage.setItem('tlb-fontsize', c); } catch (e) {} }
+    function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
 
     const toolbar = document.getElementById('toolbar');
+    const introEl = document.querySelector('.lo-intro');
+    if (introEl) {
+      new IntersectionObserver((es) => es.forEach((e) => toolbar.classList.toggle('show', !e.isIntersecting)), { threshold: 0 }).observe(introEl);
+    } else {
+      toolbar.classList.add('show');
+    }
 
     // Hero modal
     const heroModal = document.getElementById('heroModal');
@@ -325,6 +348,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'notebook') openNotebook();
       else if (t === 'place') placeBookmark();
       else if (t === 'jump') jumpBookmark();
+      else if (t === 'text') cycleFontSize();
     }));
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeHero(); notebook.classList.remove('open'); } });
   </script>

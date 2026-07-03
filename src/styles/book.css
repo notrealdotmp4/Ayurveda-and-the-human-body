@@ -1,9 +1,9 @@
-:root{
+:root{--rs:1;
   --bg:#fbf7f0; --ink:#2c2622; --ink-soft:#6b625a; --paper:#fffdf9; --line:#e7ded1;
   /* Dijana's legend: red=ayurveda, amber=physiology, olive=anatomy */
   --c-ayurveda:#c01819;
   --c-physiology:#d67718;
-  --c-anatomy:#3e5518;
+  --c-anatomy:#55731f;
   --shadow:0 20px 60px rgba(44,38,34,.18); --radius:18px;
 }
 *{box-sizing:border-box}
@@ -19,8 +19,8 @@ header.site h1{font-size:clamp(30px,7vw,46px);line-height:1.1;margin:0 0 12px;fo
 header.site p.sub{color:var(--ink-soft);font-style:italic;font-size:17px;margin:0 auto;max-width:520px}
 h2.chapter{font-family:system-ui,sans-serif;font-weight:700;font-size:13px;letter-spacing:.18em;
   text-transform:uppercase;color:var(--ink-soft);margin:54px 0 6px;}
-h3{font-size:26px;margin:6px 0 18px;font-weight:600}
-p{margin:0 0 20px;font-size:18.5px}
+h3{font-size:calc(26px*var(--rs));margin:6px 0 18px;font-weight:600}
+p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .term{cursor:pointer;font-weight:600;border:0;background:transparent;font:inherit;
   padding:0 1px;position:relative;color:inherit;transition:background .18s ease;border-radius:4px;}
 .term::after{content:none}
@@ -50,17 +50,17 @@ p{margin:0 0 20px;font-size:18.5px}
 .drawer-head{padding:22px 24px 14px;border-bottom:1px solid var(--line);position:relative}
 .drawer-head .cat-pill{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:#fff;padding:4px 11px;border-radius:999px;display:inline-block;margin-bottom:10px;}
-.drawer-head h3{margin:0;font-size:28px}
+.drawer-head h3{margin:0;font-size:calc(28px*var(--rs))}
 .drawer-head .phon{color:var(--ink-soft);font-style:italic;font-size:15px;margin-top:2px}
-.drawer-body{padding:20px 24px;overflow:auto;font-size:17px}
-.drawer-body p{font-size:17px}
+.drawer-body{padding:20px 24px;overflow:auto;font-size:calc(17px*var(--rs))}
+.drawer-body p{font-size:calc(17px*var(--rs))}
 .close-x{position:absolute;top:18px;right:18px;border:1px solid var(--line);background:#fff;
   width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:18px;color:var(--ink-soft);display:grid;place-items:center;}
 .back-hint{font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);padding:14px 24px;border-top:1px solid var(--line)}
 .footnote{font-family:system-ui,sans-serif;font-size:12.5px;color:var(--ink-soft);text-align:center;margin-top:60px;border-top:1px solid var(--line);padding-top:22px}
 .subhead{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ayurveda);margin:28px 0 8px;font-weight:700}
 .bullets{margin:0 0 20px;padding-left:20px}
-.bullets li{margin:0 0 9px;font-size:17px}
+.bullets li{margin:0 0 9px;font-size:calc(17px*var(--rs))}
 .bullets li::marker{color:var(--ink-soft)}
 /* ---- Chapter One: Levels of Organization (scroll scene) ---- */
 .lo{position:relative}
@@ -72,10 +72,10 @@ p{margin:0 0 20px;font-size:18.5px}
 @keyframes loBob{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(6px);opacity:1}}
 .lo-scene{position:relative}
 .lo-sticky{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
-.lo-art-wrap{position:relative;width:min(560px,88vw);height:min(600px,90vw)}
+.lo-art-wrap{position:relative;width:min(560px,88vw);height:min(600px,74vh)}
 .lo-stage{position:absolute;inset:0;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;text-align:center}
 .lo-stage.is-active{opacity:1;pointer-events:auto}
-.lo-art{width:86%;height:auto;aspect-ratio:1/1;display:grid;place-items:center}
+.lo-art{width:min(76vw,56vh,480px);height:min(76vw,56vh,480px);display:grid;place-items:center}
 .lo-art svg{width:100%;height:100%;overflow:visible}
 .lo-cap{margin-top:14px}
 .lo-cap .lo-step-no{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--c-physiology);color:#fff;font-family:system-ui,sans-serif;font-size:13px;font-weight:700;margin-bottom:8px}
@@ -87,8 +87,10 @@ p{margin:0 0 20px;font-size:18.5px}
 }
 @keyframes loPop{0%{opacity:0;transform:scale(.62)}60%{opacity:1}100%{opacity:1;transform:scale(1)}}
 @keyframes loRise{0%{opacity:0;transform:translateY(16px)}100%{opacity:1;transform:translateY(0)}}
-.lo-replay{position:absolute;bottom:max(20px,4vh);left:50%;transform:translateX(-50%);border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);cursor:pointer}
-.lo-replay:hover{color:var(--ink)}
+.skip-intro .lo-scene{display:none}
+.lo-controls{position:absolute;left:50%;bottom:96px;transform:translateX(-50%);display:flex;gap:10px;z-index:6}
+.lo-controls button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);cursor:pointer;box-shadow:0 6px 16px rgba(44,38,34,.12)}
+.lo-controls button:hover{color:var(--ink);border-color:var(--c-ayurveda)}
 .lo-dots{position:absolute;right:max(16px,3vw);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px}
 .lo-dot{width:9px;height:9px;border-radius:50%;border:0;background:var(--line);cursor:pointer;padding:0}
 .lo-dot.is-on{background:var(--c-physiology);transform:scale(1.25)}
@@ -112,7 +114,7 @@ p{margin:0 0 20px;font-size:18.5px}
 .hm-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line)}
 .hm-head strong{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--c-ayurveda)}
 .hero-stage{position:relative;flex:1;display:grid;place-items:start center;background:#f6efe3;overflow:hidden}
-.hero-stage video{width:100%;height:100%;object-fit:contain;object-position:center top;display:block}
+.hero-stage video{max-width:100%;max-height:100%;width:auto;height:auto;display:block}
 .hero-map{position:absolute;inset:0;display:none;place-items:start center;padding:14px}
 .hero-map.show{display:grid}
 .hero-map svg{width:100%;height:100%}
@@ -133,7 +135,9 @@ p{margin:0 0 20px;font-size:18.5px}
 .toast{position:fixed;left:50%;bottom:92px;transform:translateX(-50%) translateY(10px);z-index:80;background:var(--ink);color:#fff;font-family:system-ui,sans-serif;font-size:13px;padding:10px 16px;border-radius:999px;opacity:0;pointer-events:none;transition:.25s}
 .toast.show{opacity:1;transform:translateX(-50%)}
 /* ---- Bottom pill navigation ---- */
-.toolbar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:60;display:flex;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 10px;box-shadow:0 10px 28px rgba(44,38,34,.18);font-family:system-ui,sans-serif}
+.toolbar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%) translateY(18px);z-index:60;display:flex;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 10px;box-shadow:0 10px 28px rgba(44,38,34,.18);font-family:system-ui,sans-serif;opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s ease}
+.toolbar.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0)}
 .tbar-btn{display:flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--ink-soft);border-radius:999px;padding:12px 22px;cursor:pointer;transition:color .15s,background .15s}
 .tbar-btn svg{width:24px;height:24px}
 .tbar-btn:hover,.tbar-btn:focus-visible{color:var(--c-ayurveda);background:rgba(0,0,0,.045);outline:none}
+html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
