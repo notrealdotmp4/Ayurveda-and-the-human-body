@@ -42,7 +42,12 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <section class="lo">
       <div class="lo-intro">
         {content.invocation && <div class="invocation">{content.invocation}</div>}
-        <div class="lo-intro-art">image goes here</div>
+        <div class="lo-intro-media" aria-hidden="true">
+          <!-- Drop videos here: desktop widescreen 16:9 -> /anim/intro-wide.mp4 ; mobile portrait 9:16 -> /anim/intro-portrait.mp4 -->
+          <video class="lo-vid lo-vid-wide" autoplay muted loop playsinline preload="metadata"><source src="/anim/intro-wide.mp4" type="video/mp4" /></video>
+          <video class="lo-vid lo-vid-portrait" autoplay muted loop playsinline preload="metadata"><source src="/anim/intro-portrait.mp4" type="video/mp4" /></video>
+          <span class="lo-media-ph">video goes here</span>
+        </div>
         <div class="lo-kicker">{first.kicker}</div>
         <h1 class="lo-title">{first.title}</h1>
         <div class="lo-hint">scroll to begin ↓</div>
@@ -145,6 +150,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
     </button>
     <button class="tbar-btn" data-tool="text" title="Text size" aria-label="Text size">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5V6.5h9v2M7.5 6.5v11M5.5 17.5h4"/><path d="M13 13.5v-1.4h8v1.4M17 12.1v6.4M15 18.5h4"/></svg>
+    </button>
+    <button class="tbar-btn" data-tool="replayscene" title="Replay the intro animations" aria-label="Replay the intro animations">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/></svg>
     </button>
   </nav>
 
@@ -349,6 +357,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'place') placeBookmark();
       else if (t === 'jump') jumpBookmark();
       else if (t === 'text') cycleFontSize();
+      else if (t === 'replayscene') { try { localStorage.removeItem('seenIntro'); } catch (e) {} document.documentElement.classList.remove('skip-intro'); window.scrollTo({ top: 0 }); location.reload(); }
     }));
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeHero(); notebook.classList.remove('open'); } });
   </script>
