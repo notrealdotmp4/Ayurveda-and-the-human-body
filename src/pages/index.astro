@@ -76,7 +76,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <div class="lo-synthesis">
           {loOrganism && <h3>{loOrganism.name}</h3>}
           {loClosing.map((b) => (
-            <p>{b.segments.map((seg) => (seg.term ? <button class="term" data-cat={seg.cat} data-term={seg.term}>{seg.t}</button> : <Fragment>{seg.t}</Fragment>))}</p>
+            <p>{b.segments.map((seg) => (seg.term ? <span class="term" role="button" tabindex="0" data-cat={seg.cat} data-term={seg.term}>{seg.t}</span> : <Fragment>{seg.t}</Fragment>))}</p>
           ))}
         </div>
       )}
@@ -103,9 +103,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
           ) : b.type === 'h' ? (
             <h4 class="subhead">{b.text}</h4>
           ) : b.type === 'list' ? (
-            <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
+            <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
           ) : (
-            <p>{b.segments.map((s) => (s.term ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button> : <Fragment>{s.t}</Fragment>))}</p>
+            <p>{b.segments.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</p>
           )
         ))}
       </section>
@@ -203,7 +203,10 @@ const rest = isLO ? chapters.slice(1) : chapters;
       window.scrollTo({ top: savedY });
       if (push && history.state && history.state.term) history.back();
     }
-    document.querySelectorAll('.term').forEach((b) => b.addEventListener('click', () => openTerm(b.dataset.term)));
+    document.querySelectorAll('.term').forEach((b) => {
+      b.addEventListener('click', () => openTerm(b.dataset.term));
+      b.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openTerm(b.dataset.term); } });
+    });
     document.getElementById('closeX').addEventListener('click', () => closeTerm(true));
     scrim.addEventListener('click', () => closeTerm(true));
     window.addEventListener('popstate', () => closeTerm(false));
