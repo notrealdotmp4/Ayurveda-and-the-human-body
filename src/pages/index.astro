@@ -9,8 +9,6 @@ const CATS = {
   anatomy:    { label: 'Anatomy',    color: 'var(--c-anatomy)' },
 };
 
-// Real artwork for the levels-of-organization stages (files live in /public/anim).
-// Index aligns with the level order: Chemical, Cellular, Tissue, Organ, System.
 const STAGE_MEDIA = [
   { type: 'lottie', src: '/anim/atom.json' },
   { type: 'lottie', src: '/anim/cell.json' },
@@ -18,8 +16,6 @@ const STAGE_MEDIA = [
   { type: 'lottie', src: '/anim/Organ.json' },
   { type: 'lottie', src: '/anim/Body.json' },
 ];
-
-// Fallback placeholder SVGs (used only if a media file is missing).
 const ART = [
   `<svg viewBox="0 0 120 120" fill="none"><g stroke="var(--c-physiology)" stroke-width="2"><ellipse cx="60" cy="60" rx="46" ry="17"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(60 60 60)"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(120 60 60)"/></g><circle cx="60" cy="60" r="9" fill="var(--ink)"/></svg>`,
   ``, ``, ``, ``,
@@ -50,7 +46,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <h1 class="lo-title">{first.title}</h1>
         <div class="lo-hint">scroll to begin ↓</div>
       </div>
-
       <div class="lo-scene">
         <div class="lo-sticky">
           <div class="lo-art-wrap">
@@ -77,18 +72,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
         </div>
         {loStages.map((s, i) => (<div class="lo-step" data-step={i}></div>))}
       </div>
-
       {(loOrganism || loClosing.length > 0) && (
         <div class="lo-synthesis">
           {loOrganism && <h3>{loOrganism.name}</h3>}
           {loClosing.map((b) => (
-            <p>
-              {b.segments.map((seg) => (
-                seg.term
-                  ? <button class="term" data-cat={seg.cat} data-term={seg.term}>{seg.t}</button>
-                  : <Fragment>{seg.t}</Fragment>
-              ))}
-            </p>
+            <p>{b.segments.map((seg) => (seg.term ? <button class="term" data-cat={seg.cat} data-term={seg.term}>{seg.t}</button> : <Fragment>{seg.t}</Fragment>))}</p>
           ))}
         </div>
       )}
@@ -100,9 +88,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <h1>{content.title}</h1>
     <p class="sub">{content.subtitle}</p>
     <div class="legend">
-      {Object.entries(CATS).map(([k, c]) => (
-        <span><i class="dot" style={`background:${c.color}`}></i> {c.label}</span>
-      ))}
+      {Object.entries(CATS).map(([k, c]) => (<span><i class="dot" style={`background:${c.color}`}></i> {c.label}</span>))}
     </div>
   </header>
 
@@ -113,27 +99,18 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <h3>{ch.title}</h3>
         {ch.blocks.map((b) => (
           b.type === 'level' ? (
-            <div class="level">
-              <div class="thumb">image<br/>goes here</div>
-              <div class="lc"><h4>{b.name}</h4>{b.info && <p>{b.info}</p>}</div>
-            </div>
+            <div class="level"><div class="thumb">image<br/>goes here</div><div class="lc"><h4>{b.name}</h4>{b.info && <p>{b.info}</p>}</div></div>
           ) : b.type === 'h' ? (
             <h4 class="subhead">{b.text}</h4>
           ) : b.type === 'list' ? (
-            <ul class="bullets">
-              {b.items.map((it) => (
-                <li>{it.map((s) => (s.term ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button> : <Fragment>{s.t}</Fragment>))}</li>
-              ))}
-            </ul>
+            <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
           ) : (
             <p>{b.segments.map((s) => (s.term ? <button class="term" data-cat={s.cat} data-term={s.term}>{s.t}</button> : <Fragment>{s.t}</Fragment>))}</p>
           )
         ))}
       </section>
     ))}
-    <div class="footnote">
-      Red = Ayurveda · Amber = Physiology · Olive = Anatomy. Tap any colored word to explore it; close to return to your place.
-    </div>
+    <div class="footnote">Red = Ayurveda · Amber = Physiology · Olive = Anatomy. Tap any colored word to explore it; close to return to your place.</div>
   </div>
 
   <div class="scrim" id="scrim"></div>
@@ -147,6 +124,44 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <div class="drawer-body" id="dBody"></div>
     <div class="back-hint">← Close to jump back exactly where you were reading.</div>
   </aside>
+
+  <!-- Floating toolbox -->
+  <div class="toolbox" id="toolbox">
+    <div class="tb-items">
+      <button class="tb-btn" data-tool="hero">◎ Explore the body</button>
+      <button class="tb-btn" data-tool="notebook">✎ Notebook</button>
+      <button class="tb-btn" data-tool="place">⚑ Place bookmark</button>
+      <button class="tb-btn" data-tool="jump">↩ Jump to bookmark</button>
+    </div>
+    <button class="tb-fab" id="tbFab" aria-label="Open tools">+</button>
+  </div>
+
+  <!-- Hero modal -->
+  <div class="hero-modal" id="heroModal" aria-hidden="true">
+    <div class="hero-win">
+      <div class="hm-head"><strong>The Living Body — digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
+      <div class="hero-stage">
+        <video id="heroVideo" src="/anim/BodyAnimation_ready.mp4" playsinline preload="metadata"></video>
+        <div class="hero-map" id="heroMap"></div>
+      </div>
+      <div class="hm-bar">
+        <button id="hmReplay">↻ Replay animation</button>
+        <button id="hmExplore">Explore the map →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notebook -->
+  <div class="notebook" id="notebook" aria-hidden="true">
+    <div class="nb-head"><strong>My notes</strong><button class="close-x" id="nbClose" aria-label="Close">×</button></div>
+    <textarea id="nbText" placeholder="Write your notes here… saved automatically on this device."></textarea>
+    <div class="nb-bar">
+      <button class="primary" id="nbShare">Share</button>
+      <button id="nbClear" class="grow">Clear</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
 
   <script id="glossary-data" type="application/json" set:html={JSON.stringify(glossary)} />
 
@@ -188,10 +203,12 @@ const rest = isLO ? chapters.slice(1) : chapters;
     scrim.addEventListener('click', () => closeTerm(true));
     window.addEventListener('popstate', () => closeTerm(false));
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeTerm(true); });
+    // expose for the hero map to open organ definitions
+    window.openGlossary = openTerm;
   </script>
 
   <script>
-    // Levels-of-Organization scroll scene, with Lottie + SVG artwork
+    // Levels-of-Organization scroll scene (Lottie)
     import lottie from 'lottie-web';
     const scene = document.querySelector('.lo-scene');
     if (scene) {
@@ -200,19 +217,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const dotsWrap = document.getElementById('loDots');
       const replay = document.getElementById('loReplay');
       let active = 0;
-
       const players = stages.map((st) => {
         const el = st.querySelector('[data-lottie]');
         if (!el) return null;
         return lottie.loadAnimation({ container: el, renderer: 'svg', loop: false, autoplay: false, path: el.dataset.lottie });
       });
-
       function playMedia(i) {
         players.forEach((p, n) => { if (p) { if (n === i) { p.goToAndPlay(0, true); } else { p.pause(); } } });
-        const svg = stages[i].querySelector('[data-svg]');
-        if (svg) { const base = svg.getAttribute('src').split('?')[0]; svg.setAttribute('src', base + '?t=' + Date.now()); }
       }
-
       const dots = stages.map((_, i) => {
         const d = document.createElement('button');
         d.className = 'lo-dot' + (i === 0 ? ' is-on' : '');
@@ -221,25 +233,93 @@ const rest = isLO ? chapters.slice(1) : chapters;
         dotsWrap.appendChild(d);
         return d;
       });
-
       function show(i, force) {
         if (i === active && !force) return;
         if (force) { stages[i].classList.remove('is-active'); void stages[i].offsetWidth; }
         stages.forEach((s, n) => s.classList.toggle('is-active', n === i));
         dots.forEach((d, n) => d.classList.toggle('is-on', n === i));
-        active = i;
-        playMedia(i);
+        active = i; playMedia(i);
       }
-
       const io = new IntersectionObserver((entries) => {
         entries.forEach((e) => { if (e.isIntersecting) show(+e.target.dataset.step, false); });
       }, { rootMargin: '-50% 0px -50% 0px' });
       steps.forEach((s) => io.observe(s));
-
       stages[0].classList.add('is-active');
       playMedia(0);
       replay.addEventListener('click', () => show(active, true));
     }
+  </script>
+
+  <script>
+    // Toolbox + hero modal + notebook + bookmark
+    const T = document.getElementById('toast');
+    function toast(msg) { T.textContent = msg; T.classList.add('show'); clearTimeout(T._t); T._t = setTimeout(() => T.classList.remove('show'), 1900); }
+
+    const toolbox = document.getElementById('toolbox');
+    document.getElementById('tbFab').addEventListener('click', () => toolbox.classList.toggle('open'));
+
+    // Hero modal
+    const heroModal = document.getElementById('heroModal');
+    const heroVideo = document.getElementById('heroVideo');
+    const heroMap = document.getElementById('heroMap');
+    let mapLoaded = false;
+    function showVideo() { heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
+    function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
+    function openHero() { heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showVideo(); }
+    function closeHero() { heroModal.classList.remove('open'); heroModal.setAttribute('aria-hidden', 'true'); heroVideo.pause(); }
+    function loadMap() {
+      if (mapLoaded) return; mapLoaded = true;
+      fetch('/anim/digestive-map.svg').then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
+        heroMap.innerHTML = svg;
+        heroMap.querySelectorAll('[data-term],[id]').forEach((el) => {
+          const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
+          const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
+          el.style.cursor = 'pointer';
+          el.addEventListener('click', () => { if (window.openGlossary) window.openGlossary(key); });
+        });
+      }).catch(() => { heroMap.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch">Interactive map coming soon — drop <b>digestive-map.svg</b> into /public/anim.</p>'; });
+    }
+    document.getElementById('heroClose').addEventListener('click', closeHero);
+    heroModal.addEventListener('click', (e) => { if (e.target === heroModal) closeHero(); });
+    document.getElementById('hmReplay').addEventListener('click', showVideo);
+    document.getElementById('hmExplore').addEventListener('click', showMap);
+    heroVideo.addEventListener('ended', showMap);
+
+    // Notebook
+    const notebook = document.getElementById('notebook');
+    const nbText = document.getElementById('nbText');
+    const NB_KEY = 'tlb-notes';
+    try { nbText.value = localStorage.getItem(NB_KEY) || ''; } catch (e) {}
+    nbText.addEventListener('input', () => { try { localStorage.setItem(NB_KEY, nbText.value); } catch (e) {} });
+    function openNotebook() { notebook.classList.add('open'); notebook.setAttribute('aria-hidden', 'false'); nbText.focus(); }
+    document.getElementById('nbClose').addEventListener('click', () => notebook.classList.remove('open'));
+    document.getElementById('nbClear').addEventListener('click', () => { if (confirm('Clear all notes?')) { nbText.value = ''; try { localStorage.removeItem(NB_KEY); } catch (e) {} } });
+    document.getElementById('nbShare').addEventListener('click', async () => {
+      const text = (nbText.value || '').trim();
+      if (!text) { toast('Write a note first'); return; }
+      const body = text + '\n\n— my notes from The Living Body\n' + location.href;
+      const payload = { title: 'My notes — The Living Body', text: body };
+      if (navigator.share) { try { await navigator.share(payload); } catch (e) {} }
+      else {
+        try { await navigator.clipboard.writeText(body); toast('Copied — paste it anywhere'); }
+        catch (e) { window.location.href = 'mailto:?subject=' + encodeURIComponent(payload.title) + '&body=' + encodeURIComponent(body); }
+      }
+    });
+
+    // Bookmark
+    const BM_KEY = 'tlb-bookmark';
+    function placeBookmark() { try { localStorage.setItem(BM_KEY, String(Math.round(window.scrollY))); toast('Bookmark placed'); } catch (e) {} }
+    function jumpBookmark() { let y = null; try { y = localStorage.getItem(BM_KEY); } catch (e) {} if (y === null) { toast('No bookmark yet'); return; } window.scrollTo({ top: +y, behavior: 'smooth' }); }
+
+    toolbox.querySelectorAll('[data-tool]').forEach((b) => b.addEventListener('click', () => {
+      toolbox.classList.remove('open');
+      const t = b.dataset.tool;
+      if (t === 'hero') openHero();
+      else if (t === 'notebook') openNotebook();
+      else if (t === 'place') placeBookmark();
+      else if (t === 'jump') jumpBookmark();
+    }));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeHero(); notebook.classList.remove('open'); } });
   </script>
 </body>
 </html>

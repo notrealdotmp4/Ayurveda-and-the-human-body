@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460" role="img" aria-label="Digestive system map (placeholder)">
+  <style>[data-term]{transition:fill .15s} [data-term]:hover{fill:#d67718}</style>
+  <path d="M150 20 v70" stroke="#3e5518" stroke-width="10" fill="none" stroke-linecap="round" data-term="esophagus"/>
+  <path d="M150 92 q46 6 40 54 q-6 40 -52 34 q-40 -8 -30 -50 q8 -34 42 -38 z" fill="#e7ded1" stroke="#3e5518" stroke-width="3" data-term="stomach"/>
+  <path d="M96 190 q120 8 96 90 q-20 66 -96 40 q-56 -18 -30 -78 q16 -40 30 -52 z" fill="#f0e7d6" stroke="#3e5518" stroke-width="3" data-term="small intestine"/>
+  <path d="M70 300 h150 a24 24 0 0 1 24 24 v70 a24 24 0 0 1 -24 24 h-150 a24 24 0 0 1 -24 -24 v-70 a24 24 0 0 1 24 -24 z" fill="none" stroke="#3e5518" stroke-width="10" data-term="large intestine"/>
+  <text x="150" y="450" text-anchor="middle" font-family="system-ui" font-size="11" fill="#6b625a">Placeholder — tap a region</text>
+</svg>
