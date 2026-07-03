@@ -72,10 +72,10 @@ p{margin:0 0 20px;font-size:18.5px}
 @keyframes loBob{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(6px);opacity:1}}
 .lo-scene{position:relative}
 .lo-sticky{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
-.lo-art-wrap{position:relative;width:min(440px,88vw);height:min(480px,90vw)}
+.lo-art-wrap{position:relative;width:min(560px,88vw);height:min(600px,90vw)}
 .lo-stage{position:absolute;inset:0;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;text-align:center}
 .lo-stage.is-active{opacity:1;pointer-events:auto}
-.lo-art{width:82%;height:auto;aspect-ratio:1/1;display:grid;place-items:center}
+.lo-art{width:86%;height:auto;aspect-ratio:1/1;display:grid;place-items:center}
 .lo-art svg{width:100%;height:100%;overflow:visible}
 .lo-cap{margin-top:14px}
 .lo-cap .lo-step-no{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--c-physiology);color:#fff;font-family:system-ui,sans-serif;font-size:13px;font-weight:700;margin-bottom:8px}
@@ -133,7 +133,7 @@ p{margin:0 0 20px;font-size:18.5px}
 .toast{position:fixed;left:50%;bottom:92px;transform:translateX(-50%) translateY(10px);z-index:80;background:var(--ink);color:#fff;font-family:system-ui,sans-serif;font-size:13px;padding:10px 16px;border-radius:999px;opacity:0;pointer-events:none;transition:.25s}
 .toast.show{opacity:1;transform:translateX(-50%)}
 /* ---- Bottom pill navigation ---- */
-.toolbar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:60;display:flex;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px;box-shadow:0 10px 28px rgba(44,38,34,.18);font-family:system-ui,sans-serif}
-.tbar-btn{display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:transparent;color:var(--ink-soft);border-radius:999px;padding:8px 14px;cursor:pointer;font-size:10px;letter-spacing:.02em;min-width:62px;transition:color .15s,background .15s}
-.tbar-btn svg{width:21px;height:21px}
+.toolbar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:60;display:flex;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 10px;box-shadow:0 10px 28px rgba(44,38,34,.18);font-family:system-ui,sans-serif}
+.tbar-btn{display:flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--ink-soft);border-radius:999px;padding:12px 22px;cursor:pointer;transition:color .15s,background .15s}
+.tbar-btn svg{width:24px;height:24px}
 .tbar-btn:hover,.tbar-btn:focus-visible{color:var(--c-ayurveda);background:rgba(0,0,0,.045);outline:none}
