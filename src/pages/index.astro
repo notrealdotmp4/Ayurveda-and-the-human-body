@@ -125,16 +125,25 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <div class="back-hint">← Close to jump back exactly where you were reading.</div>
   </aside>
 
-  <!-- Floating toolbox -->
-  <div class="toolbox" id="toolbox">
-    <div class="tb-items">
-      <button class="tb-btn" data-tool="hero">◎ Explore the body</button>
-      <button class="tb-btn" data-tool="notebook">✎ Notebook</button>
-      <button class="tb-btn" data-tool="place">⚑ Place bookmark</button>
-      <button class="tb-btn" data-tool="jump">↩ Jump to bookmark</button>
-    </div>
-    <button class="tb-fab" id="tbFab" aria-label="Open tools">+</button>
-  </div>
+  <!-- Bottom pill navigation -->
+  <nav class="toolbar" id="toolbar" aria-label="Reader tools">
+    <button class="tbar-btn" data-tool="hero" title="Explore the body">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.4"/><path d="M12 8v7M12 15l-4 6M12 15l4 6M5 11l7-2 7 2"/></svg>
+      <span>Body</span>
+    </button>
+    <button class="tbar-btn" data-tool="notebook" title="Notebook">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>
+      <span>Notes</span>
+    </button>
+    <button class="tbar-btn" data-tool="place" title="Place bookmark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v16l-5-4-5 4z"/><path d="M12 8v5M9.5 10.5h5"/></svg>
+      <span>Save spot</span>
+    </button>
+    <button class="tbar-btn" data-tool="jump" title="Jump to bookmark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v16l-5-4-5 4z"/><path d="M12 14l-2.5-2.5M12 14l2.5-2.5M12 8v6"/></svg>
+      <span>My spot</span>
+    </button>
+  </nav>
 
   <!-- Hero modal -->
   <div class="hero-modal" id="heroModal" aria-hidden="true">
@@ -255,8 +264,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const T = document.getElementById('toast');
     function toast(msg) { T.textContent = msg; T.classList.add('show'); clearTimeout(T._t); T._t = setTimeout(() => T.classList.remove('show'), 1900); }
 
-    const toolbox = document.getElementById('toolbox');
-    document.getElementById('tbFab').addEventListener('click', () => toolbox.classList.toggle('open'));
+    const toolbar = document.getElementById('toolbar');
 
     // Hero modal
     const heroModal = document.getElementById('heroModal');
@@ -271,6 +279,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       if (mapLoaded) return; mapLoaded = true;
       fetch('/anim/digestive-map.svg').then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
         heroMap.innerHTML = svg;
+        const svgEl = heroMap.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMin meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
         heroMap.querySelectorAll('[data-term],[id]').forEach((el) => {
           const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
           const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
@@ -311,8 +320,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function placeBookmark() { try { localStorage.setItem(BM_KEY, String(Math.round(window.scrollY))); toast('Bookmark placed'); } catch (e) {} }
     function jumpBookmark() { let y = null; try { y = localStorage.getItem(BM_KEY); } catch (e) {} if (y === null) { toast('No bookmark yet'); return; } window.scrollTo({ top: +y, behavior: 'smooth' }); }
 
-    toolbox.querySelectorAll('[data-tool]').forEach((b) => b.addEventListener('click', () => {
-      toolbox.classList.remove('open');
+    toolbar.querySelectorAll('[data-tool]').forEach((b) => b.addEventListener('click', () => {
       const t = b.dataset.tool;
       if (t === 'hero') openHero();
       else if (t === 'notebook') openNotebook();
