@@ -51,6 +51,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <div class="lo-kicker">{first.kicker}</div>
         <h1 class="lo-title">{first.title}</h1>
         <div class="lo-hint">scroll to begin ↓</div>
+        <button class="lo-revisit" id="loRevisit">↻ Replay</button>
       </div>
       <div class="lo-scene">
         <div class="lo-sticky">
@@ -150,9 +151,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
     </button>
     <button class="tbar-btn" data-tool="text" title="Text size" aria-label="Text size">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5V6.5h9v2M7.5 6.5v11M5.5 17.5h4"/><path d="M13 13.5v-1.4h8v1.4M17 12.1v6.4M15 18.5h4"/></svg>
-    </button>
-    <button class="tbar-btn" data-tool="replayscene" title="Replay the intro animations" aria-label="Replay the intro animations">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/></svg>
     </button>
   </nav>
 
@@ -357,8 +355,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'place') placeBookmark();
       else if (t === 'jump') jumpBookmark();
       else if (t === 'text') cycleFontSize();
-      else if (t === 'replayscene') { try { localStorage.removeItem('seenIntro'); } catch (e) {} document.documentElement.classList.remove('skip-intro'); window.scrollTo({ top: 0 }); location.reload(); }
     }));
+    const loRevisit = document.getElementById('loRevisit');
+    if (loRevisit) loRevisit.addEventListener('click', () => { try { localStorage.removeItem('seenIntro'); } catch (e) {} document.documentElement.classList.remove('skip-intro'); window.scrollTo({ top: 0 }); location.reload(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeHero(); notebook.classList.remove('open'); } });
   </script>
 </body>
