@@ -15,8 +15,8 @@ const STAGE_MEDIA = [
   { type: 'lottie', src: '/anim/atom.json' },
   { type: 'lottie', src: '/anim/cell.json' },
   { type: 'lottie', src: '/anim/Tissue.json' },
-  { type: 'lottie', src: '/anim/heart.json' },
-  { type: 'svg',    src: '/anim/BodyMainClothes.svg' },
+  { type: 'lottie', src: '/anim/Organ.json' },
+  { type: 'lottie', src: '/anim/Body.json' },
 ];
 
 // Fallback placeholder SVGs (used only if a media file is missing).
@@ -204,7 +204,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const players = stages.map((st) => {
         const el = st.querySelector('[data-lottie]');
         if (!el) return null;
-        return lottie.loadAnimation({ container: el, renderer: 'svg', loop: true, autoplay: false, path: el.dataset.lottie });
+        return lottie.loadAnimation({ container: el, renderer: 'svg', loop: false, autoplay: false, path: el.dataset.lottie });
       });
 
       function playMedia(i) {
