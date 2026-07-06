@@ -328,9 +328,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       mcTitle.textContent = (g && g.title) || key;
       mcTitle.style.color = (g && CAT_COLOR[g.cat]) || 'var(--ink)';
       mcBody.innerHTML = (g && g.body) || '<p>Definition coming soon.</p>';
-      curOrgan = el; mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
+      if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
     }
-    function hideCallout() { curOrgan = null; mapCallout.hidden = true; mapLeader.hidden = true; }
+    function hideCallout() { if (curOrgan) curOrgan.classList.remove('is-active'); curOrgan = null; mapCallout.hidden = true; mapLeader.hidden = true; }
     mapViewport.addEventListener('wheel', (e) => { e.preventDefault(); const r = mapViewport.getBoundingClientRect(); const cx = e.clientX - r.left, cy = e.clientY - r.top; const f = e.deltaY < 0 ? 1.12 : 1 / 1.12; const ns = Math.min(6, Math.max(1, mScale * f)); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mApply(); }, { passive: false });
     const mPts = new Map(); let mLast = null, mStartD = 0, mStartS = 1;
     function mMove(e) { if (!mPts.has(e.pointerId)) return; mPts.set(e.pointerId, { x: e.clientX, y: e.clientY });
@@ -351,7 +351,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
           const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
           if (!MAP_GLOSSARY[key]) return;
-          el.style.cursor = 'pointer';
+          el.style.cursor = 'pointer'; el.classList.add('map-organ');
           el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, key); });
         });
         mReset();
