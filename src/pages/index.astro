@@ -159,7 +159,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <div class="hm-head"><strong>The Living Body — digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
       <div class="hero-stage">
         <video id="heroVideo" src="/anim/BodyAnimation_ready.mp4" playsinline preload="metadata"></video>
-        <div class="hero-map" id="heroMap"></div>
+        <div class="hero-map" id="heroMap">
+          <div class="map-viewport" id="mapViewport"><div class="map-canvas" id="mapCanvas"></div></div>
+          <svg class="map-leader" id="mapLeader" hidden><line id="mcLine" x1="0" y1="0" x2="0" y2="0"/></svg>
+          <div class="map-callout" id="mapCallout" hidden><button class="mc-close" id="mcClose" aria-label="Close">×</button><div class="mc-title" id="mcTitle"></div><div class="mc-body" id="mcBody"></div></div>
+          <div class="map-controls"><button id="mapReset" title="Reset view">Reset view</button></div>
+          <div class="map-hint">Drag to pan · scroll or pinch to zoom · tap an organ</div>
+        </div>
       </div>
       <div class="hm-bar">
         <button id="hmReplay">↻ Replay animation</button>
@@ -291,22 +297,66 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const heroVideo = document.getElementById('heroVideo');
     const heroMap = document.getElementById('heroMap');
     let mapLoaded = false;
-    function showVideo() { heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
+    function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function openHero() { heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showVideo(); }
     function closeHero() { heroModal.classList.remove('open'); heroModal.setAttribute('aria-hidden', 'true'); heroVideo.pause(); }
+    const mapViewport = document.getElementById('mapViewport');
+    const mapCanvas = document.getElementById('mapCanvas');
+    const mapCallout = document.getElementById('mapCallout');
+    const mcTitle = document.getElementById('mcTitle');
+    const mcBody = document.getElementById('mcBody');
+    const mapLeader = document.getElementById('mapLeader');
+    const mcLine = document.getElementById('mcLine');
+    const MAP_GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
+    const CAT_COLOR = { ayurveda: 'var(--c-ayurveda)', physiology: 'var(--c-physiology)', anatomy: 'var(--c-anatomy)' };
+    let mScale = 1, mTx = 0, mTy = 0, mDragged = false, curOrgan = null;
+    function mApply() { mapCanvas.style.transform = 'translate(' + mTx + 'px,' + mTy + 'px) scale(' + mScale + ')'; if (curOrgan) positionCallout(curOrgan); }
+    function mReset() { mScale = 1; mTx = 0; mTy = 0; mApply(); }
+    function positionCallout(el) {
+      const vr = heroMap.getBoundingClientRect(), or = el.getBoundingClientRect();
+      const ox = or.left + or.width / 2 - vr.left, oy = or.top + or.height / 2 - vr.top;
+      const cw = mapCallout.offsetWidth, ch = mapCallout.offsetHeight;
+      let left = ox + 26; if (left + cw > vr.width - 8) left = ox - cw - 26; if (left < 8) left = 8;
+      let top = oy - ch / 2; top = Math.max(8, Math.min(vr.height - ch - 8, top));
+      mapCallout.style.left = left + 'px'; mapCallout.style.top = top + 'px';
+      const ax = (left > ox) ? left : left + cw;
+      mcLine.setAttribute('x1', ox); mcLine.setAttribute('y1', oy); mcLine.setAttribute('x2', ax); mcLine.setAttribute('y2', top + ch / 2);
+    }
+    function showCallout(el, key) {
+      const g = MAP_GLOSSARY[key];
+      mcTitle.textContent = (g && g.title) || key;
+      mcTitle.style.color = (g && CAT_COLOR[g.cat]) || 'var(--ink)';
+      mcBody.innerHTML = (g && g.body) || '<p>Definition coming soon.</p>';
+      curOrgan = el; mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
+    }
+    function hideCallout() { curOrgan = null; mapCallout.hidden = true; mapLeader.hidden = true; }
+    mapViewport.addEventListener('wheel', (e) => { e.preventDefault(); const r = mapViewport.getBoundingClientRect(); const cx = e.clientX - r.left, cy = e.clientY - r.top; const f = e.deltaY < 0 ? 1.12 : 1 / 1.12; const ns = Math.min(6, Math.max(1, mScale * f)); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mApply(); }, { passive: false });
+    const mPts = new Map(); let mLast = null, mStartD = 0, mStartS = 1;
+    mapViewport.addEventListener('pointerdown', (e) => { mapViewport.setPointerCapture(e.pointerId); mPts.set(e.pointerId, { x: e.clientX, y: e.clientY }); mDragged = false; if (mPts.size === 1) mLast = { x: e.clientX, y: e.clientY }; else if (mPts.size === 2) { const [a, b] = [...mPts.values()]; mStartD = Math.hypot(a.x - b.x, a.y - b.y); mStartS = mScale; } });
+    mapViewport.addEventListener('pointermove', (e) => { if (!mPts.has(e.pointerId)) return; mPts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (mPts.size === 2) { const [a, b] = [...mPts.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y); const r = mapViewport.getBoundingClientRect(); const cx = (a.x + b.x) / 2 - r.left, cy = (a.y + b.y) / 2 - r.top; const ns = Math.min(6, Math.max(1, mStartS * (d / (mStartD || d)))); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mDragged = true; mApply(); }
+      else if (mPts.size === 1 && mLast) { const dx = e.clientX - mLast.x, dy = e.clientY - mLast.y; mTx += dx; mTy += dy; mLast = { x: e.clientX, y: e.clientY }; if (Math.abs(dx) + Math.abs(dy) > 4) mDragged = true; mApply(); } });
+    function mUp(e) { mPts.delete(e.pointerId); if (mPts.size < 2) mStartD = 0; if (mPts.size === 1) { const p = [...mPts.values()][0]; mLast = { x: p.x, y: p.y }; } else mLast = null; }
+    mapViewport.addEventListener('pointerup', mUp); mapViewport.addEventListener('pointercancel', mUp);
+    mapViewport.addEventListener('click', () => { if (!mDragged) hideCallout(); });
+    document.getElementById('mcClose').addEventListener('click', hideCallout);
+    document.getElementById('mapReset').addEventListener('click', () => { mReset(); hideCallout(); });
+
     function loadMap() {
       if (mapLoaded) return; mapLoaded = true;
       fetch('/anim/digestive-map.svg').then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
-        heroMap.innerHTML = svg;
-        const svgEl = heroMap.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
-        heroMap.querySelectorAll('[data-term],[id]').forEach((el) => {
+        mapCanvas.innerHTML = svg;
+        const svgEl = mapCanvas.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
+        mapCanvas.querySelectorAll('[data-term],[id]').forEach((el) => {
           const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
           const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
+          if (!MAP_GLOSSARY[key]) return;
           el.style.cursor = 'pointer';
-          el.addEventListener('click', () => { if (window.openGlossary) window.openGlossary(key); });
+          el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, key); });
         });
-      }).catch(() => { heroMap.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch">Interactive map coming soon — drop <b>digestive-map.svg</b> into /public/anim.</p>'; });
+        mReset();
+      }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop <b>digestive-map.svg</b> into /public/anim.</p>'; });
     }
     document.getElementById('heroClose').addEventListener('click', closeHero);
     heroModal.addEventListener('click', (e) => { if (e.target === heroModal) closeHero(); });
