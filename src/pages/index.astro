@@ -299,7 +299,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       if (mapLoaded) return; mapLoaded = true;
       fetch('/anim/digestive-map.svg').then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
         heroMap.innerHTML = svg;
-        const svgEl = heroMap.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMin meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
+        const svgEl = heroMap.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
         heroMap.querySelectorAll('[data-term],[id]').forEach((el) => {
           const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
           const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
