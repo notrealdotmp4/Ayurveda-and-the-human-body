@@ -210,7 +210,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       catPill.textContent = cat.label; catPill.style.background = cat.color;
       dTitle.textContent = g.title; dTitle.style.color = cat.color;
       dPhon.textContent = g.phon || '';
-      dBody.innerHTML = g.body || '<p><em>Definition coming soon.</em></p>';
+      dBody.innerHTML = '<img class="def-icon" src="/anim/icons/' + key.replace(/\s+/g, '-') + '.svg" alt="" onerror="this.remove()">' + (g.body || '<p><em>Definition coming soon.</em></p>');
       scrim.classList.add('open'); drawer.classList.add('open');
       drawer.setAttribute('aria-hidden', 'false');
       history.pushState({ term: key }, '');
@@ -327,7 +327,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const g = MAP_GLOSSARY[key];
       mcTitle.textContent = (g && g.title) || key;
       mcTitle.style.color = (g && CAT_COLOR[g.cat]) || 'var(--ink)';
-      mcBody.innerHTML = (g && g.body) || '<p>Definition coming soon.</p>';
+      mcBody.innerHTML = '<img class="def-icon" src="/anim/icons/' + key.replace(/\s+/g, '-') + '.svg" alt="" onerror="this.remove()">' + ((g && g.body) || '<p>Definition coming soon.</p>');
       if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
     }
     function hideCallout() { if (curOrgan) curOrgan.classList.remove('is-active'); curOrgan = null; mapCallout.hidden = true; mapLeader.hidden = true; }
