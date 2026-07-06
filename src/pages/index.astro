@@ -200,6 +200,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
       { key: 'pitta dosha', label: 'Pitta', emoji: '🔥', slug: 'pitta-dosha' },
       { key: 'kapha dosha', label: 'Kapha', emoji: '🌊', slug: 'kapha-dosha' },
     ];
+    function doshaFor(g) {
+      const t = ((g.title || '') + ' ' + (g.body || '')).normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
+      const hits = [];
+      if (/\bvata\b/.test(t)) hits.push('vata dosha');
+      if (/\bpitta\b/.test(t)) hits.push('pitta dosha');
+      if (/\bkapha\b/.test(t)) hits.push('kapha dosha');
+      return hits.length === 1 ? hits[0] : null;
+    }
     function doshaExploreHTML(cur) {
       const cards = DOSHAS.map((d) => '<button class="de-card' + (d.key === cur ? ' is-on' : '') + '" data-term="' + d.key + '"><span class="de-ic"><img class="de-img" src="/anim/icons/' + d.slug + '.svg" alt="" data-emoji="' + d.emoji + '"></span><span class="de-lbl">' + d.label + '</span></button>').join('');
       return '<div class="dosha-explore"><div class="de-label">Explore the doshas</div><div class="de-cards">' + cards + '</div></div>';
@@ -220,8 +228,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       dTitle.textContent = g.title; dTitle.style.color = cat.color;
       dPhon.textContent = g.phon || '';
       dBody.innerHTML = '<img class="def-icon" src="/anim/icons/' + key.replace(/\s+/g, '-') + '.svg" alt="" onerror="this.remove()">' + (g.body || '<p><em>Definition coming soon.</em></p>');
-      if (DOSHAS.some((d) => d.key === key)) {
-        dBody.insertAdjacentHTML('beforeend', doshaExploreHTML(key));
+      const _dk = doshaFor(g);
+      if (_dk) {
+        dBody.insertAdjacentHTML('beforeend', doshaExploreHTML(_dk));
         dBody.querySelectorAll('.de-card').forEach((c) => {
           c.addEventListener('click', () => openTerm(c.dataset.term));
           const im = c.querySelector('img'); if (im) im.addEventListener('error', () => { const sp = document.createElement('span'); sp.className = 'de-emoji'; sp.textContent = im.dataset.emoji; im.replaceWith(sp); });
