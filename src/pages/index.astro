@@ -51,7 +51,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <div class="lo-kicker">{first.kicker}</div>
         <h1 class="lo-title">{first.title}</h1>
         <div class="lo-hint">scroll to begin ↓</div>
-        <button class="lo-revisit" id="loRevisit">↻ Replay</button>
       </div>
       <div class="lo-scene">
         <div class="lo-sticky">
@@ -89,6 +88,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       )}
     </section>
   )}
+
+  <div class="lo-revisit-wrap"><button class="lo-revisit" id="loRevisit">↻ Replay the animation</button></div>
 
   <header class="site">
     <div class="kicker">An Interactive Ayurveda Book</div>
@@ -276,8 +277,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
 
     const toolbar = document.getElementById('toolbar');
-    const revisitBtn = document.getElementById('loRevisit');
-    function revealTools(on) { toolbar.classList.toggle('show', on); if (revisitBtn) revisitBtn.classList.toggle('show', on); }
+    function revealTools(on) { toolbar.classList.toggle('show', on); }
     const synthEl = document.querySelector('.lo-synthesis');
     if (synthEl) {
       new IntersectionObserver((es) => es.forEach((e) => revealTools(e.isIntersecting || e.boundingClientRect.top < 0)), { threshold: 0 }).observe(synthEl);
