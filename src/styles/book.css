@@ -88,9 +88,9 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 @keyframes loPop{0%{opacity:0;transform:scale(.62)}60%{opacity:1}100%{opacity:1;transform:scale(1)}}
 @keyframes loRise{0%{opacity:0;transform:translateY(16px)}100%{opacity:1;transform:translateY(0)}}
 .skip-intro .lo-scene{display:none}
-.lo-controls{position:absolute;left:50%;bottom:96px;transform:translateX(-50%);display:flex;gap:10px;z-index:6}
-.lo-controls button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);cursor:pointer;box-shadow:0 6px 16px rgba(44,38,34,.12)}
-.lo-controls button:hover{color:var(--ink);border-color:var(--c-ayurveda)}
+
+
+
 .lo-dots{position:absolute;right:max(16px,3vw);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px}
 .lo-dot{width:9px;height:9px;border-radius:50%;border:0;background:var(--line);cursor:pointer;padding:0}
 .lo-dot.is-on{background:var(--c-physiology);transform:scale(1.25)}
@@ -141,4 +141,4 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .tbar-btn svg{width:24px;height:24px}
 .tbar-btn:hover,.tbar-btn:focus-visible{color:var(--c-ayurveda);background:rgba(0,0,0,.045);outline:none}
 html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
-.lo-revisit{display:none;position:absolute;left:50%;bottom:96px;transform:translateX(-50%);align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);cursor:pointer;box-shadow:0 6px 16px rgba(44,38,34,.12);z-index:6}.lo-revisit:hover{color:var(--ink)}.skip-intro .lo-revisit{display:inline-flex}.skip-intro .lo-hint{display:none}@media(max-width:640px){.skip-intro .lo-revisit{position:static;transform:none;margin-top:14px}}
+.lo-revisit{position:fixed;left:50%;bottom:74px;transform:translateX(-50%) translateY(18px);z-index:59;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-family:system-ui,sans-serif;font-size:13px;color:var(--ink-soft);cursor:pointer;box-shadow:0 6px 16px rgba(44,38,34,.12);opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s ease}.lo-revisit.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0)}.lo-revisit:hover{color:var(--ink)}

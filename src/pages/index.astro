@@ -74,10 +74,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
               );
             })}
           </div>
-          <div class="lo-controls">
-            <button class="lo-replay" id="loReplay">↻ Replay</button>
-            <button class="lo-skip" id="loSkip">Skip ↓</button>
-          </div>
           <div class="lo-dots" id="loDots"></div>
         </div>
         {loStages.map((s, i) => (<div class="lo-step" data-step={i}></div>))}
@@ -236,7 +232,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const stages = [...scene.querySelectorAll('.lo-stage')];
       const steps = [...scene.querySelectorAll('.lo-step')];
       const dotsWrap = document.getElementById('loDots');
-      const replay = document.getElementById('loReplay');
       let active = 0;
       const players = stages.map((st) => {
         const el = st.querySelector('[data-lottie]');
@@ -268,13 +263,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
       steps.forEach((s) => io.observe(s));
       stages[0].classList.add('is-active');
       playMedia(0);
-      replay.addEventListener('click', () => show(active, true));
-      const skipBtn = document.getElementById('loSkip');
-      if (skipBtn) skipBtn.addEventListener('click', () => {
-        try { localStorage.setItem('seenIntro', '1'); } catch (e) {}
-        const after = document.querySelector('.lo-synthesis') || document.querySelector('header.site');
-        if (after) after.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
     }
   </script>
 
@@ -287,11 +275,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
 
     const toolbar = document.getElementById('toolbar');
-    const introEl = document.querySelector('.lo-intro');
-    if (introEl) {
-      new IntersectionObserver((es) => es.forEach((e) => toolbar.classList.toggle('show', !e.isIntersecting)), { threshold: 0 }).observe(introEl);
+    const revisitBtn = document.getElementById('loRevisit');
+    function revealTools(on) { toolbar.classList.toggle('show', on); if (revisitBtn) revisitBtn.classList.toggle('show', on); }
+    const synthEl = document.querySelector('.lo-synthesis');
+    if (synthEl) {
+      new IntersectionObserver((es) => es.forEach((e) => revealTools(e.isIntersecting || e.boundingClientRect.top < 0)), { threshold: 0 }).observe(synthEl);
     } else {
-      toolbar.classList.add('show');
+      revealTools(true);
     }
 
     // Hero modal
