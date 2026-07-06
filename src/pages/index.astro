@@ -79,7 +79,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       </div>
       {(loOrganism || loClosing.length > 0) && (
         <div class="lo-synthesis">
-          <img class="lo-organism-img" src="/anim/BodyMainClothes.svg" alt="The human body" />
+          <video class="lo-organism-img" src="/anim/introWoman.mp4" autoplay muted loop playsinline preload="metadata" aria-label="The human body"></video>
           {loOrganism && <span class="lo-step-no">{loStages.length + 1}</span>}
           {loOrganism && <h3>{loOrganism.name}</h3>}
           {loClosing.map((b) => (
