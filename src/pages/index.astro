@@ -79,7 +79,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       </div>
       {(loOrganism || loClosing.length > 0) && (
         <div class="lo-synthesis">
-          <img class="lo-organism-img" src="/anim/BodyMainClothes.svg" alt="The human body" />
+          <img class="lo-organism-img" src="/anim/BodyCloseup.svg" alt="The human body" />
+          {loOrganism && <span class="lo-step-no">{loStages.length + 1}</span>}
           {loOrganism && <h3>{loOrganism.name}</h3>}
           {loClosing.map((b) => (
             <p>{b.segments.map((seg) => (seg.term ? <span class="term" role="button" tabindex="0" data-cat={seg.cat} data-term={seg.term}>{seg.t}</span> : <Fragment>{seg.t}</Fragment>))}</p>
