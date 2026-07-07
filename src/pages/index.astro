@@ -15,6 +15,7 @@ const STAGE_MEDIA = [
   { type: 'lottie', src: '/anim/Tissue.json' },
   { type: 'lottie', src: '/anim/Organ.json' },
   { type: 'svg', src: '/anim/BodyCloseup.svg' },
+  { type: 'video', src: '/anim/introWoman.mp4' },
 ];
 const ART = [
   `<svg viewBox="0 0 120 120" fill="none"><g stroke="var(--c-physiology)" stroke-width="2"><ellipse cx="60" cy="60" rx="46" ry="17"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(60 60 60)"/><ellipse cx="60" cy="60" rx="46" ry="17" transform="rotate(120 60 60)"/></g><circle cx="60" cy="60" r="9" fill="var(--ink)"/></svg>`,
@@ -27,6 +28,8 @@ const isLO = !!(first && first.blocks.some((b) => b.type === 'level'));
 const loStages  = isLO ? first.blocks.filter((b) => b.type === 'level' && b.info) : [];
 const loOrganism = isLO ? first.blocks.find((b) => b.type === 'level' && !b.info) : null;
 const loClosing = isLO ? first.blocks.filter((b) => b.type === 'p') : [];
+const loOrganismText = loClosing.map((b) => b.segments.map((s) => s.t).join('')).join(' ');
+const loSlides = loOrganism ? [...loStages, { name: loOrganism.name, info: loOrganismText }] : loStages;
 const rest = isLO ? chapters.slice(1) : chapters;
 ---
 <!doctype html>
@@ -55,7 +58,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <div class="lo-scene">
         <div class="lo-sticky">
           <div class="lo-art-wrap">
-            {loStages.map((s, i) => {
+            {loSlides.map((s, i) => {
               const m = STAGE_MEDIA[i];
               return (
                 <figure class="lo-stage" data-stage={i}>
@@ -63,6 +66,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
                     ? <div class="lo-art" data-lottie={m.src}></div>
                     : m && m.type === 'svg'
                     ? <div class="lo-art"><img class="lo-svg" data-svg src={m.src} alt={s.name} /></div>
+                    : m && m.type === 'video'
+                    ? <div class="lo-art"><video class="lo-svg" data-video src={m.src} muted loop playsinline preload="metadata"></video></div>
                     : <div class="lo-art" set:html={ART[i] || ''}></div>}
                   <figcaption class="lo-cap">
                     <span class="lo-step-no">{i + 1}</span>
@@ -75,22 +80,12 @@ const rest = isLO ? chapters.slice(1) : chapters;
           </div>
           <div class="lo-dots" id="loDots"></div>
         </div>
-        {loStages.map((s, i) => (<div class="lo-step" data-step={i}></div>))}
+        {loSlides.map((s, i) => (<div class="lo-step" data-step={i}></div>))}
       </div>
-      {(loOrganism || loClosing.length > 0) && (
-        <div class="lo-synthesis">
-          <video class="lo-organism-img" src="/anim/introWoman.mp4" autoplay muted loop playsinline preload="metadata" aria-label="The human body"></video>
-          {loOrganism && <span class="lo-step-no">{loStages.length + 1}</span>}
-          {loOrganism && <h3>{loOrganism.name}</h3>}
-          {loClosing.map((b) => (
-            <p>{b.segments.map((seg) => (seg.term ? <span class="term" role="button" tabindex="0" data-cat={seg.cat} data-term={seg.term}>{seg.t}</span> : <Fragment>{seg.t}</Fragment>))}</p>
-          ))}
-        </div>
-      )}
     </section>
   )}
 
-  <div class="lo-revisit-wrap"><button class="lo-revisit" id="loRevisit">↻ Replay the animation</button></div>
+  <div class="lo-revisit-wrap"><button class="lo-revisit" id="loRevisit">↻ Replay the slides</button></div>
 
   <header class="site">
     <div class="kicker">An Interactive Ayurveda Book</div>
@@ -268,12 +263,18 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const dotsWrap = document.getElementById('loDots');
       let active = 0;
       const players = stages.map((st) => {
-        const el = st.querySelector('[data-lottie]');
-        if (!el) return null;
-        return lottie.loadAnimation({ container: el, renderer: 'svg', loop: false, autoplay: false, path: el.dataset.lottie });
+        const lot = st.querySelector('[data-lottie]');
+        if (lot) return { type: 'lottie', anim: lottie.loadAnimation({ container: lot, renderer: 'svg', loop: false, autoplay: false, path: lot.dataset.lottie }) };
+        const vid = st.querySelector('video[data-video]');
+        if (vid) { vid.muted = true; return { type: 'video', el: vid }; }
+        return null;
       });
       function playMedia(i) {
-        players.forEach((p, n) => { if (p) { if (n === i) { p.goToAndPlay(0, true); } else { p.pause(); } } });
+        players.forEach((p, n) => {
+          if (!p) return;
+          if (n === i) { if (p.type === 'lottie') p.anim.goToAndPlay(0, true); else { try { p.el.currentTime = 0; } catch (e) {} p.el.play().catch(() => {}); } }
+          else { if (p.type === 'lottie') p.anim.pause(); else p.el.pause(); }
+        });
       }
       const dots = stages.map((_, i) => {
         const d = document.createElement('button');
@@ -310,7 +311,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
 
     const toolbar = document.getElementById('toolbar');
     function revealTools(on) { toolbar.classList.toggle('show', on); }
-    const synthEl = document.querySelector('.lo-synthesis');
+    const synthEl = document.querySelector('.lo-revisit-wrap');
     if (synthEl) {
       new IntersectionObserver((es) => es.forEach((e) => revealTools(e.isIntersecting || e.boundingClientRect.top < 0)), { threshold: 0 }).observe(synthEl);
     } else {
