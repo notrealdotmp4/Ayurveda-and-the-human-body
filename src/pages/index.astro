@@ -81,6 +81,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="lo-dots" id="loDots"></div>
         </div>
         {loSlides.map((s, i) => (<div class="lo-step" data-step={i}></div>))}
+        {loSlides.length > 0 && <div class="lo-step lo-step-hold" data-step={loSlides.length - 1}></div>}
       </div>
     </section>
   )}
