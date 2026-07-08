@@ -137,7 +137,7 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 /* ---- Bottom pill navigation ---- */
 .toolbar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%) translateY(18px);z-index:60;display:flex;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 10px;box-shadow:0 10px 28px rgba(44,38,34,.18);font-family:system-ui,sans-serif;opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s ease}
 .toolbar.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0)}
-.tbar-btn{display:flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--ink-soft);border-radius:999px;padding:12px 22px;cursor:pointer;transition:color .15s,background .15s}
+.tbar-btn{display:flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--ink-soft);border-radius:999px;padding:12px 22px;cursor:pointer;transition:color .15s,background .15s}.tbar-btn[data-tool="hero"]{background:var(--c-anatomy);color:#fff}.tbar-btn[data-tool="hero"]:hover,.tbar-btn[data-tool="hero"]:focus-visible{background:var(--c-anatomy);color:#fff;filter:brightness(1.08)}
 .tbar-btn svg{width:24px;height:24px}
 .tbar-btn:hover,.tbar-btn:focus-visible{color:var(--c-ayurveda);background:rgba(0,0,0,.045);outline:none}
 html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
