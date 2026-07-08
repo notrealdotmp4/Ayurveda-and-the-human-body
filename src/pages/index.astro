@@ -97,6 +97,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
     </div>
   </header>
 
+  <div class="map-cta-wrap">
+    <button class="map-cta" id="mapCta" aria-label="Open the interactive digestive body map">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.4"/><path d="M12 8v7M12 15l-4 6M12 15l4 6M5 11l7-2 7 2"/></svg>
+      <span>Explore the interactive body map</span>
+    </button>
+    <div class="map-cta-hint">Zoom, pan, and tap an organ to see how digestion works</div>
+  </div>
+
   <div class="wrap">
     {rest.map((ch) => (
       <section>
@@ -326,7 +334,12 @@ const rest = isLO ? chapters.slice(1) : chapters;
     let mapLoaded = false;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
-    function openHero() { heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showVideo(); }
+    function openHero() {
+      heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
+      let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
+      if (seenHero) { showMap(); }
+      else { showVideo(); try { localStorage.setItem('seenHeroVideo', '1'); } catch (e) {} }
+    }
     function closeHero() { heroModal.classList.remove('open'); heroModal.setAttribute('aria-hidden', 'true'); heroVideo.pause(); }
     const mapViewport = document.getElementById('mapViewport');
     const mapCanvas = document.getElementById('mapCanvas');
@@ -389,6 +402,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop <b>digestive-map.svg</b> into /public/anim.</p>'; });
     }
     document.getElementById('heroClose').addEventListener('click', closeHero);
+    { const _mc = document.getElementById('mapCta'); if (_mc) _mc.addEventListener('click', openHero); }
     heroModal.addEventListener('click', (e) => { if (e.target === heroModal) closeHero(); });
     document.getElementById('hmReplay').addEventListener('click', showVideo);
     document.getElementById('hmExplore').addEventListener('click', showMap);
