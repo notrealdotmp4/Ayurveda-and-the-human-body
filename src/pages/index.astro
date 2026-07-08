@@ -359,6 +359,10 @@ const rest = isLO ? chapters.slice(1) : chapters;
     }
     function hideCallout() { if (curOrgan) curOrgan.classList.remove('is-active'); curOrgan = null; mapCallout.hidden = true; mapLeader.hidden = true; }
     mapViewport.addEventListener('wheel', (e) => { e.preventDefault(); const r = mapViewport.getBoundingClientRect(); const cx = e.clientX - r.left, cy = e.clientY - r.top; const f = e.deltaY < 0 ? 1.12 : 1 / 1.12; const ns = Math.min(6, Math.max(1, mScale * f)); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mApply(); }, { passive: false });
+    let mGestureStart = 1;
+    mapViewport.addEventListener('gesturestart', (e) => { e.preventDefault(); mGestureStart = mScale; });
+    mapViewport.addEventListener('gesturechange', (e) => { e.preventDefault(); const r = mapViewport.getBoundingClientRect(); const cx = ((e.clientX != null ? e.clientX : r.left + r.width / 2)) - r.left, cy = ((e.clientY != null ? e.clientY : r.top + r.height / 2)) - r.top; const ns = Math.min(6, Math.max(1, mGestureStart * e.scale)); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mApply(); });
+    mapViewport.addEventListener('gestureend', (e) => { e.preventDefault(); });
     const mPts = new Map(); let mLast = null, mStartD = 0, mStartS = 1;
     function mMove(e) { if (!mPts.has(e.pointerId)) return; mPts.set(e.pointerId, { x: e.clientX, y: e.clientY });
       if (mPts.size === 2) { const [a, b] = [...mPts.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y); const r = mapViewport.getBoundingClientRect(); const cx = (a.x + b.x) / 2 - r.left, cy = (a.y + b.y) / 2 - r.top; const ns = Math.min(6, Math.max(1, mStartS * (d / (mStartD || d)))); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mDragged = true; mApply(); }
