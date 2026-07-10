@@ -353,7 +353,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const MAP_GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
     const CAT_COLOR = { ayurveda: 'var(--c-ayurveda)', physiology: 'var(--c-physiology)', anatomy: 'var(--c-anatomy)' };
     let mScale = 1, mTx = 0, mTy = 0, mDragged = false, curOrgan = null;
-    function mApply() { mapCanvas.style.transform = 'translate(' + mTx + 'px,' + mTy + 'px) scale(' + mScale + ')'; if (curOrgan) positionCallout(curOrgan); }
+    function mApply() {
+      const vw = mapViewport.clientWidth || 1, vh = mapViewport.clientHeight || 1;
+      mapCanvas.style.width = (vw * mScale) + 'px';
+      mapCanvas.style.height = (vh * mScale) + 'px';
+      mapCanvas.style.transform = 'translate(' + mTx + 'px,' + mTy + 'px)';
+      if (curOrgan) positionCallout(curOrgan);
+    }
     function mReset() { mScale = 1; mTx = 0; mTy = 0; mApply(); }
     function positionCallout(el) {
       const vr = heroMap.getBoundingClientRect(), or = el.getBoundingClientRect();
