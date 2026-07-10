@@ -167,7 +167,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="map-viewport" id="mapViewport"><div class="map-canvas" id="mapCanvas"></div></div>
           <svg class="map-leader" id="mapLeader" hidden><line id="mcLine" x1="0" y1="0" x2="0" y2="0"/></svg>
           <div class="map-callout" id="mapCallout" hidden><button class="mc-close" id="mcClose" aria-label="Close">×</button><div class="mc-title" id="mcTitle"></div><div class="mc-body" id="mcBody"></div></div>
-          <div class="map-controls"><button id="mapReset" title="Reset view">Reset view</button></div>
+          <div class="map-list" id="mapList"><div class="map-list-title">Clickable organs — tap to jump</div><div class="map-chips" id="mapChips"></div></div>
+          <div class="map-controls"><button id="mapListBtn" title="List of clickable organs">Organs</button><button id="mapReset" title="Reset view">Reset view</button></div>
           <div class="map-hint">Drag to pan · scroll or pinch to zoom · tap an organ</div>
         </div>
       </div>
@@ -348,6 +349,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const mcBody = document.getElementById('mcBody');
     const mapLeader = document.getElementById('mapLeader');
     const mcLine = document.getElementById('mcLine');
+    const mapList = document.getElementById('mapList');
     const MAP_GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
     const CAT_COLOR = { ayurveda: 'var(--c-ayurveda)', physiology: 'var(--c-physiology)', anatomy: 'var(--c-anatomy)' };
     let mScale = 1, mTx = 0, mTy = 0, mDragged = false, curOrgan = null;
@@ -371,6 +373,25 @@ const rest = isLO ? chapters.slice(1) : chapters;
       if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
     }
     function hideCallout() { if (curOrgan) curOrgan.classList.remove('is-active'); curOrgan = null; mapCallout.hidden = true; mapLeader.hidden = true; }
+    function focusOrgan(el) {
+      const vr = mapViewport.getBoundingClientRect(), or = el.getBoundingClientRect();
+      const cx = or.left + or.width / 2 - vr.left, cy = or.top + or.height / 2 - vr.top;
+      const ocx = (cx - mTx) / mScale, ocy = (cy - mTy) / mScale;
+      mScale = Math.min(6, Math.max(1, 2.2));
+      mTx = vr.width / 2 - mScale * ocx; mTy = vr.height / 2 - mScale * ocy;
+      mApply();
+    }
+    function buildOrganList(organMap) {
+      const chips = document.getElementById('mapChips'); if (!chips) return; chips.innerHTML = '';
+      [...organMap.entries()].map(([key, el]) => ({ key, el, title: (MAP_GLOSSARY[key] && MAP_GLOSSARY[key].title) || key }))
+        .sort((a, b) => a.title.localeCompare(b.title))
+        .forEach(({ key, el, title }) => {
+          const b = document.createElement('button'); b.className = 'map-chip'; b.textContent = title;
+          b.addEventListener('click', () => { mapList.classList.remove('show'); focusOrgan(el); showCallout(el, key); });
+          chips.appendChild(b);
+        });
+      if (mapListBtn) mapListBtn.style.display = chips.children.length ? '' : 'none';
+    }
     mapViewport.addEventListener('wheel', (e) => { e.preventDefault(); const r = mapViewport.getBoundingClientRect(); const cx = e.clientX - r.left, cy = e.clientY - r.top; const f = e.deltaY < 0 ? 1.12 : 1 / 1.12; const ns = Math.min(6, Math.max(1, mScale * f)); const k = ns / mScale; mTx = cx - k * (cx - mTx); mTy = cy - k * (cy - mTy); mScale = ns; mApply(); }, { passive: false });
     let mGestureStart = 1;
     mapViewport.addEventListener('gesturestart', (e) => { e.preventDefault(); mGestureStart = mScale; });
@@ -385,19 +406,24 @@ const rest = isLO ? chapters.slice(1) : chapters;
     mapViewport.addEventListener('click', () => { if (!mDragged) hideCallout(); });
     document.getElementById('mcClose').addEventListener('click', hideCallout);
     document.getElementById('mapReset').addEventListener('click', () => { mReset(); hideCallout(); });
+    const mapListBtn = document.getElementById('mapListBtn');
+    if (mapListBtn) mapListBtn.addEventListener('click', () => mapList.classList.toggle('show'));
 
     function loadMap() {
       if (mapLoaded) return; mapLoaded = true;
       fetch('/anim/digestive-map.svg').then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
         mapCanvas.innerHTML = svg;
         const svgEl = mapCanvas.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
+        const organMap = new Map();
         mapCanvas.querySelectorAll('[data-term],[id]').forEach((el) => {
           const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
           const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
           if (!MAP_GLOSSARY[key]) return;
           el.style.cursor = 'pointer'; el.classList.add('map-organ');
           el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, key); });
+          if (!organMap.has(key)) organMap.set(key, el);
         });
+        buildOrganList(organMap);
         mReset();
       }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop <b>digestive-map.svg</b> into /public/anim.</p>'; });
     }
