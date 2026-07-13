@@ -874,5 +874,41 @@
     "title": "Pañcha Mahābhūtas",
     "phon": "",
     "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom (ether), movement (air), transformation (fire), cohesiveness (water), and stability (earth), and combine in specific proportions to form the three biological organizations (tridosha).</p>"
+  },
+  "rakta": {
+    "cat": "ayurveda",
+    "title": "Rakta",
+    "phon": "",
+    "body": "<p>Rakta (blood tissue) — the second bodily tissue (dhātu); carries oxygen and vitality, and governs circulation and complexion.</p>"
+  },
+  "mamsa": {
+    "cat": "ayurveda",
+    "title": "Māmsa",
+    "phon": "",
+    "body": "<p>Māmsa (muscle tissue) — the third dhātu; provides strength, movement, and physical form.</p>"
+  },
+  "meda": {
+    "cat": "ayurveda",
+    "title": "Meda",
+    "phon": "",
+    "body": "<p>Meda (fat / adipose tissue) — the fourth dhātu; lubricates, insulates, and stores energy.</p>"
+  },
+  "asthi": {
+    "cat": "ayurveda",
+    "title": "Asthi",
+    "phon": "",
+    "body": "<p>Asthi (bone tissue) — the fifth dhātu; gives the body structure, support, and protection.</p>"
+  },
+  "majja": {
+    "cat": "ayurveda",
+    "title": "Majjā",
+    "phon": "",
+    "body": "<p>Majjā (bone marrow and nerve tissue) — the sixth dhātu; fills the bones and carries nerve impulses.</p>"
+  },
+  "shukra artava": {
+    "cat": "ayurveda",
+    "title": "Shukra / Ārtava",
+    "phon": "",
+    "body": "<p>Shukra / Ārtava (reproductive tissue) — the seventh and most refined dhātu; governs reproduction and, at its essence, vitality (ojas).</p>"
   }
 }

@@ -102,6 +102,10 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.4"/><path d="M12 8v7M12 15l-4 6M12 15l4 6M5 11l7-2 7 2"/></svg>
       <span>Explore the interactive body map</span>
     </button>
+    <button class="map-cta map-cta-alt" id="mapCta2" aria-label="Open the Vyadhi Marga channels map">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 4v4h-4"/></svg>
+      <span>Explore the Vyādhi Mārga map (preview)</span>
+    </button>
     <div class="map-cta-hint">Zoom, pan, and tap an organ to see how digestion works</div>
   </div>
 
@@ -160,7 +164,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <!-- Hero modal -->
   <div class="hero-modal" id="heroModal" aria-hidden="true">
     <div class="hero-win">
-      <div class="hm-head"><strong>The Living Body — digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
+      <div class="hm-head"><strong id="hmTitle">The Living Body — digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
       <div class="hero-stage">
         <video id="heroVideo" src="/anim/BodyAnimation_ready.mp4" playsinline preload="metadata"></video>
         <div class="hero-map" id="heroMap">
@@ -168,7 +172,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <svg class="map-leader" id="mapLeader" hidden><line id="mcLine" x1="0" y1="0" x2="0" y2="0"/></svg>
           <div class="map-callout" id="mapCallout" hidden><button class="mc-close" id="mcClose" aria-label="Close">×</button><div class="mc-title" id="mcTitle"></div><div class="mc-body" id="mcBody"></div></div>
           <div class="map-list" id="mapList"><div class="map-list-title">Clickable organs — tap to jump</div><div class="map-chips" id="mapChips"></div></div>
-          <div class="map-controls"><button id="mapListBtn" title="List of clickable organs">Organs</button><button id="mapReset" title="Reset view">Reset view</button></div>
+          <div class="map-controls"><button id="mapTourBtn" title="Guided tour" style="display:none">Tour</button><button id="mapListBtn" title="List of clickable organs">Organs</button><button id="mapReset" title="Reset view">Reset view</button></div>
+          <div class="map-tour" id="mapTour" hidden><button id="tourBack">‹ Back</button><span class="map-tour-count" id="tourCount"></span><button id="tourNext">Next ›</button><button id="tourExit" class="map-tour-exit">Exit</button></div>
           <div class="map-hint">Drag to pan · scroll or pinch to zoom · tap an organ</div>
         </div>
       </div>
@@ -355,10 +360,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const heroModal = document.getElementById('heroModal');
     const heroVideo = document.getElementById('heroVideo');
     const heroMap = document.getElementById('heroMap');
-    let mapLoaded = false;
+    let currentMapSrc = null; let heroMapSrc = '/anim/digestive-map.svg'; const MAP_ALIAS = { 'rasa': 'rasa dhatu' };
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
+    function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
+    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'Vyādhi Mārga — the channels of circulation', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
     function openHero() {
+      setHeroMode('/anim/digestive-map.svg', 'The Living Body — digestion', true);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
       if (seenHero) { showMap(); }
@@ -437,27 +445,50 @@ const rest = isLO ? chapters.slice(1) : chapters;
     document.getElementById('mapReset').addEventListener('click', () => { mReset(); hideCallout(); });
     const mapListBtn = document.getElementById('mapListBtn');
     if (mapListBtn) mapListBtn.addEventListener('click', () => mapList.classList.toggle('show'));
+    let mapOrgansByKey = null, tourStops = [], tourI = -1;
+    const TOUR = { '/anim/vyadhi-marga-map.svg': ['tongue', 'stomach', 'heart', 'rasa dhatu', 'rakta', 'mamsa', 'meda', 'asthi', 'majja', 'shukra artava'] };
+    const mapTour = document.getElementById('mapTour');
+    const tourCount = document.getElementById('tourCount');
+    function tourGo(i) {
+      if (i < 0 || i >= tourStops.length) return; tourI = i;
+      const key = tourStops[i], el = mapOrgansByKey && mapOrgansByKey.get(key);
+      if (el) { focusOrgan(el); showCallout(el, key); }
+      tourCount.textContent = (i + 1) + ' / ' + tourStops.length;
+      document.getElementById('tourBack').disabled = (i === 0);
+      document.getElementById('tourNext').disabled = (i === tourStops.length - 1);
+    }
+    function startTour() { tourStops = (TOUR[currentMapSrc] || []).filter((k) => mapOrgansByKey && mapOrgansByKey.has(k)); if (!tourStops.length) return; if (mapList) mapList.classList.remove('show'); mapTour.hidden = false; tourGo(0); }
+    function endTour() { mapTour.hidden = true; hideCallout(); }
+    { const tb = document.getElementById('mapTourBtn'); if (tb) tb.addEventListener('click', startTour); }
+    document.getElementById('tourNext').addEventListener('click', () => tourGo(tourI + 1));
+    document.getElementById('tourBack').addEventListener('click', () => tourGo(tourI - 1));
+    document.getElementById('tourExit').addEventListener('click', endTour);
 
     function loadMap() {
-      if (mapLoaded) return; mapLoaded = true;
-      fetch('/anim/digestive-map.svg').then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
+      const src = heroMapSrc || '/anim/digestive-map.svg';
+      if (currentMapSrc === src) { mReset(); return; }
+      currentMapSrc = src; hideCallout(); if (mapList) mapList.classList.remove('show');
+      fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
         mapCanvas.innerHTML = svg;
         const svgEl = mapCanvas.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
         const organMap = new Map();
         mapCanvas.querySelectorAll('[data-term],[id]').forEach((el) => {
           const raw = el.getAttribute('data-term') || el.id; if (!raw) return;
-          const key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
+          let key = raw.toLowerCase().replace(/[_-]+/g, ' ').trim();
+          if (!MAP_GLOSSARY[key] && MAP_ALIAS[key]) key = MAP_ALIAS[key];
           if (!MAP_GLOSSARY[key]) return;
+          const k = key;
           el.style.cursor = 'pointer'; el.classList.add('map-organ');
-          el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, key); });
-          if (!organMap.has(key)) organMap.set(key, el);
+          el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, k); });
+          if (!organMap.has(k)) organMap.set(k, el);
         });
-        buildOrganList(organMap);
+        buildOrganList(organMap); mapOrgansByKey = organMap; { const _tb = document.getElementById('mapTourBtn'); if (_tb) _tb.style.display = TOUR[src] ? '' : 'none'; } mapTour.hidden = true;
         mReset();
-      }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop <b>digestive-map.svg</b> into /public/anim.</p>'; });
+      }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>'; });
     }
     document.getElementById('heroClose').addEventListener('click', closeHero);
     { const _mc = document.getElementById('mapCta'); if (_mc) _mc.addEventListener('click', openHero); }
+    { const _mc2 = document.getElementById('mapCta2'); if (_mc2) _mc2.addEventListener('click', openVyadhi); }
     heroModal.addEventListener('click', (e) => { if (e.target === heroModal) closeHero(); });
     document.getElementById('hmReplay').addEventListener('click', showVideo);
     document.getElementById('hmExplore').addEventListener('click', showMap);
