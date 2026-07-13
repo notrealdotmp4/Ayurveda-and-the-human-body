@@ -200,6 +200,27 @@ const rest = isLO ? chapters.slice(1) : chapters;
       anatomy:    { label: 'Anatomy',    color: 'var(--c-anatomy)' },
     };
     const GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
+    let CONNECTIONS = null;
+    function relFold(s) { return (s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+    function buildConnections() {
+      const keys = Object.keys(GLOSSARY);
+      const entries = keys.map((k) => ({ k, t: relFold(GLOSSARY[k].title || k) })).filter((e) => e.t.length > 2).sort((a, b) => b.t.length - a.t.length);
+      const titleToKey = {}; entries.forEach((e) => { if (!(e.t in titleToKey)) titleToKey[e.t] = e.k; });
+      const alt = entries.map((e) => e.t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+      const re = new RegExp('\\b(' + alt + ')\\b', 'g');
+      const out = {}; keys.forEach((k) => out[k] = new Set());
+      keys.forEach((k) => { const body = relFold((GLOSSARY[k].body || '').replace(/<[^>]+>/g, ' ')); let m; re.lastIndex = 0; while ((m = re.exec(body))) { const o = titleToKey[m[1]]; if (o && o !== k) { out[k].add(o); out[o].add(k); } } });
+      CONNECTIONS = out;
+    }
+    function relatedHTML(key, exclDoshas) {
+      if (!CONNECTIONS) buildConnections();
+      let rel = [...(CONNECTIONS[key] || [])];
+      if (exclDoshas) rel = rel.filter((k) => k !== 'vata dosha' && k !== 'pitta dosha' && k !== 'kapha dosha');
+      if (!rel.length) return '';
+      rel = rel.map((k) => ({ k, title: GLOSSARY[k].title || k, cat: GLOSSARY[k].cat })).sort((a, b) => a.title.localeCompare(b.title)).slice(0, 18);
+      const chips = rel.map((r) => '<button class="rel-chip" data-term="' + r.k.replace(/"/g, '&quot;') + '"><i class="rel-dot" style="background:' + ((CATS[r.cat] && CATS[r.cat].color) || 'var(--ink)') + '"></i>' + r.title + '</button>').join('');
+      return '<div class="rel-explore"><div class="rel-label">Connected terms</div><div class="rel-chips">' + chips + '</div></div>';
+    }
     const DOSHAS = [
       { key: 'vata dosha', label: 'Vata', emoji: '💨', slug: 'vata-dosha' },
       { key: 'pitta dosha', label: 'Pitta', emoji: '🔥', slug: 'pitta-dosha' },
@@ -241,6 +262,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
           const im = c.querySelector('img'); if (im) im.addEventListener('error', () => { const sp = document.createElement('span'); sp.className = 'de-emoji'; sp.textContent = im.dataset.emoji; im.replaceWith(sp); });
         });
       }
+      const _rel = relatedHTML(key, !!_dk);
+      if (_rel) { dBody.insertAdjacentHTML('beforeend', _rel); dBody.querySelectorAll('.rel-chip').forEach((c) => c.addEventListener('click', () => openTerm(c.dataset.term))); }
       scrim.classList.add('open'); drawer.classList.add('open');
       drawer.setAttribute('aria-hidden', 'false');
       history.pushState({ term: key }, '');
