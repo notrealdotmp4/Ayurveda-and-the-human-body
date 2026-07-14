@@ -446,7 +446,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const mapListBtn = document.getElementById('mapListBtn');
     if (mapListBtn) mapListBtn.addEventListener('click', () => mapList.classList.toggle('show'));
     let mapOrgansByKey = null, tourStops = [], tourI = -1;
-    const TOUR = { '/anim/vyadhi-marga-map.svg': ['tongue', 'jejunum', 'heart', 'rasa dhatu', 'rakta', 'mamsa', 'meda', 'asthi', 'majja', 'shukra artava', 'rajah', 'stanya', 'purisha', 'mutra', 'sveda', 'mano', '__reset__'] };
+    const TOUR = {};
     const mapTour = document.getElementById('mapTour');
     const tourCount = document.getElementById('tourCount');
     function tourGo(i) {
@@ -490,7 +490,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, k); });
           if (!organMap.has(k)) organMap.set(k, el);
         });
-        buildOrganList(organMap); mapOrgansByKey = organMap; { const _tb = document.getElementById('mapTourBtn'); if (_tb) _tb.style.display = TOUR[src] ? '' : 'none'; } mapTour.hidden = true; { const _vy = src.indexOf('vyadhi') !== -1; if (mapListBtn) mapListBtn.textContent = _vy ? 'Mārgas' : 'Organs'; const _lt = document.querySelector('.map-list-title'); if (_lt) _lt.textContent = _vy ? 'Mārgas — tap to jump' : 'Clickable organs — tap to jump'; }
+        buildOrganList(organMap); mapOrgansByKey = organMap; { const _tb = document.getElementById('mapTourBtn'); if (_tb) _tb.style.display = TOUR[src] ? '' : 'none'; } mapTour.hidden = true; { const _vy = src.indexOf('vyadhi') !== -1; if (mapListBtn) { mapListBtn.style.display = _vy ? 'none' : ''; if (!_vy) mapListBtn.textContent = 'Organs'; } if (_vy && mapList) mapList.classList.remove('show'); }
         mReset();
       }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>'; });
     }
