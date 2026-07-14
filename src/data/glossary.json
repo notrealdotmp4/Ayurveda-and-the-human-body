@@ -910,5 +910,35 @@
     "title": "Shukra / Ārtava",
     "phon": "",
     "body": "<p>Shukra / Ārtava (reproductive tissue) — the seventh and most refined dhātu; governs reproduction and, at its essence, vitality (ojas).</p>"
+  },
+  "rajah": {
+    "cat": "ayurveda",
+    "title": "Rajah",
+    "phon": "",
+    "body": "<p>Rajah — menstrual flow; the monthly discharge associated with the reproductive tissue.</p>"
+  },
+  "stanya": {
+    "cat": "ayurveda",
+    "title": "Stanya",
+    "phon": "",
+    "body": "<p>Stanya — breast milk; a secondary tissue (upadhātu) nourished from rasa (plasma).</p>"
+  },
+  "mutra": {
+    "cat": "ayurveda",
+    "title": "Mūtra",
+    "phon": "",
+    "body": "<p>Mūtra — urine; one of the three primary wastes (malas), the body’s liquid waste.</p>"
+  },
+  "sveda": {
+    "cat": "ayurveda",
+    "title": "Sveda",
+    "phon": "",
+    "body": "<p>Sveda — sweat; the waste (mala) of the fat tissue (meda); regulates temperature and skin moisture.</p>"
+  },
+  "mano": {
+    "cat": "ayurveda",
+    "title": "Mano",
+    "phon": "",
+    "body": "<p>Mano — the mind; the seat of thought, emotion, and perception, linking the senses to consciousness.</p>"
   }
 }

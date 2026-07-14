@@ -446,18 +446,26 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const mapListBtn = document.getElementById('mapListBtn');
     if (mapListBtn) mapListBtn.addEventListener('click', () => mapList.classList.toggle('show'));
     let mapOrgansByKey = null, tourStops = [], tourI = -1;
-    const TOUR = { '/anim/vyadhi-marga-map.svg': ['tongue', 'stomach', 'heart', 'rasa dhatu', 'rakta', 'mamsa', 'meda', 'asthi', 'majja', 'shukra artava'] };
+    const TOUR = { '/anim/vyadhi-marga-map.svg': ['tongue', 'jejunum', 'heart', 'rasa dhatu', 'rakta', 'mamsa', 'meda', 'asthi', 'majja', 'shukra artava', 'rajah', 'stanya', 'purisha', 'mutra', 'sveda', 'mano', '__reset__'] };
     const mapTour = document.getElementById('mapTour');
     const tourCount = document.getElementById('tourCount');
     function tourGo(i) {
-      if (i < 0 || i >= tourStops.length) return; tourI = i;
-      const key = tourStops[i], el = mapOrgansByKey && mapOrgansByKey.get(key);
+      if (i < 0 || i >= tourStops.length) return;
+      const key = tourStops[i];
+      if (key === '__reset__') { mReset(); hideCallout(); mapTour.hidden = true; tourI = -1; return; }
+      tourI = i;
+      const el = mapOrgansByKey && mapOrgansByKey.get(key);
       if (el) { focusOrgan(el); showCallout(el, key); }
-      tourCount.textContent = (i + 1) + ' / ' + tourStops.length;
+      const total = tourStops.filter((k) => k !== '__reset__').length;
+      tourCount.textContent = (i + 1) + ' / ' + total;
       document.getElementById('tourBack').disabled = (i === 0);
-      document.getElementById('tourNext').disabled = (i === tourStops.length - 1);
+      document.getElementById('tourNext').disabled = false;
     }
-    function startTour() { tourStops = (TOUR[currentMapSrc] || []).filter((k) => mapOrgansByKey && mapOrgansByKey.has(k)); if (!tourStops.length) return; if (mapList) mapList.classList.remove('show'); mapTour.hidden = false; tourGo(0); }
+    function startTour() {
+      tourStops = (TOUR[currentMapSrc] || []).filter((k) => k === '__reset__' || (mapOrgansByKey && mapOrgansByKey.has(k)));
+      if (!tourStops.filter((k) => k !== '__reset__').length) return;
+      if (mapList) mapList.classList.remove('show'); mapTour.hidden = false; tourGo(0);
+    }
     function endTour() { mapTour.hidden = true; hideCallout(); }
     { const tb = document.getElementById('mapTourBtn'); if (tb) tb.addEventListener('click', startTour); }
     document.getElementById('tourNext').addEventListener('click', () => tourGo(tourI + 1));
@@ -482,14 +490,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
           el.addEventListener('click', (ev) => { ev.stopPropagation(); if (mDragged) return; showCallout(el, k); });
           if (!organMap.has(k)) organMap.set(k, el);
         });
-        buildOrganList(organMap); mapOrgansByKey = organMap; { const _tb = document.getElementById('mapTourBtn'); if (_tb) _tb.style.display = TOUR[src] ? '' : 'none'; } mapTour.hidden = true;
+        buildOrganList(organMap); mapOrgansByKey = organMap; { const _tb = document.getElementById('mapTourBtn'); if (_tb) _tb.style.display = TOUR[src] ? '' : 'none'; } mapTour.hidden = true; { const _vy = src.indexOf('vyadhi') !== -1; if (mapListBtn) mapListBtn.textContent = _vy ? 'Mārgas' : 'Organs'; const _lt = document.querySelector('.map-list-title'); if (_lt) _lt.textContent = _vy ? 'Mārgas — tap to jump' : 'Clickable organs — tap to jump'; }
         mReset();
       }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>'; });
     }
     document.getElementById('heroClose').addEventListener('click', closeHero);
     { const _mc = document.getElementById('mapCta'); if (_mc) _mc.addEventListener('click', openHero); }
     { const _mc2 = document.getElementById('mapCta2'); if (_mc2) _mc2.addEventListener('click', openVyadhi); }
-    heroModal.addEventListener('click', (e) => { if (e.target === heroModal) closeHero(); });
     document.getElementById('hmReplay').addEventListener('click', showVideo);
     document.getElementById('hmExplore').addEventListener('click', showMap);
     heroVideo.addEventListener('ended', showMap);
