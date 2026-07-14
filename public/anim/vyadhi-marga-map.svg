@@ -282,9 +282,9 @@
       <path id="flow-dhatu-5" data-name="flow-dhatu" class="cls-9" d="M199.76,190.26h55.02c12.54,0,22.71,10.17,22.71,22.71v35.12"/>
       <path id="flow-dhatu-6" data-name="flow-dhatu" class="cls-9" d="M199.76,306.99h55.02c12.54,0,22.71-10.17,22.71-22.71v-35.12"/>
     </g>
+    <line class="cls-15" x1="797.06" y1="824.88" x2="784.09" y2="824.88"/>
   </g>
   <g id="flow-dhatu-7" data-name="flow-dhatu">
-    <line class="cls-15" x1="797.06" y1="824.88" x2="784.09" y2="824.88"/>
     <line class="cls-16" x1="706.37" y1="817.61" x2="900.88" y2="817.61"/>
     <polyline class="cls-9" points="706.37 817.61 784.62 817.61 900.88 817.61"/>
     <line class="cls-16" x1="706.37" y1="752.83" x2="896.46" y2="752.83"/>
