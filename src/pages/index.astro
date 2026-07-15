@@ -44,6 +44,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   {isLO && (
     <section class="lo">
       <div class="lo-intro">
+        <div class="lo-headline">How existence came to be, experienced through Sankhya’s Philosophy</div>
         {content.invocation && <div class="invocation">{content.invocation}</div>}
         <div class="lo-intro-media" aria-hidden="true">
           <!-- Drop videos here: desktop widescreen 16:9 -> /anim/intro-wide.mp4 ; mobile portrait 9:16 -> /anim/intro-portrait.mp4 -->
@@ -98,15 +99,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
   </header>
 
   <div class="map-cta-wrap">
-    <button class="map-cta" id="mapCta" aria-label="Open the interactive digestive body map">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.4"/><path d="M12 8v7M12 15l-4 6M12 15l4 6M5 11l7-2 7 2"/></svg>
-      <span>Explore the interactive body map</span>
+    <button class="map-btn" id="mapCta" aria-label="Open the body map">
+      <img src="/anim/digestive.svg" alt="" />
+      <span>Body Map</span>
     </button>
-    <button class="map-cta map-cta-alt" id="mapCta2" aria-label="Open the Vyadhi Marga channels map">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 4v4h-4"/></svg>
-      <span>Explore the Vyādhi Mārga map (preview)</span>
+    <button class="map-btn" id="mapCta2" aria-label="Open the Margas map">
+      <img src="/anim/magras.svg" alt="" />
+      <span>Margas Map</span>
     </button>
-    <div class="map-cta-hint">Zoom, pan, and tap an organ to see how digestion works</div>
   </div>
 
   <div class="wrap">
