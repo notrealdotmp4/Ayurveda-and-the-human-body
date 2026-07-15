@@ -103,11 +103,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
 
   <div class="map-cta-wrap">
     <button class="map-btn" id="mapCta" aria-label="Open the body map">
-      <span class="map-btn-anim" data-lottie="/anim/digestive.json"><img src="/anim/digestive.svg" alt="" /></span>
+      <img src="/anim/digestive.svg" alt="" />
       <span>Body Map</span>
     </button>
     <button class="map-btn" id="mapCta2" aria-label="Open the Margas map">
-      <span class="map-btn-anim" data-lottie="/anim/magras.json"><img src="/anim/magras.svg" alt="" /></span>
+      <img src="/anim/magras.svg" alt="" />
       <span>Margas Map</span>
     </button>
   </div>
@@ -300,13 +300,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <script>
     // Levels-of-Organization scroll scene (Lottie)
     import lottie from 'lottie-web';
-    document.querySelectorAll('.map-btn-anim[data-lottie]').forEach((el) => {
-      try {
-        const anim = lottie.loadAnimation({ container: el, renderer: 'svg', loop: true, autoplay: true, path: el.dataset.lottie });
-        anim.addEventListener('DOMLoaded', () => { const im = el.querySelector('img'); if (im) im.style.visibility = 'hidden'; });
-        anim.addEventListener('data_failed', () => { try { anim.destroy(); } catch (e) {} });
-      } catch (e) {}
-    });
     const scene = document.querySelector('.lo-scene');
     if (scene && !document.documentElement.classList.contains('skip-intro')) {
       const stages = [...scene.querySelectorAll('.lo-stage')];
