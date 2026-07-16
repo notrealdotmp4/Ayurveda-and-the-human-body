@@ -154,10 +154,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <button class="tbar-btn" data-tool="hero" title="Body map" aria-label="Body map">
       <img class="tbar-ic" src="/anim/intestineicon.svg" alt="" />
     </button>
-    <button class="tbar-btn" data-tool="notebook" title="Notebook" aria-label="Notebook">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>
-    </button>
-    <button class="tbar-btn" data-tool="bookmark" title="Bookmark" aria-label="Bookmark">
+    <button class="tbar-btn" data-tool="bookmark" title="Reading tools" aria-label="Reading tools">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v16l-5-4-5 4z"/></svg>
     </button>
     <button class="tbar-btn" data-tool="darshan" title="The Six Philosophies" aria-label="The Six Philosophies">
@@ -174,6 +171,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="bm-menu" id="bmMenu" hidden>
     <button id="bmPlace">Place bookmark here</button>
     <button id="bmJump">Go to my bookmark</button>
+    <button id="bmNotes">My notes</button>
   </div>
 
   <div class="darshan-modal" id="darshanModal" aria-hidden="true">
@@ -564,7 +562,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
     toolbar.querySelectorAll('[data-tool]').forEach((b) => b.addEventListener('click', () => {
       const t = b.dataset.tool;
       if (t === 'hero') openHero();
-      else if (t === 'notebook') openNotebook();
       else if (t === 'bookmark') toggleBmMenu();
       else if (t === 'darshan') openDarshan();
       else if (t === 'text') cycleFontSize();
@@ -574,6 +571,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function toggleBmMenu() { bmMenu.hidden = !bmMenu.hidden; }
     document.getElementById('bmPlace').addEventListener('click', () => { placeBookmark(); bmMenu.hidden = true; });
     document.getElementById('bmJump').addEventListener('click', () => { jumpBookmark(); bmMenu.hidden = true; });
+    document.getElementById('bmNotes').addEventListener('click', () => { openNotebook(); bmMenu.hidden = true; });
     document.addEventListener('click', (e) => { if (!bmMenu.hidden && !bmMenu.contains(e.target) && !(e.target.closest && e.target.closest('[data-tool=\"bookmark\"]'))) bmMenu.hidden = true; });
     const darshanModal = document.getElementById('darshanModal');
     function openDarshan() { darshanModal.classList.add('open'); darshanModal.setAttribute('aria-hidden', 'false'); }
