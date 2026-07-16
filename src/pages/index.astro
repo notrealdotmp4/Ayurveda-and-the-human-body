@@ -55,6 +55,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <video class="lo-vid lo-vid-portrait" autoplay muted loop playsinline preload="metadata"><source src="/anim/intro-portrait.mp4" type="video/mp4" /></video>
           <span class="lo-media-ph">video goes here</span>
         </div>
+        <img class="lo-philos" src="/anim/phylosophies.svg" alt="" />
         <div class="lo-kicker">{first.kicker}</div>
         <h1 class="lo-title">{first.title}</h1>
         <div class="lo-hint">scroll to begin ↓</div>
@@ -95,7 +96,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <header class="site">
     <div class="kicker">An Interactive Ayurveda Book</div>
     <h1>{content.title}</h1>
-    <p class="sub">{content.subtitle}</p>
     <div class="legend">
       {Object.entries(CATS).map(([k, c]) => (<span><i class="dot" style={`background:${c.color}`}></i> {c.label}</span>))}
     </div>
@@ -104,7 +104,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="map-cta-wrap">
     <button class="map-btn" id="mapCta" aria-label="Open the body map">
       <img src="/anim/digestive.svg" alt="" />
-      <span>Body Map</span>
+      <span>Digestion Map</span>
     </button>
   </div>
 
@@ -117,7 +117,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="map-cta-wrap">
             <button class="map-btn" id="mapCta2" aria-label="Open the Margas map">
               <img src="/anim/magras.svg" alt="" />
-              <span>Margas Map</span>
+              <span>Marga Map</span>
             </button>
           </div>
         )}
@@ -151,20 +151,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
 
   <!-- Bottom pill navigation -->
   <nav class="toolbar" id="toolbar" aria-label="Reader tools">
-    <button class="tbar-btn" data-tool="hero" title="Body map" aria-label="Body map">
+    <button class="tbar-btn" data-tool="darshan" title="The Six Philosophies" aria-label="The Six Philosophies">
+      <img class="tbar-ic" src="/anim/philoIcon.svg" alt="" />
+    </button>
+    <button class="tbar-btn" data-tool="hero" title="Digestion map" aria-label="Digestion map">
       <img class="tbar-ic" src="/anim/intestineicon.svg" alt="" />
+    </button>
+    <button class="tbar-btn" data-tool="margas" title="Marga map" aria-label="Marga map">
+      <img class="tbar-ic" src="/anim/magrasicon.svg" alt="" />
     </button>
     <button class="tbar-btn" data-tool="bookmark" title="Reading tools" aria-label="Reading tools">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v16l-5-4-5 4z"/></svg>
     </button>
-    <button class="tbar-btn" data-tool="darshan" title="The Six Philosophies" aria-label="The Six Philosophies">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="1.5"/><path d="M4 10h16M12 4v16"/></svg>
-    </button>
     <button class="tbar-btn" data-tool="text" title="Text size" aria-label="Text size">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5V6.5h9v2M7.5 6.5v11M5.5 17.5h4"/><path d="M13 13.5v-1.4h8v1.4M17 12.1v6.4M15 18.5h4"/></svg>
-    </button>
-    <button class="tbar-btn" data-tool="margas" title="Mārgas map" aria-label="Mārgas map">
-      <img class="tbar-ic" src="/anim/magrasicon.svg" alt="" />
     </button>
   </nav>
 
