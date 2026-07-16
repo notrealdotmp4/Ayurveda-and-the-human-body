@@ -405,7 +405,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
-    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'Vyādhi Mārga — the channels of circulation', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
+    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The channels of circulation', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
     function openHero() {
       setHeroMode('/anim/digestive-map.svg', 'The Living Body — digestion', true);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');

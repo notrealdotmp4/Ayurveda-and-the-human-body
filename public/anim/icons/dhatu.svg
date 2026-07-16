@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="48" fill="#ead9c2"/>
+  <circle cx="60" cy="60" r="36" fill="#d9b98a"/>
+  <circle cx="60" cy="60" r="24" fill="#c98a5e"/>
+  <circle cx="60" cy="60" r="12" fill="#a85547"/>
+</svg>
