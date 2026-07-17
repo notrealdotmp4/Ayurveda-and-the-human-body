@@ -439,10 +439,10 @@
     <text class="cls-23" transform="translate(304.56 946.69)"><tspan x="0" y="0">M</tspan><tspan class="cls-8" x="26.76" y="0">A</tspan><tspan x="47.26" y="0">J</tspan><tspan class="cls-44" x="61.3" y="0">J</tspan><tspan class="cls-22" x="74.92" y="0">Ā</tspan></text>
   </g>
   <g id="shukra-artavaGroup">
-    <rect class="cls-35" x="286.91" y="637.98" width="123.53" height="73.37"/>
-    <path id="rasa-dhatu-4" data-name="rasa-dhatu" class="cls-70" d="M430.03,687.41c0,40.09-35.75,72.58-79.84,72.58s-79.84-32.49-79.84-72.58c0-.05,7.03-.09,18.14-.12,1.53,12.02,12.42,21.35,25.65,21.35h71.61c13.21,0,24.11-9.33,25.65-21.35,11.4.03,18.64.07,18.64.12Z"/>
-    <path id="rasa-srotamsi-3" data-name="rasa-srotamsi" class="cls-24" d="M429.51,660.55s-7.62.08-19.55.12c-3.2-9.99-13.07-17.26-24.74-17.26h-71.61c-11.68,0-21.55,7.27-24.74,17.26-11.64-.03-19.05-.07-19.05-.12,0-40.67,35.75-73.63,79.84-73.63s79.84,32.96,79.84,73.63Z"/>
-    <text class="cls-26" transform="translate(290.17 670.83)"><tspan x="0" y="0">SHUKRA</tspan><tspan x="4.62" y="26">Ā</tspan><tspan class="cls-4" x="23.98" y="26">R</tspan><tspan class="cls-7" x="43.23" y="26">T</tspan><tspan class="cls-67" x="57.78" y="26">AV</tspan><tspan x="94.04" y="26">A</tspan></text>
+    <polygon class="cls-35" points="422.23 715.74 274.03 715.74 268.35 691.8 267.84 664.93 272.93 642.36 421.12 642.36 427.53 664.93 428.04 691.8 422.23 715.74"/>
+    <path id="rasa-dhatu-4" data-name="rasa-dhatu" class="cls-70" d="M428.04,691.8c0,40.09-35.75,72.58-79.84,72.58s-79.84-32.49-79.84-72.58c0-.05,7.03-.09,18.14-.12,1.53,12.02,12.42,21.35,25.65,21.35h71.61c13.21,0,24.11-9.33,25.65-21.35,11.4.03,18.64.07,18.64.12Z"/>
+    <path id="rasa-srotamsi-3" data-name="rasa-srotamsi" class="cls-24" d="M427.53,664.93s-7.62.08-19.55.12c-3.2-9.99-13.07-17.26-24.74-17.26h-71.61c-11.68,0-21.55,7.27-24.74,17.26-11.64-.03-19.05-.07-19.05-.12,0-40.67,35.75-73.63,79.84-73.63s79.84,32.96,79.84,73.63Z"/>
+    <text class="cls-26" transform="translate(288.18 675.21)"><tspan x="0" y="0">SHUKRA</tspan><tspan x="4.62" y="26">Ā</tspan><tspan class="cls-4" x="23.98" y="26">R</tspan><tspan class="cls-7" x="43.23" y="26">T</tspan><tspan class="cls-67" x="57.78" y="26">AV</tspan><tspan x="94.04" y="26">A</tspan></text>
   </g>
   <g id="prana">
     <rect class="cls-24" x="43.99" y="165.56" width="181.33" height="49.99" rx="24.7" ry="24.7"/>
