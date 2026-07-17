@@ -48,6 +48,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <section class="lo">
       <div class="lo-intro">
         {content.invocation && <div class="invocation">{content.invocation}</div>}
+        <div class="book-eyebrow">An Interactive Ayurveda Book</div>
         <div class="lo-intro-media" aria-hidden="true">
           <!-- Drop videos here: desktop widescreen 16:9 -> /anim/intro-wide.mp4 ; mobile portrait 9:16 -> /anim/intro-portrait.mp4 -->
           <video class="lo-vid lo-vid-wide" autoplay muted loop playsinline preload="metadata"><source src="/anim/intro-wide.mp4" type="video/mp4" /></video>
@@ -98,7 +99,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="lo-revisit-wrap"><button class="lo-revisit" id="loRevisit">↻ Replay the slides</button></div>
 
   <header class="site">
-    <div class="kicker">An Interactive Ayurveda Book</div>
     <h1>{content.title}</h1>
     <p class="sub">Tap any colored word to explore it</p>
     <div class="legend">
