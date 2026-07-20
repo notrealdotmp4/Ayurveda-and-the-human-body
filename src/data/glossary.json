@@ -45,7 +45,7 @@
     "cat": "physiology",
     "title": "Saliva",
     "phon": "",
-    "body": "<p>Watery fluid in the mouth that begins digestion.</p>"
+    "body": "<p>Saliva is a clear secretion of the salivary glands that is mixed with food during the mechanical process of mastication. Its primary functions include acting as a lubricant to help food pass through the gastrointestinal tract and initiating chemical digestion by using the enzyme amylase to break down starches. By mixing with chewed food to form a bolus, saliva facilitates swallowing and allows chemicals to dissolve so they can stimulate taste receptors on the tongue. Additionally, saliva serves as a vital component of the body's nonspecific immune defenses by cleaning microbes from the teeth and gums and using the antimicrobial enzyme lysozyme to destroy pathogenic bacteria.</p>"
   },
   "salivary glands": {
     "cat": "anatomy",
@@ -75,31 +75,31 @@
     "cat": "physiology",
     "title": "Mastication",
     "phon": "",
-    "body": "<p>Chewing — the mechanical breakdown of food.</p>"
+    "body": "<p>Mastication is the mechanical process of chewing where food is physically smashed or broken into smaller pieces by the teeth while being positioned by the tongue and the muscles of the cheeks and lips. Its primary function is to prepare food for swallowing and further processing by mixing it with saliva, which lubricates the mass into a bolus and initiates the chemical breakdown of starches through the enzyme amylase. This essential stage of mechanical digestion is driven by the coordinated action of several muscles of the head and face, most notably the temporalis, masseter, and the medial and lateral pterygoids.</p>"
   },
   "mechanical digestion": {
     "cat": "physiology",
     "title": "Mechanical digestion",
     "phon": "",
-    "body": "<p>Physically breaking food into smaller pieces.</p>"
+    "body": "<p>Mechanical digestion is the metabolic process that physically smashes, grinds, or breaks down food substances into smaller, more usable particles. This process begins in the oral cavity through mastication, where the teeth and tongue work together to smash food and mix it with saliva to form a bolus. Mechanical digestion continues in the stomach as strong smooth muscle contractions churn and mix food with gastric juices to create a semiliquid substance known as chyme. Within the small intestine, this process involves segmentation, which uses alternating smooth muscle contractions to mix and churn the chyme. The primary function of these mechanical actions is to physically break apart food particles and mix them with digestive secretions, which prepares the substance for chemical digestion and nutrient absorption.</p>"
   },
   "chemical digestion": {
     "cat": "physiology",
     "title": "Chemical digestion",
     "phon": "",
-    "body": "<p>Breaking food down with enzymes and acids.</p>"
+    "body": "<p>Chemical digestion is the metabolic process that utilizes specialized enzymes and acids to decompose food substances into smaller, usable molecules. This complex series of reactions begins in the mouth as salivary amylase starts breaking down starches and continues in the stomach, where hydrochloric acid and pepsin initiate the breakdown of proteins. The majority of chemical digestion takes place in the small intestine, where secretions like pancreatic juice—containing lipase, trypsin, and amylase—work alongside intestinal enzymes to dissolve carbohydrates, fats, and proteins into their simplest forms. The primary function of this process is to transform food into basic nutrients that can be absorbed into the blood or lymph for transportation to cells, providing the necessary materials for energy, tissue repair, and renewal.</p>"
   },
   "amylase": {
     "cat": "physiology",
     "title": "Amylase",
     "phon": "",
-    "body": "<p>An enzyme that breaks down starches.</p>"
+    "body": "<p>Amylase is a specialized enzyme primarily responsible for the chemical digestion of starches, which are a type of carbohydrate. Secreted by the salivary glands, it begins the process of chemical digestion in the mouth during mastication, breaking down complex starches into smaller, simpler molecules that can sometimes be noticed as a slightly sweet taste if starchy foods like bread are held in the mouth for a few minutes. Amylase is also a primary component of the alkaline pancreatic juice produced by the pancreas. This version of the enzyme is transported to the small intestine, where it continues the work of breaking down carbohydrates that were not fully digested in the mouth.</p>"
   },
   "bolus": {
     "cat": "physiology",
     "title": "Bolus",
     "phon": "",
-    "body": "<p>The ball of chewed food ready to be swallowed.</p>"
+    "body": "<p>A bolus is a soft, lubricated mass formed in the oral cavity when food is thoroughly chewed and mixed with saliva. Its primary function is to be swallowed via the involuntary reflex of deglutition, which moves the mixture through the pharynx and into the esophagus. Once in the esophagus, mucus secretions further lubricate the bolus as peristalsis—a series of wave-like smooth muscle contractions—propels it toward the stomach for the next stage of digestion.</p>"
   },
   "jihva": {
     "cat": "ayurveda",
@@ -147,7 +147,7 @@
     "cat": "physiology",
     "title": "Peristalsis",
     "phon": "",
-    "body": "<p>Wave-like muscle contractions that move food along.</p>"
+    "body": "<p>Peristalsis is a series of involuntary, wave-like smooth muscle contractions that function to propel contents forward through the body's various muscular tubes. Within the digestive system, these coordinated contractions move a bolus through the esophagus and push chyme through the stomach and small intestine to facilitate nutrient processing and absorption. Beyond digestion, peristalsis is essential for transporting urine through the ureters to the bladder and moving an ovum through the fallopian tubes toward the uterus.</p>"
   },
   "fundus": {
     "cat": "anatomy",
@@ -189,7 +189,7 @@
     "cat": "physiology",
     "title": "Anabolic",
     "phon": "",
-    "body": "<p>Building up — processes that construct body tissue.</p>"
+    "body": "<p>Anabolic/ Anabolism is a metabolic building-up process where complex molecules are constructed from simpler ones to create or repair tissue or to store nutrients for future use. This process is essential for tissue growth and repair through activities like protein synthesis, where amino acids are linked together to build cells and tissues. Beyond structural repair, anabolism is responsible for the synthesis of vital molecules such as hormones, neurotransmitters, and ligands. It also serves a critical role in nutrient storage, exemplified by the conversion of excess glucose into glycogen, which is then stored in the liver and skeletal muscles for later energy needs.</p>"
   },
   "kapha dosha": {
     "cat": "ayurveda",
@@ -243,25 +243,25 @@
     "cat": "physiology",
     "title": "Hydrochloric acid (HCl)",
     "phon": "",
-    "body": "<p>Strong stomach acid that breaks down food and kills germs.</p>"
+    "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
   },
   "pathogens": {
     "cat": "physiology",
     "title": "Pathogens",
     "phon": "",
-    "body": "<p>Disease-causing microbes.</p>"
+    "body": "<p>Pathogens are microscopic substances or agents, including viruses, bacteria, fungi, parasites, chemicals, and particles, that cause disease and challenge the body’s health and well-being. Their primary function is to create physiologic disruptions that lead to infectious diseases, often by invading body cells to replicate or by triggering harmful immune responses. Most pathogens possess unique chemical markers called antigens, which allow the immune system to identify them as foreign and initiate specific defensive actions. To protect the organism, these invaders are trapped by mucous membranes in internal passageways, blocked from the brain by the blood-brain barrier, or filtered from circulation by the spleen and lymph nodes to be destroyed by phagocytes.</p>"
   },
   "pepsin": {
     "cat": "physiology",
     "title": "Pepsin",
     "phon": "",
-    "body": "<p>A stomach enzyme that breaks down protein.</p>"
+    "body": "<p>Pepsin is a potent protein-digesting enzyme produced by the stomach that plays a critical role in the chemical digestion of food. To protect the stomach wall, it is first secreted in an inactive form called pepsinogen, which is subsequently activated into functional pepsin by the presence of hydrochloric acid. Its primary function is to initiate the breakdown of proteins into smaller, absorbable components as food is processed into a semiliquid mass known as chyme.</p>"
   },
   "hcl": {
     "cat": "physiology",
     "title": "HCl",
     "phon": "",
-    "body": "<p>Hydrochloric acid — strong stomach acid.</p>"
+    "body": "<p>HCl (hydrochloric acid) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
   },
   "kledaka kapha": {
     "cat": "ayurveda",
@@ -273,7 +273,7 @@
     "cat": "physiology",
     "title": "Mucous membrane",
     "phon": "",
-    "body": "<p>The protective lining of the digestive tract.</p>"
+    "body": "<p>Mucous membranes are epithelial membranes consisting of a simple epithelial layer attached to a thin basement membrane that line cavities open to the external environment, such as the respiratory, digestive, and urinary tracts. Their primary function is to protect the body by secreting a thick substance called mucus, which acts as a physical barrier to trap invading pathogens and foreign particles. In the respiratory system, they also serve to warm and humidify air while using cilia to move trapped microbes out of the body. Furthermore, these membranes safeguard internal linings from wear and erosion, such as protecting the stomach wall from the corrosive effects of hydrochloric acid.</p>"
   },
   "shleshma dhara kala": {
     "cat": "ayurveda",
@@ -285,7 +285,7 @@
     "cat": "physiology",
     "title": "Chyme",
     "phon": "",
-    "body": "<p>The semi-liquid mass of partly digested food.</p>"
+    "body": "<p>Chyme is a semiliquid mixture of food and digestive juices, including hydrochloric acid and pepsin, that is formed in the stomach as strong smooth muscle contractions churn and mix its contents. Its primary function is to transport partially digested food into the small intestine for the next stages of chemical digestion and nutrient absorption. This process is regulated by the pyloric sphincter, which opens to allow only a small amount of the highly acidic chyme into the duodenum at one time. Once it enters the small intestine, chyme is neutralized by alkaline secretions like bicarbonates and further processed through segmentation, which continues to mix and churn the mixture to facilitate the breakdown of nutrients by various enzymes.</p>"
   },
   "annadrava": {
     "cat": "ayurveda",
@@ -333,7 +333,7 @@
     "cat": "physiology",
     "title": "Metabolic",
     "phon": "",
-    "body": "<p>Relating to the body’s energy-producing chemistry.</p>"
+    "body": "<p>Metabolic/ Metabolism encompasses the sum of all biochemical reactions and chemical processes that occur within a cell or the human organism to sustain life. Its primary function is to transform nutrients into usable forms to provide energy for cellular work and the necessary materials for tissue growth, repair, and reproduction. These processes are divided into two essential categories: anabolism, which constructs complex molecules from simpler ones to build or repair tissue and store nutrients for future use, and catabolism, which chemically breaks down complex molecules into smaller particles to release or create energy in the form of adenosine triphosphate (ATP). Furthermore, these metabolic activities serve a critical role in regulating body temperature by generating most of the body's internal heat as a byproduct of energy production.</p>"
   },
   "pitta dosha": {
     "cat": "ayurveda",
@@ -369,7 +369,7 @@
     "cat": "physiology",
     "title": "Mucus",
     "phon": "",
-    "body": "<p>Slippery protective fluid lining the gut.</p>"
+    "body": "<p>Mucous is a term primarily associated with mucous membranes (or mucosa), which are epithelial layers that line body cavities open to the external environment, such as the respiratory, digestive, and urinary tracts. These membranes secrete a thick, clear substance known as mucus that serves as a vital protective barrier and lubricant for internal passageways. In the digestive system, it facilitates the movement of food while shielding the tract's walls from wear, erosion, and corrosive acids. Within the respiratory tract, mucus further functions to warm and humidify inhaled air and trap foreign particles or pathogens so they can be safely removed from the body.</p>"
   },
   "small intestine": {
     "cat": "anatomy",
@@ -399,13 +399,13 @@
     "cat": "physiology",
     "title": "Secretin",
     "phon": "",
-    "body": "<p>A hormone that triggers release of bicarbonate to neutralize acid.</p>"
+    "body": "<p>Secretin is a local hormone produced and secreted by the duodenum of the small intestine that plays a vital role in coordinating the digestive process. Its primary function is to stimulate the pancreas to release bicarbonates and water into the gastrointestinal tract. This alkaline secretion is essential for neutralizing the hydrochloric acid found in highly acidic chyme, which raises the pH level and effectively inactivates the enzyme pepsin to prepare the mixture for further digestion and absorption within the small intestine.</p>"
   },
   "bicarbonates": {
     "cat": "physiology",
     "title": "Bicarbonates",
     "phon": "",
-    "body": "<p>Alkaline compounds that neutralize stomach acid.</p>"
+    "body": "<p>Bicarbonates (HCO3) are inorganic salts that serve as vital electrolytes, playing a central role in maintaining the body's homeostatic pH balance. In the respiratory system, approximately 80% of the carbon dioxide produced by tissues is converted into bicarbonate ions for transport through the bloodstream to the lungs for elimination. Within the digestive system, the pancreas secretes bicarbonates into the small intestine to neutralize highly acidic chyme. This process protects the intestinal lining and creates the necessary alkaline environment for digestive enzymes to function. Furthermore, the kidneys assist in regulating these electrolyte levels by either reabsorbing or eliminating bicarbonate ions to ensure the blood remains within its essential, slightly alkaline range.</p>"
   },
   "kloma agni": {
     "cat": "ayurveda",
@@ -417,31 +417,31 @@
     "cat": "physiology",
     "title": "Hydrochloric acid",
     "phon": "",
-    "body": "<p>Strong stomach acid that breaks down food and kills germs.</p>"
+    "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
   },
   "cholecystokinin": {
     "cat": "physiology",
     "title": "Cholecystokinin",
     "phon": "",
-    "body": "<p>A hormone that releases bile and pancreatic enzymes.</p>"
+    "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
   },
   "cck": {
     "cat": "physiology",
     "title": "CCK",
     "phon": "",
-    "body": "<p>Cholecystokinin — a hormone releasing bile and enzymes.</p>"
+    "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
   },
   "pancreatic digestive enzymes": {
     "cat": "physiology",
     "title": "Pancreatic digestive enzymes",
     "phon": "",
-    "body": "<p>Enzymes from the pancreas that break down food.</p>"
+    "body": "<p>Pancreatic digestive enzymes are biological catalysts produced by the exocrine cells of the pancreas and delivered to the duodenum through the pancreatic duct. These enzymes, which include amylase, lipase, and trypsin, are essential components of alkaline pancreatic juice. Their primary function is to coordinate the chemical digestion of carbohydrates, fats, and proteins by breaking them down into simpler, absorbable molecules. By neutralizing acidic chyme from the stomach and performing the majority of nutrient decomposition in the small intestine, they provide the body with the basic nutrients required for energy production and tissue repair.</p>"
   },
   "bile": {
     "cat": "physiology",
     "title": "Bile",
     "phon": "",
-    "body": "<p>Liver fluid that emulsifies fats for digestion.</p>"
+    "body": "<p>Bile is a yellow-brown or greenish fluid produced by hepatocytes in the liver and then concentrated and stored in the gallbladder until it is required for digestion. Its primary function is to act as a fat emulsifier, physically breaking apart large fat globules into smaller particles so that digestive enzymes can more effectively process lipids within the small intestine. This emulsification is critical for facilitating the proper absorption of fats. Additionally, bile serves as a vehicle for the liver to eliminate bilirubin, a yellow-orange pigment produced during the breakdown of old red blood cells.</p>"
   },
   "ranjaka pitta": {
     "cat": "ayurveda",
@@ -489,7 +489,7 @@
     "cat": "physiology",
     "title": "Thermogenesis",
     "phon": "",
-    "body": "<p>The production of heat by the body.</p>"
+    "body": "<p>Thermogenesis is the process of heat production in the body. This process occurs as a primary byproduct of metabolism, specifically catabolism, where the chemical breakdown of nutrients to create energy (ATP) releases internal heat. Additionally, muscle contractions generate significant heat when ATP is broken down to power movement. The primary function of this heat generation is to regulate body temperature and maintain homeostasis.</p>"
   },
   "gi tract": {
     "cat": "anatomy",
@@ -519,7 +519,7 @@
     "cat": "physiology",
     "title": "Chyle",
     "phon": "",
-    "body": "<p>Milky fluid of absorbed fats carried by the lymph.</p>"
+    "body": "<p>Chyle is a cloudy white or pale-yellow liquid product of digestion that is primarily composed of emulsified fats. Its function is to transport these long-chain fatty acids after they are absorbed by specialized lymphatic capillaries, known as lacteals, located in the small intestine. During the digestive process, chyle is collected by the lymphatic system and transported through the thoracic duct into the subclavian veins, where it enters the bloodstream and is eventually delivered to the liver for processing.</p>"
   },
   "heart": {
     "cat": "anatomy",
@@ -573,7 +573,7 @@
     "cat": "physiology",
     "title": "Catabolic",
     "phon": "",
-    "body": "<p>Breaking down — processes that release energy.</p>"
+    "body": "<p>Catabolic/ Catabolism refers to the metabolic category of processes that chemically break down or decompose complex molecules and nutrients into smaller, more usable particles. Its primary function is to provide the body with accessible nutrients and to release or create energy—specifically adenosine triphosphate (ATP)—required for all cellular work and muscle contraction. Key examples of catabolic processes include glycolysis and the Krebs cycle, where glucose is broken down to produce ATP, and the subsequent breakdown of ATP itself to release its stored energy. Furthermore, these catabolic activities are responsible for generating most of the body's internal heat.</p>"
   },
   "kashaya avastha paka": {
     "cat": "ayurveda",
@@ -861,7 +861,7 @@
     "cat": "physiology",
     "title": "Enzymes",
     "phon": "",
-    "body": "<p>Proteins that speed up the body’s chemical reactions, such as breaking down food.</p>"
+    "body": "<p>Enzymes are specialized proteins that act as biological catalysts to speed up biochemical reactions, specifically the breakdown and synthesis of various molecules within the body. Their primary function is to facilitate and accelerate these reactions, which is most prominent in chemical digestion. During this process, enzymes and acids decompose food substances into smaller, usable molecules that can be absorbed as basic nutrients. These catalysts are active throughout the body, from lysosomes that use them to digest worn-out cell structures to the small intestine, where they process proteins, fats, and carbohydrates.</p>"
   },
   "kathina": {
     "cat": "ayurveda",
@@ -1378,5 +1378,113 @@
     "title": "Hima",
     "phon": "",
     "body": "<p>Cool — a Kapha quality, giving cool clammy skin and slow digestion.</p>"
+  },
+  "para ojas": {
+    "cat": "ayurveda",
+    "title": "Para Ojas",
+    "phon": "",
+    "body": "<p>Para Ojas is the Sanskrit term for superior or superfine Ojas, representing the pure and fully processed essence of all seven Dhātus (biological tissues). It consists of exactly eight drops, each roughly the size of a poppy seed, which stay permanently in the heart to maintain the individual’s life and serve as the stable foundation for the body's vital essence.</p>"
+  },
+  "cholecystokinin cck": {
+    "cat": "physiology",
+    "title": "Cholecystokinin CCK",
+    "phon": "",
+    "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
+  },
+  "salivary secretions": {
+    "cat": "physiology",
+    "title": "Salivary secretions",
+    "phon": "",
+    "body": ""
+  },
+  "sublingual glands": {
+    "cat": "anatomy",
+    "title": "Sublingual glands",
+    "phon": "",
+    "body": "<p>The sublingual gland is the smallest of the major salivary glands, located under the mucous membrane in the floor of the mouth, on either side of the tongue. Its primary function is to secrete thick, mucus-rich saliva, which lubricates food for easier swallowing, keeps the mouth moist, and aids in early digestion. The mucus coats food to form a slippery bolus for swallowing and protects the oral mucosa from dryness and irritation.</p>"
+  },
+  "6 rasas": {
+    "cat": "ayurveda",
+    "title": "6 Rasas",
+    "phon": "",
+    "body": ""
+  },
+  "kapha": {
+    "cat": "ayurveda",
+    "title": "Kapha",
+    "phon": "",
+    "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations (tridosha). It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
+  },
+  "liquefaction": {
+    "cat": "physiology",
+    "title": "Liquefaction",
+    "phon": "",
+    "body": ""
+  },
+  "asthayi": {
+    "cat": "ayurveda",
+    "title": "Asthāyi",
+    "phon": "",
+    "body": ""
+  },
+  "enzyme": {
+    "cat": "physiology",
+    "title": "Enzyme",
+    "phon": "",
+    "body": "<p>Enzymes are specialized proteins that act as biological catalysts to speed up biochemical reactions, specifically the breakdown and synthesis of various molecules within the body. Their primary function is to facilitate and accelerate these reactions, which is most prominent in chemical digestion. During this process, enzymes and acids decompose food substances into smaller, usable molecules that can be absorbed as basic nutrients. These catalysts are active throughout the body, from lysosomes that use them to digest worn-out cell structures to the small intestine, where they process proteins, fats, and carbohydrates.</p>"
+  },
+  "taste receptors": {
+    "cat": "anatomy",
+    "title": "Taste receptors",
+    "phon": "",
+    "body": ""
+  },
+  "brains grey matter": {
+    "cat": "anatomy",
+    "title": "Brain's grey matter",
+    "phon": "",
+    "body": ""
+  },
+  "acids": {
+    "cat": "physiology",
+    "title": "Acids",
+    "phon": "",
+    "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
+  },
+  "mall intestine": {
+    "cat": "anatomy",
+    "title": "Mall intestine",
+    "phon": "",
+    "body": "<p>Where most digestion and absorption of nutrients occurs.</p>"
+  },
+  "microvilli": {
+    "cat": "anatomy",
+    "title": "Microvilli",
+    "phon": "",
+    "body": ""
+  },
+  "lacteals": {
+    "cat": "anatomy",
+    "title": "Lacteals",
+    "phon": "",
+    "body": ""
+  },
+  "lymphatic capillaries": {
+    "cat": "anatomy",
+    "title": "Lymphatic capillaries",
+    "phon": "",
+    "body": ""
+  },
+  "chylomicrons": {
+    "cat": "anatomy",
+    "title": "Chylomicrons",
+    "phon": "",
+    "body": ""
+  },
+  "lymphatic system": {
+    "cat": "anatomy",
+    "title": "Lymphatic system",
+    "phon": "",
+    "body": ""
   }
 }
