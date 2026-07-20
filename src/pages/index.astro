@@ -132,7 +132,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           b.type === 'level' ? (
             <div class="level"><div class="thumb">image<br/>goes here</div><div class="lc"><h4>{b.name}</h4>{b.info && <p>{b.info}</p>}</div></div>
           ) : b.type === 'h' ? (
-            <h4 class="subhead">{b.text}</h4>
+            <h4 class={b.level === 2 ? 'subhead subhead-lg' : 'subhead'}>{b.text}</h4>
           ) : b.type === 'list' ? (
             <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
           ) : (

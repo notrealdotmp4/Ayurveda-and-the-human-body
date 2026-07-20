@@ -35,172 +35,25 @@
         {
           "type": "level",
           "name": "The Human Organism",
-          "info": "The human organism, the highest level of complexity, is an integrated structure comprising cells, tissues, organs, and systems. Each level is functionally interconnected and crucial for health, as any change in one part affects multiple processes or structures."
-        }
-      ]
-    },
-    {
-      "kicker": "Chapter Two",
-      "title": "6 Tastes and Stages of Digestion",
-      "blocks": [
-        {
-          "type": "p",
-          "segments": [
-            {
-              "t": "The "
-            },
-            {
-              "t": "digestive system",
-              "term": "digestive system",
-              "cat": "anatomy"
-            },
-            {
-              "t": " is responsible for converting food into usable nutrients and consists of several key components: the "
-            },
-            {
-              "t": "mouth",
-              "term": "mouth",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "pharynx",
-              "term": "pharynx",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "esophagus",
-              "term": "esophagus",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "stomach",
-              "term": "stomach",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "small intestine",
-              "term": "small intestine",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and "
-            },
-            {
-              "t": "large intestine/colon",
-              "term": "large intestinecolon",
-              "cat": "anatomy"
-            },
-            {
-              "t": ". Additionally, accessory organs include the "
-            },
-            {
-              "t": "liver",
-              "term": "liver",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "gallbladder",
-              "term": "gallbladder",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and "
-            },
-            {
-              "t": "pancreas",
-              "term": "pancreas",
-              "cat": "anatomy"
-            },
-            {
-              "t": ". Together, these parts facilitate the "
-            },
-            {
-              "t": "mechanical digestion",
-              "term": "mechanical digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": " and "
-            },
-            {
-              "t": "chemical digestion",
-              "term": "chemical digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": " of food for nutrient absorption. The "
-            },
-            {
-              "t": "digestive system",
-              "term": "digestive system",
-              "cat": "anatomy"
-            },
-            {
-              "t": " performs five main functions: "
-            },
-            {
-              "t": "ingestion",
-              "term": "ingestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "propulsion",
-              "term": "propulsion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": ", and "
-            },
-            {
-              "t": "elimination",
-              "term": "elimination",
-              "cat": "physiology"
-            },
-            {
-              "t": "."
-            }
-          ]
+          "info": ""
         },
         {
           "type": "p",
           "segments": [
             {
-              "t": "1 "
-            },
+              "t": "The human organism, the highest level of complexity, is an integrated structure comprising cells, tissues, organs, and systems. Each level is functionally interconnected and crucial for health, as any change in one part affects multiple processes or structures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kicker": "Chapter Two",
+      "title": "6 Tastes and stages of Digestion",
+      "blocks": [
+        {
+          "type": "p",
+          "segments": [
             {
               "t": "Madhura Avastha Pāka",
               "term": "madhura avastha paka",
@@ -527,9 +380,6 @@
           "type": "p",
           "segments": [
             {
-              "t": "2 "
-            },
-            {
               "t": "Amla Avastha Pāka",
               "term": "amla avastha paka",
               "cat": "ayurveda"
@@ -828,9 +678,6 @@
           "type": "p",
           "segments": [
             {
-              "t": "3 "
-            },
-            {
               "t": "Lavana Avastha Pāka",
               "term": "lavana avastha paka",
               "cat": "ayurveda"
@@ -1012,7 +859,13 @@
               "cat": "anatomy"
             },
             {
-              "t": ". This process is stimulated by two duodenal hormones: "
+              "t": "."
+            },
+            {
+              "t": " "
+            },
+            {
+              "t": "This process is stimulated by two duodenal hormones: "
             },
             {
               "t": "secretin",
@@ -1211,9 +1064,6 @@
         {
           "type": "p",
           "segments": [
-            {
-              "t": "4 "
-            },
             {
               "t": "Katu Avastha Pāka",
               "term": "katu avastha paka",
@@ -1452,9 +1302,6 @@
           "type": "p",
           "segments": [
             {
-              "t": "5 "
-            },
-            {
               "t": "Tikta Avastha Pāka",
               "term": "tikta avastha paka",
               "cat": "ayurveda"
@@ -1643,9 +1490,6 @@
         {
           "type": "p",
           "segments": [
-            {
-              "t": "6 "
-            },
             {
               "t": "Kashāya Avastha Pāka",
               "term": "kashaya avastha paka",
@@ -1879,7 +1723,7 @@
               "t": " in the hunger center of the brain, signaling the return of true appetite and the activation of "
             },
             {
-              "t": "Jāthara Āgni",
+              "t": "Jāthara Agni",
               "term": "jathara agni",
               "cat": "ayurveda"
             },
@@ -1975,124 +1819,128 @@
               "cat": "ayurveda"
             },
             {
-              "t": " is the Ayurvedic principle of mobility that regulates all activity in the body and mind, from the flow of thoughts to the movement of food through the intestines. It governs all biological movement and carries the other two Doshas throughout the body. It is primarily composed of the "
-            },
-            {
-              "t": "Ākāsha",
-              "term": "akasha",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (ether) and "
-            },
-            {
-              "t": "Vāyu",
-              "term": "vayu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (air) elements."
+              "t": " is the Ayurvedic principle of mobility that regulates all activity in the body and mind, from the flow of thoughts to the movement of food through the intestines. It is considered the most important dosha because it governs all biological movement and carries the other two doshas throughout the body. It is primarily composed of the Ether (Space) and Air elements."
             }
           ]
         },
         {
           "type": "h",
-          "text": "Vāta’s Gunas:",
-          "level": 3
+          "text": "Elements and Gunas (attributes)"
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "Rūksha",
+                "t": "Dry ("
+              },
+              {
+                "t": "ruksha",
                 "term": "ruksha",
                 "cat": "ayurveda"
               },
               {
-                "t": " dry: leading to dry skin, hair, lips, tongue, colon, tending toward constipation and a hoarse voice"
+                "t": "): leading to dry skin, hair, and internal organs."
               }
             ],
             [
               {
-                "t": "Laghu",
+                "t": "Light ("
+              },
+              {
+                "t": "laghu",
                 "term": "laghu",
                 "cat": "ayurveda"
               },
               {
-                "t": " light: light muscles, bones, thin body frame, light sleep and being underweight"
+                "t": "): manifesting as a thin body frame and scanty sleep."
               }
             ],
             [
               {
-                "t": "Shīta",
+                "t": "Cold ("
+              },
+              {
+                "t": "shita",
                 "term": "shita",
                 "cat": "ayurveda"
               },
               {
-                "t": " cold: resulting in cold hands and feet, poor circulation,  dislike for cold environments prefers hot, tending toward stiffness of muscles"
+                "t": "): resulting in poor circulation and cold hands and feet."
               }
             ],
             [
               {
-                "t": "Khāra",
+                "t": "Rough ("
+              },
+              {
+                "t": "khara",
                 "term": "khara",
                 "cat": "ayurveda"
               },
               {
-                "t": " rough: characterized by rough, cracked skin, nails, hair, teeth, hands and feet, and cracking joints"
+                "t": "): characterized by cracked skin, rough hair, and cracking joints."
               }
             ],
             [
               {
-                "t": "Sūkshma",
+                "t": "Subtle ("
+              },
+              {
+                "t": "sukshma",
                 "term": "sukshma",
                 "cat": "ayurveda"
               },
               {
-                "t": " subtle: associated with subtle fear, anxiety, insecurity, goose-bumps, muscle twitching, and fine tremors"
+                "t": "): associated with subtle fears and minute muscle tremors."
               }
             ],
             [
               {
-                "t": "Chala",
+                "t": "Mobile ("
+              },
+              {
+                "t": "chala",
                 "term": "chala",
                 "cat": "ayurveda"
               },
               {
-                "t": " mobile: leading to fast walking and talking, doing many things at a time, restless eyes, hands, and feet, unstable joints, many dreams, loves travelling and does not stay at one place, swinging moods, shaky faith, scattered mind"
+                "t": "): leading to fast walking, talking, and restlessness."
               }
             ],
             [
               {
-                "t": "Vishada",
+                "t": "Clear ("
+              },
+              {
+                "t": "vishada",
                 "term": "vishada",
                 "cat": "ayurveda"
               },
               {
-                "t": " clear: clairvoyant; understands immediately and forgets immediately; clear, empty mind, experiences void and loneliness"
+                "t": "): clarity of understanding, but also a sense of emptiness or isolation."
               }
             ]
           ]
         },
         {
           "type": "h",
-          "text": "Vāta’s physical appearance, Ākruti is typically:",
-          "level": 3
+          "text": "Physical appearance"
         },
         {
-          "type": "list",
-          "items": [
-            [
-              {
-                "t": "body frame: thin, slender, often disproportionate; very tall or very short, with visible bones and prominent veins"
-              }
-            ],
-            [
-              {
-                "t": "weight: generally low or underweight, with difficulty gaining weight"
-              }
-            ]
+          "type": "p",
+          "segments": [
+            {
+              "t": "The physical form ("
+            },
+            {
+              "t": "Ākruti",
+              "term": "akruti",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ") of a Vāta individual is typically:"
+            }
           ]
         },
         {
@@ -2100,80 +1948,112 @@
           "items": [
             [
               {
-                "t": "nose: often thin, crooked, or uneven, may have a deviated septum"
+                "t": "Body Frame: thin, slender, often disproportionate; very tall or very short, with visible bones and prominent veins."
               }
             ],
             [
               {
-                "t": "eyes: small, sunken, dry, and active, the gaze is unsteady or darting,  iris is dark, gray, or brown"
+                "t": "Weight: generally low or underweight, with difficulty gaining weight."
               }
             ],
             [
               {
-                "t": "lips: thin, dry, and cracked, often with a brownish color tinge"
+                "t": "Face: thin, angular, or oblong."
               }
             ],
             [
               {
-                "t": "teeth: long, protruding, or irregular, with gaps between them, big thin gums"
-              }
-            ],
-            [
-              {
-                "t": "skin: thin, dry, cold, and rough to the touch,  tends to a darker complexion and tans easily"
-              }
-            ],
-            [
-              {
-                "t": "hair: dry, brittle, curly or kinky; thin or scarce and prone to split ends and dandruff"
-              }
-            ],
-            [
-              {
-                "t": "nails: dry, brittle, rough, break easily and may have grooves"
+                "t": "Nose: often thin, crooked, or uneven, and may have a deviated septum."
               }
             ]
           ]
         },
         {
           "type": "h",
-          "text": "Vāta’s physiology and behavior:",
-          "level": 3
+          "text": "Eyes, lips, and teeth"
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "digestion and appetite: "
+                "t": "Eyes: small, sunken, dry, and active; the gaze is unsteady or darting. The iris is dark, gray, or brown."
+              }
+            ],
+            [
+              {
+                "t": "Lips: thin, dry, and scaly, often with a brownish tinge."
+              }
+            ],
+            [
+              {
+                "t": "Teeth: large, protruding, or irregular, with gaps between them."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Skin, hair, and nails"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "t": "Skin: thin, dry, cold to the touch, and rough; tends to a darker complexion and tans easily."
+              }
+            ],
+            [
+              {
+                "t": "Hair: dry, brittle, curly or kinky; thin or scarce and prone to split ends and dandruff."
+              }
+            ],
+            [
+              {
+                "t": "Nails: dry, brittle, rough, and break easily; may have grooves."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Physiology and behavior"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "t": "Appetite and Digestion: variable ("
               },
               {
-                "t": "Vishama Āgni",
+                "t": "Vishama Agni",
                 "term": "vishama agni",
                 "cat": "ayurveda"
               },
               {
-                "t": ", irregular digestion, with gas and bloating and a tendency to constipation, variable appetite "
+                "t": "); ravenous one moment, not hungry the next. Digestion is irregular, with gas, bloating, and a tendency to constipation."
               }
             ],
             [
               {
-                "t": "sleep: light, interrupted sleep, especially in cold or noisy places"
+                "t": "Sleep: scanty and interrupted; light sleepers, especially in cold or noisy places."
               }
             ],
             [
               {
-                "t": "speech: fast, spontaneous, sometimes slurred or disorganized"
+                "t": "Speech: fast, spontaneous, sometimes slurred or disorganized."
               }
             ],
             [
               {
-                "t": "psychology: when balanced, creative, joyful, and flexible. When imbalanced, prone to fear, anxiety, insecurity, restlessness, and indecision"
+                "t": "Psychology: when balanced, creative, joyful, and flexible. When imbalanced, prone to fear, anxiety, insecurity, restlessness, and indecision."
               }
             ],
             [
               {
-                "t": "pulse: "
+                "t": "Pulse: felt best under the index finger, moving like a serpent or cobra ("
               },
               {
                 "t": "Sarpa",
@@ -2181,21 +2061,22 @@
                 "cat": "ayurveda"
               },
               {
-                "t": " moving like a snake, fast, feeble, cold, and thin, felt best under the index finger"
+                "t": ")—fast, feeble, cold, and thin."
               }
             ],
             [
               {
-                "t": "dreams: active and frequent, often of falling, flying, or being attacked"
+                "t": "Dreams: active and frequent, often of falling, flying, or being attacked."
               }
             ]
           ]
-        },
-        {
-          "type": "h",
-          "text": "Pitta — the principle of transformation",
-          "level": 2
-        },
+        }
+      ]
+    },
+    {
+      "kicker": "Chapter Four",
+      "title": "Pitta — the principle of transformation",
+      "blocks": [
         {
           "type": "p",
           "segments": [
@@ -2205,203 +2086,241 @@
               "cat": "ayurveda"
             },
             {
-              "t": " is the Ayurvedic principle of transformation that regulates metabolism, digestion, and the conversion of energy throughout the body and mind. Primarily composed of the "
-            },
-            {
-              "t": "Āgni",
-              "term": "agni",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (fire) and "
-            },
-            {
-              "t": "Āpas",
-              "term": "apas",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (water) elements, it manifests as the heat and biochemical actions required for life."
+              "t": " is the Ayurvedic principle of transformation that regulates metabolism, digestion, and the conversion of energy throughout the body and mind. Primarily composed of the Fire and Water elements, it manifests as the heat and biochemical actions required for life."
             }
           ]
         },
         {
           "type": "h",
-          "text": "Pitta’s Gunas:",
-          "level": 3
+          "text": "Elements and Gunas (attributes)"
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "Ushna",
+                "t": "Hot ("
+              },
+              {
+                "t": "ushna",
                 "term": "ushna",
                 "cat": "ayurveda"
               },
               {
-                "t": " hot: good digestive fire, strong appetite, body temperature tends to be higher than average, dislikes heat tends toward gray hair with receding hair line or baldness, soft brown hair on the body and face"
+                "t": "): a higher body temperature, strong digestive fire, and intolerance for heat."
               }
             ],
             [
               {
-                "t": "Tikshna",
+                "t": "Sharp ("
+              },
+              {
+                "t": "tikshna",
                 "term": "tikshna",
                 "cat": "ayurveda"
               },
               {
-                "t": " sharp: sharp teeth, distinct eyes, pointed nose, tapering chin, heart-shaped face, good absorption and digestion, sharp memory and understanding, intolerance of hard work, irritable, intellectual mind"
+                "t": "): a sharp intellect, penetrating eyes, and pointed teeth."
               }
             ],
             [
               {
-                "t": "Laghu",
+                "t": "Light ("
+              },
+              {
+                "t": "laghu",
                 "term": "laghu",
                 "cat": "ayurveda"
               },
               {
-                "t": " light: light to medium body frame, does not tolerate bright light,  fair, shiny skin, bright eyes"
+                "t": "): a medium body frame and light-headedness if meals are missed."
               }
             ],
             [
               {
-                "t": "Drava",
+                "t": "Liquid ("
+              },
+              {
+                "t": "drava",
                 "term": "drava",
                 "cat": "ayurveda"
               },
               {
-                "t": " liquid: loose liquid stools, soft delicate muscles, excess urine, sweat and thirst"
+                "t": "): excess sweat, frequent urination, and loose stools."
               }
             ],
             [
               {
-                "t": "Snigdha",
+                "t": "Oily ("
+              },
+              {
+                "t": "snigdha",
                 "term": "snigdha",
                 "cat": "ayurveda"
               },
               {
-                "t": " oily: soft, oily skin, hair and feces, difficulty digesting deep-fried foods, which may cause headache"
+                "t": "): soft, oily skin and hair."
               }
             ],
             [
               {
-                "t": "Sara",
-                "term": "sara",
+                "t": "Spreading ("
+              },
+              {
+                "t": "saram",
+                "term": "saram",
                 "cat": "ayurveda"
               },
               {
-                "t": " spreading: spreads as rash, acne, or inflammation over the body or affected areas, "
+                "t": "): rashes or inflammation that spread across the body."
+              }
+            ],
+            [
+              {
+                "t": "Fleshy smell ("
               },
               {
-                "t": "Pitta ",
-                "term": "pitta",
+                "t": "visra",
+                "term": "visra",
                 "cat": "ayurveda"
               },
               {
-                "t": " wants to spread their name and fame all over the world"
+                "t": "): a sulfuric or fetid body odor, particularly in the armpits."
               }
             ]
           ]
         },
         {
           "type": "h",
-          "text": "Pitta’s physical appearance, Ākruti is typically:",
-          "level": 3
+          "text": "Physical appearance"
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "The physical form ("
+            },
+            {
+              "t": "Ākruti",
+              "term": "akruti",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ") of a Pitta individual is generally balanced and moderate:"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "body frame: medium and well-proportioned, with good musculature and moderate strength"
+                "t": "Body Frame: medium and well-proportioned, with good musculature and moderate strength."
               }
             ],
             [
               {
-                "t": "weight: moderate and stable; seldom gains or loses much"
+                "t": "Weight: moderate and stable; seldom gains or loses much."
               }
             ],
             [
               {
-                "t": "face: often heart-shaped, tapering, or triangular, with rosy or reddish cheeks"
+                "t": "Face: often heart-shaped, tapering, or triangular, with rosy or reddish cheeks."
               }
             ],
             [
               {
-                "t": "nose: medium-sized, sharp, and straight, often with a reddish tip"
-              }
-            ],
-            [
-              {
-                "t": "eyes: moderate, bright, and sharp; light-colored iris (gray, green, hazel, or yellowish), sensitive to light"
-              }
-            ],
-            [
-              {
-                "t": "lips: soft, thin, and pinkish or reddish"
-              }
-            ],
-            [
-              {
-                "t": "teeth: medium-sized, often yellowish or sharp; gums tender and prone to bleeding"
-              }
-            ],
-            [
-              {
-                "t": "skin: warm, oily, and sensitive; fair with a coppery or reddish complexion, prone to freckles, moles, acne, and sunburn"
-              }
-            ],
-            [
-              {
-                "t": "hair: straight, fine, and oily; soft brown, blond, or reddish, prone to premature graying or balding"
-              }
-            ],
-            [
-              {
-                "t": "nails: pink, flexible, lustrous, and sharp"
+                "t": "Nose: medium-sized, sharp, and straight, often with a reddish tip."
               }
             ]
           ]
         },
         {
           "type": "h",
-          "text": "Pitta’s physiology and behavior:",
-          "level": 3
+          "text": "Eyes, lips, and teeth"
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "digestion and appetite: "
+                "t": "Eyes: moderate, bright, and sharp; light-colored iris (gray, green, hazel, or yellowish), sensitive to light."
+              }
+            ],
+            [
+              {
+                "t": "Lips: soft, thin, and pinkish or reddish."
+              }
+            ],
+            [
+              {
+                "t": "Teeth: medium-sized, often yellowish or sharp; gums tender and prone to bleeding."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Skin, hair, and nails"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "t": "Skin: warm, oily, and sensitive; fair with a coppery or reddish complexion, prone to freckles, moles, acne, and sunburn."
+              }
+            ],
+            [
+              {
+                "t": "Hair: straight, fine, and oily; soft brown, blond, or reddish, prone to premature graying or balding."
+              }
+            ],
+            [
+              {
+                "t": "Nails: pink, flexible, lustrous, and sharp."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Physiology and behavior"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "t": "Appetite and Digestion: very strong and intense ("
               },
               {
-                "t": "Tikshna Āgni,",
+                "t": "Tikshna Agni",
                 "term": "tikshna agni",
                 "cat": "ayurveda"
               },
               {
-                "t": " very strong and fast digestion that can cause heartburn or acid reflux, they become irritable if they do not eat on time"
+                "t": "); they become irritable if they do not eat on time. Digestion is fast but can cause heartburn or acid reflux."
               }
             ],
             [
               {
-                "t": "sleep: sound but moderate; may wake near midnight or 2 AM with a burst of energy."
+                "t": "Sleep: sound but moderate; may wake near midnight or 2 AM with a burst of energy."
               }
             ],
             [
               {
-                "t": "speech: sharp, clear, distinct, and often authoritative or inspiring."
+                "t": "Speech: sharp, clear, distinct, and often authoritative or inspiring."
               }
             ],
             [
               {
-                "t": "psychology: when balanced, intelligent, disciplined, and courageous leaders. When imbalanced, prone to anger, irritability, jealousy, judgment, and perfectionism."
+                "t": "Psychology: when balanced, intelligent, disciplined, and courageous leaders. When imbalanced, prone to anger, irritability, jealousy, judgment, and perfectionism."
               }
             ],
             [
               {
-                "t": "pulse: "
+                "t": "Pulse: felt best under the middle finger, moving like a frog ("
               },
               {
                 "t": "Manduka",
@@ -2409,21 +2328,22 @@
                 "cat": "ayurveda"
               },
               {
-                "t": " moving like a frog jumping, bounding, hot, and forceful, felt best under the middle finger"
+                "t": ")—jumping, bounding, hot, and forceful."
               }
             ],
             [
               {
-                "t": "dreams: fiery or intellectual, problem-solving, teaching, exams, fire, or violence"
+                "t": "Dreams: fiery or intellectual—problem-solving, teaching, exams, fire, or violence."
               }
             ]
           ]
-        },
-        {
-          "type": "h",
-          "text": "Kapha — the principle of structure",
-          "level": 2
-        },
+        }
+      ]
+    },
+    {
+      "kicker": "Chapter Five",
+      "title": "Kapha — the principle of structure",
+      "blocks": [
         {
           "type": "p",
           "segments": [
@@ -2433,265 +2353,280 @@
               "cat": "ayurveda"
             },
             {
-              "t": " is the Ayurvedic principle of structure, lubrication , and cohesion that gives the body physical form and stability. It is the “glue” that holds the cells together and supplies the water for all bodily systems and joints. It is primarily composed of the "
-            },
-            {
-              "t": "Āpas",
-              "term": "apas",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (water) and "
-            },
-            {
-              "t": "Prthivī",
-              "term": "prthivi",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (earth) elements."
+              "t": " is the Ayurvedic principle of structure and lubrication that gives the body physical form, cohesion, and stability. It is the “glue” that holds the cells together and supplies the water for all bodily systems and joints. It is primarily composed of the Water and Earth elements."
             }
           ]
         },
         {
           "type": "h",
-          "text": "Kapha’s Gunas:",
-          "level": 3
+          "text": "Elements and Gunas (attributes)"
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "Guru",
+                "t": "Heavy ("
+              },
+              {
+                "t": "guru",
                 "term": "guru",
                 "cat": "ayurveda"
               },
               {
-                "t": " heavy: heavy bones, muscles, and large body frame, tends to be overweight, grounded, and has deep heavy voice"
+                "t": "): heavy bones and muscles and a tendency toward being overweight."
               }
             ],
             [
               {
-                "t": "Manda",
+                "t": "Slow/Dull ("
+              },
+              {
+                "t": "manda",
                 "term": "manda",
                 "cat": "ayurveda"
               },
               {
-                "t": " slow/dull: slow walk, talk, digestion, and metabolism, overall sluggish gestures"
+                "t": "): slow movement and sluggish metabolic changes."
               }
             ],
             [
               {
-                "t": "Hima",
-                "term": "hima",
+                "t": "Cold ("
+              },
+              {
+                "t": "shita",
+                "term": "shita",
                 "cat": "ayurveda"
               },
               {
-                "t": " cool: cool clammy skin, steady appetite and thirst with slow metabolism and digestion, repeated cold, congestion, and cough"
+                "t": "): cool, clammy skin and slow digestion."
               }
             ],
             [
               {
-                "t": "Snigdha",
+                "t": "Oily ("
+              },
+              {
+                "t": "snigdha",
                 "term": "snigdha",
                 "cat": "ayurveda"
               },
               {
-                "t": " oily: oily skin, hair and feces, lubricated, unctuous joints and organs"
+                "t": "): oily skin and hair and lubricated joints."
               }
             ],
             [
               {
-                "t": "Drava",
-                "term": "drava",
-                "cat": "ayurveda"
+                "t": "Smooth ("
               },
               {
-                "t": " liquid: excess salivation, congestion in the chest, sinuses, throat and head"
-              }
-            ],
-            [
-              {
-                "t": "Shlakshna",
+                "t": "shlakshna",
                 "term": "shlakshna",
                 "cat": "ayurveda"
               },
               {
-                "t": " slimy/smooth: smoothness of the skin and organs, smooth and gentle mind, calm nature"
+                "t": "): smoothness of the skin and organs."
               }
             ],
             [
               {
-                "t": "Sandra",
+                "t": "Dense ("
+              },
+              {
+                "t": "sandra",
                 "term": "sandra",
                 "cat": "ayurveda"
               },
               {
-                "t": " dense: dense pad of fat, thick skin, hair, nail and feces, plump rounded organs, firmness and solidity of muscles, compact, condensed tissues"
+                "t": "): a thickset body and compact tissues."
               }
             ],
             [
               {
-                "t": "Mrudu",
+                "t": "Soft ("
+              },
+              {
+                "t": "mrudu",
                 "term": "mrudu",
                 "cat": "ayurveda"
               },
               {
-                "t": " soft: soft pleasing look and skin,  and a gentle, caring personality, love, compassion, kindness and forgiveness"
+                "t": "): soft skin and a gentle, caring personality."
               }
             ],
             [
               {
-                "t": "Sthira",
+                "t": "Stable ("
+              },
+              {
+                "t": "sthira",
                 "term": "sthira",
                 "cat": "ayurveda"
               },
               {
-                "t": " stable/static: stability and a preference for sedentary activities loves sitting, sleeping and doing nothing"
+                "t": "): stability and a preference for sedentary activities."
               }
             ],
             [
               {
-                "t": "Picchila",
+                "t": "Sticky ("
+              },
+              {
+                "t": "picchila",
                 "term": "picchila",
                 "cat": "ayurveda"
               },
               {
-                "t": " sticky: cohesive quality causes compactness, firmness of joints, and organs; loves to hug, is deeply attached in love and relationships"
+                "t": "): cohesiveness, but also fogginess of the mind when imbalanced."
               }
             ],
             [
               {
-                "t": "Āvila",
-                "term": "avila",
-                "cat": "ayurveda"
+                "t": "Gross ("
               },
               {
-                "t": " cloudy: early morning cloudy mind and fogginess, often desires coffee as a stimulant to start the day"
-              }
-            ],
-            [
-              {
-                "t": "Kathina",
-                "term": "kathina",
-                "cat": "ayurveda"
-              },
-              {
-                "t": " hard: firm muscles,  strength, rigid attitude"
-              }
-            ],
-            [
-              {
-                "t": "Sthūla",
+                "t": "sthula",
                 "term": "sthula",
                 "cat": "ayurveda"
               },
               {
-                "t": " gross: visible structures and the potential for obesity"
+                "t": "): visible structures and the potential for obesity."
               }
             ]
           ]
         },
         {
           "type": "h",
-          "text": "Kapha’s physical appearance, Ākruti is typically:",
-          "level": 3
+          "text": "Physical appearance"
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "The physical form ("
+            },
+            {
+              "t": "Ākruti",
+              "term": "akruti",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ") of a Kapha individual is typically large and well-developed:"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "body frame: big, broad, and strong, with a large skeletal structure"
+                "t": "Body Frame: big, broad, and strong, with a large skeletal structure."
               }
             ],
             [
               {
-                "t": "weight: generally heavy; gains weight easily and finds it hard to lose"
+                "t": "Weight: generally heavy; gains weight easily and finds it hard to lose."
               }
             ],
             [
               {
-                "t": "face: large, round, and attractive, with a “moon-shaped” look and plump cheeks"
+                "t": "Face: large, round, and attractive, with a “moon-shaped” look and plump cheeks."
               }
             ],
             [
               {
-                "t": "nose: large, wide, and thick; may be short and button-like"
-              }
-            ],
-            [
-              {
-                "t": "eyes: big, round, and beautiful, with long, thick lashes; iris blue, light gray, or black; very white sclera"
-              }
-            ],
-            [
-              {
-                "t": "lips: large, full, soft, and oily, often pale"
-              }
-            ],
-            [
-              {
-                "t": "teeth: large, strong, and white, regularly spaced, with strong gums"
-              }
-            ],
-            [
-              {
-                "t": "skin: thick, cool, soft, and oily; fair or pale, ages slowly and looks younger than its age"
-              }
-            ],
-            [
-              {
-                "t": "hair: thick, luxuriant, wavy, and oily; abundant and healthy even in old age"
-              }
-            ],
-            [
-              {
-                "t": "nails: strong, thick, smooth, and symmetrical, with a polished look"
+                "t": "Nose: large, wide, and thick; may be short and button-like."
               }
             ]
           ]
         },
         {
           "type": "h",
-          "text": "Kapha’s physiology and behavior:",
-          "level": 3
+          "text": "Eyes, lips, and teeth"
         },
         {
           "type": "list",
           "items": [
             [
               {
-                "t": "digestion and appetite: "
+                "t": "Eyes: big, round, and beautiful, with long, thick lashes; iris blue, light gray, or black; very white sclera."
+              }
+            ],
+            [
+              {
+                "t": "Lips: large, full, soft, and oily, often pale."
+              }
+            ],
+            [
+              {
+                "t": "Teeth: large, strong, and white, regularly spaced, with strong gums."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Skin, hair, and nails"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "t": "Skin: thick, cool, soft, and oily; fair or pale, ages slowly and looks younger than its age."
+              }
+            ],
+            [
+              {
+                "t": "Hair: thick, luxuriant, wavy, and oily; abundant and healthy even in old age."
+              }
+            ],
+            [
+              {
+                "t": "Nails: strong, thick, smooth, and symmetrical, with a polished look."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Physiology and behavior"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "t": "Appetite and Digestion: slow but steady ("
               },
               {
-                "t": "Manda Āgni",
+                "t": "Manda Agni",
                 "term": "manda agni",
                 "cat": "ayurveda"
               },
               {
-                "t": "slow but steady, prolonged digestion, with a feeling of heaviness or fullness"
+                "t": "); digestion is prolonged, with a feeling of heaviness or fullness."
               }
             ],
             [
               {
-                "t": "sleep: deep, sound, and prolonged; falls asleep easily and is hard to wake."
+                "t": "Sleep: deep, sound, and prolonged; falls asleep easily and is hard to wake."
               }
             ],
             [
               {
-                "t": "speech: slow, melodious, and monotonous, with a deep, voluminous voice."
+                "t": "Speech: slow, melodious, and monotonous, with a deep, voluminous voice."
               }
             ],
             [
               {
-                "t": "psychology: when balanced, loving, compassionate, and forgiving. When imbalanced, prone to greed, attachment, possessiveness, and lethargy."
+                "t": "Psychology: when balanced, loving, compassionate, and forgiving. When imbalanced, prone to greed, attachment, possessiveness, and lethargy."
               }
             ],
             [
               {
-                "t": "pulse: "
+                "t": "Pulse: felt best under the ring finger, moving like a swan ("
               },
               {
                 "t": "Hamsa",
@@ -2699,12 +2634,12 @@
                 "cat": "ayurveda"
               },
               {
-                "t": " moving like a swan, slow, deep, and wavy, felt best under the ring finger"
+                "t": ")—slow, deep, and wavy."
               }
             ],
             [
               {
-                "t": "dreams: romantic and watery—lakes, oceans, swimming, snow, or ducks."
+                "t": "Dreams: romantic and watery—lakes, oceans, swimming, snow, or ducks."
               }
             ]
           ]
