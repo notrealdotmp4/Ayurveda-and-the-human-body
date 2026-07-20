@@ -15,7 +15,7 @@
     "cat": "anatomy",
     "title": "Oral cavity",
     "phon": "",
-    "body": "<p>The mouth — where digestion begins.</p>"
+    "body": "<p>The oral cavity, or mouth, is the first part of the digestive tract, extending from the lips to the back of the throat, connecting to the pharynx. It contains essential structures like the teeth, tongue, palate, and openings for salivary glands. Its key functions include mechanically breaking down food through chewing and starting chemical digestion with saliva, shaping airflow and producing sounds for speech, evaluating food through sensory receptors called taste buds, and serving as a secondary airway when nasal breathing is restricted.</p>"
   },
   "the bhutas": {
     "cat": "ayurveda",
@@ -57,19 +57,19 @@
     "cat": "anatomy",
     "title": "Parotid",
     "phon": "",
-    "body": "<p>The largest pair of salivary glands, in front of the ears.</p>"
+    "body": "<p>The parotid gland is the largest of the three main salivary glands, located just below and in front of each ear. Its primary function is to secrete a thin, watery saliva rich in the enzyme amylase, which initiates the digestion of starches. This saliva lubricates the mouth, making it easier to chew and swallow food, while also helping to wash away bacteria and protect tooth enamel from cavities.</p>"
   },
   "submandibular": {
     "cat": "anatomy",
     "title": "Submandibular",
     "phon": "",
-    "body": "<p>Salivary glands beneath the lower jaw.</p>"
+    "body": "<p>The submandibular gland consists of a pair of major salivary glands located beneath the lower jaw. Its primary function is to produce up to 70% of resting saliva, which lubricates the mouth, facilitates swallowing, chemically breaks down starches through enzymes, and protects against oral bacteria and decay.</p>"
   },
   "sublingual": {
     "cat": "anatomy",
     "title": "Sublingual",
     "phon": "",
-    "body": "<p>Salivary glands under the tongue.</p>"
+    "body": "<p>The sublingual gland is the smallest of the major salivary glands, located under the mucous membrane in the floor of the mouth, on either side of the tongue. Its primary function is to secrete thick, mucus-rich saliva, which lubricates food for easier swallowing, keeps the mouth moist, and aids in early digestion. The mucus coats food to form a slippery bolus for swallowing and protects the oral mucosa from dryness and irritation.</p>"
   },
   "mastication": {
     "cat": "physiology",
@@ -135,13 +135,13 @@
     "cat": "anatomy",
     "title": "Pharynx",
     "phon": "",
-    "body": "<p>The throat — the passage behind the mouth leading to the esophagus.</p>"
+    "body": "<p>The pharynx, commonly referred to as the throat, is a muscular tube situated behind the mouth and nasal cavity. It serves as a critical passageway for both the respiratory and digestive systems, directing inhaled air to the larynx and facilitating the transport of food into the esophagus. The pharynx fulfills three primary functions: it channels air from the nasal and oral cavities to the larynx and lungs; its muscular walls propel food and liquids into the esophagus, preventing aspiration into the trachea; and it contributes to phonation while housing the tonsils, which are instrumental in immune defense against infections.</p>"
   },
   "esophagus": {
     "cat": "anatomy",
     "title": "Esophagus",
     "phon": "",
-    "body": "<p>The muscular tube carrying food from throat to stomach.</p>"
+    "body": "<p>The esophagus is a muscular tube that connects the pharynx to the stomach. It serves a critical role in the transport of swallowed food and liquids through a process known as peristalsis, which involves a series of coordinated wave-like muscle contractions. This mechanism allows for the effective movement of food into the stomach, even when in horizontal positions. The esophagus is equipped with sphincter muscles at both the upper and lower ends, functioning as gatekeepers. The lower esophageal sphincter is particularly important, as it prevents the reflux of gastric acid into the esophagus, thereby protecting it from potential damage.</p>"
   },
   "peristalsis": {
     "cat": "physiology",
@@ -165,7 +165,7 @@
     "cat": "ayurveda",
     "title": "Rasa Dhātu",
     "phon": "",
-    "body": "<p>Rasa Dhātu is the Sanskrit term for the plasma or lymph tissue, one of the biological tissues (Dhātus). It represents the principle of nutrition and immunity (prīnana), serving as the essential juice of life that circulates through the cardiovascular and lymphatic systems to provide nourishment to every cell and tissue in the body, and is associated predominantly with the water element while containing the Ether, Air, Fire, and Earth elements to support the subsequent tissues.</p>"
+    "body": "<p>Rasa Dhātu is the Sanskrit term for the plasma or lymph tissue, the first of the biological tissues. It represents the principle of nutrition and immunity (prīnana), serving as the essential \"juice of life\" that circulates through the cardiovascular and lymphatic systems to provide sustenance to every cell in the body. Upa-Dhātu (superior by-product): the top layer of the skin (tvak), lactation (stanya), and menstruation (rajah). Mala (inferior by-product): Poshaka Kapha, which manifests as kleda (mucus).</p>"
   },
   "thyroid": {
     "cat": "anatomy",
@@ -289,7 +289,7 @@
   },
   "annadrava": {
     "cat": "ayurveda",
-    "title": "Anna-drava",
+    "title": "Anna-Drava",
     "phon": "",
     "body": "<p>Food liquefied into chyme during digestion.</p>"
   },
@@ -303,13 +303,13 @@
     "cat": "anatomy",
     "title": "Pyloric sphincter",
     "phon": "",
-    "body": "<p>The ring of muscle controlling the pyloric valve.</p>"
+    "body": "<p>The pyloric sphincter is a thick ring of smooth muscle located at the distal end of the stomach, where it connects to the duodenum of the small intestine. This involuntary valve regulates the flow of partially digested food, known as chyme, from the stomach into the intestines. It opens intermittently to release small, manageable amounts of chyme, facilitating proper digestion and nutrient absorption. Additionally, it closes to prevent the backflow of intestinal contents into the stomach and to protect the small intestine from exposure to harsh gastric acid.</p>"
   },
   "duodenum": {
     "cat": "anatomy",
     "title": "Duodenum",
     "phon": "",
-    "body": "<p>The first section of the small intestine.</p>"
+    "body": "<p>The duodenum is the first and shortest section of the small intestine, connecting the stomach to the jejunum. It is C-shaped and about 10 inches long. Its main function is chemical digestion; it receives partially digested food (chyme) from the stomach and mixes it with bile from the liver and digestive enzymes from the pancreas to break down proteins, fats, and carbohydrates.</p>"
   },
   "virya": {
     "cat": "ayurveda",
@@ -345,7 +345,7 @@
     "cat": "ayurveda",
     "title": "Lavana Avastha Pāka",
     "phon": "",
-    "body": "<p>Lavana avastha pāka is the Sanskrit term for the salty stage of digestion, the third of the six hour-long digestive phases. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature (asthāyi) Māmsa and Meda Dhātus in the body.</p>"
+    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion, the third of the six hour-long digestive phases. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature (asthāyi) Māmsa and Meda Dhātus in the body.</p>"
   },
   "lavana": {
     "cat": "ayurveda",
@@ -357,7 +357,7 @@
     "cat": "anatomy",
     "title": "Stomach",
     "phon": "",
-    "body": "<p>The organ where food is churned and broken down by acid.</p>"
+    "body": "<p>The stomach is a muscular organ in the upper abdomen that serves as a temporary reservoir and processing center for ingested food. It performs mechanical digestion through churning and chemical digestion using hydrochloric acid and enzymes to create a semi-liquid mixture called chyme, which is gradually passed into the small intestine. The stomach muscles contract and relax to churn food into a smooth liquid, while hydrochloric acid and enzymes break down proteins and kill harmful bacteria.</p>"
   },
   "the small intestine secretes": {
     "cat": "anatomy",
@@ -381,13 +381,13 @@
     "cat": "anatomy",
     "title": "Liver",
     "phon": "",
-    "body": "<p>The organ that produces bile and processes nutrients.</p>"
+    "body": "<p>The liver is the body's largest internal organ, weighing about 1.5 kg and located in the upper right abdomen. It serves as a vital processing center, performing over 500 essential functions. Key roles include digestion and energy management through bile production for fat breakdown, nutrient processing, and blood sugar regulation by storing excess glucose as glycogen. Additionally, the liver detoxifies harmful substances, drugs, and alcohol, converting waste products like ammonia into safe urea for excretion. It also synthesizes essential blood proteins, such as albumin and clotting factors, while storing important vitamins and minerals like iron.</p>"
   },
   "pancreas": {
     "cat": "anatomy",
     "title": "Pancreas",
     "phon": "",
-    "body": "<p>The gland that secretes digestive enzymes and hormones.</p>"
+    "body": "<p>The pancreas is a vital gland located behind the stomach, essential for both digestion and metabolism. It has two primary functions: the exocrine function produces powerful enzymes such as amylase, lipase, and protease, which are released into the small intestine to break down carbohydrates, fats, and proteins. The endocrine function involves releasing hormones directly into the bloodstream, particularly insulin to lower blood sugar levels and glucagon to raise them, thereby maintaining energy balance in the body.</p>"
   },
   "duct": {
     "cat": "anatomy",
@@ -453,7 +453,7 @@
     "cat": "anatomy",
     "title": "Gallbladder",
     "phon": "",
-    "body": "<p>The organ that stores and releases bile.</p>"
+    "body": "<p>The gallbladder is a small, pear-shaped organ located underneath the liver. Its main job is to store and concentrate bile, a fluid made by the liver. When you eat, the gallbladder contracts and releases bile into the small intestine. This bile helps break down and digest fats, making it easier for your body to absorb them.</p>"
   },
   "kidneys": {
     "cat": "anatomy",
@@ -471,7 +471,7 @@
     "cat": "anatomy",
     "title": "Jejunum",
     "phon": "",
-    "body": "<p>The second section of the small intestine.</p>"
+    "body": "<p>The jejunum is the middle section of the small intestine, situated between the duodenum and the ileum. It plays a crucial role in the rapid absorption of digested nutrients, including carbohydrates, proteins, and fats, as well as water into the bloodstream.</p>"
   },
   "katu": {
     "cat": "ayurveda",
@@ -501,7 +501,7 @@
     "cat": "anatomy",
     "title": "Ileum",
     "phon": "",
-    "body": "<p>The third and longest section of the small intestine.</p>"
+    "body": "<p>The ileum is the final and longest section of the small intestine, connecting the jejunum to the large intestine. Its main functions include absorbing essential nutrients such as Vitamin B12 and bile salts, completing digestion, and protecting the gut from harmful bacteria through specialized immune tissues called Peyer's patches.</p>"
   },
   "colon": {
     "cat": "anatomy",
@@ -543,7 +543,7 @@
     "cat": "ayurveda",
     "title": "Tikta Avastha Pāka",
     "phon": "",
-    "body": "<p>Tikta avastha pāka is the Sanskrit term for the bitter stage of digestion, the fifth of the six hour-long digestive phases. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature (asthāyi) Majjā Dhātu in the body.</p>"
+    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion, the fifth of the six hour-long digestive phases. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature (asthāyi) Majjā Dhātu in the body.</p>"
   },
   "tikta": {
     "cat": "ayurveda",
@@ -609,43 +609,43 @@
     "cat": "anatomy",
     "title": "Ileocecal valve",
     "phon": "",
-    "body": "<p>The valve between the small and large intestine.</p>"
+    "body": "<p>The ileocecal valve is a one-way muscular structure in the lower right abdomen that connects the ileum to the cecum. It prevents backflow of fecal matter and bacteria, regulates the flow of contents into the colon for nutrient absorption, and protects the small intestine from bacterial overgrowth.</p>"
   },
   "cecum": {
     "cat": "anatomy",
     "title": "Cecum",
     "phon": "",
-    "body": "<p>The pouch at the start of the large intestine.</p>"
+    "body": "<p>The cecum is the first pouch-like part of the large intestine, located in the lower right abdomen. It connects the small intestine (ileum) to the ascending colon, and the appendix is attached to its bottom. Its main functions include reabsorbing water and electrolytes from liquid waste (chyme) received from the small intestine, mixing digested waste with mucus to help it move smoothly into the colon, and housing beneficial gut bacteria that assist in the digestive process.</p>"
   },
   "ascending colon": {
     "cat": "anatomy",
     "title": "Ascending colon",
     "phon": "",
-    "body": "<p>The first, upward-running part of the colon.</p>"
+    "body": "<p>The ascending colon is the part of the large intestine that connects the cecum to the transverse colon, located on the right side of the abdomen. Its main role is to absorb water and electrolytes from undigested food, turning liquid waste into solid stool.</p>"
   },
   "hepatic flexure": {
     "cat": "anatomy",
     "title": "Hepatic flexure",
     "phon": "",
-    "body": "<p>The bend in the colon near the liver.</p>"
+    "body": "<p>The hepatic flexure is a sharp 90-degree bend in the large intestine where the ascending colon turns into the horizontal transverse colon. Located in the upper right abdomen beneath the liver, its main role is to direct the flow of digestive waste. As stool moves up the right side, the hepatic flexure slows its progress, allowing the colon to absorb remaining water and electrolytes before the waste continues across the body.</p>"
   },
   "transverse colon": {
     "cat": "anatomy",
     "title": "Transverse colon",
     "phon": "",
-    "body": "<p>The horizontal part of the colon.</p>"
+    "body": "<p>The transverse colon is the longest and most mobile section of the large intestine, extending horizontally across the upper abdomen from the right to the left side. Its primary functions include absorbing remaining water and salts from digested food and processing waste before storage and elimination. Additionally, it contains a healthy microbiome that synthesizes essential vitamins, such as Vitamin K and B vitamins, and breaks down bilirubin, contributing to the characteristic brown color of stool.</p>"
   },
   "splenic flexure": {
     "cat": "anatomy",
     "title": "Splenic flexure",
     "phon": "",
-    "body": "<p>The bend in the colon near the spleen.</p>"
+    "body": "<p>The splenic flexure is the sharp, upper-left bend in the large intestine where the transverse colon meets the descending colon, located just beneath the spleen. Its primary function is to redirect the flow of digested food and waste downward through the digestive tract. Due to its acute angle, the splenic flexure is a common site for gas to become trapped, which can lead to abdominal discomfort, bloating, or cramping.</p>"
   },
   "descending colon": {
     "cat": "anatomy",
     "title": "Descending colon",
     "phon": "",
-    "body": "<p>The downward-running part of the colon.</p>"
+    "body": "<p>The descending colon is the part of the large intestine that runs down the left side of the abdomen, connecting the transverse colon to the sigmoid colon. Its main functions are to absorb remaining water and electrolytes from indigestible food, solidify waste, and store feces before they are emptied into the rectum for elimination.</p>"
   },
   "purisha": {
     "cat": "ayurveda",
@@ -657,11 +657,11 @@
     "cat": "anatomy",
     "title": "Sigmoid colon",
     "phon": "",
-    "body": "<p>The S-shaped final section of the colon before the rectum.</p>"
+    "body": "<p>The sigmoid colon is an S-shaped segment of the large intestine, measuring 10 to 15 inches, that connects the descending colon to the rectum. Its primary functions include storing solid waste, absorbing any remaining water and nutrients, and utilizing strong muscle contractions to propel feces into the rectum. The muscular walls of the sigmoid colon serve as a temporary holding area, preventing continuous pressure on the rectum. Its flexible structure also allows for the isolation and release of built-up gas without simultaneously expelling feces.</p>"
   },
   "poshaka vata": {
     "cat": "ayurveda",
-    "title": "Poshaka Vata",
+    "title": "Poshaka Vāta",
     "phon": "",
     "body": "<p>Poshaka Vāta is the Sanskrit term for the nourishing or precursor Vāta, the unstable or unprocessed form of the movement principle. It represents the principle of Vāta nourishment, is formed in the lower gut during the discrimination between essential nutrients and waste products (sāra kitta vivechana), and is associated with the ether and air elements in the body.</p>"
   },
@@ -669,19 +669,19 @@
     "cat": "anatomy",
     "title": "Rectum",
     "phon": "",
-    "body": "<p>The final straight section of the large intestine.</p>"
+    "body": "<p>The rectum is the final approximately 6 inches of the large intestine, connecting the colon to the anal canal. The rectum acts as a reservoir for fecal matter, allowing for voluntary control over bowel movements. As it fills, stretch receptors in its walls send signals to the brain, producing the urge to defecate. Additionally, while the colon primarily handles absorption, the rectum continues to absorb a minor amount of water and electrolytes.</p>"
   },
   "anal canal": {
     "cat": "anatomy",
     "title": "Anal canal",
     "phon": "",
-    "body": "<p>The short passage at the end of the rectum.</p>"
+    "body": "<p>The anal canal is the last 1 - 1.5 inches of the digestive tract, serving as the exit for feces from the rectum to the outside. It stays tightly closed to hold in feces, gas, and liquids. When it's time to eliminate waste, it relaxes and opens. It also senses the type of material coming (gas, solid, or liquid) to trigger the right response.</p>"
   },
   "anus": {
     "cat": "anatomy",
     "title": "Anus",
     "phon": "",
-    "body": "<p>The opening through which waste leaves the body.</p>"
+    "body": "<p>The anus is the opening at the end of the digestive tract where solid waste (feces) leaves the body.</p>"
   },
   "ruksha": {
     "cat": "ayurveda",
@@ -873,7 +873,7 @@
     "cat": "ayurveda",
     "title": "Pañcha Mahābhūtas",
     "phon": "",
-    "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom (ether), movement (air), transformation (fire), cohesiveness (water), and stability (earth), and combine in specific proportions to form the three biological organizations (tridosha).</p>"
+    "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom ākāsha (ether), movement vāyu (air), transformation āgni (fire), cohesiveness āpas (water), and stability prthivī (earth), and combine in specific proportions to form the three biological organizations (tridosha).</p>"
   },
   "rakta": {
     "cat": "ayurveda",
@@ -940,5 +940,377 @@
     "title": "Mano",
     "phon": "",
     "body": "<p>Mano — the mind; the seat of thought, emotion, and perception, linking the senses to consciousness.</p>"
+  },
+  "abhyantara marga": {
+    "cat": "ayurveda",
+    "title": "Abhyantara Mārga",
+    "phon": "",
+    "body": "<p>Abhyantara Mārga is the Sanskrit term for the internal pathway, representing the innermost channel of the body. It consists of the gastrointestinal tract, Mahā Srotas, is associated with the Endoderm embryological layer, and is the primary site for the accumulation and provocation (Sañchaya and Prakopa) stages of disease.</p>"
+  },
+  "ambu vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Ambu Vaha Srotas",
+    "phon": "",
+    "body": "<p>Ambu Vaha Srotas (also known as Udaka Vaha Srotas) is the Sanskrit term for the water-regulating channel, one of the receiving channels. It represents the principle of hydration, electrolyte balance, and body temperature regulation, functioning to moisten tissues and select liquid wastes. Mūla (root): the soft palate (tālu), pancreas (kloma), and the third ventricle of the brain. Mārga (passage): the mucous membrane of the gastrointestinal tract (Maha Srotas). Mukha (opening): the kidneys (vrukka), tongue, and pores of the skin. Mala (excreta): urine and sweat.</p>"
+  },
+  "anna vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Anna Vaha Srotas",
+    "phon": "",
+    "body": "<p>Anna Vaha Srotas is the Sanskrit term for the food-carrying channel, one of the receiving channels. It represents the principle of digestion, absorption, and assimilation of nutrients, corresponding to the gastrointestinal tract from the mouth to the ileocecal valve. Mūla (root): the esophagus and stomach fundus (greater curvature). Mārga (passage): the GI tract from the lips through to the ileocecal valve. Mukha (opening): the ileocecal valve and mouth. Mala (excreta): feces (purīsha).</p>"
+  },
+  "artava dhatu": {
+    "cat": "ayurveda",
+    "title": "Ārtava Dhātu",
+    "phon": "",
+    "body": "<p>Ārtava Dhātu is the Sanskrit term for the female reproductive tissue. It represents the principle of ovulation and conception (prajanana), functioning to continue human life through the union of male and female energy. Upa-Dhātu (superior by-product): Ojas (the pure essence of all tissues). Mala (inferior by-product): none (pubic and axillary hair are functionally related).</p>"
+  },
+  "artava vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Ārtava Vaha Srotas",
+    "phon": "",
+    "body": "<p>Ārtava Vaha Srotas is the Sanskrit term for the female reproductive channel, one of the nourishing channels. It represents the principle of ovulation, conception, and the production of ojas, including the ovaries and uterus. Mūla (root): the ovaries and areola of the nipples. Mārga (passage): the fallopian tubes, uterus, cervical canal, and vaginal passage. Mukha (opening): the labia (yoni oshtha). Mala (excreta): none (functionally related to pubic and axillary hair).</p>"
+  },
+  "asthi dhatu": {
+    "cat": "ayurveda",
+    "title": "Asthi Dhātu",
+    "phon": "",
+    "body": "<p>Asthi Dhātu is the Sanskrit term for the bone tissue, the densest tissue in the body. It represents the principle of structural support and protection (dhārana), forming the skeletal framework that protects vital organs and provides the internal shape for the head, face, and limbs. Upa-Dhātu (superior by-product): teeth (danta) and cartilage (taruna asthi). Mala (inferior by-product): hair (kesha) and nails (nakha).</p>"
+  },
+  "asthi vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Asthi Vaha Srotas",
+    "phon": "",
+    "body": "<p>Asthi Vaha Srotas is the Sanskrit term for the bone tissue channel, one of the nourishing channels. It represents the principle of structural support and protection (dhārana), functioning to form the skeletal framework. Mūla (root): the pelvic girdle and sacrum. Mārga (passage): the skeletal system. Mukha (opening): the nails and hair. Mala (excreta): hair and nails.</p>"
+  },
+  "avila guna": {
+    "cat": "ayurveda",
+    "title": "Avila Guna",
+    "phon": "",
+    "body": "<p>Avila is the Sanskrit term for the cloudy quality, representing the principle of adhesiveness, and is associated with a lack of clarity in the body.</p>"
+  },
+  "bahya marga": {
+    "cat": "ayurveda",
+    "title": "Bāhya Mārga",
+    "phon": "",
+    "body": "<p>Bāhya Mārga is the Sanskrit term for the external or superficial pathway, representing the principle of peripheral circulation. It consists of the channels that carry Rasa and Rakta Dhātus (plasma and blood), is associated with the Ectoderm embryological layer, and is the primary site for the spread (Prasara) stages of disease.</p>"
+  },
+  "chala guna": {
+    "cat": "ayurveda",
+    "title": "Chala Guna",
+    "phon": "",
+    "body": "<p>Chala is the Sanskrit term for the mobile quality, representing the principle of motion and is associated with shakiness and restlessness in the body.</p>"
+  },
+  "drava guna": {
+    "cat": "ayurveda",
+    "title": "Drava Guna",
+    "phon": "",
+    "body": "<p>Drava is the Sanskrit term for the liquid quality, representing the principle of liquefaction and is associated with salivation and cohesiveness in the body.</p>"
+  },
+  "guna": {
+    "cat": "ayurveda",
+    "title": "Guna",
+    "phon": "",
+    "body": "<p>Guna is the Sanskrit term for an attribute or quality, representing the static nature of a substance and is associated with the potential energy stored within all organic and inorganic matter, as well as within thoughts and actions.</p>"
+  },
+  "guru guna": {
+    "cat": "ayurveda",
+    "title": "Guru Guna",
+    "phon": "",
+    "body": "<p>Guru is the Sanskrit term for the heavy quality, representing the principle of bulk nutrition and is associated with anabolic growth in the body.</p>"
+  },
+  "hamsa gati": {
+    "cat": "ayurveda",
+    "title": "Hamsa Gati",
+    "phon": "",
+    "body": "<p>Hamsa Gati is the Sanskrit term for the swan pulse, one of the primary animal gatis. It is primarily felt under the ring finger, represents the principle of stable, wavy movement, is characterized as being deep, slow, and cool, and is associated with Kapha Dosha and the water and earth elements.</p>"
+  },
+  "kathina guna": {
+    "cat": "ayurveda",
+    "title": "Kathina Guna",
+    "phon": "",
+    "body": "<p>Kathina is the Sanskrit term for the hard quality, representing the principle of strength and is associated with callousness and rigidity in the body.</p>"
+  },
+  "khara guna": {
+    "cat": "ayurveda",
+    "title": "Khara Guna",
+    "phon": "",
+    "body": "<p>Khara is the Sanskrit term for the rough quality, representing the principle of rigidity, and is associated with the cracking of the skin and bones in the body.</p>"
+  },
+  "laghu guna": {
+    "cat": "ayurveda",
+    "title": "Laghu Guna",
+    "phon": "",
+    "body": "<p>Laghu is the Sanskrit term for the light quality, representing the principle of alertness and is associated with catabolic reduction in the body.</p>"
+  },
+  "madhyama marga": {
+    "cat": "ayurveda",
+    "title": "Madhyama Mārga",
+    "phon": "",
+    "body": "<p>Madhyama Mārga is the Sanskrit term for the middle or deep pathway, representing the principle of vital organ and deep tissue involvement. It includes the deep connective tissues, the subsequent five biological tissues (Māmsa, Meda, Asthi, Majjā, and Shukra/Ārtava), and the vital organs such as the brain, heart, and kidneys, and is associated with the Mesoderm embryological layer, and is the primary site for the deposition, manifestation, and disease differentiation (Sthāna Samshraya, Vyakti, and Bheda) stages of disease.</p>"
+  },
+  "majja dhatu": {
+    "cat": "ayurveda",
+    "title": "Majjā Dhātu",
+    "phon": "",
+    "body": "<p>Majjā Dhātu is the Sanskrit term for the nerve tissue and bone marrow, the sixth biological tissue. It represents the principle of filling bone spaces (pūrana), functioning to maintain communication, memory, coordination, and the flow of intelligence through the central and peripheral nervous systems. Upa-Dhātu (superior by-product): lacrimal secretions (ashru). Mala (inferior by-product): oily secretions in the eyes (akshi vitta sneha) and mucosal discharges.</p>"
+  },
+  "majja vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Majjā Vaha Srotas",
+    "phon": "",
+    "body": "<p>Majjā Vaha Srotas is the Sanskrit term for the nerve and bone marrow channel, one of the nourishing channels. It represents the principle of communication, memory, and filling spaces (pūrana), functioning to maintain coordination and higher mental functions. Mūla (root): the brain, spinal cord, bone marrow, and joints (sandhi). Mārga (passage): the central, sympathetic, and parasympathetic nervous systems. Mukha (opening): the synaptic space and neuromuscular cleft. Mala (excreta): lacrimal and mucosal discharges.</p>"
+  },
+  "mamsa dhatu": {
+    "cat": "ayurveda",
+    "title": "Māmsa Dhātu",
+    "phon": "",
+    "body": "<p>Māmsa Dhātu is the Sanskrit term for the muscle tissue, the third biological tissue. It represents the principle of plastering (lepana), providing support, strength, coordination, and locomotion while covering and protecting the delicate internal organs. Upa-Dhātu (superior by-product): muscle fat (vasā) and the six layers of skin (tvacha). Mala (inferior by-product): Khamala (nasal crust, earwax, sebaceous secretions, dental tartar, and smegma).</p>"
+  },
+  "mamsa vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Māmsa Vaha Srotas",
+    "phon": "",
+    "body": "<p>Māmsa Vaha Srotas is the Sanskrit term for the muscle tissue channel, one of the nourishing channels. It represents the principle of strength, form, and coordination, functioning to provide support and cover the delicate organs (lepana). Mūla (root): the fascia, six layers of skin (tvacha), small tendons (snāyu), and mesoderm. Mārga (passage): the entire muscle system. Mukha (opening): the pores of the skin and sites of khamala. Mala (excreta): Khamala (nasal crust, ear wax, sebaceous secretions, smegma, and tartar).</p>"
+  },
+  "manda guna": {
+    "cat": "ayurveda",
+    "title": "Manda Guna",
+    "phon": "",
+    "body": "<p>Manda is the Sanskrit term for the slow or dull quality, representing the principle of sluggishness and is associated with metabolic relaxation in the body.</p>"
+  },
+  "manduka gati": {
+    "cat": "ayurveda",
+    "title": "Manduka Gati",
+    "phon": "",
+    "body": "<p>Mandūka Gati is the Sanskrit term for the frog pulse, one of the primary animal gatis. It is primarily felt under the middle finger, represents the principle of jumping or pounding movement, is characterized as being full, bounding, and hot, and is associated with Pitta Dosha and the fire and water elements.</p>"
+  },
+  "mano vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Mano Vaha Srotas",
+    "phon": "",
+    "body": "<p>Mano Vaha Srotas is the Sanskrit term for the mind-carrying channel, the pathway of the entire person. It represents the principle of thinking, feeling, inquiring, and memory, serving as the bridge through which perception becomes attention and understanding throughout the whole body. Mūla (root): the heart, cardiac plexus, brain, and chakra system. Mārga (passage): the entire body. Mukha (opening): the marma points and the five sensory organs (ears, skin, eyes, tongue, and nose). Mala (excreta): excess of Rajas and Tamas qualities.</p>"
+  },
+  "meda dhatu": {
+    "cat": "ayurveda",
+    "title": "Meda Dhātu",
+    "phon": "",
+    "body": "<p>Meda Dhātu is the Sanskrit term for the adipose or fat tissue, the fourth biological tissue. It represents the principle of lubrication (snehan), functioning to store energy as a food reservoir, provide insulation, and manifest personal love and softness in the body. Upa-Dhātu (superior by-product): tendons, sinews, ligaments, and flat muscles (snāyu). Mala (inferior by-product): sweat (sveda).</p>"
+  },
+  "meda vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Meda Vaha Srotas",
+    "phon": "",
+    "body": "<p>Meda Vaha Srotas is the Sanskrit term for the fat-carrying channel, one of the nourishing channels. It represents the principle of lubrication (snehan), insulation, and personal love, functioning to store energy and add bulk to the body. Mūla (root): the omentum and adrenal glands (vrukka). Mārga (passage): the subcutaneous fat tissue. Mukha (opening): the sweat glands. Mala (excreta): sweat (sveda).</p>"
+  },
+  "mrudu guna": {
+    "cat": "ayurveda",
+    "title": "Mrudu Guna",
+    "phon": "",
+    "body": "<p>Mrudu is the Sanskrit term for the soft quality, representing the principle of tenderness and is associated with tissue relaxation in the body.</p>"
+  },
+  "mutra vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Mūtra Vaha Srotas",
+    "phon": "",
+    "body": "<p>Mūtra Vaha Srotas is the Sanskrit term for the urinary channel, one of the channels of elimination. It represents the principle of electrolyte balance and elimination of liquid waste, functioning to maintain blood pressure and excrete nitrogenous toxins. Mūla (root): the kidneys. Mārga (passage): the ureters, bladder, and urethra. Mukha (opening): the urethral opening. Mala (excreta): none.</p>"
+  },
+  "ojas": {
+    "cat": "ayurveda",
+    "title": "Ojas",
+    "phon": "",
+    "body": "<p>Ojas is the Sanskrit term for the vital essence, the pure essence of Kapha Dosha and the water element in particular. It represents the principle of natural immunity and vitality, serving as a superfine biological substance that circulates via the heart throughout the body to maintain the resistance and stability of all tissues. It is composed of two types: Apara Ojas (unprocessed), which circulates throughout the system, and Para Ojas (superior), which consists of eight drops that remain in the heart to maintain the life of the individual.</p>"
+  },
+  "picchila guna": {
+    "cat": "ayurveda",
+    "title": "Picchila Guna",
+    "phon": "",
+    "body": "<p>Picchila is the Sanskrit term for the sticky quality, representing the principle of adhesiveness and is associated with a lack of clarity in the body.</p>"
+  },
+  "prana": {
+    "cat": "ayurveda",
+    "title": "Prāna",
+    "phon": "",
+    "body": "<p>Prāna is the Sanskrit term for the vital life force, the pure essence of Vāta Dosha and the ether element in particular. It represents the principle of cellular communication and respiration, serving as the flow of intelligence that governs all motor and sensory functions, oxygenation, and the pulsation of the heart. In its role as the bridge between body, mind, and consciousness, it directs attention to create perception and enkindles the central bodily fire, Āgni, to express the body's natural intelligence.</p>"
+  },
+  "prana vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Prāna Vaha Srotas",
+    "phon": "",
+    "body": "<p>Prāna Vaha Srotas is the Sanskrit term for the respiratory channel, one of the receiving channels. It represents the principle of respiration, maintaining life functions, and communication with the higher self, functioning to maintain the flow of intelligence between the body and mind. Mūla (root): the left chamber of the heart and the entire gastrointestinal (GI) tract (Maha Srotas). Mārga (passage): the respiratory tract, including the bronchial tree, alveoli, larynx, and pharynx. Mukha (opening): the nose (Nasa). Mala (excreta): carbon dioxide.</p>"
+  },
+  "purisha vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Purisha Vaha Srotas",
+    "phon": "",
+    "body": "<p>Purīsha Vaha Srotas is the Sanskrit term for the feces-carrying channel, one of the channels of elimination. It represents the principle of absorption of minerals and elimination of solid waste, functioning to provide structural stability to the colon. Mūla (root): the cecum, rectum (guda), and sigmoid colon. Mārga (passage): the large intestine. Mukha (opening): the anal orifice. Mala (excreta): none.</p>"
+  },
+  "rajah vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Rajah Vaha Srotas",
+    "phon": "",
+    "body": "<p>Rajah Vaha Srotas is the Sanskrit term for the menstrual channel, one of the specific female nourishing channels. It represents the principle of menstrual cleansing, functioning to clear away the unfertilized ovum and the old endometrial lining after each cycle. Mūla, Mārga, and Mukha: these components share structural confluence with Ārtava Vaha Srotas. Mala (excreta): the menstrual flow is itself a byproduct and means of cleansing.</p>"
+  },
+  "rakta dhatu": {
+    "cat": "ayurveda",
+    "title": "Rakta Dhātu",
+    "phon": "",
+    "body": "<p>Rakta Dhātu is the Sanskrit term for the blood tissue, specifically the red blood cells. It represents the principle of life function (jīvana), responsible for oxygenation, enthusiasm, and maintaining the life of every cell while serving as a bridge between the internal and external environments. Upa-Dhātu (superior by-product): blood vessels (sirā) and small tendons or sinews (kandara). Mala (inferior by-product): Poshaka Pitta, which manifests as bile.</p>"
+  },
+  "rakta vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Rakta Vaha Srotas",
+    "phon": "",
+    "body": "<p>Rakta Vaha Srotas is the Sanskrit term for the blood-carrying channel, one of the nourishing channels. It represents the principle of oxygenation, life function (jīvana), and enthusiasm, responsible for transporting nutrients, hormones, and heat. Mūla (root): the liver (yakrut) and spleen (plīha). Mārga (passage): the arteries and circulatory system. Mukha (opening): the arteriole-venous junctions. Mala (excreta): Poshaka Pitta (precursor Pitta).</p>"
+  },
+  "rasa vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Rasa Vaha Srotas",
+    "phon": "",
+    "body": "<p>Rasa Vaha Srotas is the Sanskrit term for the plasma channel, one of the nourishing channels. It represents the principle of nutrition, immunity, and faith (prīnana), functioning to provide nourishment to every cell in the body. Mūla (root): the right chamber of the heart and the ten great vessels. Mārga (passage): the venous and lymphatic systems. Mukha (opening): the arteriole-venous junctions. Mala (excreta): Poshaka Kapha (precursor Kapha).</p>"
+  },
+  "ruksha guna": {
+    "cat": "ayurveda",
+    "title": "Ruksha Guna",
+    "phon": "",
+    "body": "<p>Ruksha is the Sanskrit term for the dry quality, representing the principle of dehydration and is associated with absorption and constipation in the body.</p>"
+  },
+  "sandra guna": {
+    "cat": "ayurveda",
+    "title": "Sandra Guna",
+    "phon": "",
+    "body": "<p>Sandra is the Sanskrit term for the dense quality, representing the principle of solidity and is associated with compactness and groundedness in the body.</p>"
+  },
+  "sara guna": {
+    "cat": "ayurveda",
+    "title": "Sara Guna",
+    "phon": "",
+    "body": "<p>Sara is the Sanskrit term for the spreading or creeping quality, representing the principle of flowing movement and is associated with increased Pitta Dosha in the body.</p>"
+  },
+  "sarpa gati": {
+    "cat": "ayurveda",
+    "title": "Sarpa Gati",
+    "phon": "",
+    "body": "<p>Sarpa Gati is the Sanskrit term for the cobra pulse, one of the primary animal gatis. It is primarily felt under the index finger, represents the principle of serpentine or slithering movement, is characterized as being thin, fast, and feeble, and is associated with Vāta Dosha and the ether and air elements.</p>"
+  },
+  "shita guna": {
+    "cat": "ayurveda",
+    "title": "Shīta Guna",
+    "phon": "",
+    "body": "<p>Shīta is the Sanskrit term for the cold quality, representing the principle of contraction and is associated with reduced metabolic rate in the body.</p>"
+  },
+  "shlakshna guna": {
+    "cat": "ayurveda",
+    "title": "Shlakshna Guna",
+    "phon": "",
+    "body": "<p>Shlakshna is the Sanskrit term for the slimy or smooth quality, representing the principle of flexibility and is associated with joint lubrication in the body.</p>"
+  },
+  "shukra dhatu": {
+    "cat": "ayurveda",
+    "title": "Shukra Dhātu",
+    "phon": "",
+    "body": "<p>Shukra Dhātu is the Sanskrit term for the male reproductive tissue. It represents the principle of procreation (prajanana), supreme intelligence, and emotional release, serving as the refined essence of all tissues that ultimately produces ojas for vigor and vitality. Upa-Dhātu (superior by-product): Ojas (the pure essence of all tissues). Mala (inferior by-product): none (pubic and axillary hair are functionally related).</p>"
+  },
+  "shukra vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Shukra Vaha Srotas",
+    "phon": "",
+    "body": "<p>Shukra Vaha Srotas is the Sanskrit term for the male reproductive channel, one of the nourishing channels. It represents the principle of procreation (prajanana), supreme intelligence, and emotional release, functioning to produce semen and ojas. Mūla (root): the testicles and nipples. Mārga (passage): the vas deferens, epididymis, prostate, urethra, and urinogenital tract. Mukha (opening): the urethral opening. Mala (excreta): none (functionally related to pubic and axillary hair).</p>"
+  },
+  "snigdha guna": {
+    "cat": "ayurveda",
+    "title": "Snigdha Guna",
+    "phon": "",
+    "body": "<p>Snigdha is the Sanskrit term for the oily or unctuous quality, representing the principle of lubrication and is associated with moisture and compassion in the body.</p>"
+  },
+  "stanya vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Stanya Vaha Srotas",
+    "phon": "",
+    "body": "<p>Stanya Vaha Srotas is the Sanskrit term for the lactation channel, one of the specific female nourishing channels. It represents the principle of lactation, functioning to create and transport mother's milk. Mūla (root): the lactiferous glands and Rasa Dhātu. Mārga (passage): the lactiferous ducts. Mukha (opening): the nipple ducts. Mala (excreta): none.</p>"
+  },
+  "sthira guna": {
+    "cat": "ayurveda",
+    "title": "Sthira Guna",
+    "phon": "",
+    "body": "<p>Sthira is the Sanskrit term for the static or stable quality, representing the principle of support and is associated with obstruction and fixity in the body.</p>"
+  },
+  "sthula guna": {
+    "cat": "ayurveda",
+    "title": "Sthula Guna",
+    "phon": "",
+    "body": "<p>Sthula is the Sanskrit term for the gross quality, representing the principle of bulk and is associated with obstruction and obesity in the body.</p>"
+  },
+  "sukshma guna": {
+    "cat": "ayurveda",
+    "title": "Sukshma Guna",
+    "phon": "",
+    "body": "<p>Sukshma is the Sanskrit term for the subtle quality, representing the principle of penetration and associated with entry into the body's minute capillaries.</p>"
+  },
+  "sveda vaha srotas": {
+    "cat": "ayurveda",
+    "title": "Sveda Vaha Srotas",
+    "phon": "",
+    "body": "<p>Sveda Vaha Srotas is the Sanskrit term for the sweat-carrying channel, one of the channels of elimination. It represents the principle of body temperature regulation and skin lubrication, functioning to excrete excess liquid wastes. Mūla (root): the sweat glands and sebaceous glands. Mārga (passage): the sweat ducts and sebaceous ducts. Mukha (opening): the pores of the skin and openings of the sweat glands. Mala (excreta): none.</p>"
+  },
+  "tejas": {
+    "cat": "ayurveda",
+    "title": "Tejas",
+    "phon": "",
+    "body": "<p>Tejas is the Sanskrit term for radiant energy or pure intelligence, the pure essence of Pitta Dosha and the fire element in particular. It represents the principle of digestion, transformation, and cellular intelligence, governing the \"cooking\" of everything taken into the body, from food and liquids to thoughts and emotions. Tejas is responsible for maintaining the semi-permeability of cell membranes and manifests as the luminosity of the aura, intelligence, and the flame of attention.</p>"
+  },
+  "tikshna guna": {
+    "cat": "ayurveda",
+    "title": "Tikshna Guna",
+    "phon": "",
+    "body": "<p>Tīkshna is the Sanskrit term for the sharp or penetrating quality, representing the principle of quick understanding and is associated with hyper-metabolism in the body.</p>"
+  },
+  "ushna guna": {
+    "cat": "ayurveda",
+    "title": "Ushna Guna",
+    "phon": "",
+    "body": "<p>Ushna is the Sanskrit term for the hot quality, representing the principle of digestion and is associated with increased circulation in the body.</p>"
+  },
+  "vishada guna": {
+    "cat": "ayurveda",
+    "title": "Vishada Guna",
+    "phon": "",
+    "body": "<p>Vishada is the Sanskrit term for the clear quality, representing the principle of purity and is associated with isolation and mental lucidity in the body.</p>"
+  },
+  "lower esophageal sphincter": {
+    "cat": "anatomy",
+    "title": "Lower Esophageal Sphincter",
+    "phon": "",
+    "body": "<p>The Lower Esophageal Sphincter (LES) is at the bottom of the esophagus, connecting it to the stomach. It relaxes to let food enter the stomach and closes tightly to prevent stomach acid and digestive juices from flowing back into the esophagus.</p>"
+  },
+  "nasal cavity": {
+    "cat": "anatomy",
+    "title": "Nasal Cavity",
+    "phon": "",
+    "body": "<p>The nasal cavity is the air-filled space behind the nose, primarily responsible for conditioning inhaled air by warming, humidifying, and filtering it before it reaches the lungs. It traps dust and pathogens with mucus and cilia, supports the sense of smell, and aids in voice resonance. The nasal cavity consists of three main parts: the vestibule, which has coarse hairs to filter large particles; the respiratory region, lined with mucous membranes and cilia to clear dirt and germs; and the olfactory region at the top, containing sensory receptors for the sense of smell.</p>"
+  },
+  "parotid gland": {
+    "cat": "anatomy",
+    "title": "Parotid Gland",
+    "phon": "",
+    "body": "<p>The parotid gland is the largest of the three main salivary glands, located just below and in front of each ear. Its primary function is to secrete a thin, watery saliva rich in the enzyme amylase, which initiates the digestion of starches. This saliva lubricates the mouth, making it easier to chew and swallow food, while also helping to wash away bacteria and protect tooth enamel from cavities.</p>"
+  },
+  "sublingual gland": {
+    "cat": "anatomy",
+    "title": "Sublingual Gland",
+    "phon": "",
+    "body": "<p>The sublingual gland is the smallest of the major salivary glands, located under the mucous membrane in the floor of the mouth, on either side of the tongue. Its primary function is to secrete thick, mucus-rich saliva, which lubricates food for easier swallowing, keeps the mouth moist, and aids in early digestion. The mucus coats food to form a slippery bolus for swallowing and protects the oral mucosa from dryness and irritation.</p>"
+  },
+  "submandibular gland": {
+    "cat": "anatomy",
+    "title": "Submandibular Gland",
+    "phon": "",
+    "body": "<p>The submandibular gland consists of a pair of major salivary glands located beneath the lower jaw. Its primary function is to produce up to 70% of resting saliva, which lubricates the mouth, facilitates swallowing, chemically breaks down starches through enzymes, and protects against oral bacteria and decay.</p>"
+  },
+  "upper esophageal sphincter": {
+    "cat": "anatomy",
+    "title": "Upper Esophageal Sphincter",
+    "phon": "",
+    "body": "<p>The Upper Esophageal Sphincter (UES) is located at the top of the esophagus. It opens during swallowing to allow food and liquids in and closes to prevent air and contents from entering the trachea.</p>"
   }
 }

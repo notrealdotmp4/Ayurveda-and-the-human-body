@@ -68,8 +68,8 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .lo{position:relative}
 .lo-intro{position:relative;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:16px;padding:24px}
 .lo-intro-media{position:relative;width:min(760px,90vw);aspect-ratio:16/9;border:1px dashed var(--line);border-radius:18px;overflow:hidden;background:#f6efe3;display:grid;place-items:center}.lo-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}.lo-vid-portrait{display:none}.lo-media-ph{position:relative;z-index:0;font-family:system-ui,sans-serif;font-size:12px;color:var(--ink-soft);pointer-events:none}@media(max-width:640px){.lo-intro-media{width:min(420px,86vw);aspect-ratio:1/1}.lo-vid-wide{display:none}.lo-vid-portrait{display:block}}
-.lo-kicker{font-family:system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--c-ayurveda)}
-.lo-title{font-size:clamp(30px,7vw,46px);margin:0;max-width:20ch;line-height:1.14;font-weight:600;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif}
+.lo-kicker{font-family:system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;font-size:13px;color:var(--c-ayurveda)}
+.lo-title{font-size:clamp(28px,6vw,44px);margin:0;max-width:20ch;line-height:1.14;font-weight:600;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif}
 .lo-hint{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);animation:loBob 1.8s ease-in-out infinite}
 @keyframes loBob{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(6px);opacity:1}}
 .lo-scene{position:relative}
