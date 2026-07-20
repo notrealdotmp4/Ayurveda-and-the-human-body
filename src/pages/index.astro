@@ -176,6 +176,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <button class="tbar-btn" data-tool="text" title="Text size" aria-label="Text size">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5V6.5h9v2M7.5 6.5v11M5.5 17.5h4"/><path d="M13 13.5v-1.4h8v1.4M17 12.1v6.4M15 18.5h4"/></svg>
       </button>
+      <button class="tbar-btn" data-tool="search" title="Search" aria-label="Search the book">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      </button>
     </div>
   </nav>
 
@@ -224,6 +227,18 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <button id="hmReplay">↻ Replay animation</button>
         <button id="hmExplore">Explore the map →</button>
       </div>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="search-modal" id="searchModal" aria-hidden="true">
+    <div class="search-win">
+      <div class="search-head">
+        <svg class="search-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+        <input type="search" id="searchInput" placeholder="Search terms and passages…" autocomplete="off" spellcheck="false" />
+        <button class="close-x" id="searchClose" aria-label="Close">×</button>
+      </div>
+      <div class="search-results" id="searchResults"></div>
     </div>
   </div>
 
@@ -389,6 +404,83 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const FS_STEPS = ['', 'fs-m', 'fs-l'], FS_LABELS = ['Normal', 'Large', 'Larger'];
     function applyFS(c) { const d = document.documentElement; d.classList.remove('fs-m', 'fs-l'); if (c) d.classList.add(c); try { localStorage.setItem('tlb-fontsize', c); } catch (e) {} }
     function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
+
+    // ---------- Search ----------
+    const searchModal = document.getElementById('searchModal');
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    let searchIndex = null;
+    function buildSearchIndex() {
+      const idx = [];
+      document.querySelectorAll('.wrap section').forEach((sec) => {
+        const chap = (sec.querySelector('h2.chapter') || {}).textContent || '';
+        const title = (sec.querySelector('h3') || {}).textContent || '';
+        sec.querySelectorAll('p, li, h4.subhead').forEach((el) => {
+          const text = (el.textContent || '').trim();
+          if (text.length > 2) idx.push({ el: el, text: text, label: (chap.trim() + ' · ' + title.trim()).replace(/^ · | · $/, '') });
+        });
+      });
+      return idx;
+    }
+    function escHtml(s) { return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+    function snippet(text, q) {
+      const i = text.toLowerCase().indexOf(q);
+      if (i < 0) return escHtml(text.slice(0, 140));
+      const a = Math.max(0, i - 55), b = Math.min(text.length, i + q.length + 95);
+      return (a > 0 ? '…' : '') + escHtml(text.slice(a, i)) + '<mark>' + escHtml(text.slice(i, i + q.length)) + '</mark>' + escHtml(text.slice(i + q.length, b)) + (b < text.length ? '…' : '');
+    }
+    function runSearch() {
+      const raw = searchInput.value.trim(), q = raw.toLowerCase();
+      if (q.length < 2) { searchResults.innerHTML = '<div class="sr-hint">Type at least two letters to search.</div>'; return; }
+      if (!searchIndex) searchIndex = buildSearchIndex();
+      let html = '';
+      const terms = [];
+      for (const k in GLOSSARY) {
+        const g = GLOSSARY[k];
+        const t = (g.title || '').toLowerCase();
+        const body = (g.body || '').replace(/<[^>]+>/g, ' ').toLowerCase();
+        if (t.includes(q) || body.includes(q)) terms.push([k, g, t.startsWith(q) ? 0 : (t.includes(q) ? 1 : 2)]);
+      }
+      terms.sort((a, b) => a[2] - b[2] || a[1].title.localeCompare(b[1].title));
+      if (terms.length) {
+        html += '<div class="sr-group">Definitions</div>';
+        terms.slice(0, 10).forEach(([k, g]) => {
+          const col = (CATS[g.cat] || {}).color || 'var(--ink)';
+          html += '<button class="sr-item" data-term="' + escHtml(k) + '"><span class="sr-dot" style="background:' + col + '"></span><span class="sr-title">' + escHtml(g.title) + '</span></button>';
+        });
+      }
+      const hits = [];
+      searchIndex.forEach((e, n) => { if (e.text.toLowerCase().includes(q)) hits.push(n); });
+      if (hits.length) {
+        html += '<div class="sr-group">In the book · ' + hits.length + '</div>';
+        hits.slice(0, 25).forEach((n) => {
+          const e = searchIndex[n];
+          html += '<button class="sr-item sr-pass" data-i="' + n + '"><span class="sr-ch">' + escHtml(e.label) + '</span><span class="sr-snip">' + snippet(e.text, q) + '</span></button>';
+        });
+      }
+      searchResults.innerHTML = html || '<div class="sr-hint">No matches for “' + escHtml(raw) + '”.</div>';
+    }
+    function openSearch() { searchModal.classList.add('open'); searchModal.setAttribute('aria-hidden', 'false'); searchInput.focus(); searchInput.select(); if (!searchInput.value) runSearch(); }
+    function closeSearch() { searchModal.classList.remove('open'); searchModal.setAttribute('aria-hidden', 'true'); }
+    searchInput.addEventListener('input', runSearch);
+    document.getElementById('searchClose').addEventListener('click', closeSearch);
+    searchModal.addEventListener('click', (e) => { if (e.target === searchModal) closeSearch(); });
+    searchResults.addEventListener('click', (e) => {
+      const btn = e.target.closest('.sr-item'); if (!btn) return;
+      if (btn.dataset.term) { closeSearch(); openTerm(btn.dataset.term); return; }
+      const n = parseInt(btn.dataset.i, 10);
+      const entry = searchIndex && searchIndex[n];
+      if (entry && entry.el) {
+        closeSearch();
+        entry.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        entry.el.classList.add('search-flash');
+        setTimeout(() => entry.el.classList.remove('search-flash'), 1800);
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && searchModal.classList.contains('open')) closeSearch();
+      if ((e.key === 'f' || e.key === 'F') && (e.metaKey || e.ctrlKey)) { e.preventDefault(); openSearch(); }
+    });
 
     const toolbar = document.getElementById('toolbar');
     function revealTools(on) { toolbar.classList.toggle('show', on); }
@@ -577,6 +669,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'darshan') openDarshan();
       else if (t === 'text') cycleFontSize();
       else if (t === 'margas') openVyadhi();
+      else if (t === 'search') openSearch();
     }));
     const bmMenu = document.getElementById('bmMenu');
     function toggleBmMenu() {
