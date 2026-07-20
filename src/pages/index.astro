@@ -347,64 +347,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeTerm(true); });
     // expose for the hero map to open organ definitions
     window.openGlossary = openTerm;
-  </script>
-
-  <script>
-    // Levels-of-Organization scroll scene (Lottie)
-    import lottie from 'lottie-web';
-    const scene = document.querySelector('.lo-scene');
-    if (scene && !document.documentElement.classList.contains('skip-intro')) {
-      const stages = [...scene.querySelectorAll('.lo-stage')];
-      const steps = [...scene.querySelectorAll('.lo-step')];
-      const dotsWrap = document.getElementById('loDots');
-      let active = 0;
-      const players = stages.map((st) => {
-        const lot = st.querySelector('[data-lottie]');
-        if (lot) return { type: 'lottie', anim: lottie.loadAnimation({ container: lot, renderer: 'svg', loop: false, autoplay: false, path: lot.dataset.lottie }) };
-        const vid = st.querySelector('video[data-video]');
-        if (vid) { vid.muted = true; return { type: 'video', el: vid }; }
-        return null;
-      });
-      function playMedia(i) {
-        players.forEach((p, n) => {
-          if (!p) return;
-          if (n === i) { if (p.type === 'lottie') p.anim.goToAndPlay(0, true); else { try { p.el.currentTime = 0; } catch (e) {} p.el.play().catch(() => {}); } }
-          else { if (p.type === 'lottie') p.anim.pause(); else p.el.pause(); }
-        });
-      }
-      const dots = stages.map((_, i) => {
-        const d = document.createElement('button');
-        d.className = 'lo-dot' + (i === 0 ? ' is-on' : '');
-        d.setAttribute('aria-label', 'Go to stage ' + (i + 1));
-        d.addEventListener('click', () => steps[i].scrollIntoView({ behavior: 'smooth', block: 'center' }));
-        dotsWrap.appendChild(d);
-        return d;
-      });
-      function show(i, force) {
-        if (i === active && !force) return;
-        if (force) { stages[i].classList.remove('is-active'); void stages[i].offsetWidth; }
-        stages.forEach((s, n) => s.classList.toggle('is-active', n === i));
-        dots.forEach((d, n) => d.classList.toggle('is-on', n === i));
-        active = i; playMedia(i);
-        if (i === stages.length - 1) { try { localStorage.setItem('seenIntro', '1'); } catch (e) {} }
-      }
-      const io = new IntersectionObserver((entries) => {
-        entries.forEach((e) => { if (e.isIntersecting) show(+e.target.dataset.step, false); });
-      }, { rootMargin: '-50% 0px -50% 0px' });
-      steps.forEach((s) => io.observe(s));
-      stages[0].classList.add('is-active');
-      playMedia(0);
-    }
-  </script>
-
-  <script>
-    // Toolbox + hero modal + notebook + bookmark
-    const T = document.getElementById('toast');
-    function toast(msg) { T.textContent = msg; T.classList.add('show'); clearTimeout(T._t); T._t = setTimeout(() => T.classList.remove('show'), 1900); }
-    const FS_STEPS = ['', 'fs-m', 'fs-l'], FS_LABELS = ['Normal', 'Large', 'Larger'];
-    function applyFS(c) { const d = document.documentElement; d.classList.remove('fs-m', 'fs-l'); if (c) d.classList.add(c); try { localStorage.setItem('tlb-fontsize', c); } catch (e) {} }
-    function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
-
     // ---------- Search ----------
     const searchModal = document.getElementById('searchModal');
     const searchInput = document.getElementById('searchInput');
@@ -481,6 +423,65 @@ const rest = isLO ? chapters.slice(1) : chapters;
       if (e.key === 'Escape' && searchModal.classList.contains('open')) closeSearch();
       if ((e.key === 'f' || e.key === 'F') && (e.metaKey || e.ctrlKey)) { e.preventDefault(); openSearch(); }
     });
+    document.querySelectorAll('[data-tool="search"]').forEach((b) => b.addEventListener('click', openSearch));
+
+  </script>
+
+  <script>
+    // Levels-of-Organization scroll scene (Lottie)
+    import lottie from 'lottie-web';
+    const scene = document.querySelector('.lo-scene');
+    if (scene && !document.documentElement.classList.contains('skip-intro')) {
+      const stages = [...scene.querySelectorAll('.lo-stage')];
+      const steps = [...scene.querySelectorAll('.lo-step')];
+      const dotsWrap = document.getElementById('loDots');
+      let active = 0;
+      const players = stages.map((st) => {
+        const lot = st.querySelector('[data-lottie]');
+        if (lot) return { type: 'lottie', anim: lottie.loadAnimation({ container: lot, renderer: 'svg', loop: false, autoplay: false, path: lot.dataset.lottie }) };
+        const vid = st.querySelector('video[data-video]');
+        if (vid) { vid.muted = true; return { type: 'video', el: vid }; }
+        return null;
+      });
+      function playMedia(i) {
+        players.forEach((p, n) => {
+          if (!p) return;
+          if (n === i) { if (p.type === 'lottie') p.anim.goToAndPlay(0, true); else { try { p.el.currentTime = 0; } catch (e) {} p.el.play().catch(() => {}); } }
+          else { if (p.type === 'lottie') p.anim.pause(); else p.el.pause(); }
+        });
+      }
+      const dots = stages.map((_, i) => {
+        const d = document.createElement('button');
+        d.className = 'lo-dot' + (i === 0 ? ' is-on' : '');
+        d.setAttribute('aria-label', 'Go to stage ' + (i + 1));
+        d.addEventListener('click', () => steps[i].scrollIntoView({ behavior: 'smooth', block: 'center' }));
+        dotsWrap.appendChild(d);
+        return d;
+      });
+      function show(i, force) {
+        if (i === active && !force) return;
+        if (force) { stages[i].classList.remove('is-active'); void stages[i].offsetWidth; }
+        stages.forEach((s, n) => s.classList.toggle('is-active', n === i));
+        dots.forEach((d, n) => d.classList.toggle('is-on', n === i));
+        active = i; playMedia(i);
+        if (i === stages.length - 1) { try { localStorage.setItem('seenIntro', '1'); } catch (e) {} }
+      }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => { if (e.isIntersecting) show(+e.target.dataset.step, false); });
+      }, { rootMargin: '-50% 0px -50% 0px' });
+      steps.forEach((s) => io.observe(s));
+      stages[0].classList.add('is-active');
+      playMedia(0);
+    }
+  </script>
+
+  <script>
+    // Toolbox + hero modal + notebook + bookmark
+    const T = document.getElementById('toast');
+    function toast(msg) { T.textContent = msg; T.classList.add('show'); clearTimeout(T._t); T._t = setTimeout(() => T.classList.remove('show'), 1900); }
+    const FS_STEPS = ['', 'fs-m', 'fs-l'], FS_LABELS = ['Normal', 'Large', 'Larger'];
+    function applyFS(c) { const d = document.documentElement; d.classList.remove('fs-m', 'fs-l'); if (c) d.classList.add(c); try { localStorage.setItem('tlb-fontsize', c); } catch (e) {} }
+    function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
 
     const toolbar = document.getElementById('toolbar');
     function revealTools(on) { toolbar.classList.toggle('show', on); }
@@ -669,7 +670,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'darshan') openDarshan();
       else if (t === 'text') cycleFontSize();
       else if (t === 'margas') openVyadhi();
-      else if (t === 'search') openSearch();
     }));
     const bmMenu = document.getElementById('bmMenu');
     function toggleBmMenu() {
