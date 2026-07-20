@@ -136,7 +136,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           ) : b.type === 'list' ? (
             <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
           ) : (
-            <p>{b.segments.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</p>
+            <p>{b.num && <span class="p-num">{b.num}</span>}{b.segments.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</p>
           )
         ))}
       </section>
@@ -207,7 +207,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <!-- Hero modal -->
   <div class="hero-modal" id="heroModal" aria-hidden="true">
     <div class="hero-win">
-      <div class="hm-head"><strong id="hmTitle">The Living Body — digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
+      <div class="hm-head"><strong id="hmTitle">Digestion Map</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
       <div class="hero-stage">
         <video id="heroVideo" src="/anim/BodyAnimation_ready.mp4" playsinline preload="metadata"></video>
         <div class="hero-map" id="heroMap">
@@ -409,7 +409,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
     function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The channels of circulation', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
     function openHero() {
-      setHeroMode('/anim/digestive-map.svg', 'The Living Body — digestion', true);
+      setHeroMode('/anim/digestive-map.svg', 'Digestion Map', true);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
       if (seenHero) { showMap(); }

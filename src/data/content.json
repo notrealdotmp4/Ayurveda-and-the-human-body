@@ -199,9 +199,6 @@
           "type": "p",
           "segments": [
             {
-              "t": "1 "
-            },
-            {
               "t": "Madhura Avastha Pāka",
               "term": "madhura avastha paka",
               "cat": "ayurveda"
@@ -521,14 +518,12 @@
             {
               "t": "."
             }
-          ]
+          ],
+          "num": "1"
         },
         {
           "type": "p",
           "segments": [
-            {
-              "t": "2 "
-            },
             {
               "t": "Amla Avastha Pāka",
               "term": "amla avastha paka",
@@ -822,14 +817,12 @@
               "term": "pitta dosha",
               "cat": "ayurveda"
             }
-          ]
+          ],
+          "num": "2"
         },
         {
           "type": "p",
           "segments": [
-            {
-              "t": "3 "
-            },
             {
               "t": "Lavana Avastha Pāka",
               "term": "lavana avastha paka",
@@ -1206,14 +1199,12 @@
             {
               "t": "."
             }
-          ]
+          ],
+          "num": "3"
         },
         {
           "type": "p",
           "segments": [
-            {
-              "t": "4 "
-            },
             {
               "t": "Katu Avastha Pāka",
               "term": "katu avastha paka",
@@ -1446,14 +1437,12 @@
             {
               "t": "."
             }
-          ]
+          ],
+          "num": "4"
         },
         {
           "type": "p",
           "segments": [
-            {
-              "t": "5 "
-            },
             {
               "t": "Tikta Avastha Pāka",
               "term": "tikta avastha paka",
@@ -1638,14 +1627,12 @@
             {
               "t": "."
             }
-          ]
+          ],
+          "num": "5"
         },
         {
           "type": "p",
           "segments": [
-            {
-              "t": "6 "
-            },
             {
               "t": "Kashāya Avastha Pāka",
               "term": "kashaya avastha paka",
@@ -1958,7 +1945,8 @@
             {
               "t": "."
             }
-          ]
+          ],
+          "num": "6"
         }
       ]
     },
