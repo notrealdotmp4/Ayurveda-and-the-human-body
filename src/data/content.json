@@ -15,22 +15,22 @@
         {
           "type": "level",
           "name": "Cellular",
-          "info": "A cell is composed of atoms and molecules and serves as the fundamental unit of life."
+          "info": "A cell is composed of atoms and molecules and serves as the fundamental unit of life. Many cells join to form a tissue."
         },
         {
           "type": "level",
           "name": "Tissue",
-          "info": "A tissue consists of a collection of similar cells that collaborate to perform one or more specialized functions."
+          "info": "A tissue consists of a collection of similar cells that collaborate to perform one or more specialized functions. Many tissues join to form an organ."
         },
         {
           "type": "level",
           "name": "Organ",
-          "info": "An organ is a distinct, structured assembly of tissues that function together to perform specific roles within the body."
+          "info": "An organ is a distinct, structured assembly of tissues that function together to perform specific roles within the body. A collection of organs join to form a system."
         },
         {
           "type": "level",
           "name": "System",
-          "info": "A system is a collection of interconnected and interdependent organs that collaborate to achieve a particular function or set of functions."
+          "info": "A system is a collection of interconnected and interdependent organs that collaborate to achieve a particular function or set of functions. A collection of all bodily systems make up the human organism."
         },
         {
           "type": "level",
@@ -212,7 +212,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " ("
+              "t": ", the "
             },
             {
               "t": "oral cavity",
@@ -220,23 +220,55 @@
               "cat": "anatomy"
             },
             {
-              "t": "). Here, "
+              "t": ", which governs "
             },
             {
-              "t": "Bodhaka Kapha",
-              "term": "bodhaka kapha",
+              "t": "salivary secretions",
+              "term": "salivary secretions",
+              "cat": "physiology"
+            },
+            {
+              "t": " from the "
+            },
+            {
+              "t": "parotid gland",
+              "term": "parotid gland",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "submandibular gland",
+              "term": "submandibular gland",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "sublingual glands",
+              "term": "sublingual glands",
+              "cat": "anatomy"
+            },
+            {
+              "t": " and facilitates the perception of the "
+            },
+            {
+              "t": "6 Rasas",
+              "term": "6 rasas",
               "cat": "ayurveda"
             },
             {
-              "t": " facilitates the perception of the six rasas (tastes). "
+              "t": ". The "
             },
             {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
-              "t": " (elements) of "
+              "t": " of "
             },
             {
               "t": "Madhura",
@@ -260,44 +292,36 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (water). This phase starts as food enters the mouth and mixes with "
+              "t": " (water), representing the principle of "
             },
             {
-              "t": "saliva",
-              "term": "saliva",
+              "t": "Kapha",
+              "term": "kapha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "-predominant "
+            },
+            {
+              "t": "liquefaction",
+              "term": "liquefaction",
               "cat": "physiology"
             },
             {
-              "t": " from the three "
+              "t": " that nourishes "
             },
             {
-              "t": "salivary glands",
-              "term": "salivary glands",
-              "cat": "anatomy"
+              "t": "asthāyi",
+              "term": "asthayi",
+              "cat": "ayurveda"
             },
             {
-              "t": ": the "
+              "t": ", immature "
             },
             {
-              "t": "parotid",
-              "term": "parotid",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "submandibular",
-              "term": "submandibular",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and "
-            },
-            {
-              "t": "sublingual",
-              "term": "sublingual",
-              "cat": "anatomy"
+              "t": "Rasa Dhātu",
+              "term": "rasa dhatu",
+              "cat": "ayurveda"
             },
             {
               "t": ". Through "
@@ -308,7 +332,7 @@
               "cat": "physiology"
             },
             {
-              "t": "—the "
+              "t": ", "
             },
             {
               "t": "mechanical digestion",
@@ -316,7 +340,7 @@
               "cat": "physiology"
             },
             {
-              "t": " of food—and "
+              "t": ", and "
             },
             {
               "t": "chemical digestion",
@@ -324,7 +348,15 @@
               "cat": "physiology"
             },
             {
-              "t": " by the enzyme "
+              "t": " by the "
+            },
+            {
+              "t": "enzyme",
+              "term": "enzyme",
+              "cat": "physiology"
+            },
+            {
+              "t": " "
             },
             {
               "t": "amylase",
@@ -332,7 +364,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", starches are broken down and mixed into a "
+              "t": ", starches decompose into simple sugars and mix into a lubricated "
             },
             {
               "t": "bolus",
@@ -340,7 +372,7 @@
               "cat": "physiology"
             },
             {
-              "t": ". When food touches the "
+              "t": ", providing a feeling of fullness. When food touches the "
             },
             {
               "t": "Jihvā",
@@ -348,18 +380,18 @@
               "cat": "ayurveda"
             },
             {
-              "t": " ("
+              "t": ", "
             },
             {
-              "t": "tongue",
-              "term": "tongue",
+              "t": "taste receptors",
+              "term": "taste receptors",
               "cat": "anatomy"
             },
             {
-              "t": "), taste receptors send signals to the "
+              "t": " send signals to the "
             },
             {
-              "t": "Hypothalamus",
+              "t": "hypothalamus",
               "term": "hypothalamus",
               "cat": "anatomy"
             },
@@ -372,7 +404,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": " processes this perception. "
+              "t": ", located in the "
+            },
+            {
+              "t": "brain's grey matter",
+              "term": "brains grey matter",
+              "cat": "anatomy"
+            },
+            {
+              "t": " for comprehension and emotions, processes this perception. "
             },
             {
               "t": "Prāna Vāyu",
@@ -380,7 +420,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " initiates "
+              "t": ", moving in a downward and inward direction, initiates "
             },
             {
               "t": "mastication",
@@ -404,7 +444,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " into the "
+              "t": " and "
             },
             {
               "t": "esophagus",
@@ -412,7 +452,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " and via "
+              "t": " via "
             },
             {
               "t": "peristalsis",
@@ -428,7 +468,39 @@
               "cat": "anatomy"
             },
             {
-              "t": " (upper stomach). There, "
+              "t": ". There, "
+            },
+            {
+              "t": "Kledaka Kapha",
+              "term": "kledaka kapha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " produces protective "
+            },
+            {
+              "t": "mucus",
+              "term": "mucus",
+              "cat": "physiology"
+            },
+            {
+              "t": " to shield the "
+            },
+            {
+              "t": "stomach",
+              "term": "stomach",
+              "cat": "anatomy"
+            },
+            {
+              "t": " wall from digestive "
+            },
+            {
+              "t": "acids",
+              "term": "acids",
+              "cat": "physiology"
+            },
+            {
+              "t": " while "
             },
             {
               "t": "Samāna Vāyu",
@@ -436,7 +508,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": " initiates the churning process. From here, the sweet taste is yielded into "
+              "t": " initiates the churning process. "
+            },
+            {
+              "t": "Madhura,",
+              "term": "madhura",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -444,23 +524,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma). The sweet taste is located on the tip of the "
+              "t": ", is located on the tip of the tongue, "
             },
             {
-              "t": "Jihvā",
+              "t": " Jihvā",
               "term": "jihva",
               "cat": "ayurveda"
             },
             {
-              "t": " ("
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ") and is energetically linked to the "
+              "t": ", and is energetically linked to the "
             },
             {
               "t": "thyroid",
@@ -468,15 +540,15 @@
               "cat": "anatomy"
             },
             {
-              "t": " and upper "
+              "t": ". "
             },
             {
-              "t": "lungs",
-              "term": "lungs",
-              "cat": "anatomy"
+              "t": "Madhura",
+              "term": "madhura",
+              "cat": "ayurveda"
             },
             {
-              "t": ". The "
+              "t": " stimulates the emotions of joy and contentment, and its "
             },
             {
               "t": "Vipāka",
@@ -484,7 +556,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (post-digestive effect) of "
+              "t": ", post-digestive effect, is "
             },
             {
               "t": "Madhura",
@@ -492,15 +564,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (sweet) is "
-            },
-            {
-              "t": "Madhura",
-              "term": "madhura",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (sweet), which is "
+              "t": ", which is "
             },
             {
               "t": "anabolic",
@@ -872,7 +936,7 @@
               "t": " (water) and "
             },
             {
-              "t": "Agni",
+              "t": "Āgni",
               "term": "agni",
               "cat": "ayurveda"
             },
@@ -1133,7 +1197,79 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma). The location of the salty taste is on the posterior outer sides of the "
+              "t": " (plasma). The inner surface of the entire s"
+            },
+            {
+              "t": "mall intestine",
+              "term": "mall intestine",
+              "cat": "anatomy"
+            },
+            {
+              "t": " features intricate folds lined with tiny projections called "
+            },
+            {
+              "t": "villi",
+              "term": "villi",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", which enhance its surface area for nutrient "
+            },
+            {
+              "t": "absorption",
+              "term": "absorption",
+              "cat": "physiology"
+            },
+            {
+              "t": ". Even smaller hairlike extensions, known as "
+            },
+            {
+              "t": "microvilli",
+              "term": "microvilli",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", form the \"brush border\" on each villus, further increasing surface area. "
+            },
+            {
+              "t": "Lacteals",
+              "term": "lacteals",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", specialized "
+            },
+            {
+              "t": "lymphatic capillaries",
+              "term": "lymphatic capillaries",
+              "cat": "anatomy"
+            },
+            {
+              "t": " within the "
+            },
+            {
+              "t": "villi",
+              "term": "villi",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", play a crucial role in absorbing fats as "
+            },
+            {
+              "t": "chylomicrons",
+              "term": "chylomicrons",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", directing them into the "
+            },
+            {
+              "t": "lymphatic system",
+              "term": "lymphatic system",
+              "cat": "anatomy"
+            },
+            {
+              "t": " for transport throughout the body. The location of the salty taste is on the posterior outer sides of the "
             },
             {
               "t": "Jihvā",
@@ -2659,7 +2795,7 @@
                 "cat": "ayurveda"
               },
               {
-                "t": "slow but steady, prolonged digestion, with a feeling of heaviness or fullness"
+                "t": " slow but steady, prolonged digestion, with a feeling of heaviness or fullness"
               }
             ],
             [
