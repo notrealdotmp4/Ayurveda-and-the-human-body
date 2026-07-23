@@ -427,20 +427,20 @@
       <text class="st8" transform="translate(338.8 671.6)"><tspan x="0" y="0">A</tspan></text>
     </g>
   </g>
-  <g id="prana">
+  <g id="prana-vaha-srotas">
     <rect class="st33" x=".6" y="136" width="181.3" height="50" rx="24.7" ry="24.7"/>
     <g class="st18">
       <text class="st20" transform="translate(34.2 171.6)"><tspan x="0" y="0">P</tspan></text>
       <text class="st20" transform="translate(57.2 171.6)"><tspan x="0" y="0">RĀNA</tspan></text>
     </g>
   </g>
-  <g id="anna-vaha-srota">
+  <g id="anna-vaha-srotas">
     <rect class="st33" x=".6" y="193.4" width="181.3" height="50" rx="24.7" ry="24.7"/>
     <g class="st18">
       <text class="st20" transform="translate(37.6 229)"><tspan x="0" y="0">ANNA</tspan></text>
     </g>
   </g>
-  <g id="ambu-vaha-srota">
+  <g id="ambu-vaha-srotas">
     <rect id="Legend" class="st33" x=".6" y="250.4" width="181.3" height="50" rx="24.7" ry="24.7"/>
     <g class="st18">
       <text class="st20" transform="translate(35 285.6)"><tspan x="0" y="0">AMBU</tspan></text>
