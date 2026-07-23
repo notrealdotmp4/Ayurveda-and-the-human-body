@@ -55,6 +55,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <button class="lo-play" id="introPlay" aria-label="Play the intro video" type="button">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
           </button>
+          <button class="lo-pause" id="introPause" aria-label="Pause the video" type="button">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+          </button>
         </div>
         <p class="lo-lead">The Pañcha Mahabhutas are the basic elements that make up everything around us. At the smallest level, everything is made of atoms, which are tiny particles consisting of protons, neutrons, and electrons. When many atoms join together, they form molecules. These molecules are the basic level of organization in the human body.</p>
         <button class="map-btn" id="philBtn" aria-label="Shad Darshan — the six philosophies">
@@ -432,7 +435,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const v = document.getElementById('introVid');
       const btn = document.getElementById('introPlay');
       if (!v || !btn) return;
+      const pauseBtn = document.getElementById('introPause');
       btn.addEventListener('click', () => { v.play().catch(() => {}); });
+      if (pauseBtn) pauseBtn.addEventListener('click', (e) => { e.stopPropagation(); v.pause(); });
       v.addEventListener('click', () => { if (v.paused) v.play().catch(() => {}); else v.pause(); });
       v.addEventListener('play', () => v.parentElement.classList.add('playing'));
       v.addEventListener('pause', () => v.parentElement.classList.remove('playing'));
