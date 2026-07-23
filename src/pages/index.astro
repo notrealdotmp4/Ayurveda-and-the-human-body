@@ -122,7 +122,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="map-cta-wrap">
             <button class="map-btn" id="mapCta2" aria-label="Open the circulation map">
               <img src="/anim/magras.svg" alt="" />
-              <span>Circulation Map</span>
+              <span>Channels Map</span>
             </button>
           </div>
           <img class="lo-dinkus" src="/anim/dinkusLast.svg" alt="" />
@@ -432,9 +432,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const v = document.getElementById('introVid');
       const btn = document.getElementById('introPlay');
       if (!v || !btn) return;
-      btn.addEventListener('click', () => { v.setAttribute('controls', ''); v.play().catch(() => {}); });
+      btn.addEventListener('click', () => { v.play().catch(() => {}); });
+      v.addEventListener('click', () => { if (v.paused) v.play().catch(() => {}); else v.pause(); });
       v.addEventListener('play', () => v.parentElement.classList.add('playing'));
-      v.addEventListener('ended', () => { v.parentElement.classList.remove('playing'); v.removeAttribute('controls'); v.currentTime = 0; });
+      v.addEventListener('pause', () => v.parentElement.classList.remove('playing'));
+      v.addEventListener('ended', () => { v.parentElement.classList.remove('playing'); v.currentTime = 0; });
     })();
   </script>
 
@@ -511,7 +513,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
-    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The channels of circulation', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
+    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Channels', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
     function openHero() {
       setHeroMode('/anim/digestive-map.svg', 'Digestion Map', true);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
