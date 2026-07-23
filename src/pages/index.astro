@@ -2,6 +2,9 @@
 import content from '../data/content.json';
 import glossary from '../data/glossary.json';
 import '../styles/book.css';
+import fs from 'node:fs';
+let ICON_FILES = [];
+try { ICON_FILES = fs.readdirSync('public/anim/icons').filter((f) => /\.(svg|png)$/i.test(f)); } catch (e) {}
 
 const CATS = {
   ayurveda:   { label: 'Ayurveda',   color: 'var(--c-ayurveda)' },
@@ -259,6 +262,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="toast" id="toast"></div>
 
   <script id="glossary-data" type="application/json" set:html={JSON.stringify(glossary)} />
+  <script id="icon-files" type="application/json" set:html={JSON.stringify(ICON_FILES)} />
 
   <script>
     const CATS = {
@@ -267,6 +271,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
       anatomy:    { label: 'Anatomy',    color: 'var(--c-anatomy)' },
     };
     const GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
+    const ICON_FILES = JSON.parse((document.getElementById('icon-files') || {}).textContent || '[]');
+    const ICON_MAP = {};
+    ICON_FILES.forEach((f) => { const n = f.replace(/\.(svg|png)$/i, '').toLowerCase().replace(/[-_\s]+/g, ' ').trim(); if (!(n in ICON_MAP)) ICON_MAP[n] = f; });
+    window.iconHTML = function (key) {
+      const n = (key || '').toLowerCase().replace(/[-_\s]+/g, ' ').trim();
+      const f = ICON_MAP[n];
+      return f ? '<img class="def-icon" src="/anim/icons/' + encodeURIComponent(f) + '" alt="">' : '';
+    };
     let CONNECTIONS = null;
     function relFold(s) { return (s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
     function buildConnections() {
@@ -320,7 +332,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       catPill.textContent = cat.label; catPill.style.background = cat.color;
       dTitle.textContent = g.title; dTitle.style.color = cat.color;
       dPhon.textContent = g.phon || '';
-      dBody.innerHTML = '<img class="def-icon" src="/anim/icons/' + key.replace(/\s+/g, '-') + '.svg" alt="" onerror="this.remove()">' + (g.body || '<p><em>Definition coming soon.</em></p>');
+      dBody.innerHTML = window.iconHTML(key) + (g.body || '<p><em>Definition coming soon.</em></p>');
       const _dk = doshaFor(g);
       if (_dk) {
         dBody.insertAdjacentHTML('beforeend', doshaExploreHTML(_dk));
@@ -560,7 +572,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const g = MAP_GLOSSARY[key];
       mcTitle.textContent = (g && g.title) || key;
       mcTitle.style.color = (g && CAT_COLOR[g.cat]) || 'var(--ink)';
-      mcBody.innerHTML = '<img class="def-icon" src="/anim/icons/' + key.replace(/\s+/g, '-') + '.svg" alt="" onerror="this.remove()">' + ((g && g.body) || '<p>Definition coming soon.</p>');
+      mcBody.innerHTML = window.iconHTML(key) + ((g && g.body) || '<p>Definition coming soon.</p>');
       if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCanvas.classList.add('has-focus'); mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
     }
     function hideCallout() { if (curOrgan) curOrgan.classList.remove('is-active'); curOrgan = null; mapCanvas.classList.remove('has-focus'); mapCallout.hidden = true; mapLeader.hidden = true; }
