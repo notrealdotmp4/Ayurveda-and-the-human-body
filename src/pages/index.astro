@@ -49,11 +49,12 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <div class="lo-intro">
         {content.invocation && <div class="invocation">{content.invocation}</div>}
         <div class="book-eyebrow">An Interactive Ayurveda Book</div>
-        <div class="lo-intro-media" aria-hidden="true">
-          <!-- Drop videos here: desktop widescreen 16:9 -> /anim/intro-wide.mp4 ; mobile portrait 9:16 -> /anim/intro-portrait.mp4 -->
-          <video class="lo-vid lo-vid-wide" autoplay muted loop playsinline preload="metadata"><source src="/anim/intro-wide.mp4" type="video/mp4" /></video>
-          <video class="lo-vid lo-vid-portrait" autoplay muted loop playsinline preload="metadata"><source src="/anim/intro-portrait.mp4" type="video/mp4" /></video>
-          <span class="lo-media-ph">video goes here</span>
+        <div class="lo-intro-media">
+          <!-- One intro video (with sound) for desktop and mobile; tap to play. -->
+          <video class="lo-vid" id="introVid" playsinline preload="metadata" poster="/anim/intro-poster.jpg"><source src="/anim/intro-wide.mp4" type="video/mp4" /></video>
+          <button class="lo-play" id="introPlay" aria-label="Play the intro video" type="button">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+          </button>
         </div>
         <p class="lo-lead">The Pañcha Mahabhutas are the basic elements that make up everything around us. At the smallest level, everything is made of atoms, which are tiny particles consisting of protons, neutrons, and electrons. When many atoms join together, they form molecules. These molecules are the basic level of organization in the human body.</p>
         <button class="map-btn" id="philBtn" aria-label="Shad Darshan — the six philosophies">
@@ -425,6 +426,16 @@ const rest = isLO ? chapters.slice(1) : chapters;
     });
     document.querySelectorAll('[data-tool="search"]').forEach((b) => b.addEventListener('click', openSearch));
 
+
+    // ---------- Intro video play button ----------
+    (function () {
+      const v = document.getElementById('introVid');
+      const btn = document.getElementById('introPlay');
+      if (!v || !btn) return;
+      btn.addEventListener('click', () => { v.setAttribute('controls', ''); v.play().catch(() => {}); });
+      v.addEventListener('play', () => v.parentElement.classList.add('playing'));
+      v.addEventListener('ended', () => { v.parentElement.classList.remove('playing'); v.removeAttribute('controls'); v.currentTime = 0; });
+    })();
   </script>
 
   <script>
