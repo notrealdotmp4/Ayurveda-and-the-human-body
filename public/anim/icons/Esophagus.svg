@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75.4 419.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        isolation: isolate;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="37.7" y1="4725.86" x2="37.7" y2="4306.37" gradientTransform="translate(0 4725.8557) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#feede5"/>
+      <stop offset=".5" stop-color="#fde1d4"/>
+      <stop offset="1" stop-color="#fbc8b4"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="Esophagus" class="cls-1" d="M24.5.1s-2,102.5-1,103.4,1.2,169,10.5,207,12,86.4,36.5,75.2c15.4-7-9.6,38.4-18.9,33.4s-37.4-38.6-47.6-127.4C-3.8,223.4,2.2,0,2.2,0h22.3v.1Z"/>
+  </g>
+</svg>
