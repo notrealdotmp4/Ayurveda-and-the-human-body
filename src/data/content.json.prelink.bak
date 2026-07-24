@@ -143,15 +143,7 @@
               "cat": "physiology"
             },
             {
-              "t": " of food for nutrient "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": ". The "
+              "t": " of food for nutrient absorption. The "
             },
             {
               "t": "digestive system",
@@ -212,15 +204,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the sweet stage of "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", begins in "
+              "t": ", the sweet stage of digestion, begins in "
             },
             {
               "t": "Bodhaka Kapha",
@@ -276,11 +260,11 @@
               "cat": "ayurveda"
             },
             {
-              "t": ". "
+              "t": ". The "
             },
             {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
@@ -527,12 +511,12 @@
               "t": " initiates the churning process. "
             },
             {
-              "t": "Madhura",
+              "t": "Madhura,",
               "term": "madhura",
               "cat": "ayurveda"
             },
             {
-              "t": ", yielded into "
+              "t": " yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -540,18 +524,10 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", is located on the tip of the "
+              "t": ", is located on the tip of the tongue, "
             },
             {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ",  "
-            },
-            {
-              "t": "Jihvā",
+              "t": " Jihvā",
               "term": "jihva",
               "cat": "ayurveda"
             },
@@ -618,15 +594,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the sour stage of "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", occurs as the food "
+              "t": ", the sour stage of digestion, occurs as the food "
             },
             {
               "t": "bolus",
@@ -650,11 +618,11 @@
               "cat": "anatomy"
             },
             {
-              "t": "). "
+              "t": "). The "
             },
             {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
@@ -677,12 +645,12 @@
               "t": " (earth) and "
             },
             {
-              "t": "Āgni",
+              "t": "Āgni ",
               "term": "agni",
               "cat": "ayurveda"
             },
             {
-              "t": " (fire). Here, "
+              "t": "(fire). Here, "
             },
             {
               "t": "Jāthara Agni",
@@ -706,15 +674,7 @@
               "cat": "physiology"
             },
             {
-              "t": " and "
-            },
-            {
-              "t": "enzymes",
-              "term": "enzymes",
-              "cat": "physiology"
-            },
-            {
-              "t": " to initiate protein breakdown and destroy "
+              "t": " and enzymes to initiate protein breakdown and destroy "
             },
             {
               "t": "pathogens",
@@ -730,15 +690,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", a protein-digesting "
-            },
-            {
-              "t": "enzyme",
-              "term": "enzyme",
-              "cat": "physiology"
-            },
-            {
-              "t": " activated by "
+              "t": ", a protein-digesting enzyme activated by "
             },
             {
               "t": "HCl",
@@ -778,15 +730,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " and protect the "
-            },
-            {
-              "t": "stomach",
-              "term": "stomach",
-              "cat": "anatomy"
-            },
-            {
-              "t": " wall from acidity. As the "
+              "t": " and protect the stomach wall from acidity. As the "
             },
             {
               "t": "bolus",
@@ -850,7 +794,23 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (potent energy) of a substance, which is either Ushna (warming) or Shīta (cooling). From here, the sour taste is yielded into "
+              "t": " (potent energy) of a substance, which is either "
+            },
+            {
+              "t": "Ushna",
+              "term": "ushna",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (warming) or "
+            },
+            {
+              "t": "Shīta ",
+              "term": "shita",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "(cooling). From here, the sour taste is yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -933,15 +893,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the salty stage of "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", occurs as "
+              "t": ", the salty stage of digestion, occurs as "
             },
             {
               "t": "chyme",
@@ -957,19 +909,11 @@
               "cat": "anatomy"
             },
             {
-              "t": " (the first part of the "
+              "t": " (the first part of the small intestine). The "
             },
             {
-              "t": "small intestine",
-              "term": "small intestine",
-              "cat": "anatomy"
-            },
-            {
-              "t": "). "
-            },
-            {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
@@ -1069,15 +1013,15 @@
               "cat": "physiology"
             },
             {
-              "t": " to shield its lining. While "
+              "t": " to shield its lining. While the "
             },
             {
-              "t": "the small intestine secretes",
-              "term": "the small intestine secretes",
+              "t": "small intestine",
+              "term": "small intestine",
               "cat": "anatomy"
             },
             {
-              "t": " small amounts of its own "
+              "t": " secretes small amounts of its own "
             },
             {
               "t": "enzymes",
@@ -1085,15 +1029,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", most "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": " occurs here through "
+              "t": ", most digestion occurs here through "
             },
             {
               "t": "enzymes",
@@ -1261,11 +1197,11 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma). The inner surface of the entire "
+              "t": " (plasma). The inner surface of the entire s"
             },
             {
-              "t": "small intestine",
-              "term": "small intestine",
+              "t": "mall intestine",
+              "term": "mall intestine",
               "cat": "anatomy"
             },
             {
@@ -1411,15 +1347,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the pungent stage of "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", occurs primarily in the "
+              "t": ", the pungent stage of digestion, occurs primarily in the "
             },
             {
               "t": "jejunum",
@@ -1427,19 +1355,11 @@
               "cat": "anatomy"
             },
             {
-              "t": " (the second segment of the "
+              "t": " (the second segment of the small intestine). The "
             },
             {
-              "t": "small intestine",
-              "term": "small intestine",
-              "cat": "anatomy"
-            },
-            {
-              "t": "). "
-            },
-            {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
@@ -1483,15 +1403,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ". During this hour, the predominant intestinal "
-            },
-            {
-              "t": "enzymes",
-              "term": "enzymes",
-              "cat": "physiology"
-            },
-            {
-              "t": " exhibit pungent properties, facilitating the ongoing chemical breakdown of macronutrients, including proteins, fats, and carbohydrates. The fire element inherent to this stage enhances "
+              "t": ". During this hour, the predominant intestinal enzymes exhibit pungent properties, facilitating the ongoing chemical breakdown of macronutrients, including proteins, fats, and carbohydrates. The fire element inherent to this stage enhances "
             },
             {
               "t": "thermogenesis",
@@ -1531,23 +1443,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", which is essential for the effective "
-            },
-            {
-              "t": "propulsion",
-              "term": "propulsion",
-              "cat": "physiology"
-            },
-            {
-              "t": " of digestive contents. While most "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": " occurs in the "
+              "t": ", which is essential for the effective propulsion of digestive contents. While most absorption occurs in the "
             },
             {
               "t": "ileum",
@@ -1571,15 +1467,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " serves as the major site for the initial "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": " of "
+              "t": " serves as the major site for the initial absorption of "
             },
             {
               "t": "Āhāra Rasa",
@@ -1697,15 +1585,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the bitter stage of "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", occurs as "
+              "t": ", the bitter stage of digestion, occurs as "
             },
             {
               "t": "chyme",
@@ -1721,19 +1601,11 @@
               "cat": "anatomy"
             },
             {
-              "t": " (the terminal and longest segment of the "
+              "t": " (the terminal and longest segment of the small intestine). The "
             },
             {
-              "t": "small intestine",
-              "term": "small intestine",
-              "cat": "anatomy"
-            },
-            {
-              "t": "). "
-            },
-            {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
@@ -1777,15 +1649,7 @@
               "cat": "physiology"
             },
             {
-              "t": " necessary for the efficient transit and rapid "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": " of "
+              "t": " necessary for the efficient transit and rapid absorption of "
             },
             {
               "t": "chyme",
@@ -1911,15 +1775,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the astringent stage of "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", is the final phase occurring in the "
+              "t": ", the astringent stage of digestion, is the final phase occurring in the "
             },
             {
               "t": "Pakvashaya",
@@ -1935,11 +1791,11 @@
               "cat": "anatomy"
             },
             {
-              "t": "). "
+              "t": "). The "
             },
             {
-              "t": "The Bhūtas",
-              "term": "the bhutas",
+              "t": "Bhūtas",
+              "term": "bhutas",
               "cat": "ayurveda"
             },
             {
@@ -2127,15 +1983,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " for "
-            },
-            {
-              "t": "elimination",
-              "term": "elimination",
-              "cat": "physiology"
-            },
-            {
-              "t": " at the "
+              "t": " for elimination at the "
             },
             {
               "t": "anus",
@@ -2143,15 +1991,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ". Following this "
-            },
-            {
-              "t": "elimination",
-              "term": "elimination",
-              "cat": "physiology"
-            },
-            {
-              "t": ", the air element stimulates "
+              "t": ". Following this elimination, the air element stimulates "
             },
             {
               "t": "Prāna Vāyu",
@@ -2289,53 +2129,72 @@
           "items": [
             [
               {
-                "t": "Rūksha dry: leading to dry skin, hair, lips, "
+                "t": "Rūksha",
+                "term": "ruksha",
+                "cat": "ayurveda"
               },
               {
-                "t": "tongue",
-                "term": "tongue",
-                "cat": "anatomy"
+                "t": " dry: leading to dry skin, hair, lips, tongue, colon, tending toward constipation and a hoarse voice"
+              }
+            ],
+            [
+              {
+                "t": "Laghu",
+                "term": "laghu",
+                "cat": "ayurveda"
               },
               {
-                "t": ", "
+                "t": " light: light muscles, bones, thin body frame, light sleep and being underweight"
+              }
+            ],
+            [
+              {
+                "t": "Shīta",
+                "term": "shita",
+                "cat": "ayurveda"
               },
               {
-                "t": "colon",
-                "term": "colon",
-                "cat": "anatomy"
+                "t": " cold: resulting in cold hands and feet, poor circulation,  dislike for cold environments prefers hot, tending toward stiffness of muscles"
+              }
+            ],
+            [
+              {
+                "t": "Khāra",
+                "term": "khara",
+                "cat": "ayurveda"
               },
               {
-                "t": ", tending toward constipation and a hoarse voice"
+                "t": " rough: characterized by rough, cracked skin, nails, hair, teeth, hands and feet, and cracking joints"
               }
             ],
             [
               {
-                "t": "Laghu light: light muscles, bones, thin body frame, light sleep and being underweight"
+                "t": "Sūkshma",
+                "term": "sukshma",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " subtle: associated with subtle fear, anxiety, insecurity, goose-bumps, muscle twitching, and fine tremors"
               }
             ],
             [
               {
-                "t": "Shīta cold: resulting in cold hands and feet, poor circulation,  dislike for cold environments prefers hot, tending toward stiffness of muscles"
+                "t": "Chala",
+                "term": "chala",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " mobile: leading to fast walking and talking, doing many things at a time, restless eyes, hands, and feet, unstable joints, many dreams, loves travelling and does not stay at one place, swinging moods, shaky faith, scattered mind"
               }
             ],
             [
               {
-                "t": "Khāra rough: characterized by rough, cracked skin, nails, hair, teeth, hands and feet, and cracking joints"
-              }
-            ],
-            [
+                "t": "Vishada",
+                "term": "vishada",
+                "cat": "ayurveda"
+              },
               {
-                "t": "Sūkshma subtle: associated with subtle fear, anxiety, insecurity, goose-bumps, muscle twitching, and fine tremors"
-              }
-            ],
-            [
-              {
-                "t": "Chala mobile: leading to fast walking and talking, doing many things at a time, restless eyes, hands, and feet, unstable joints, many dreams, loves travelling and does not stay at one place, swinging moods, shaky faith, scattered mind"
-              }
-            ],
-            [
-              {
-                "t": "Vishada clear: clairvoyant; understands immediately and forgets immediately; clear, empty mind, experiences void and loneliness"
+                "t": " clear: clairvoyant; understands immediately and forgets immediately; clear, empty mind, experiences void and loneliness"
               }
             ]
           ]
@@ -2410,12 +2269,7 @@
           "items": [
             [
               {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": " and appetite: "
+                "t": "digestion and appetite: "
               },
               {
                 "t": "Vishama Āgni",
@@ -2423,15 +2277,7 @@
                 "cat": "ayurveda"
               },
               {
-                "t": ", irregular "
-              },
-              {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": ", with gas and bloating and a tendency to constipation, variable appetite "
+                "t": ", irregular digestion, with gas and bloating and a tendency to constipation, variable appetite "
               }
             ],
             [
@@ -2451,7 +2297,15 @@
             ],
             [
               {
-                "t": "pulse: Sarpa moving like a snake, fast, feeble, cold, and thin, felt best under the index finger"
+                "t": "pulse: "
+              },
+              {
+                "t": "Sarpa",
+                "term": "sarpa",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " moving like a snake, fast, feeble, cold, and thin, felt best under the index finger"
               }
             ],
             [
@@ -2475,15 +2329,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " is the Ayurvedic principle of transformation that regulates metabolism, "
-            },
-            {
-              "t": "digestion",
-              "term": "digestion",
-              "cat": "physiology"
-            },
-            {
-              "t": ", and the conversion of energy throughout the body and mind. Primarily composed of the "
+              "t": " is the Ayurvedic principle of transformation that regulates metabolism, digestion, and the conversion of energy throughout the body and mind. Primarily composed of the "
             },
             {
               "t": "Āgni",
@@ -2513,51 +2359,52 @@
           "items": [
             [
               {
-                "t": "Ushna hot: good digestive fire, strong appetite, body temperature tends to be higher than average, dislikes heat tends toward gray hair with receding hair line or baldness, soft brown hair on the body and face"
+                "t": "Ushna",
+                "term": "ushna",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " hot: good digestive fire, strong appetite, body temperature tends to be higher than average, dislikes heat tends toward gray hair with receding hair line or baldness, soft brown hair on the body and face"
               }
             ],
             [
               {
-                "t": "Tikshna sharp: sharp teeth, distinct eyes, pointed nose, tapering chin, "
+                "t": "Tikshna",
+                "term": "tikshna",
+                "cat": "ayurveda"
               },
               {
-                "t": "heart",
-                "term": "heart",
-                "cat": "anatomy"
-              },
-              {
-                "t": "-shaped face, good "
-              },
-              {
-                "t": "absorption",
-                "term": "absorption",
-                "cat": "physiology"
-              },
-              {
-                "t": " and "
-              },
-              {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": ", sharp memory and understanding, intolerance of hard work, irritable, intellectual mind"
+                "t": " sharp: sharp teeth, distinct eyes, pointed nose, tapering chin, heart-shaped face, good absorption and digestion, sharp memory and understanding, intolerance of hard work, irritable, intellectual mind"
               }
             ],
             [
               {
-                "t": "Laghu light: light to medium body frame, does not tolerate bright light,  fair, shiny skin, bright eyes"
+                "t": "Laghu",
+                "term": "laghu",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " light: light to medium body frame, does not tolerate bright light,  fair, shiny skin, bright eyes"
               }
             ],
             [
               {
-                "t": "Drava liquid: loose liquid stools, soft delicate muscles, excess urine, sweat and thirst"
+                "t": "Drava",
+                "term": "drava",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " liquid: loose liquid stools, soft delicate muscles, excess urine, sweat and thirst"
               }
             ],
             [
               {
-                "t": "Snigdha oily: soft, oily skin, hair and feces, difficulty digesting deep-fried foods, which may cause headache"
+                "t": "Snigdha",
+                "term": "snigdha",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " oily: soft, oily skin, hair and feces, difficulty digesting deep-fried foods, which may cause headache"
               }
             ],
             [
@@ -2570,12 +2417,12 @@
                 "t": " spreading: spreads as rash, acne, or inflammation over the body or affected areas, "
               },
               {
-                "t": "Pitta",
+                "t": "Pitta ",
                 "term": "pitta",
                 "cat": "ayurveda"
               },
               {
-                "t": "  wants to spread their name and fame all over the world"
+                "t": " wants to spread their name and fame all over the world"
               }
             ]
           ]
@@ -2600,15 +2447,7 @@
             ],
             [
               {
-                "t": "face: often "
-              },
-              {
-                "t": "heart",
-                "term": "heart",
-                "cat": "anatomy"
-              },
-              {
-                "t": "-shaped, tapering, or triangular, with rosy or reddish cheeks"
+                "t": "face: often heart-shaped, tapering, or triangular, with rosy or reddish cheeks"
               }
             ],
             [
@@ -2658,28 +2497,15 @@
           "items": [
             [
               {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
+                "t": "digestion and appetite: "
               },
               {
-                "t": " and appetite: "
-              },
-              {
-                "t": "Tikshna Āgni",
+                "t": "Tikshna Āgni,",
                 "term": "tikshna agni",
                 "cat": "ayurveda"
               },
               {
-                "t": ", very strong and fast "
-              },
-              {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": " that can cause heartburn or acid reflux, they become irritable if they do not eat on time"
+                "t": " very strong and fast digestion that can cause heartburn or acid reflux, they become irritable if they do not eat on time"
               }
             ],
             [
@@ -2699,7 +2525,15 @@
             ],
             [
               {
-                "t": "pulse: Manduka moving like a frog jumping, bounding, hot, and forceful, felt best under the middle finger"
+                "t": "pulse: "
+              },
+              {
+                "t": "Manduka",
+                "term": "manduka",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " moving like a frog jumping, bounding, hot, and forceful, felt best under the middle finger"
               }
             ],
             [
@@ -2753,20 +2587,22 @@
           "items": [
             [
               {
-                "t": "Guru heavy: heavy bones, muscles, and large body frame, tends to be overweight, grounded, and has deep heavy voice"
+                "t": "Guru",
+                "term": "guru",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " heavy: heavy bones, muscles, and large body frame, tends to be overweight, grounded, and has deep heavy voice"
               }
             ],
             [
               {
-                "t": "Manda slow/dull: slow walk, talk, "
+                "t": "Manda",
+                "term": "manda",
+                "cat": "ayurveda"
               },
               {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": ", and metabolism, overall sluggish gestures"
+                "t": " slow/dull: slow walk, talk, digestion, and metabolism, overall sluggish gestures"
               }
             ],
             [
@@ -2776,65 +2612,107 @@
                 "cat": "ayurveda"
               },
               {
-                "t": " cool: cool clammy skin, steady appetite and thirst with slow metabolism and "
+                "t": " cool: cool clammy skin, steady appetite and thirst with slow metabolism and digestion, repeated cold, congestion, and cough"
+              }
+            ],
+            [
+              {
+                "t": "Snigdha",
+                "term": "snigdha",
+                "cat": "ayurveda"
               },
               {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
+                "t": " oily: oily skin, hair and feces, lubricated, unctuous joints and organs"
+              }
+            ],
+            [
+              {
+                "t": "Drava",
+                "term": "drava",
+                "cat": "ayurveda"
               },
               {
-                "t": ", repeated cold, congestion, and cough"
+                "t": " liquid: excess salivation, congestion in the chest, sinuses, throat and head"
               }
             ],
             [
               {
-                "t": "Snigdha oily: oily skin, hair and feces, lubricated, unctuous joints and organs"
+                "t": "Shlakshna",
+                "term": "shlakshna",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " slimy/smooth: smoothness of the skin and organs, smooth and gentle mind, calm nature"
               }
             ],
             [
               {
-                "t": "Drava liquid: excess salivation, congestion in the chest, sinuses, throat and head"
+                "t": "Sandra",
+                "term": "sandra",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " dense: dense pad of fat, thick skin, hair, nail and feces, plump rounded organs, firmness and solidity of muscles, compact, condensed tissues"
               }
             ],
             [
               {
-                "t": "Shlakshna slimy/smooth: smoothness of the skin and organs, smooth and gentle mind, calm nature"
+                "t": "Mrudu",
+                "term": "mrudu",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " soft: soft pleasing look and skin,  and a gentle, caring personality, love, compassion, kindness and forgiveness"
               }
             ],
             [
               {
-                "t": "Sandra dense: dense pad of fat, thick skin, hair, nail and feces, plump rounded organs, firmness and solidity of muscles, compact, condensed tissues"
+                "t": "Sthira",
+                "term": "sthira",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " stable/static: stability and a preference for sedentary activities loves sitting, sleeping and doing nothing"
               }
             ],
             [
               {
-                "t": "Mrudu soft: soft pleasing look and skin,  and a gentle, caring personality, love, compassion, kindness and forgiveness"
+                "t": "Picchila",
+                "term": "picchila",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " sticky: cohesive quality causes compactness, firmness of joints, and organs; loves to hug, is deeply attached in love and relationships"
               }
             ],
             [
               {
-                "t": "Sthira stable/static: stability and a preference for sedentary activities loves sitting, sleeping and doing nothing"
+                "t": "Āvila",
+                "term": "avila",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " cloudy: early morning cloudy mind and fogginess, often desires coffee as a stimulant to start the day"
               }
             ],
             [
               {
-                "t": "Picchila sticky: cohesive quality causes compactness, firmness of joints, and organs; loves to hug, is deeply attached in love and relationships"
+                "t": "Kathina",
+                "term": "kathina",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " hard: firm muscles,  strength, rigid attitude"
               }
             ],
             [
               {
-                "t": "Āvila cloudy: early morning cloudy mind and fogginess, often desires coffee as a stimulant to start the day"
-              }
-            ],
-            [
+                "t": "Sthūla",
+                "term": "sthula",
+                "cat": "ayurveda"
+              },
               {
-                "t": "Kathina hard: firm muscles,  strength, rigid attitude"
-              }
-            ],
-            [
-              {
-                "t": "Sthūla gross: visible structures and the potential for obesity"
+                "t": " gross: visible structures and the potential for obesity"
               }
             ]
           ]
@@ -2909,12 +2787,7 @@
           "items": [
             [
               {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": " and appetite: "
+                "t": "digestion and appetite: "
               },
               {
                 "t": "Manda Āgni",
@@ -2922,15 +2795,7 @@
                 "cat": "ayurveda"
               },
               {
-                "t": " slow but steady, prolonged "
-              },
-              {
-                "t": "digestion",
-                "term": "digestion",
-                "cat": "physiology"
-              },
-              {
-                "t": ", with a feeling of heaviness or fullness"
+                "t": " slow but steady, prolonged digestion, with a feeling of heaviness or fullness"
               }
             ],
             [
@@ -2950,7 +2815,15 @@
             ],
             [
               {
-                "t": "pulse: Hamsa moving like a swan, slow, deep, and wavy, felt best under the ring finger"
+                "t": "pulse: "
+              },
+              {
+                "t": "Hamsa",
+                "term": "hamsa",
+                "cat": "ayurveda"
+              },
+              {
+                "t": " moving like a swan, slow, deep, and wavy, felt best under the ring finger"
               }
             ],
             [

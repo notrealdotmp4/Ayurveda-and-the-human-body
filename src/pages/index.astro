@@ -217,7 +217,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <!-- Hero modal -->
   <div class="hero-modal" id="heroModal" aria-hidden="true">
     <div class="hero-win">
-      <div class="hm-head"><strong id="hmTitle">Digestion Map</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
+      <div class="hm-head"><strong id="hmTitle">The Living Body - Digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
       <div class="hero-stage">
         <video id="heroVideo" src="/anim/BodyAnimation_ready.mp4" playsinline preload="metadata"></video>
         <div class="hero-map" id="heroMap">
@@ -531,9 +531,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
-    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Channels', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
+    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Srotāmsi, Dhātu and Mārga', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
     function openHero() {
-      setHeroMode('/anim/digestive-map.svg', 'Digestion Map', true);
+      setHeroMode('/anim/digestive-map.svg', 'The Living Body - Digestion', true);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
       if (seenHero) { showMap(); }
