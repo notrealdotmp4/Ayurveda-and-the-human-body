@@ -3,7 +3,7 @@
     "cat": "ayurveda",
     "title": "Madhura Avastha Pāka",
     "phon": "",
-    "body": "<p>Madhura Avastha Pāka is the Sanskrit term for the sweet stage of digestion, the first of the six hour-long digestive phases. It represents the principle of Kapha-predominant liquefaction and is associated with the nourishment of immature (asthāyi) Rasa Dhātu in the body.</p>"
+    "body": "<p>Madhura Avastha Pāka is the Sanskrit term for the sweet stage of digestion. It represents the principle of Kapha-predominant liquefaction and is associated with the nourishment of immature (asthāyi) Rasa Dhātu in the body. Located on the tip of the Jihvā, the tongue, and energetically linked to the thyroid, Madhura stimulates the emotions of joy and contentment. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
   },
   "bodhaka kapha": {
     "cat": "ayurveda",
@@ -345,7 +345,7 @@
     "cat": "ayurveda",
     "title": "Lavana Avastha Pāka",
     "phon": "",
-    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion, the third of the six hour-long digestive phases. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature (asthāyi) Māmsa and Meda Dhātus in the body.</p>"
+    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature (asthāyi) Māmsa and Meda Dhātus in the body. Located on the posterior outer sides of the Jihvā, the tongue, and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
   },
   "lavana": {
     "cat": "ayurveda",
@@ -465,7 +465,7 @@
     "cat": "ayurveda",
     "title": "Katu Avastha Pāka",
     "phon": "",
-    "body": "<p>Katu Avastha Pāka is the Sanskrit term for the pungent stage of digestion, the fourth of the six hour-long digestive phases. It represents the principle of Vāta-predominant thermogenesis and is associated with the nourishment of immature (asthāyi) Asthi Dhātu in the body.</p>"
+    "body": "<p>Katu Avastha Pāka is the Sanskrit term for the pungent stage of digestion. It represents the principle of Vāta-predominant thermogenesis and is associated with the nourishment of immature (asthāyi) Asthi Dhātu in the body. Located on the central part of the Jihvā, the tongue, anterior to the bitter area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "jejunum": {
     "cat": "anatomy",
@@ -543,7 +543,7 @@
     "cat": "ayurveda",
     "title": "Tikta Avastha Pāka",
     "phon": "",
-    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion, the fifth of the six hour-long digestive phases. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature (asthāyi) Majjā Dhātu in the body.</p>"
+    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature (asthāyi) Majjā Dhātu in the body. Located on the central part of the Jihvā, the tongue, posterior to the pungent area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "tikta": {
     "cat": "ayurveda",
@@ -579,7 +579,7 @@
     "cat": "ayurveda",
     "title": "Kashāya Avastha Pāka",
     "phon": "",
-    "body": "<p>Kashāya Avastha Pāka is the Sanskrit term for the astringent stage of digestion, the sixth of the six hour-long digestive phases. It represents the principle of Vāta-predominant elimination and is associated with the nourishment of immature (asthāyi) Shukra or Ārtava Dhātu in the body.</p>"
+    "body": "<p>Kashāya Avastha Pāka is the Sanskrit term for the astringent stage of digestion. It represents the principle of Vāta-predominant elimination and is associated with the nourishment of immature (asthāyi) Shukra or Ārtava Dhātu in the body. Located on the posterior part of the Jihvā, the tongue, and energetically linked to the colon, Kashāya stimulates emotions of fear, anxiety, and nervousness. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "pakvashaya": {
     "cat": "ayurveda",
@@ -855,7 +855,7 @@
     "cat": "ayurveda",
     "title": "Amla Avastha Pāka",
     "phon": "",
-    "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion, the second of the six hour-long digestive phases. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature (asthāyi) Rakta Dhātu in the body.</p>"
+    "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature (asthāyi) Rakta Dhātu in the body. Located on the anterior outer sides of the Jihvā, the tongue, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its Vipāka, the post-digestive effect, is Amla, which is metabolic and increases Pitta Dosha.</p>"
   },
   "enzymes": {
     "cat": "physiology",

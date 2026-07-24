@@ -456,7 +456,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       v.addEventListener('click', () => { if (Date.now() - lock < 350) return; if (v.paused) v.play().catch(() => {}); else v.pause(); });
       v.addEventListener('play', () => v.parentElement.classList.add('playing'));
       v.addEventListener('pause', () => v.parentElement.classList.remove('playing'));
-      v.addEventListener('ended', () => { v.parentElement.classList.remove('playing'); v.currentTime = 0; });
+      v.addEventListener('ended', () => { v.parentElement.classList.remove('playing'); });
     })();
   </script>
 

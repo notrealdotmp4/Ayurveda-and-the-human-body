@@ -1443,7 +1443,7 @@
     "cat": "anatomy",
     "title": "Brain's grey matter",
     "phon": "",
-    "body": ""
+    "body": "<p>Grey matter consists of the areas in the brain and spinal cord made primarily of unmyelinated axons, cell bodies, dendrites, and glial cells. In the brain, it is found in the cerebral cortex, which is the thin outer rim of the cerebrum, and in deep internal structures known as basal ganglia. Functionally, grey matter acts as the integration center for complex cognitive processes, including conscious thinking, problem-solving, memory, learning, and sensory perception. It is also the site where Sādhaka Pitta processes comprehension and emotions, effectively coordinating motor planning and the body's higher mental functions.</p>"
   },
   "acids": {
     "cat": "physiology",
@@ -1484,6 +1484,18 @@
   "lymphatic system": {
     "cat": "anatomy",
     "title": "Lymphatic system",
+    "phon": "",
+    "body": ""
+  },
+  "appendix": {
+    "cat": "anatomy",
+    "title": "Appendix",
+    "phon": "",
+    "body": "<p>The appendix is a small, tube-shaped pouch attached to the cecum, large intestine. Its main functions are storing helpful gut bacteria and supporting the immune system.</p>"
+  },
+  "shadrasa": {
+    "cat": "ayurveda",
+    "title": "Shadrasa",
     "phon": "",
     "body": ""
   }
