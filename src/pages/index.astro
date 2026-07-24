@@ -277,7 +277,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
     window.iconHTML = function (key) {
       const n = (key || '').toLowerCase().replace(/[-_\s]+/g, ' ').trim();
       const f = ICON_MAP[n];
-      return f ? '<img class="def-icon" src="/anim/icons/' + encodeURIComponent(f) + '" alt="">' : '';
+      if (!f) return '';
+      const wide = /avastha paka$/.test(n);
+      return '<img class="def-icon' + (wide ? ' def-icon-wide' : '') + '" src="/anim/icons/' + encodeURIComponent(f) + '" alt="">';
     };
     let CONNECTIONS = null;
     function relFold(s) { return (s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
