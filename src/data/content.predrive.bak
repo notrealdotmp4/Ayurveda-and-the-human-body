@@ -1,6 +1,6 @@
 {
   "title": "The Living Body",
-  "subtitle": "Tap any colored word and button to explore it.",
+  "subtitle": "Tap any colored word to explore it — red for Ayurveda, amber for physiology, olive for anatomy.",
   "invocation": "IIश्री:II",
   "chapters": [
     {
@@ -263,16 +263,16 @@
               "t": ", and "
             },
             {
-              "t": "sublingual gland",
-              "term": "sublingual gland",
+              "t": "sublingual glands",
+              "term": "sublingual glands",
               "cat": "anatomy"
             },
             {
               "t": " and facilitates the perception of the "
             },
             {
-              "t": "Shadrasa",
-              "term": "shadrasa",
+              "t": "6 Rasas",
+              "term": "6 rasas",
               "cat": "ayurveda"
             },
             {
@@ -324,7 +324,7 @@
               "cat": "physiology"
             },
             {
-              "t": " that nourishes immature, "
+              "t": " that nourishes "
             },
             {
               "t": "asthāyi",
@@ -332,7 +332,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", "
+              "t": ", immature "
             },
             {
               "t": "Rasa Dhātu",
@@ -340,7 +340,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma). Through "
+              "t": ". Through "
             },
             {
               "t": "mastication",
@@ -394,14 +394,6 @@
               "t": "Jihvā",
               "term": "jihva",
               "cat": "ayurveda"
-            },
-            {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -492,14 +484,6 @@
               "cat": "anatomy"
             },
             {
-              "t": ", the upper "
-            },
-            {
-              "t": "stomach",
-              "term": "stomach",
-              "cat": "anatomy"
-            },
-            {
               "t": ". There, "
             },
             {
@@ -540,39 +524,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " initiates the churning process and yields into "
-            },
-            {
-              "t": "Rasa Dhātu",
-              "term": "rasa dhatu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (plasma). Located on the tip of the "
-            },
-            {
-              "t": "Jihvā",
-              "term": "jihva",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and energetically linked to the "
-            },
-            {
-              "t": "thyroid",
-              "term": "thyroid",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", "
+              "t": " initiates the churning process. "
             },
             {
               "t": "Madhura",
@@ -580,7 +532,47 @@
               "cat": "ayurveda"
             },
             {
-              "t": " stimulates the emotions of joy and contentment. Its "
+              "t": ", yielded into "
+            },
+            {
+              "t": "Rasa Dhātu",
+              "term": "rasa dhatu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", is located on the tip of the "
+            },
+            {
+              "t": "tongue",
+              "term": "tongue",
+              "cat": "anatomy"
+            },
+            {
+              "t": ",  "
+            },
+            {
+              "t": "Jihvā",
+              "term": "jihva",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", and is energetically linked to the "
+            },
+            {
+              "t": "thyroid",
+              "term": "thyroid",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". "
+            },
+            {
+              "t": "Madhura",
+              "term": "madhura",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " stimulates the emotions of joy and contentment, and its "
             },
             {
               "t": "Vipāka",
@@ -588,7 +580,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": ", post-digestive effect, is "
             },
             {
               "t": "Madhura",
@@ -634,7 +626,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", occurs as the "
+              "t": ", occurs as the food "
             },
             {
               "t": "bolus",
@@ -642,7 +634,7 @@
               "cat": "physiology"
             },
             {
-              "t": " enters the "
+              "t": " moves into the "
             },
             {
               "t": "Āmāshaya",
@@ -650,7 +642,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "central stomach",
@@ -658,15 +650,23 @@
               "cat": "anatomy"
             },
             {
-              "t": ", where "
+              "t": "). "
             },
             {
-              "t": "the Bhūtas",
+              "t": "The Bhūtas",
               "term": "the bhutas",
               "cat": "ayurveda"
             },
             {
-              "t": " of "
+              "t": " (elements) of "
+            },
+            {
+              "t": "Amla",
+              "term": "amla",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " are "
             },
             {
               "t": "Prthivī",
@@ -682,7 +682,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (fire) manifest as "
+              "t": " (fire). Here, "
+            },
+            {
+              "t": "Jāthara Agni",
+              "term": "jathara agni",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "—manifesting as "
             },
             {
               "t": "Pāchaka Pitta",
@@ -690,15 +698,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ". This "
-            },
-            {
-              "t": "Pitta",
-              "term": "pitta",
-              "cat": "ayurveda"
-            },
-            {
-              "t": "-predominant acidification process secretes "
+              "t": "—secretes "
             },
             {
               "t": "hydrochloric acid (HCl)",
@@ -714,23 +714,7 @@
               "cat": "physiology"
             },
             {
-              "t": " like "
-            },
-            {
-              "t": "pepsin",
-              "term": "pepsin",
-              "cat": "physiology"
-            },
-            {
-              "t": ", activated by "
-            },
-            {
-              "t": "HCl",
-              "term": "hcl",
-              "cat": "physiology"
-            },
-            {
-              "t": ", to initiate protein decomposition and destroy "
+              "t": " to initiate protein breakdown and destroy "
             },
             {
               "t": "pathogens",
@@ -738,7 +722,31 @@
               "cat": "physiology"
             },
             {
-              "t": ". To maintain functional integrity, "
+              "t": ". "
+            },
+            {
+              "t": "Pepsin",
+              "term": "pepsin",
+              "cat": "physiology"
+            },
+            {
+              "t": ", a protein-digesting "
+            },
+            {
+              "t": "enzyme",
+              "term": "enzyme",
+              "cat": "physiology"
+            },
+            {
+              "t": " activated by "
+            },
+            {
+              "t": "HCl",
+              "term": "hcl",
+              "cat": "physiology"
+            },
+            {
+              "t": ", is also released. "
             },
             {
               "t": "Kledaka Kapha",
@@ -754,15 +762,23 @@
               "cat": "physiology"
             },
             {
-              "t": " known as "
+              "t": ", and "
             },
             {
-              "t": "Shleshma Dhārā Kalā",
-              "term": "shleshma dhara kala",
+              "t": "Pāchaka Pitta",
+              "term": "pachaka pitta",
               "cat": "ayurveda"
             },
             {
-              "t": ", shields the "
+              "t": " work in functional integrity to maintain the balance of "
+            },
+            {
+              "t": "Jāthara Agni",
+              "term": "jathara agni",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " and protect the "
             },
             {
               "t": "stomach",
@@ -770,7 +786,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " wall from corrosive acidity. As the "
+              "t": " wall from acidity. As the "
             },
             {
               "t": "bolus",
@@ -789,28 +805,12 @@
               "t": ", "
             },
             {
-              "t": "Anna-Drava",
-              "term": "annadrava",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", "
-            },
-            {
               "t": "Samāna Vāyu",
               "term": "samana vayu",
               "cat": "ayurveda"
             },
             {
-              "t": ", and "
-            },
-            {
-              "t": "Prāna Vāyu",
-              "term": "prana vayu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " work together to facilitate its release in small amounts through the "
+              "t": " facilitates its release in small amounts through the "
             },
             {
               "t": "pyloric valve",
@@ -818,7 +818,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " and "
+              "t": " as it is forced against the "
             },
             {
               "t": "pyloric sphincter",
@@ -842,7 +842,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ". This stage releases a substance's thermal potency, "
+              "t": ". This phase releases the "
             },
             {
               "t": "Vīrya",
@@ -850,31 +850,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", categorizing it as Ushna (warming) or Shīta (cooling). Lipase, secreted by the "
-            },
-            {
-              "t": "pancreas",
-              "term": "pancreas",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", further breaks down triglycerides into free fatty "
-            },
-            {
-              "t": "acids",
-              "term": "acids",
-              "cat": "physiology"
-            },
-            {
-              "t": " and glycerol, facilitating their "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": ". While the sour taste is yielded into "
+              "t": " (potent energy) of a substance, which is either Ushna (warming) or Shīta (cooling). From here, the sour taste is yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -882,23 +858,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma), this phase specifically coordinates the nourishment of immature, "
-            },
-            {
-              "t": "asthāyi",
-              "term": "asthayi",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "Rakta Dhātu",
-              "term": "rakta dhatu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (blood). Located on the anterior outer sides of the "
+              "t": " (plasma). The location of the sour taste is on the anterior outer sides of the "
             },
             {
               "t": "Jihvā",
@@ -906,7 +866,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "tongue",
@@ -914,7 +874,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", and energetically linked to the "
+              "t": ") and is energetically linked to the "
             },
             {
               "t": "lungs",
@@ -922,15 +882,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", "
-            },
-            {
-              "t": "Amla",
-              "term": "amla",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " stimulates emotions like jealousy and hate. Its "
+              "t": ". The "
             },
             {
               "t": "Vipāka",
@@ -938,7 +890,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " (post-digestive effect) of "
             },
             {
               "t": "Amla",
@@ -946,7 +898,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", which is "
+              "t": " (sour) is "
+            },
+            {
+              "t": "Amla",
+              "term": "amla",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (sour), which is "
             },
             {
               "t": "metabolic",
@@ -960,9 +920,6 @@
               "t": "Pitta Dosha",
               "term": "pitta dosha",
               "cat": "ayurveda"
-            },
-            {
-              "t": "."
             }
           ],
           "num": "2"
@@ -984,15 +941,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", represents the principle of "
-            },
-            {
-              "t": "Pitta",
-              "term": "pitta",
-              "cat": "ayurveda"
-            },
-            {
-              "t": "-predominant emulsification and occurs as "
+              "t": ", occurs as "
             },
             {
               "t": "chyme",
@@ -1000,15 +949,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", "
-            },
-            {
-              "t": "Anna-Drava",
-              "term": "annadrava",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", moves into the "
+              "t": " moves into the "
             },
             {
               "t": "duodenum",
@@ -1016,7 +957,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", the first segment of the "
+              "t": " (the first part of the "
             },
             {
               "t": "small intestine",
@@ -1024,15 +965,23 @@
               "cat": "anatomy"
             },
             {
-              "t": ". Governed by "
+              "t": "). "
             },
             {
-              "t": "the Bhūtas",
+              "t": "The Bhūtas",
               "term": "the bhutas",
               "cat": "ayurveda"
             },
             {
-              "t": " of "
+              "t": " (elements) of "
+            },
+            {
+              "t": "Lavana",
+              "term": "lavana",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " are "
             },
             {
               "t": "Āpas",
@@ -1043,12 +992,12 @@
               "t": " (water) and "
             },
             {
-              "t": "Agni",
+              "t": "Āgni",
               "term": "agni",
               "cat": "ayurveda"
             },
             {
-              "t": " (fire), this stage begins when "
+              "t": " (fire). This phase begins when "
             },
             {
               "t": "Samāna Vāyu",
@@ -1064,7 +1013,55 @@
               "cat": "anatomy"
             },
             {
-              "t": ", allowing highly acidic contents to enter and trigger the secretion of large amounts of protective "
+              "t": ", allowing the highly acidic "
+            },
+            {
+              "t": "chyme",
+              "term": "chyme",
+              "cat": "physiology"
+            },
+            {
+              "t": " from the "
+            },
+            {
+              "t": "stomach",
+              "term": "stomach",
+              "cat": "anatomy"
+            },
+            {
+              "t": " to flow into the "
+            },
+            {
+              "t": "duodenum",
+              "term": "duodenum",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". Because the "
+            },
+            {
+              "t": "chyme",
+              "term": "chyme",
+              "cat": "physiology"
+            },
+            {
+              "t": " entering from the "
+            },
+            {
+              "t": "stomach",
+              "term": "stomach",
+              "cat": "anatomy"
+            },
+            {
+              "t": " is highly acidic, "
+            },
+            {
+              "t": "the small intestine secretes",
+              "term": "the small intestine secretes",
+              "cat": "anatomy"
+            },
+            {
+              "t": " a large amount of protective "
             },
             {
               "t": "mucus",
@@ -1072,7 +1069,15 @@
               "cat": "physiology"
             },
             {
-              "t": ". While the intestine produces minor "
+              "t": " to shield its lining. While "
+            },
+            {
+              "t": "the small intestine secretes",
+              "term": "the small intestine secretes",
+              "cat": "anatomy"
+            },
+            {
+              "t": " small amounts of its own "
             },
             {
               "t": "enzymes",
@@ -1088,7 +1093,15 @@
               "cat": "physiology"
             },
             {
-              "t": " is driven by secretions from the "
+              "t": " occurs here through "
+            },
+            {
+              "t": "enzymes",
+              "term": "enzymes",
+              "cat": "physiology"
+            },
+            {
+              "t": " from the "
             },
             {
               "t": "liver",
@@ -1104,15 +1117,15 @@
               "cat": "anatomy"
             },
             {
-              "t": ", "
+              "t": ", which enter the "
             },
             {
-              "t": "Kloma Āgni",
-              "term": "kloma agni",
-              "cat": "ayurveda"
+              "t": "duodenum",
+              "term": "duodenum",
+              "cat": "anatomy"
             },
             {
-              "t": ", entering via a common "
+              "t": " via a common "
             },
             {
               "t": "duct",
@@ -1120,15 +1133,15 @@
               "cat": "anatomy"
             },
             {
-              "t": ". "
+              "t": ". This process is stimulated by two duodenal hormones: "
             },
             {
-              "t": "Secretin",
+              "t": "secretin",
               "term": "secretin",
               "cat": "physiology"
             },
             {
-              "t": " stimulates the release of pancreatic "
+              "t": " triggers the release of "
             },
             {
               "t": "bicarbonates",
@@ -1136,11 +1149,27 @@
               "cat": "physiology"
             },
             {
-              "t": " and water to neutralize "
+              "t": " and water from the "
             },
             {
-              "t": "HCl",
-              "term": "hcl",
+              "t": "pancreas",
+              "term": "pancreas",
+              "cat": "anatomy"
+            },
+            {
+              "t": " ("
+            },
+            {
+              "t": "Kloma Agni",
+              "term": "kloma agni",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ") to neutralize "
+            },
+            {
+              "t": "hydrochloric acid",
+              "term": "hydrochloric acid",
               "cat": "physiology"
             },
             {
@@ -1168,11 +1197,11 @@
               "cat": "physiology"
             },
             {
-              "t": "), which links the digestive, nervous, and immune systems, triggers the release of pancreatic "
+              "t": ") stimulates the release of "
             },
             {
-              "t": "enzymes",
-              "term": "enzymes",
+              "t": "pancreatic digestive enzymes",
+              "term": "pancreatic digestive enzymes",
               "cat": "physiology"
             },
             {
@@ -1184,7 +1213,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", "
+              "t": " ("
             },
             {
               "t": "Rañjaka Pitta",
@@ -1192,12 +1221,20 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", to facilitate fat emulsification and "
+              "t": ") from the "
             },
             {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
+              "t": "liver",
+              "term": "liver",
+              "cat": "anatomy"
+            },
+            {
+              "t": " and "
+            },
+            {
+              "t": "gallbladder",
+              "term": "gallbladder",
+              "cat": "anatomy"
             },
             {
               "t": ". "
@@ -1208,7 +1245,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " facilitates the linear movement that propels "
+              "t": " facilitates the linear movement that pushes the "
             },
             {
               "t": "chyme",
@@ -1216,7 +1253,23 @@
               "cat": "physiology"
             },
             {
-              "t": " and regulates water-electrolyte balance, while plicae, "
+              "t": " forward and regulates the water-electrolyte balance. From here, the salty taste is yielded into "
+            },
+            {
+              "t": "Rasa Dhātu",
+              "term": "rasa dhatu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (plasma). The inner surface of the entire "
+            },
+            {
+              "t": "small intestine",
+              "term": "small intestine",
+              "cat": "anatomy"
+            },
+            {
+              "t": " features intricate folds lined with tiny projections called "
             },
             {
               "t": "villi",
@@ -1224,7 +1277,15 @@
               "cat": "anatomy"
             },
             {
-              "t": ", and "
+              "t": ", which enhance its surface area for nutrient "
+            },
+            {
+              "t": "absorption",
+              "term": "absorption",
+              "cat": "physiology"
+            },
+            {
+              "t": ". Even smaller hairlike extensions, known as "
             },
             {
               "t": "microvilli",
@@ -1232,11 +1293,19 @@
               "cat": "anatomy"
             },
             {
-              "t": ", the brush border, vastly increase the surface area for nutrient uptake. "
+              "t": ", form the \"brush border\" on each villus, further increasing surface area. "
             },
             {
               "t": "Lacteals",
               "term": "lacteals",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", specialized "
+            },
+            {
+              "t": "lymphatic capillaries",
+              "term": "lymphatic capillaries",
               "cat": "anatomy"
             },
             {
@@ -1248,23 +1317,15 @@
               "cat": "anatomy"
             },
             {
-              "t": " absorb long-chain fatty "
+              "t": ", play a crucial role in absorbing fats as "
             },
             {
-              "t": "acids",
-              "term": "acids",
-              "cat": "physiology"
+              "t": "chylomicrons",
+              "term": "chylomicrons",
+              "cat": "anatomy"
             },
             {
-              "t": " as "
-            },
-            {
-              "t": "chyle",
-              "term": "chyle",
-              "cat": "physiology"
-            },
-            {
-              "t": ", transporting them through the "
+              "t": ", directing them into the "
             },
             {
               "t": "lymphatic system",
@@ -1272,39 +1333,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " to the subclavian veins. This process is made efficient by lipase, which has already broken down fats into absorbable components. The salty taste is yielded into "
-            },
-            {
-              "t": "Rasa Dhātu",
-              "term": "rasa dhatu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
-            },
-            {
-              "t": "asthāyi",
-              "term": "asthayi",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "Māmsa",
-              "term": "mamsa",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (muscle) and "
-            },
-            {
-              "t": "Meda",
-              "term": "meda",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (fat) Dhātus. Located on the posterior outer sides of the "
+              "t": " for transport throughout the body. The location of the salty taste is on the posterior outer sides of the "
             },
             {
               "t": "Jihvā",
@@ -1312,7 +1341,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "tongue",
@@ -1320,7 +1349,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", and energetically linked to the "
+              "t": ") and is energetically linked to the "
             },
             {
               "t": "kidneys",
@@ -1328,15 +1357,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", "
-            },
-            {
-              "t": "Lavana",
-              "term": "lavana",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " stimulates emotions of attachment, greed, and possessiveness. Its "
+              "t": ". The "
             },
             {
               "t": "Vipāka",
@@ -1344,7 +1365,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " (post-digestive effect) of "
+            },
+            {
+              "t": "Lavana",
+              "term": "lavana",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (salty) is "
             },
             {
               "t": "Madhura",
@@ -1352,7 +1381,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", which is "
+              "t": " (sweet), which is "
             },
             {
               "t": "anabolic",
@@ -1398,15 +1427,31 @@
               "cat": "anatomy"
             },
             {
-              "t": " where "
+              "t": " (the second segment of the "
             },
             {
-              "t": "the Bhūtas",
+              "t": "small intestine",
+              "term": "small intestine",
+              "cat": "anatomy"
+            },
+            {
+              "t": "). "
+            },
+            {
+              "t": "The Bhūtas",
               "term": "the bhutas",
               "cat": "ayurveda"
             },
             {
-              "t": " of "
+              "t": " (elements) of "
+            },
+            {
+              "t": "Katu",
+              "term": "katu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " are "
             },
             {
               "t": "Vāyu",
@@ -1422,7 +1467,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (fire) manifest through the functional integrity of "
+              "t": " (fire). This phase is governed by the functional integrity of "
             },
             {
               "t": "Pāchaka Pitta",
@@ -1438,7 +1483,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ". During this stage, intestinal "
+              "t": ". During this hour, the predominant intestinal "
             },
             {
               "t": "enzymes",
@@ -1446,7 +1491,7 @@
               "cat": "physiology"
             },
             {
-              "t": " with pungent properties facilitate the chemical breakdown of macronutrients while the Ushna (heating) fire element enhances "
+              "t": " exhibit pungent properties, facilitating the ongoing chemical breakdown of macronutrients, including proteins, fats, and carbohydrates. The fire element inherent to this stage enhances "
             },
             {
               "t": "thermogenesis",
@@ -1454,7 +1499,15 @@
               "cat": "physiology"
             },
             {
-              "t": " and GI circulation, turning the "
+              "t": " and increases blood circulation within the "
+            },
+            {
+              "t": "GI tract",
+              "term": "gi tract",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", promoting optimal enzymatic activity and turning the "
             },
             {
               "t": "chyme",
@@ -1462,7 +1515,7 @@
               "cat": "physiology"
             },
             {
-              "t": " yellowish-brown. Simultaneously, the air element produces gases and stimulates "
+              "t": " yellowish-brown. Simultaneously, the air element produces gases and stimulates intestinal "
             },
             {
               "t": "peristalsis",
@@ -1486,7 +1539,7 @@
               "cat": "physiology"
             },
             {
-              "t": " of digestive contents. While significant "
+              "t": " of digestive contents. While most "
             },
             {
               "t": "absorption",
@@ -1494,11 +1547,19 @@
               "cat": "physiology"
             },
             {
-              "t": " later occurs in the "
+              "t": " occurs in the "
             },
             {
               "t": "ileum",
               "term": "ileum",
+              "cat": "anatomy"
+            },
+            {
+              "t": " and "
+            },
+            {
+              "t": "colon",
+              "term": "colon",
               "cat": "anatomy"
             },
             {
@@ -1526,7 +1587,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the nutritive "
+              "t": " "
             },
             {
               "t": "chyle",
@@ -1534,7 +1595,7 @@
               "cat": "physiology"
             },
             {
-              "t": ". The pungent taste is yielded into "
+              "t": ". From here, the pungent taste is yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -1542,23 +1603,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
-            },
-            {
-              "t": "asthāyi",
-              "term": "asthayi",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "Asthi Dhātu",
-              "term": "asthi dhatu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (bone). Located on the central part of the "
+              "t": " (plasma). The location of the pungent taste is on the central part of the "
             },
             {
               "t": "Jihvā",
@@ -1566,7 +1611,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "tongue",
@@ -1574,15 +1619,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", anterior to the bitter area, "
-            },
-            {
-              "t": "Katu",
-              "term": "katu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " is energetically linked to the "
+              "t": "), positioned in front of the bitter area, and is energetically linked to the "
             },
             {
               "t": "heart",
@@ -1606,7 +1643,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " and stimulates emotions of anger, irritation, and frustration. Its "
+              "t": ". The "
             },
             {
               "t": "Vipāka",
@@ -1614,7 +1651,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " (post-digestive effect) of "
             },
             {
               "t": "Katu",
@@ -1622,7 +1659,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", which is "
+              "t": " (pungent) is "
+            },
+            {
+              "t": "Katu",
+              "term": "katu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (pungent), which is "
             },
             {
               "t": "catabolic",
@@ -1660,14 +1705,6 @@
               "cat": "physiology"
             },
             {
-              "t": ", representing the principle of Vāta-predominant "
-            },
-            {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
               "t": ", occurs as "
             },
             {
@@ -1676,7 +1713,7 @@
               "cat": "physiology"
             },
             {
-              "t": " moves into the "
+              "t": " progresses into the "
             },
             {
               "t": "ileum",
@@ -1684,7 +1721,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", the terminal and longest segment of the "
+              "t": " (the terminal and longest segment of the "
             },
             {
               "t": "small intestine",
@@ -1692,15 +1729,23 @@
               "cat": "anatomy"
             },
             {
-              "t": ". Governed by "
+              "t": "). "
             },
             {
-              "t": "the bhūtas",
+              "t": "The Bhūtas",
               "term": "the bhutas",
               "cat": "ayurveda"
             },
             {
-              "t": " of "
+              "t": " (elements) of "
+            },
+            {
+              "t": "Tikta",
+              "term": "tikta",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (bitter) are "
             },
             {
               "t": "Vāyu",
@@ -1716,7 +1761,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (ether), this stage is characterized by the continued stimulation of "
+              "t": " (ether). This phase is characterized by the continued stimulation of "
             },
             {
               "t": "Samāna Vāyu",
@@ -1732,7 +1777,7 @@
               "cat": "physiology"
             },
             {
-              "t": " necessary for efficient transit and rapid "
+              "t": " necessary for the efficient transit and rapid "
             },
             {
               "t": "absorption",
@@ -1740,7 +1785,15 @@
               "cat": "physiology"
             },
             {
-              "t": " through intestinal "
+              "t": " of "
+            },
+            {
+              "t": "chyme",
+              "term": "chyme",
+              "cat": "physiology"
+            },
+            {
+              "t": " through the intestinal "
             },
             {
               "t": "villi",
@@ -1748,7 +1801,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", with nutrient assimilation as a key focus. This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated "
+              "t": ". This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated "
             },
             {
               "t": "Pitta Dosha",
@@ -1756,7 +1809,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ". The bitter taste is yielded into "
+              "t": ". From here, the bitter taste is yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -1764,23 +1817,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
-            },
-            {
-              "t": "asthāyi",
-              "term": "asthayi",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", "
-            },
-            {
-              "t": "Majjā Dhātu",
-              "term": "majja dhatu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " (nerve/ bone marrow). Located on the central part of the "
+              "t": " (plasma). The location of the bitter taste is on the central part of the "
             },
             {
               "t": "Jihvā",
@@ -1788,7 +1825,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "tongue",
@@ -1796,15 +1833,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", posterior to the pungent area, "
-            },
-            {
-              "t": "Tikta",
-              "term": "tikta",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " is energetically linked to the "
+              "t": "), positioned behind the pungent area, and is energetically linked to the "
             },
             {
               "t": "liver",
@@ -1828,7 +1857,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " and stimulates emotions of loneliness, isolation, and separation. Its "
+              "t": ". The "
             },
             {
               "t": "Vipāka",
@@ -1836,7 +1865,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " (post-digestive effect) of "
+            },
+            {
+              "t": "Tikta",
+              "term": "tikta",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (bitter) is "
             },
             {
               "t": "Katu",
@@ -1844,7 +1881,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", which is "
+              "t": " (pungent), which is "
             },
             {
               "t": "catabolic",
@@ -1882,23 +1919,15 @@
               "cat": "physiology"
             },
             {
-              "t": ", representing the principle of Vāta-predominant "
+              "t": ", is the final phase occurring in the "
             },
             {
-              "t": "elimination",
-              "term": "elimination",
-              "cat": "physiology"
-            },
-            {
-              "t": ", occurs in the "
-            },
-            {
-              "t": "Pakvāshaya",
+              "t": "Pakvashaya",
               "term": "pakvashaya",
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "large intestine",
@@ -1906,15 +1935,23 @@
               "cat": "anatomy"
             },
             {
-              "t": ", where "
+              "t": "). "
             },
             {
-              "t": "the Bhūtas",
+              "t": "The Bhūtas",
               "term": "the bhutas",
               "cat": "ayurveda"
             },
             {
-              "t": " of "
+              "t": " (elements) of "
+            },
+            {
+              "t": "Kashāya",
+              "term": "kashaya",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " are "
             },
             {
               "t": "Vāyu",
@@ -1930,7 +1967,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (earth) manifest. This process begins when "
+              "t": " (earth). This process begins when "
             },
             {
               "t": "Apāna Vāyu",
@@ -1962,15 +1999,7 @@
               "cat": "physiology"
             },
             {
-              "t": ", "
-            },
-            {
-              "t": "Anna-Drava",
-              "term": "annadrava",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", to enter the "
+              "t": " to enter the "
             },
             {
               "t": "cecum",
@@ -1978,63 +2007,15 @@
               "cat": "anatomy"
             },
             {
-              "t": " for the "
+              "t": ". Within the "
             },
             {
-              "t": "absorption",
-              "term": "absorption",
-              "cat": "physiology"
-            },
-            {
-              "t": " of remaining water, minerals, and electrolytes. Udāna, Apāna, and "
-            },
-            {
-              "t": "Samāna Vāyu",
-              "term": "samana vayu",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", moving in an upward, downward, outward, and linear direction, govern material transit through the ascending, transverse, and "
-            },
-            {
-              "t": "descending colon",
-              "term": "descending colon",
+              "t": "large intestine",
+              "term": "large intestine",
               "cat": "anatomy"
             },
             {
-              "t": " segments and their respective hepatic and splenic flexures. The earth element provides the roughness, khāra, and bulk necessary to compact waste material into well-bound feces, "
-            },
-            {
-              "t": "Purīsha",
-              "term": "purisha",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", in the descending and "
-            },
-            {
-              "t": "sigmoid colon",
-              "term": "sigmoid colon",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", stimulating mass "
-            },
-            {
-              "t": "peristalsis",
-              "term": "peristalsis",
-              "cat": "physiology"
-            },
-            {
-              "t": ". Simultaneously, the air element nourishes "
-            },
-            {
-              "t": "Poshaka Vāta",
-              "term": "poshaka vata",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " to facilitate the urge to defecate, with "
+              "t": ", "
             },
             {
               "t": "Apāna Vāyu",
@@ -2042,7 +2023,95 @@
               "cat": "ayurveda"
             },
             {
-              "t": " propelling the waste through the "
+              "t": " governs the movement of material through the "
+            },
+            {
+              "t": "ascending colon",
+              "term": "ascending colon",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "hepatic flexure",
+              "term": "hepatic flexure",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "transverse colon",
+              "term": "transverse colon",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "splenic flexure",
+              "term": "splenic flexure",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "descending colon",
+              "term": "descending colon",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". During this phase, the remaining water, minerals, and electrolytes are absorbed into the system. The earth element provides the roughness and bulk necessary to compact waste material into well-bound feces ("
+            },
+            {
+              "t": "Purīsha",
+              "term": "purisha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ") in the "
+            },
+            {
+              "t": "descending colon",
+              "term": "descending colon",
+              "cat": "anatomy"
+            },
+            {
+              "t": " and "
+            },
+            {
+              "t": "sigmoid colon",
+              "term": "sigmoid colon",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". This stage stimulates mass "
+            },
+            {
+              "t": "peristalsis",
+              "term": "peristalsis",
+              "cat": "physiology"
+            },
+            {
+              "t": ", and the air element nourishes "
+            },
+            {
+              "t": "Poshaka Vata",
+              "term": "poshaka vata",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " to facilitate the urge to defecate. The process culminates as the downward and outward energy of "
+            },
+            {
+              "t": "Apāna Vāyu",
+              "term": "apana vayu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " propels the waste through the "
             },
             {
               "t": "rectum",
@@ -2090,7 +2159,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " in the brain’s hunger center to signal the return of true appetite and the reactivation of "
+              "t": " in the hunger center of the brain, signaling the return of true appetite and the activation of "
             },
             {
               "t": "Jāthara Āgni",
@@ -2098,7 +2167,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ". The astringent taste is yielded into "
+              "t": ". From here, the astringent taste is yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -2106,15 +2175,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
-            },
-            {
-              "t": "asthāyi",
-              "term": "asthayi",
-              "cat": "ayurveda"
-            },
-            {
-              "t": ", Shukra or Ārtava Dhātus. Located on the posterior part of the "
+              "t": " (plasma). The location of the astringent taste is on the posterior part of the "
             },
             {
               "t": "Jihvā",
@@ -2122,7 +2183,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " ("
             },
             {
               "t": "tongue",
@@ -2130,7 +2191,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", and energetically linked to the "
+              "t": ") and is energetically linked to the "
             },
             {
               "t": "colon",
@@ -2138,15 +2199,7 @@
               "cat": "anatomy"
             },
             {
-              "t": ", "
-            },
-            {
-              "t": "Kashāya",
-              "term": "kashaya",
-              "cat": "ayurveda"
-            },
-            {
-              "t": " stimulates emotions of fear, anxiety, and nervousness. Its "
+              "t": ". The "
             },
             {
               "t": "Vipāka",
@@ -2154,7 +2207,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " (post-digestive effect) of "
+            },
+            {
+              "t": "Kashāya",
+              "term": "kashaya",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " (astringent) is "
             },
             {
               "t": "Katu",
@@ -2162,7 +2223,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", which is "
+              "t": " (pungent), which is "
             },
             {
               "t": "catabolic",
@@ -2296,7 +2357,12 @@
               {
                 "t": "weight: generally low or underweight, with difficulty gaining weight"
               }
-            ],
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
             [
               {
                 "t": "nose: often thin, crooked, or uneven, may have a deviated septum"
@@ -2365,7 +2431,7 @@
                 "cat": "physiology"
               },
               {
-                "t": ", with gas and bloating and a tendency to constipation, variable appetite"
+                "t": ", with gas and bloating and a tendency to constipation, variable appetite "
               }
             ],
             [

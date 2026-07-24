@@ -1390,5 +1390,101 @@
     "title": "Cholecystokinin CCK",
     "phon": "",
     "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
+  },
+  "salivary secretions": {
+    "cat": "physiology",
+    "title": "Salivary secretions",
+    "phon": "",
+    "body": ""
+  },
+  "sublingual glands": {
+    "cat": "anatomy",
+    "title": "Sublingual glands",
+    "phon": "",
+    "body": "<p>The sublingual gland is the smallest of the major salivary glands, located under the mucous membrane in the floor of the mouth, on either side of the tongue. Its primary function is to secrete thick, mucus-rich saliva, which lubricates food for easier swallowing, keeps the mouth moist, and aids in early digestion. The mucus coats food to form a slippery bolus for swallowing and protects the oral mucosa from dryness and irritation.</p>"
+  },
+  "6 rasas": {
+    "cat": "ayurveda",
+    "title": "6 Rasas",
+    "phon": "",
+    "body": ""
+  },
+  "kapha": {
+    "cat": "ayurveda",
+    "title": "Kapha",
+    "phon": "",
+    "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations (tridosha). It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
+  },
+  "liquefaction": {
+    "cat": "physiology",
+    "title": "Liquefaction",
+    "phon": "",
+    "body": ""
+  },
+  "asthayi": {
+    "cat": "ayurveda",
+    "title": "Asthāyi",
+    "phon": "",
+    "body": ""
+  },
+  "enzyme": {
+    "cat": "physiology",
+    "title": "Enzyme",
+    "phon": "",
+    "body": "<p>Enzymes are specialized proteins that act as biological catalysts to speed up biochemical reactions, specifically the breakdown and synthesis of various molecules within the body. Their primary function is to facilitate and accelerate these reactions, which is most prominent in chemical digestion. During this process, enzymes and acids decompose food substances into smaller, usable molecules that can be absorbed as basic nutrients. These catalysts are active throughout the body, from lysosomes that use them to digest worn-out cell structures to the small intestine, where they process proteins, fats, and carbohydrates.</p>"
+  },
+  "taste receptors": {
+    "cat": "anatomy",
+    "title": "Taste receptors",
+    "phon": "",
+    "body": ""
+  },
+  "brains grey matter": {
+    "cat": "anatomy",
+    "title": "Brain's grey matter",
+    "phon": "",
+    "body": ""
+  },
+  "acids": {
+    "cat": "physiology",
+    "title": "Acids",
+    "phon": "",
+    "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
+  },
+  "mall intestine": {
+    "cat": "anatomy",
+    "title": "Mall intestine",
+    "phon": "",
+    "body": "<p>Where most digestion and absorption of nutrients occurs.</p>"
+  },
+  "microvilli": {
+    "cat": "anatomy",
+    "title": "Microvilli",
+    "phon": "",
+    "body": ""
+  },
+  "lacteals": {
+    "cat": "anatomy",
+    "title": "Lacteals",
+    "phon": "",
+    "body": ""
+  },
+  "lymphatic capillaries": {
+    "cat": "anatomy",
+    "title": "Lymphatic capillaries",
+    "phon": "",
+    "body": ""
+  },
+  "chylomicrons": {
+    "cat": "anatomy",
+    "title": "Chylomicrons",
+    "phon": "",
+    "body": ""
+  },
+  "lymphatic system": {
+    "cat": "anatomy",
+    "title": "Lymphatic system",
+    "phon": "",
+    "body": ""
   }
 }
