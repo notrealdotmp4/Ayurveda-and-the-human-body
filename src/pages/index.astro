@@ -325,7 +325,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const dTitle = document.getElementById('dTitle');
     const dPhon = document.getElementById('dPhon');
     const dBody = document.getElementById('dBody');
-    window.attachScrollHint = function (scrollEl, host) {
+    const attachScrollHint = function (scrollEl, host) {
       const hint = document.createElement('div');
       hint.className = 'scroll-hint'; hint.innerHTML = 'Scroll <span class="sh-arrow">\u2193</span>';
       host.appendChild(hint);
@@ -338,7 +338,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       window.addEventListener('resize', upd);
       return upd;
     };
-    const drawerHint = window.attachScrollHint(dBody, drawer);
+    const drawerHint = attachScrollHint(dBody, drawer);
     let savedY = 0;
     function openTerm(key) {
       const g = GLOSSARY[key];
@@ -586,7 +586,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const ax = (left > ox) ? left : left + cw;
       mcLine.setAttribute('x1', ox); mcLine.setAttribute('y1', oy); mcLine.setAttribute('x2', ax); mcLine.setAttribute('y2', top + ch / 2);
     }
-    const calloutHint = window.attachScrollHint(mcBody, mapCallout);
+    const attachScrollHint = function (scrollEl, host) {
+      const hint = document.createElement('div');
+      hint.className = 'scroll-hint'; hint.innerHTML = 'Scroll <span class="sh-arrow">\u2193</span>';
+      host.appendChild(hint);
+      const upd = () => {
+        const more = scrollEl.scrollHeight - scrollEl.clientHeight - scrollEl.scrollTop > 14;
+        if (more) { const r = scrollEl.getBoundingClientRect(), hr = host.getBoundingClientRect(); hint.style.bottom = Math.max(6, hr.bottom - r.bottom + 8) + 'px'; }
+        hint.classList.toggle('show', more);
+      };
+      scrollEl.addEventListener('scroll', upd, { passive: true });
+      window.addEventListener('resize', upd);
+      return upd;
+    };
+    const calloutHint = attachScrollHint(mcBody, mapCallout);
     function showCallout(el, key) {
       const g = MAP_GLOSSARY[key];
       mcTitle.textContent = (g && g.title) || key;
