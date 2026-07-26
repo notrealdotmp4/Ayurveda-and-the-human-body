@@ -325,6 +325,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const dTitle = document.getElementById('dTitle');
     const dPhon = document.getElementById('dPhon');
     const dBody = document.getElementById('dBody');
+    window.attachScrollHint = function (scrollEl, host) {
+      const hint = document.createElement('div');
+      hint.className = 'scroll-hint'; hint.innerHTML = 'Scroll <span class="sh-arrow">\u2193</span>';
+      host.appendChild(hint);
+      const upd = () => {
+        const more = scrollEl.scrollHeight - scrollEl.clientHeight - scrollEl.scrollTop > 14;
+        if (more) { const r = scrollEl.getBoundingClientRect(), hr = host.getBoundingClientRect(); hint.style.bottom = Math.max(6, hr.bottom - r.bottom + 8) + 'px'; }
+        hint.classList.toggle('show', more);
+      };
+      scrollEl.addEventListener('scroll', upd, { passive: true });
+      window.addEventListener('resize', upd);
+      return upd;
+    };
+    const drawerHint = window.attachScrollHint(dBody, drawer);
     let savedY = 0;
     function openTerm(key) {
       const g = GLOSSARY[key];
@@ -345,6 +359,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       }
       const _rel = relatedHTML(key, !!_dk);
       if (_rel) { dBody.insertAdjacentHTML('beforeend', _rel); dBody.querySelectorAll('.rel-chip').forEach((c) => c.addEventListener('click', () => openTerm(c.dataset.term))); }
+      dBody.scrollTop = 0; requestAnimationFrame(drawerHint);
       scrim.classList.add('open'); drawer.classList.add('open');
       drawer.setAttribute('aria-hidden', 'false');
       history.pushState({ term: key }, '');
@@ -566,17 +581,18 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const ox = or.left + or.width / 2 - vr.left, oy = or.top + or.height / 2 - vr.top;
       const cw = mapCallout.offsetWidth, ch = mapCallout.offsetHeight;
       let left = ox + 26; if (left + cw > vr.width - 8) left = ox - cw - 26; if (left < 8) left = 8;
-      let top = oy - ch / 2; top = Math.max(8, Math.min(vr.height - ch - 8, top));
+      let top = oy - ch / 2; top = Math.max(8, Math.min(vr.height - ch - 52, top));
       mapCallout.style.left = left + 'px'; mapCallout.style.top = top + 'px';
       const ax = (left > ox) ? left : left + cw;
       mcLine.setAttribute('x1', ox); mcLine.setAttribute('y1', oy); mcLine.setAttribute('x2', ax); mcLine.setAttribute('y2', top + ch / 2);
     }
+    const calloutHint = window.attachScrollHint(mcBody, mapCallout);
     function showCallout(el, key) {
       const g = MAP_GLOSSARY[key];
       mcTitle.textContent = (g && g.title) || key;
       mcTitle.style.color = (g && CAT_COLOR[g.cat]) || 'var(--ink)';
       mcBody.innerHTML = window.iconHTML(key) + ((g && g.body) || '<p>Definition coming soon.</p>');
-      if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCanvas.classList.add('has-focus'); mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el);
+      if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCanvas.classList.add('has-focus'); mapCallout.hidden = false; mapLeader.hidden = false; positionCallout(el); mcBody.scrollTop = 0; requestAnimationFrame(calloutHint);
     }
     function hideCallout() { if (curOrgan) curOrgan.classList.remove('is-active'); curOrgan = null; mapCanvas.classList.remove('has-focus'); mapCallout.hidden = true; mapLeader.hidden = true; }
     function focusOrgan(el) {
