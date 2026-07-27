@@ -107,9 +107,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
 
   <header class="site">
     <div class="tri-btns">
-      <button class="tri-btn" data-simple="0">Overview</button>
-      <button class="tri-btn" data-simple="1">Section Two</button>
-      <button class="tri-btn" data-simple="2">Section Three</button>
+      <button class="tri-btn" data-simple="0" aria-label="Overview"><img src="/anim/tri-1.svg" alt="" data-label="Overview" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
+      <button class="tri-btn" data-simple="1" aria-label="Section Two"><img src="/anim/tri-2.svg" alt="" data-label="Section Two" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
+      <button class="tri-btn" data-simple="2" aria-label="Section Three"><img src="/anim/tri-3.svg" alt="" data-label="Section Three" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
     </div>
     <h1>{content.title}</h1>
     <p class="sub">Tap any colored word and button to explore it</p>
@@ -740,6 +740,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       if (currentMapSrc === src) { mReset(); return; }
       currentMapSrc = src; hideCallout(); if (mapList) mapList.classList.remove('show');
       fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
+        const _low = svg.slice(0, 500).toLowerCase();
+        if (svg.indexOf('<svg') === -1 || _low.indexOf('<!doctype') !== -1 || _low.indexOf('<html') !== -1) { throw new Error('not an svg'); }
         mapCanvas.innerHTML = svg;
         const svgEl = mapCanvas.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
         const organMap = new Map();
