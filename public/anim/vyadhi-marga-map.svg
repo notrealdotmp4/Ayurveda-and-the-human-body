@@ -628,7 +628,7 @@
     </g>
     <path class="st24" d="M698.3,457.4l.9-147.4c0-13.8,11.3-25,25.2-25h13.2"/>
   </g>
-  <g id="rajah">
+  <g id="rajah-vaha-srotas">
     <rect class="st16" x=".6" y="498" width="171.4" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
@@ -669,7 +669,7 @@
       </g>
     </g>
   </g>
-  <g id="stanya">
+  <g id="stanya-vaha-srotas">
     <rect class="st16" x=".6" y="611" width="171.4" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
@@ -719,7 +719,7 @@
       </g>
     </g>
   </g>
-  <g id="purisha">
+  <g id="purisha-vaha-srotas">
     <rect class="st16" x=".6" y="724.1" width="171.4" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
@@ -742,7 +742,7 @@
       </g>
     </g>
   </g>
-  <g id="mutra">
+  <g id="mutra-vaha-srotas">
     <rect class="st16" x=".6" y="837.1" width="171.4" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
@@ -774,7 +774,7 @@
       </g>
     </g>
   </g>
-  <g id="sveda">
+  <g id="sveda-vaha-srotas">
     <rect class="st16" y="950.1" width="171.4" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
@@ -824,7 +824,7 @@
       </g>
     </g>
   </g>
-  <g id="mano">
+  <g id="mano-vaha-srotas">
     <rect class="st16" y="1063.2" width="171.4" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">

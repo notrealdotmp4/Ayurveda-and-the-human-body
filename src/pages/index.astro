@@ -106,6 +106,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="lo-revisit-wrap"><button class="lo-revisit" id="loRevisit">↻ Replay the slides</button></div>
 
   <header class="site">
+    <div class="tri-btns">
+      <button class="tri-btn" data-simple="0">Overview</button>
+      <button class="tri-btn" data-simple="1">Section Two</button>
+      <button class="tri-btn" data-simple="2">Section Three</button>
+    </div>
     <h1>{content.title}</h1>
     <p class="sub">Tap any colored word and button to explore it</p>
     <div class="legend">
@@ -175,6 +180,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <button class="tbar-btn" data-tool="margas" title="Circulation map" aria-label="Circulation map">
         <img class="tbar-ic" src="/anim/magrasicon.svg" alt="" />
       </button>
+      <button class="tbar-btn" data-tool="systems" title="Body systems" aria-label="Body systems">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>
+      </button>
     </div>
     <div class="tbar-pill tbar-pill-gray">
       <button class="tbar-btn" data-tool="bookmark" title="Reading tools" aria-label="Reading tools">
@@ -218,6 +226,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="hero-modal" id="heroModal" aria-hidden="true">
     <div class="hero-win">
       <div class="hm-head"><strong id="hmTitle">The Living Body - Digestion</strong><button class="close-x" id="heroClose" aria-label="Close">×</button></div>
+      <div class="hm-body">
+        <div class="hm-rail" id="hmRail" hidden></div>
       <div class="hero-stage">
         <video id="heroVideo" src="/anim/BodyAnimation_ready.mp4" playsinline preload="metadata"></video>
         <div class="hero-map" id="heroMap">
@@ -230,10 +240,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="map-hint">Drag to pan · scroll or pinch to zoom · tap an organ</div>
         </div>
       </div>
+        <aside class="hm-text" id="hmText" hidden></aside>
+      </div>
       <div class="hm-bar">
         <button id="hmReplay">↻ Replay animation</button>
         <button id="hmExplore">Explore the map →</button>
       </div>
+    </div>
+  </div>
+
+  <div class="simple-modal" id="simpleModal" aria-hidden="true">
+    <div class="simple-win">
+      <button class="close-x" id="simpleClose" aria-label="Close">×</button>
+      <video class="simple-vid" id="simpleVid" controls playsinline preload="metadata"></video>
+      <div class="simple-text" id="simpleText"></div>
     </div>
   </div>
 
@@ -548,15 +568,60 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
-    function openVyadhi() { setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Srotāmsi, Dhātu and Mārga', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
+    const SIMPLE_ITEMS = [
+      { label: 'Overview', video: '/anim/simple-1.mp4', title: 'Overview', html: '<p>Placeholder \u2014 edit SIMPLE_ITEMS to set this video and text.</p>' },
+      { label: 'Section Two', video: '/anim/simple-2.mp4', title: 'Section Two', html: '<p>Placeholder \u2014 edit SIMPLE_ITEMS to set this video and text.</p>' },
+      { label: 'Section Three', video: '/anim/simple-3.mp4', title: 'Section Three', html: '<p>Placeholder \u2014 edit SIMPLE_ITEMS to set this video and text.</p>' }
+    ];
+    const simpleModal = document.getElementById('simpleModal');
+    const simpleVid = document.getElementById('simpleVid');
+    const simpleText = document.getElementById('simpleText');
+    function openSimple(i) {
+      const it = SIMPLE_ITEMS[i]; if (!it) return;
+      simpleVid.src = it.video;
+      simpleText.innerHTML = '<h3 class="simple-title">' + it.title + '</h3>' + it.html; simpleText.scrollTop = 0;
+      simpleModal.classList.add('open'); simpleModal.setAttribute('aria-hidden', 'false');
+    }
+    function closeSimple() { simpleModal.classList.remove('open'); simpleModal.setAttribute('aria-hidden', 'true'); if (simpleVid) simpleVid.pause(); }
+    if (simpleModal) {
+      document.getElementById('simpleClose').addEventListener('click', closeSimple);
+      simpleModal.addEventListener('click', (e) => { if (e.target === simpleModal) closeSimple(); });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && simpleModal.classList.contains('open')) closeSimple(); });
+      document.querySelectorAll('.tri-btn').forEach((b) => b.addEventListener('click', () => openSimple(parseInt(b.dataset.simple, 10))));
+    }
+    const hmRail = document.getElementById('hmRail');
+    const hmText = document.getElementById('hmText');
+    const SYS_MAPS = [
+      { label: 'Lymphatic System', svg: '/anim/lymphatic-system-map.svg', title: 'The Living Body \u2014 Lymphatic System', html: '<p>The lymphatic system is an open, one-way return system that picks up interstitial fluid, large protein molecules, and cellular debris from the tissues and returns them to the cardiovascular circulation. Unlike the circular cardiovascular system, the lymphatic network begins with microscopic initial vessels, or lymph capillaries, which are "blind-ended" tubes located in the subepidermis. These initial vessels utilize microscopic fibers called anchor filaments to pull open epithelial flaps, allowing the lymph obligatory load—consisting of proteins, cells, and foreign substances—to enter the system.</p><p>Once this fluid enters the vessels, it is called lymph, and it travels from the initial vessels into pre-collectors and then into larger collector vessels, which are the primary vessels for transportation. These collectors contain one-way intralymphatic valves that divide the vessel into functional units called angions, which use spiraled smooth muscle under the control of the autonomic nervous system (ANS) to rhythmically pump the fluid along. The fluid continues through lymphatic trunks and eventually empties into one of the two largest vessels in the network: the right lymphatic duct or the thoracic duct. The thoracic duct handles drainage for three-quarters of the body and begins at a passive collecting well called the cisterna chyli, while the right lymphatic duct drains the upper right quadrant. Both ducts return the cleansed fluid to the blood at the lymphatic terminus, also known as the angulus venosus, which is located where the subclavian veins and jugular veins converge.</p><p>Along this journey, the lymph is filtered by lymph nodes, which are clustered in areas known as catchments, such as the axillary, cervical, inguinal, and popliteal regions. These nodes use lymphocytes and macrophages to remove bacteria and damaged cells, serving as primary sites for immune responses. Additionally, specialized capillaries in the intestines called lacteals perform the unique function of absorbing long-chain fatty acids during digestion. The organization of the system is defined by regional drainage patterns called lymphotomes, which are separated by functional boundaries known as watersheds. Within these watersheds, a high concentration of end-to-end vessel arrangements called anastomoses allows lymph to flow in either direction, providing a crossover route if a collector is blocked.</p><p>The movement of lymph is driven internally by the siphon effect—a negative pressure created at the terminus—and externally by factors like the respiratory pump and skeletal muscle contractions. When this system is overwhelmed or damaged, edema occurs, which is the accumulation of excess fluid in the interstitium. Dynamic edema happens when a healthy system is temporarily overloaded by cardiovascular dysfunction, whereas lymphedema is a specific pathology caused by a congenital defect (primary lymphedema) or damage to the system (secondary lymphedema). Furthermore, traumatic edema is localized swelling following soft tissue injury, and pitting edema is a clinical sign in which pressure leaves a lasting indentation, indicating inefficient fluid return.</p>' },
+      { label: 'Circulation', svg: '/anim/vyadhi-marga-map.svg', title: 'The Living Body \u2014 Circulation', html: '<p>Placeholder text for circulation. Edit SYS_MAPS to change this panel.</p>' },
+      { label: 'Digestion', svg: '/anim/digestive-map.svg', title: 'The Living Body \u2014 Digestion', html: '<p>Placeholder text for digestion. Edit SYS_MAPS to change this panel.</p>' }
+    ];
+    function exitSys() { const w = document.querySelector('.hero-win'); if (w) w.classList.remove('sys'); if (hmRail) hmRail.hidden = true; if (hmText) hmText.hidden = true; }
+    function selectSys(i) {
+      Array.from(hmRail.children).forEach((b, n) => b.classList.toggle('is-on', n === i));
+      const m = SYS_MAPS[i];
+      hmText.innerHTML = '<h3 class="hm-text-title">' + m.label + '</h3>' + m.html; hmText.scrollTop = 0;
+      currentMapSrc = null; setHeroMode(m.svg, m.title, false); showMap();
+    }
+    function openSystems() {
+      exitSys();
+      const w = document.querySelector('.hero-win'); if (w) w.classList.add('sys');
+      hmRail.hidden = false; hmText.hidden = false; hmRail.innerHTML = '';
+      SYS_MAPS.forEach((m, i) => { const b = document.createElement('button'); b.className = 'sys-btn'; b.textContent = m.label; b.addEventListener('click', () => selectSys(i)); hmRail.appendChild(b); });
+      heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
+      selectSys(0);
+    }
+    function openVyadhi() {
+      exitSys(); setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Srotāmsi, Dhātu and Mārga', false); heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false'); showMap(); }
     function openHero() {
+      exitSys();
       setHeroMode('/anim/digestive-map.svg', 'The Living Body - Digestion', true);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
       if (seenHero) { showMap(); }
       else { showVideo(); try { localStorage.setItem('seenHeroVideo', '1'); } catch (e) {} }
     }
-    function closeHero() { heroModal.classList.remove('open'); heroModal.setAttribute('aria-hidden', 'true'); heroVideo.pause(); }
+    function closeHero() { heroModal.classList.remove('open'); heroModal.setAttribute('aria-hidden', 'true'); heroVideo.pause(); exitSys(); }
     const mapViewport = document.getElementById('mapViewport');
     const mapCanvas = document.getElementById('mapCanvas');
     const mapCallout = document.getElementById('mapCallout');
@@ -732,6 +797,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'darshan') openDarshan();
       else if (t === 'text') cycleFontSize();
       else if (t === 'margas') openVyadhi();
+      else if (t === 'systems') openSystems();
     }));
     const bmMenu = document.getElementById('bmMenu');
     function toggleBmMenu() {
