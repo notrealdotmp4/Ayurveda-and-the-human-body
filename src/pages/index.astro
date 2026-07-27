@@ -107,9 +107,18 @@ const rest = isLO ? chapters.slice(1) : chapters;
 
   <header class="site">
     <div class="tri-btns">
-      <button class="tri-btn" data-simple="0" aria-label="Overview"><img src="/anim/tri-1.svg" alt="" data-label="Overview" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
-      <button class="tri-btn" data-simple="1" aria-label="Section Two"><img src="/anim/tri-2.svg" alt="" data-label="Section Two" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
-      <button class="tri-btn" data-simple="2" aria-label="Section Three"><img src="/anim/tri-3.svg" alt="" data-label="Section Three" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
+      <div class="tri-item">
+        <button class="tri-btn" data-simple="0" aria-label="Vāta"><img src="/anim/tri-vata.svg" alt="" data-label="Vāta" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
+        <span class="tri-label">Vāta</span>
+      </div>
+      <div class="tri-item">
+        <button class="tri-btn" data-simple="1" aria-label="Pitta"><img src="/anim/tri-pitta.svg" alt="" data-label="Pitta" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
+        <span class="tri-label">Pitta</span>
+      </div>
+      <div class="tri-item">
+        <button class="tri-btn" data-simple="2" aria-label="Kapha"><img src="/anim/tri-kapha.svg" alt="" data-label="Kapha" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
+        <span class="tri-label">Kapha</span>
+      </div>
     </div>
     <h1>{content.title}</h1>
     <p class="sub">Tap any colored word and button to explore it</p>
@@ -569,9 +578,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
     const SIMPLE_ITEMS = [
-      { label: 'Overview', video: '/anim/simple-1.mp4', title: 'Overview', html: '<p>Placeholder \u2014 edit SIMPLE_ITEMS to set this video and text.</p>' },
-      { label: 'Section Two', video: '/anim/simple-2.mp4', title: 'Section Two', html: '<p>Placeholder \u2014 edit SIMPLE_ITEMS to set this video and text.</p>' },
-      { label: 'Section Three', video: '/anim/simple-3.mp4', title: 'Section Three', html: '<p>Placeholder \u2014 edit SIMPLE_ITEMS to set this video and text.</p>' }
+      { label: "Vāta", video: "/anim/vata.mp4", title: "Vāta", html: "<p>Vāta is the breath of movement — light, airy, and forever in motion, like wind moving through the world. You'll know Vāta by its lightness. The body is thin and slender, tall or small, its bones close to the surface and its proportions delicate. Weight never lingers here. The face is fine and angular, the eyes small and quick, always darting toward the next thing. The skin runs dry, the hair dry and curling. And everything about Vāta hurries — quick steps, restless hands, words that tumble out fast. At its best, this restless energy becomes creativity, joy, and a mind open to anything. But when the wind blows too hard, it scatters — into fear, worry, and thoughts that won't settle.</p>" },
+      { label: "Pitta", video: "/anim/pitta.mp4", title: "Pitta", html: "<p>Pitta is the fire within — heat and intensity, the spark that transforms food into energy and ideas into action. You'll know Pitta by its strength. The body is medium and well-built, muscled and steady, holding its shape with ease. The face tapers to a point, cheeks flushed with warmth, the nose sharp, the eyes bright and quick to squint in the light. The skin is fair and easily reddened, scattered with freckles, and the fine hair often greys before its time. At its best, this fire becomes intelligence, discipline, and the courage to lead. But when the flames rise too high, they burn — into anger, impatience, and a perfectionism that spares no one.</p>" },
+      { label: "Kapha", video: "/anim/kapha.mp4", title: "Kapha", html: "<p>Kapha is the earth beneath it all — water and soil, the steady force that gives the body form and holds it together. You'll know Kapha by its solidity. The body is broad and strong, built on a generous frame, and weight settles here and stays. The face is large and round as the moon, the cheeks full, the eyes big and gentle beneath thick lashes. The skin is cool, soft, and slow to age; the hair thick and lustrous through the years. Kapha moves without hurry, calm and deep and unshakable. At its best, this steadiness becomes love, compassion, and a forgiving heart. But when the earth grows too heavy, it clings — to comfort, to possessions, to a stillness that won't move.</p>" }
     ];
     const simpleModal = document.getElementById('simpleModal');
     const simpleVid = document.getElementById('simpleVid');
