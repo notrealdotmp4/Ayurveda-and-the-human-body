@@ -3,23 +3,155 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #c7a68e;
+        fill: #c9a88e;
       }
 
       .cls-2 {
-        fill: none;
-        stroke: #5e7835;
-        stroke-miterlimit: 10;
+        fill: #5e7835;
       }
     </style>
   </defs>
   <g id="Layer_2" data-name="Layer 2">
-    <path class="cls-1" d="M321.52,39.75c-24.18-26.06-61.62-21.2-81.5-10.6s-20.13,33.53-19.4,40.01,3.09,6.18,1.33,11.34-9.42,12.52-9.13,14.72,8.83,5.74,8.83,5.74c0,0-.29,1.77-1.18,3.09s-2.94,2.06-2.36,3.09,3.09,2.8,3.09,2.8l-1.8,1.72c-.65.62-.63,1.65.03,2.26.89.83,1.9,2.1,1.9,3.58,0,2.65-6.09,7.53-1.3,13.86,2.51,3.32,24.44-1.4,26.5,2.58s4.12,17.23.29,20.47-18.26,13.1-27.98,15.02-27.98,1.91-38.28,10.75-9.42,27.39-8.25,37.99,3.49,30.77-.69,46.82-2.11,42.4-1.96,54.18-6.92,19.58-10.31,33.57-9.42,88.05-14.72,96.88-19.88,14.13-20.47,17.67-2.36,15.61-5.15,19.58-7.95,7.8-7.95,7.8c0,0,5.3,3.83,8.98,1.03s8.98-11.04,8.98-11.04c0,0-3.68,15.9-4.86,21.64s-5.01,18.11-3.09,19.88,4.86-1.18,4.86-1.18c0,0-1.91,3.98,1.91,5.01s15.61-31.95,17.82-31.07-3.68,17.82-4.12,21.64-1.18,8.83,1.77,8.54,10.9-29.74,12.07-29.45-1.33,8.83-2.21,13.1-1.47,6.33.74,7.21,7.8-19.14,10.01-23.26,8.25-14.72,7.21-22.82-6.92-12.66-3.98-22.67,31.66-83.93,32.98-93.94-1.91-15.17-.15-17.82,5.6-12.81,5.89-17.37,1.18-14.13,3.68-31.07-1.77,10.01-.88,20.61,4.86,14.72,2.94,24.44-4.86,32.54-4.56,44.47-9.72,70.38-9.87,95.26,13.25,105.87,14.43,118.09-6.63,39.17-.66,67.58,13.91,61.25,14.5,73.18-5.3,22.38-2.8,26.06,5.6,8.83,3.39,15.17-12.22,24.29-11.93,27.24-1.91,8.54-3.17,12.07,1.55,9.13,4.49,8.25,4.71,4.42,7.66,2.8,5.15,3.68,7.66,1.77,7.07,3.05,10.9.42,7.66,6.2,15.46,2.52,7.8-7.95,6.48-12.52-1.47-7.36-.44-11.19-.44-24-2.21-32.69-2.06-18.99-1.18-25.18,1.33-9.13-.88-13.55,2.06-57.87,4.71-71.85-.44-41.96-4.56-52.56-2.21-21.94-1.62-28.27,0-16.79,6.33-42.26,10.16-69.64,10.6-69.5,6.92,40.05,11.19,56.69,14.28,56.54,14.28,66.4-5.74,40.2-5.45,50.65,10.45,59.93,11.78,76.27,7.8,42.11,4.71,48.59-7.66,19.14-4.42,23.26,18.99,1.03,26.36,8.1,19.58,19.58,27.09,20.91,15.17,3.39,18.7,4.86,18.4,5.01,19.73-.59,7.07-2.8,5.74-6.77,2.16-4.71.2-6.63-1.67-5.45-3.44-6.18-45.35-27.39-51.09-44.02-4.42-79.8-3.09-94.82.15-55.21,1.91-59.78,4.12-22.53,2.65-33.72,5.6-85.69,3.24-126.77-10.31-65.37-9.28-76.71-3.83-40.05-4.71-44.47,1.03-68.32,4.71-76.56,1.47-42.99,33.28-58.16,61.55-30.92,69.64-36.52,22.82-16.64,18.85-24.59-47.93-32.94-67.36-42.96-42.81-17.96-50.02-24.29-3.2-16.9-28.05-23.85l4.31,47.93c5.01.44,10.42-3.09,26.17,8.83s32.62,29,43.29,35.56c2.87,1.77,7.73,2.86,5.74,2.87-12.37.08-18.15,4.44-25.95,9.17-18.22,11.04-27.98,6.92-43.96,15.3-13.19,6.92-13.9.6-22.3-2.5-7.17-2.64-11.67-27.63-8.94-30.26,13.58-13.14,20.76-16.67,25.95-38.98l-4.31-47.93Z"/>
+    <path class="cls-1" d="M339.95,48.08c-6.15-7.99-24.75-12.72-32.78-13.86-7.66-11.7-17.2-14.25-27.3-15.33-23.05-2.48-38.45,11.34-38.45,11.34,0,0-8.48,6.3-13.04,17.39-5.9,14.3-1.14,19.8-1.62,25.66-.28,3.29-2.02,9.47-4.96,14.6-2.35,4.1-6.6,8.33-4.5,9.87,2.1,1.53,8.99,1.8,9.44,2.99.64,1.72.06,1.63-1.5,3.17-.02,0-.05.01-.08.01-1.64,1.63,1.62,4.31,1.86,4.52,0,0-2.08,3.48-.77,4.56,8.16-.69-.29,12.34,8.77,14.46,4.55,1.07,12.15.8,22.58-2.25.38,3.7,1.29,18.76-3.47,22.94-12.47,10.94-31.21,15.46-46.64,19.54-19.45,5.14-27.55,20.38-28.98,37.85-1.43,17.47,1.29,25.09-.08,31.79-1.37,6.69-2.4,34.83-2.68,42.29-.28,7.46-2.19,13.88-4.45,19.68-2.26,5.8-9.5,11.93-12.52,45.24-3.03,33.3-1.09,53.29-4.31,62.91-3.22,9.62-8.77,9.94-12.86,17.22-4.09,7.28-7.22,18.31-10.04,22.27-5.21,7.35-8.63,10.41-4.07,11.19,4.15.71,8.73-2.05,11.05-7.89,2.38-6.01,6-10.35,5.32-8.26-.68,2.09-.39,8.41-.6,12.26-.22,3.9-.84,14.7-1.46,20.36-.62,5.71-2.78,18.07.45,18.89,3.24.83,5.23-11.39,6.06-15.11.63-2.83,2.46-15.54,3.29-19.49.03-.13.21-.1.2.03-.63,5.7-2.38,25.61-2.67,28.48-.34,3.51-.61,11.16,1.38,11.51,3.42.61,3.74-3.56,4.63-8.71.9-5.17,1.84-13.58,2.39-17.16.38-2.45.86-11.69,1.13-13.93.01-.1.16-.09.16,0-.08,3.14-.24,15.16-.38,19.15-.09,2.75-.85,13.79,2.52,14.82,3.37,1.03,4.32-9.17,4.48-12.37.13-2.55.62-18.66.81-22.7.02-.28.42-.31.48-.04.51,2.11.81,12.68,1,14.34.28,2.4-.24,6.75.79,9.3,1.03,2.54,4.13,1.72,4.54-1.93.41-3.65.77-10.8,1.1-15.69.24-3.57.55-7.84,1.02-11.08.36-2.44,2.35-11.22,2.43-24.36.08-13.14-1.22-21.51.49-31.78,1.71-10.28,19.54-54.4,22.23-71.1,2.68-16.7-.12-32.61,4.4-45.42,4.31-12.2,5.14-12.84,5.96-20.28,1.4,14.22,6.51,39.29,10.83,62.66,2.49,13.46-23.69,56.84-27.35,96.84-6.56,71.61,14.32,154.57,12.92,166.69-1.4,12.12,7.13,29.49,6.55,34.88-.57,5.39-9.58,22.97-5.67,51.57,3.92,28.61,12.36,79.3,12.54,89.12.19,9.81-3.32,18.37-2.46,22.02.86,3.65,1.81,3.25.14,7.75-1.68,4.51-2.28,15.43-7.68,19.13-5.4,3.69-12.57,9.72-11.93,12.84.65,3.12,1.65,5.7,3.3,5.28,1.66-.42,1.38,3.44,5.79,2.88,4.4-.54,3.24,4.35,7.52,2.76,4.28-1.6,3.58,2.38,9.91.32,6.33-2.07,4.49,3.26,11.65,1.42,7.16-1.83,4.36-8.07,6.17-11.23,1.81-3.17,4.75-10.79,3.65-14.37-1.1-3.57-2.13-9.38-1.1-11.74,1.02-2.35,2.95-6.3,1.01-10.27-1.95-3.98-1.2-1.75-1.11-6.42.1-4.68.46-45.05,2.21-61.02,1.74-15.96,7.19-24.31,8.53-40.73,1.34-16.42-1.19-30.28-.74-42.02.46-11.75,6.15-19.57,3.77-44.87-2.37-25.31,1.68-48.94,5.14-68.68,3.46-19.72,10.07-57.19,4.84-77.52,4.7,3.43,5.97,1.69,5.97,1.69,0,0,1,1.51,5.73-1.48-5.26,20.32,1.11,57.57,4.57,77.31,3.47,19.74,7.51,43.37,5.14,68.68-2.37,25.3,3.31,33.12,3.77,44.87.46,11.74-2.07,25.6-.74,42.02,1.34,16.42,6.79,24.77,8.54,40.73,1.74,15.97,2.11,56.34,2.2,61.02.09,4.67.84,2.44-1.1,6.42-1.95,3.97-.02,7.92,1.01,10.27,1.02,2.36,0,8.17-1.1,11.74-1.11,3.58,1.83,11.2,3.64,14.37,1.81,3.16-.98,9.4,6.17,11.23,7.16,1.84,5.32-3.49,11.66-1.42,6.32,2.06,5.63-1.92,9.9-.32,4.28,1.59,3.12-3.3,7.53-2.76,4.4.56,4.12-3.3,5.78-2.88,1.65.42,2.66-2.16,3.3-5.28s-6.53-9.15-11.93-12.84c-5.4-3.7-6-14.62-7.67-19.13-1.68-4.5-.73-4.1.13-7.75.87-3.65-2.64-12.21-2.46-22.02.19-9.82,8.63-60.51,12.54-89.12,3.91-28.6-5.09-46.18-5.67-51.57-.57-5.39,7.95-22.76,6.55-34.88-1.4-12.12,18.39-94.99,12.92-166.69-3.27-42.89-29.52-83.38-27.03-96.84,4.32-23.37,9.88-49.02,15.3-62.24,6.69-16.32.07-50.14,31.43-65.6,12.18-6,64.55-27.16,79.07-56.09,7.59-15.12-89.74-58.68-114.33-90.63ZM366.45,148.84c-3.72,2.42-9.23-1.82-27.68,6.21-11.2,4.88-26.28,1.99-26.28,1.99,0,0-10.52-5.4-14.75-12.49-5.62-9.41-4.75-34.88-4.09-45.73.55-.48,1.11-.93,1.12-.94,4.51-3.91,11.25-7.61,15.06-16.71.44-1.04.84-2.11,1.22-3.19,11.3,0,19.45-2.92,37.44,10.04,28.9,20.81,39.31,40.97,49.58,46.82-5.63,2.54-14.61,2.95-31.62,14Z"/>
   </g>
   <g id="Layer_3" data-name="Layer 3">
-    <path class="cls-2" d="M213.96,183.57c-8.06,4.64-16.34,4.64-21.31,11.26s-6.63,9.28-9.06,16.12-4.86,14.25-4.75,21.31.88,11.04,0,15.13-3.64,14.25-3.53,17.78,3.87,15.24,4.53,18.66,2.65,8.28.99,12.7-4.2,18.88-3.87,21.75-2.21,2.65-2.87,9.28-3.31,7.62-3.75,13.14.55,8.83-.88,11.93-7.73,12.7-9.06,19.33-1.77,13.36-1.77,18.99-.77,11.37-2.21,18.11-1.88,10.6-1.99,13.47-.99-1.1-2.87,4.75-3.2,11.04-3.2,11.37"/>
-    <path class="cls-2" d="M215.94,182.13c3.53-2.1,6.4-10.27,13.8-11.6s14.36-1.77,18.99,3.42,1.55,10.16,1.55,10.16"/>
-    <path class="cls-2" d="M253.16,201.13c.22-4.42,1.55-10.05,4.53-12.04s6.63-7.07,3.87-10.82-4.2-3.64-6.85-3.2-4.07,1.83-4.07,1.83"/>
-    <path class="cls-2" d="M248.74,197.04c1.33-3.09,5.74-6.4,8.94-7.95"/>
+    <circle id="LymphGland01" class="cls-2" cx="276.17" cy="228.96" r="2.5"/>
+    <circle id="LymphGland01-2" data-name="LymphGland01" class="cls-2" cx="275.18" cy="244.09" r="2.5"/>
+    <circle id="LymphGland01-3" data-name="LymphGland01" class="cls-2" cx="263.37" cy="238.56" r="2.5"/>
+    <circle id="LymphGland01-4" data-name="LymphGland01" class="cls-2" cx="271.6" cy="284.72" r="2.5"/>
+    <circle id="LymphGland01-5" data-name="LymphGland01" class="cls-2" cx="271.6" cy="253.47" r="2.5"/>
+    <circle id="LymphGland01-6" data-name="LymphGland01" class="cls-2" cx="202.46" cy="234.92" r="2.5"/>
+    <circle id="LymphGland01-7" data-name="LymphGland01" class="cls-2" cx="197.23" cy="230.5" r="2.5"/>
+    <circle id="LymphGland01-8" data-name="LymphGland01" class="cls-2" cx="204.96" cy="226.46" r="2.5"/>
+    <circle id="LymphGland01-9" data-name="LymphGland01" class="cls-2" cx="208.85" cy="233.57" r="2.5"/>
+    <circle id="LymphGland01-10" data-name="LymphGland01" class="cls-2" cx="194.91" cy="245.19" r="2.5"/>
+    <circle id="LymphGland01-11" data-name="LymphGland01" class="cls-2" cx="203.85" cy="241.59" r="2.5"/>
+    <circle id="LymphGland01-12" data-name="LymphGland01" class="cls-2" cx="176.36" cy="369.53" r="2.5"/>
+    <circle id="LymphGland01-13" data-name="LymphGland01" class="cls-2" cx="182.32" cy="367.77" r="2.5"/>
+    <circle id="LymphGland01-14" data-name="LymphGland01" class="cls-2" cx="177.79" cy="360.59" r="2.5"/>
+    <circle id="LymphGland01-15" data-name="LymphGland01" class="cls-2" cx="200.83" cy="328.12" r="2.5"/>
+    <circle id="LymphGland01-16" data-name="LymphGland01" class="cls-2" cx="198.33" cy="318.74" r="2.5"/>
+    <circle id="LymphGland01-17" data-name="LymphGland01" class="cls-2" cx="174.81" cy="421.77" r="2.5"/>
+    <circle id="LymphGland01-18" data-name="LymphGland01" class="cls-2" cx="239.63" cy="458.32" r="2.5"/>
+    <circle id="LymphGland01-19" data-name="LymphGland01" class="cls-2" cx="243.17" cy="467.75" r="2.5"/>
+    <circle id="LymphGland01-20" data-name="LymphGland01" class="cls-2" cx="235.88" cy="470.25" r="2.5"/>
+    <circle id="LymphGland01-21" data-name="LymphGland01" class="cls-2" cx="247.14" cy="472.01" r="2.5"/>
+    <circle id="LymphGland01-22" data-name="LymphGland01" class="cls-2" cx="237.64" cy="475.99" r="2.5"/>
+    <circle id="LymphGland01-23" data-name="LymphGland01" class="cls-2" cx="243.55" cy="487.94" r="2.5"/>
+    <circle id="LymphGland01-24" data-name="LymphGland01" class="cls-2" cx="253.44" cy="482.94" r="2.5"/>
+    <circle id="LymphGland01-25" data-name="LymphGland01" class="cls-2" cx="258.63" cy="475.99" r="2.5"/>
+    <circle id="LymphGland01-26" data-name="LymphGland01" class="cls-2" cx="309.87" cy="454.45" r="2.5"/>
+    <circle id="LymphGland01-27" data-name="LymphGland01" class="cls-2" cx="313.8" cy="462.18" r="2.5"/>
+    <circle id="LymphGland01-28" data-name="LymphGland01" class="cls-2" cx="311.3" cy="470.25" r="2.5"/>
+    <circle id="LymphGland01-29" data-name="LymphGland01" class="cls-2" cx="306.66" cy="480.45" r="2.5"/>
+    <circle id="LymphGland01-30" data-name="LymphGland01" class="cls-2" cx="301.1" cy="469.51" r="2.5"/>
+    <circle id="LymphGland01-31" data-name="LymphGland01" class="cls-2" cx="298.6" cy="461.52" r="2.5"/>
+    <circle id="LymphGland01-32" data-name="LymphGland01" class="cls-2" cx="289.82" cy="472.74" r="2.5"/>
+    <circle id="LymphGland01-33" data-name="LymphGland01" class="cls-2" cx="297.64" cy="480.45" r="2.5"/>
+    <circle id="LymphGland01-34" data-name="LymphGland01" class="cls-2" cx="226.05" cy="448.71" r="2.5"/>
+    <circle id="LymphGland01-35" data-name="LymphGland01" class="cls-2" cx="216.66" cy="444.52" r="2.5"/>
+    <circle id="LymphGland01-36" data-name="LymphGland01" class="cls-2" cx="207.61" cy="438.66" r="2.5"/>
+    <circle id="LymphGland01-37" data-name="LymphGland01" class="cls-2" cx="339.13" cy="434.13" r="2.5"/>
+    <circle id="LymphGland01-38" data-name="LymphGland01" class="cls-2" cx="329.74" cy="441.16" r="2.5"/>
+    <circle id="LymphGland01-39" data-name="LymphGland01" class="cls-2" cx="321.5" cy="445.29" r="2.5"/>
+    <circle id="LymphGland01-40" data-name="LymphGland01" class="cls-2" cx="291.11" cy="393.28" r="2.5"/>
+    <circle id="LymphGland01-41" data-name="LymphGland01" class="cls-2" cx="306.66" cy="402.2" r="2.5"/>
+    <circle id="LymphGland01-42" data-name="LymphGland01" class="cls-2" cx="299.26" cy="403.77" r="2.5"/>
+    <circle id="LymphGland01-43" data-name="LymphGland01" class="cls-2" cx="288.61" cy="403.77" r="2.5"/>
+    <circle id="LymphGland01-44" data-name="LymphGland01" class="cls-2" cx="300.14" cy="421.37" r="2.5"/>
+    <circle id="LymphGland01-45" data-name="LymphGland01" class="cls-2" cx="284.83" cy="415.8" r="2.5"/>
+    <circle id="LymphGland01-46" data-name="LymphGland01" class="cls-2" cx="274.1" cy="407.19" r="2.5"/>
+    <circle id="LymphGland01-47" data-name="LymphGland01" class="cls-2" cx="256.64" cy="415.8" r="2.5"/>
+    <circle id="LymphGland01-48" data-name="LymphGland01" class="cls-2" cx="237.64" cy="422.65" r="2.5"/>
+    <circle id="LymphGland01-49" data-name="LymphGland01" class="cls-2" cx="244.64" cy="428.46" r="2.5"/>
+    <circle id="LymphGland01-50" data-name="LymphGland01" class="cls-2" cx="228.55" cy="423.87" r="2.5"/>
+    <circle id="LymphGland01-51" data-name="LymphGland01" class="cls-2" cx="240.14" cy="414.7" r="2.5"/>
+    <circle id="LymphGland01-52" data-name="LymphGland01" class="cls-2" cx="258.63" cy="402.2" r="2.5"/>
+    <circle id="LymphGland01-53" data-name="LymphGland01" class="cls-2" cx="253.44" cy="400.12" r="2.5"/>
+    <circle id="LymphGland01-54" data-name="LymphGland01" class="cls-2" cx="238.37" cy="395.77" r="2.5"/>
+    <circle id="LymphGland01-55" data-name="LymphGland01" class="cls-2" cx="270.77" cy="388.28" r="2.5"/>
+    <circle id="LymphGland01-56" data-name="LymphGland01" class="cls-2" cx="261.63" cy="387.31" r="2.5"/>
+    <circle id="LymphGland01-57" data-name="LymphGland01" class="cls-2" cx="249.64" cy="386.32" r="2.5"/>
+    <circle id="LymphGland01-58" data-name="LymphGland01" class="cls-2" cx="277.62" cy="376.6" r="2.5"/>
+    <circle id="LymphGland01-59" data-name="LymphGland01" class="cls-2" cx="276.6" cy="362.27" r="2.5"/>
+    <circle id="LymphGland01-60" data-name="LymphGland01" class="cls-2" cx="252.49" cy="369.53" r="2.5"/>
+    <circle id="LymphGland01-61" data-name="LymphGland01" class="cls-2" cx="244.64" cy="378.26" r="2.5"/>
+    <circle id="LymphGland01-62" data-name="LymphGland01" class="cls-2" cx="272.68" cy="348.55" r="2.5"/>
+    <circle id="LymphGland01-63" data-name="LymphGland01" class="cls-2" cx="267.57" cy="359.77" r="2.5"/>
+    <circle id="LymphGland01-64" data-name="LymphGland01" class="cls-2" cx="261.12" cy="359.77" r="2.5"/>
+    <circle id="LymphGland01-65" data-name="LymphGland01" class="cls-2" cx="258.38" cy="354.74" r="2.5"/>
+    <circle id="LymphGland01-66" data-name="LymphGland01" class="cls-2" cx="253.44" cy="344.8" r="2.5"/>
+    <circle id="LymphGland01-67" data-name="LymphGland01" class="cls-2" cx="259.73" cy="332.91" r="2.5"/>
+    <circle id="LymphGland01-68" data-name="LymphGland01" class="cls-2" cx="266.12" cy="339.8" r="2.5"/>
+    <circle id="LymphGland01-69" data-name="LymphGland01" class="cls-2" cx="278.27" cy="320.24" r="2.5"/>
+    <circle id="LymphGland01-70" data-name="LymphGland01" class="cls-2" cx="273.27" cy="327.92" r="2.5"/>
+    <circle id="LymphGland01-71" data-name="LymphGland01" class="cls-2" cx="255.88" cy="317.74" r="2.5"/>
+    <circle id="LymphGland01-72" data-name="LymphGland01" class="cls-2" cx="302.8" cy="182.25" r="2.5"/>
+    <circle id="LymphGland01-73" data-name="LymphGland01" class="cls-2" cx="329.96" cy="182.73" r="2.5"/>
+    <circle id="LymphGland01-74" data-name="LymphGland01" class="cls-2" cx="322.01" cy="178.38" r="2.5"/>
+    <circle id="LymphGland01-75" data-name="LymphGland01" class="cls-2" cx="311.2" cy="178.93" r="2.5"/>
+    <circle id="LymphGland01-76" data-name="LymphGland01" class="cls-2" cx="308.71" cy="199.91" r="2.5"/>
+    <circle id="LymphGland01-77" data-name="LymphGland01" class="cls-2" cx="314.61" cy="200.36" r="2.5"/>
+    <circle id="LymphGland01-78" data-name="LymphGland01" class="cls-2" cx="290.43" cy="163.14" r="2.5"/>
+    <circle id="LymphGland01-79" data-name="LymphGland01" class="cls-2" cx="294.6" cy="171.09" r="2.5"/>
+    <circle id="LymphGland01-80" data-name="LymphGland01" class="cls-2" cx="302.09" cy="162.48" r="2.5"/>
+    <circle id="LymphGland01-81" data-name="LymphGland01" class="cls-2" cx="302.8" cy="171.09" r="2.5"/>
+    <circle id="LymphGland01-82" data-name="LymphGland01" class="cls-2" cx="267.57" cy="157.91" r="2.5"/>
+    <circle id="LymphGland01-83" data-name="LymphGland01" class="cls-2" cx="276.6" cy="155.41" r="2.5"/>
+    <circle id="LymphGland01-84" data-name="LymphGland01" class="cls-2" cx="273.67" cy="147.68" r="2.5"/>
+    <circle id="LymphGland01-85" data-name="LymphGland01" class="cls-2" cx="262.05" cy="147.68" r="2.5"/>
+    <circle id="LymphGland01-86" data-name="LymphGland01" class="cls-2" cx="297.1" cy="129.02" r="2.5"/>
+    <circle id="LymphGland01-87" data-name="LymphGland01" class="cls-2" cx="285.62" cy="127.36" r="2.5"/>
+    <circle id="LymphGland01-88" data-name="LymphGland01" class="cls-2" cx="289.6" cy="140.94" r="2.5"/>
+    <circle id="LymphGland01-89" data-name="LymphGland01" class="cls-2" cx="279.09" cy="141.61" r="2.5"/>
+    <circle id="LymphGland01-90" data-name="LymphGland01" class="cls-2" cx="301.61" cy="105.28" r="2.5"/>
+    <circle id="LymphGland01-91" data-name="LymphGland01" class="cls-2" cx="296.61" cy="110.69" r="2.5"/>
+    <circle id="LymphGland01-92" data-name="LymphGland01" class="cls-2" cx="291.2" cy="116.43" r="2.5"/>
+    <circle id="LymphGland01-93" data-name="LymphGland01" class="cls-2" cx="266.96" cy="101.74" r="2.5"/>
+    <circle id="LymphGland01-94" data-name="LymphGland01" class="cls-2" cx="271.17" cy="84.96" r="2.5"/>
+    <circle id="LymphGland01-95" data-name="LymphGland01" class="cls-2" cx="271.17" cy="93.35" r="2.5"/>
+    <circle id="LymphGland01-96" data-name="LymphGland01" class="cls-2" cx="234.86" cy="90.85" r="2.5"/>
+    <circle id="LymphGland01-97" data-name="LymphGland01" class="cls-2" cx="239.85" cy="95.85" r="2.5"/>
+    <circle id="LymphGland01-98" data-name="LymphGland01" class="cls-2" cx="246.81" cy="91.8" r="2.5"/>
+    <circle id="LymphGland01-99" data-name="LymphGland01" class="cls-2" cx="239.85" cy="124.86" r="2.5"/>
+    <circle id="LymphGland01-100" data-name="LymphGland01" class="cls-2" cx="243.5" cy="120.29" r="2.5"/>
+    <circle id="LymphGland01-101" data-name="LymphGland01" class="cls-2" cx="236.76" cy="118.93" r="2.5"/>
+    <circle id="LymphGland01-102" data-name="LymphGland01" class="cls-2" cx="237.36" cy="111.43" r="2.5"/>
+    <circle id="LymphGland01-103" data-name="LymphGland01" class="cls-2" cx="256.53" cy="124.86" r="2.5"/>
+    <circle id="LymphGland01-104" data-name="LymphGland01" class="cls-2" cx="248.49" cy="125.29" r="2.5"/>
+    <circle id="LymphGland01-105" data-name="LymphGland01" class="cls-2" cx="250.23" cy="139.11" r="2.5"/>
+    <circle id="LymphGland01-106" data-name="LymphGland01" class="cls-2" cx="240.46" cy="131.52" r="2.5"/>
+    <circle id="LymphGland01-107" data-name="LymphGland01" class="cls-2" cx="260.17" cy="139.11" r="2.5"/>
+    <circle id="LymphGland01-108" data-name="LymphGland01" class="cls-2" cx="230.02" cy="131.52" r="2.5"/>
+    <circle id="LymphGland01-109" data-name="LymphGland01" class="cls-2" cx="341.6" cy="215.73" r="2.5"/>
+    <circle id="LymphGland01-110" data-name="LymphGland01" class="cls-2" cx="348.53" cy="217.32" r="2.5"/>
+    <circle id="LymphGland01-111" data-name="LymphGland01" class="cls-2" cx="345.23" cy="210.74" r="2.5"/>
+    <circle id="LymphGland01-112" data-name="LymphGland01" class="cls-2" cx="340.23" cy="204.44" r="2.5"/>
+    <circle id="LymphGland01-113" data-name="LymphGland01" class="cls-2" cx="351.03" cy="203.89" r="2.5"/>
+    <circle id="LymphGland01-114" data-name="LymphGland01" class="cls-2" cx="345.2" cy="197.86" r="2.5"/>
+    <circle id="LymphGland01-115" data-name="LymphGland01" class="cls-2" cx="344.1" cy="189.64" r="2.5"/>
+    <circle id="LymphGland01-116" data-name="LymphGland01" class="cls-2" cx="345.2" cy="231.45" r="2.5"/>
+    <circle id="LymphGland01-117" data-name="LymphGland01" class="cls-2" cx="423.06" cy="150.18" r="2.5"/>
+    <circle id="LymphGland01-118" data-name="LymphGland01" class="cls-2" cx="410.02" cy="151.55" r="2.5"/>
+    <circle id="LymphGland01-119" data-name="LymphGland01" class="cls-2" cx="400.42" cy="161.71" r="2.5"/>
+    <circle id="LymphGland01-120" data-name="LymphGland01" class="cls-2" cx="386.35" cy="174.85" r="2.5"/>
+    <circle id="LymphGland01-121" data-name="LymphGland01" class="cls-2" cx="356.8" cy="182.25" r="2.5"/>
+    <circle id="LymphGland01-122" data-name="LymphGland01" class="cls-2" cx="412.52" cy="115.3" r="2.5"/>
+    <circle id="LymphGland01-123" data-name="LymphGland01" class="cls-2" cx="424.16" cy="118.93" r="2.5"/>
+    <circle id="LymphGland01-124" data-name="LymphGland01" class="cls-2" cx="434.15" cy="129.02" r="2.5"/>
+    <circle id="LymphGland01-125" data-name="LymphGland01" class="cls-2" cx="428.05" cy="128.58" r="2.5"/>
+    <circle id="LymphGland01-126" data-name="LymphGland01" class="cls-2" cx="383.85" cy="110.69" r="2.5"/>
+    <circle id="LymphGland01-127" data-name="LymphGland01" class="cls-2" cx="392.13" cy="117.8" r="2.5"/>
+    <circle id="LymphGland01-128" data-name="LymphGland01" class="cls-2" cx="233.63" cy="652.12" r="2.5"/>
+    <circle id="LymphGland01-129" data-name="LymphGland01" class="cls-2" cx="217.99" cy="645.5" r="2.5"/>
+    <circle id="LymphGland01-130" data-name="LymphGland01" class="cls-2" cx="256.58" cy="623.52" r="2.5"/>
+    <circle id="LymphGland01-131" data-name="LymphGland01" class="cls-2" cx="219.42" cy="617.01" r="2.5"/>
+    <circle id="LymphGland01-132" data-name="LymphGland01" class="cls-2" cx="254.87" cy="603.98" r="2.5"/>
+    <circle id="LymphGland01-133" data-name="LymphGland01" class="cls-2" cx="231.13" cy="592.49" r="2.5"/>
+    <circle id="LymphGland01-134" data-name="LymphGland01" class="cls-2" cx="323.71" cy="641.52" r="2.5"/>
+    <circle id="LymphGland01-135" data-name="LymphGland01" class="cls-2" cx="342.94" cy="631.47" r="2.5"/>
+    <circle id="LymphGland01-136" data-name="LymphGland01" class="cls-2" cx="339.02" cy="616.01" r="2.5"/>
+    <circle id="LymphGland01-137" data-name="LymphGland01" class="cls-2" cx="343.44" cy="586.72" r="2.5"/>
+    <circle id="LymphGland01-138" data-name="LymphGland01" class="cls-2" cx="326.21" cy="589.99" r="2.5"/>
   </g>
 </svg>
