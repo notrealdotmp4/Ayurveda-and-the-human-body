@@ -63,9 +63,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
           </button>
         </div>
         <p class="lo-lead">The Pañcha Mahabhutas are the basic elements that make up everything around us. At the smallest level, everything is made of atoms, which are tiny particles consisting of protons, neutrons, and electrons. When many atoms join together, they form molecules. These molecules are the basic level of organization in the human body.</p>
-        <p class="sub">Tap any colored word and button to explore it</p>
-        <div class="legend">
-          {['physiology', 'anatomy', 'ayurveda'].map((k) => (<span><i class="dot" style={`background:${CATS[k].color}`}></i> {CATS[k].label}</span>))}
+        <div class="intro-note">
+          <p class="sub">Tap any colored word and button to explore it</p>
+          <div class="legend">
+            {['physiology', 'anatomy', 'ayurveda'].map((k) => (<span><i class="dot" style={`background:${CATS[k].color}`}></i> {CATS[k].label}</span>))}
+          </div>
         </div>
         <button class="map-btn" id="philBtn" aria-label="Shad Darshan — the six philosophies">
           <img src="/anim/phylosophies.svg" alt="" />
