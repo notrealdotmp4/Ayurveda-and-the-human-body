@@ -319,7 +319,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const f = ICON_MAP[n];
       if (!f) return '';
       const wide = /avastha paka$/.test(n);
-      return '<img class="def-icon' + (wide ? ' def-icon-wide' : '') + '" src="/anim/icons/' + encodeURIComponent(f) + '" alt="">';
+      if (!wide) return '';
+      return '<img class="def-icon def-icon-wide" src="/anim/icons/' + encodeURIComponent(f) + '" alt="">';
     };
     let CONNECTIONS = null;
     function relFold(s) { return (s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
