@@ -64,9 +64,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
         </div>
         <p class="lo-lead">The Pañcha Mahabhutas are the basic elements that make up everything around us. At the smallest level, everything is made of atoms, which are tiny particles consisting of protons, neutrons, and electrons. When many atoms join together, they form molecules. These molecules are the basic level of organization in the human body.</p>
         <div class="intro-note">
-          <p class="sub">Tap any colored word and button to explore it</p>
+          <p class="sub">Tap any colored word or button to explore it</p>
           <div class="legend">
-            {['physiology', 'anatomy', 'ayurveda'].map((k) => (<span><i class="dot" style={`background:${CATS[k].color}`}></i> {CATS[k].label}</span>))}
+            {['physiology', 'ayurveda', 'anatomy'].map((k) => (<span><i class="dot" style={`background:${CATS[k].color}`}></i> {CATS[k].label}</span>))}
           </div>
         </div>
         <button class="map-btn" id="philBtn" aria-label="Shad Darshan — the six philosophies">
@@ -112,7 +112,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="lo-revisit-wrap"><button class="lo-revisit" id="loRevisit">↻ Replay the slides</button></div>
 
   <header class="site">
-    <div class="tri-headline">Tri Dosha</div>
+    <div class="tri-headline">Tridosha</div>
     <div class="tri-btns">
       <div class="tri-item">
         <button class="tri-btn" data-simple="0" aria-label="Vāta"><img src="/anim/tri-vata.svg" alt="" data-label="Vāta" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
