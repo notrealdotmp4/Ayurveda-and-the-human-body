@@ -139,35 +139,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="wrap">
     {rest.map((ch) => (
       <section>
-        {ch.kicker === 'Chapter Three' && (
-          <div class="map-cta-wrap">
-            <button class="map-btn" id="mapCta2" aria-label="Open the circulation map">
-              <img src="/anim/magras.svg" alt="" />
-              <span>Channels Map</span>
-            </button>
-          </div>
-          <img class="lo-dinkus" src="/anim/dinkusLast.svg" alt="" />
-        )}
         <h2 class="chapter">{ch.kicker}</h2>
         <h3>{ch.title}</h3>
         {ch.blocks.map((b) => (
           b.type === 'level' ? (
             <div class="level"><div class="thumb">image<br/>goes here</div><div class="lc"><h4>{b.name}</h4>{b.info && <p>{b.info}</p>}</div></div>
           ) : b.type === 'h' ? (
-            b.text === 'Kapha — the principle of structure' ? (
-              <Fragment>
-                <div class="map-cta-wrap">
-                  <button class="map-btn" id="mapCtaSys" aria-label="Open the body systems map">
-                    <img src="/anim/systems.svg" alt="" />
-                    <span>Body Systems</span>
-                  </button>
-                </div>
-                <img class="lo-dinkus" src="/anim/dinkusNew.svg" alt="" />
-                <h4 class={b.level === 2 ? 'subhead subhead-lg' : 'subhead'}>{b.text}</h4>
-              </Fragment>
-            ) : (
-              <h4 class={b.level === 2 ? 'subhead subhead-lg' : 'subhead'}>{b.text}</h4>
-            )
+            <h4 class={b.level === 2 ? 'subhead subhead-lg' : 'subhead'}>{b.text}</h4>
           ) : b.type === 'list' ? (
             <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
           ) : (
@@ -176,6 +154,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
         ))}
       </section>
     ))}
+    <div class="map-cta-wrap">
+      <button class="map-btn" id="mapCta2" aria-label="Open the circulation map">
+        <img src="/anim/magras.svg" alt="" />
+        <span>Channels Map</span>
+      </button>
+    </div>
+    <img class="lo-dinkus" src="/anim/dinkusLast.svg" alt="" />
+    <div class="map-cta-wrap">
+      <button class="map-btn" id="mapCtaSys" aria-label="Open the body systems map">
+        <img src="/anim/systems.svg" alt="" />
+        <span>Body Systems</span>
+      </button>
+    </div>
+    <img class="lo-dinkus" src="/anim/dinkusNew.svg" alt="" />
     <div class="footnote">Red = Ayurveda · Amber = Physiology · Olive = Anatomy. Tap any colored word to explore it; close to return to your place.</div>
   </div>
 
