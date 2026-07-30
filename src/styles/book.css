@@ -212,4 +212,4 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .simple-vid{width:100%;display:block;background:#000;border-radius:20px 20px 0 0;aspect-ratio:16/9;object-fit:cover}
 .simple-text{padding:22px 26px 26px;font-family:'Montserrat',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:15.5px;line-height:1.65;color:var(--ink)}
 .simple-title{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:24px;font-weight:600;margin:0 0 14px;color:var(--ink)}
-.simple-text p{margin:0 0 12px}
+.simple-text p{margin:0 0 12px}.simple-text .tw-lede{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:18px 0 10px}.simple-text h4{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;margin:20px 0 8px}.simple-text ul{margin:0 0 14px;padding-left:20px}.simple-text li{margin:0 0 7px}.simple-text li strong{color:var(--ink)}

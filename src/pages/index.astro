@@ -1,6 +1,7 @@
 ---
 import content from '../data/content.json';
 import glossary from '../data/glossary.json';
+import tridosha from '../data/tridosha.json';
 import '../styles/book.css';
 import fs from 'node:fs';
 let ICON_FILES = [];
@@ -302,6 +303,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="toast" id="toast"></div>
 
   <script id="glossary-data" type="application/json" set:html={JSON.stringify(glossary)} />
+  <script id="tridosha-data" type="application/json" set:html={JSON.stringify(tridosha)} />
   <script id="icon-files" type="application/json" set:html={JSON.stringify(ICON_FILES)} />
 
   <script>
@@ -589,11 +591,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
-    const SIMPLE_ITEMS = [
-      { label: "Vāta", video: "/anim/vata.mp4", title: "Vāta", html: "<p>Vāta is the breath of movement — light, airy, and forever in motion, like wind moving through the world. You'll know Vāta by its lightness. The body is thin and slender, tall or small, its bones close to the surface and its proportions delicate. Weight never lingers here. The face is fine and angular, the eyes small and quick, always darting toward the next thing. The skin runs dry, the hair dry and curling. And everything about Vāta hurries — quick steps, restless hands, words that tumble out fast. At its best, this restless energy becomes creativity, joy, and a mind open to anything. But when the wind blows too hard, it scatters — into fear, worry, and thoughts that won't settle.</p>" },
-      { label: "Pitta", video: "/anim/pitta.mp4", title: "Pitta", html: "<p>Pitta is the fire within — heat and intensity, the spark that transforms food into energy and ideas into action. You'll know Pitta by its strength. The body is medium and well-built, muscled and steady, holding its shape with ease. The face tapers to a point, cheeks flushed with warmth, the nose sharp, the eyes bright and quick to squint in the light. The skin is fair and easily reddened, scattered with freckles, and the fine hair often greys before its time. At its best, this fire becomes intelligence, discipline, and the courage to lead. But when the flames rise too high, they burn — into anger, impatience, and a perfectionism that spares no one.</p>" },
-      { label: "Kapha", video: "/anim/kapha.mp4", title: "Kapha", html: "<p>Kapha is the earth beneath it all — water and soil, the steady force that gives the body form and holds it together. You'll know Kapha by its solidity. The body is broad and strong, built on a generous frame, and weight settles here and stays. The face is large and round as the moon, the cheeks full, the eyes big and gentle beneath thick lashes. The skin is cool, soft, and slow to age; the hair thick and lustrous through the years. Kapha moves without hurry, calm and deep and unshakable. At its best, this steadiness becomes love, compassion, and a forgiving heart. But when the earth grows too heavy, it clings — to comfort, to possessions, to a stillness that won't move.</p>" }
-    ];
+    const SIMPLE_ITEMS = JSON.parse(document.getElementById('tridosha-data').textContent);
     const simpleModal = document.getElementById('simpleModal');
     const simpleVid = document.getElementById('simpleVid');
     const simpleText = document.getElementById('simpleText');
