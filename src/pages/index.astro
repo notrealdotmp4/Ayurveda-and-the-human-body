@@ -72,7 +72,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
         </div>
         <button class="map-btn" id="philBtn" aria-label="Shad Darshan — the six philosophies">
           <img src="/anim/phylosophies.svg" alt="" />
-          <span>Shad Darshan</span>
+          <span>Shad Darshan &amp; Brihat Trayi</span>
         </button>
         <img class="lo-dinkus" src="/anim/dinkusFirst.svg" alt="" />
         <div class="lo-kicker">{first.kicker}</div>
@@ -125,6 +125,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
         <button class="tri-btn" data-simple="2" aria-label="Kapha"><img src="/anim/tri-kapha.svg" alt="" data-label="Kapha" onerror="var s=document.createElement('span');s.className='tri-fallback';s.textContent=this.dataset.label;this.replaceWith(s)" /></button>
       </div>
     </div>
+    <section class="arch">
+      <h2 class="arch-title">The Ayurvedic Architecture of Life</h2>
+      <p class="arch-text">Ayurveda connects daily physical habits to ultimate spiritual freedom in a continuous thread. At the base are the Trayopastambha, the three pillars of daily life: Ahara, wholesome, tailored nutrition; Nidra, restorative sleep for tissue repair and mental renewal; and Brahmacharya, conservation of vital and sexual energy for stamina and resilience. These pillars sustain the Tridanda, the three foundations of the living being: Sarira, the physical body of elements; Sattva, the mind—clarity, emotion, perception; and Atma, the immortal soul that animates both. When the pillars stabilize the foundations, one gains the strength and clarity to pursue the Purushartha, life's four goals: Dharma, ethical duty and righteousness, which frames Artha, wealth and material security, within which one enjoys Kama, sensory pleasure, love, beauty, ultimately leading to Moksha, the spiritual liberation.</p>
+      <img class="arch-graph" src="/anim/architecture.svg" alt="Diagram of Trayopastambha, Tridanda and Purushartha" onerror="var d=document.createElement('div');d.className='arch-graph-ph';d.textContent='Architecture diagram will appear here (add architecture.svg)';this.replaceWith(d)" />
+    </section>
     <h1>{content.title}</h1>
   </header>
 
@@ -229,6 +234,15 @@ const rest = isLO ? chapters.slice(1) : chapters;
             <tr><td>Mīmāmsa</td><td>Jaimini</td></tr>
             <tr><td>Yoga</td><td>Pātañjali</td></tr>
             <tr><td>Vedānta</td><td>Bādarāyana</td></tr>
+          </tbody>
+        </table>
+        <div class="dsh-subhead">Brihat Trayi — The Three Classical Texts of Ayurveda</div>
+        <table class="dsh-table">
+          <thead><tr><th>Text</th><th>Author</th></tr></thead>
+          <tbody>
+            <tr><td>Charaka Samhitā</td><td>Charaka</td></tr>
+            <tr><td>Sushruta Samhitā</td><td>Sushruta</td></tr>
+            <tr><td>Ashtāñga Hridayam</td><td>Vāgbhata</td></tr>
           </tbody>
         </table>
       </div>
