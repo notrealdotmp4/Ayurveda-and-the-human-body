@@ -554,7 +554,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       let active = 0;
       const players = stages.map((st) => {
         const lot = st.querySelector('[data-lottie]');
-        if (lot) return { type: 'lottie', anim: lottie.loadAnimation({ container: lot, renderer: 'svg', loop: false, autoplay: false, path: lot.dataset.lottie }) };
+        if (lot) return { type: 'lottie', anim: lottie.loadAnimation({ container: lot, renderer: 'svg', loop: false, autoplay: false, path: lot.dataset.lottie, rendererSettings: { viewBoxOnly: true } }) };
         const vid = st.querySelector('video[data-video]');
         if (vid) { vid.muted = true; return { type: 'video', el: vid }; }
         return null;
