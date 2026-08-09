@@ -188,24 +188,48 @@ const rest = isLO ? chapters.slice(1) : chapters;
     <figure class="samprapti">
       <figcaption class="sam-title">Samprāpti</figcaption>
       <div class="sam-scroll">
-        <table class="sam-table">
-          <thead>
-            <tr>
-              <th class="sam-corner"></th>
-              <th>Sañchaya</th><th>Prakopa</th><th>Prasara</th><th>Sthāna Samshraya</th><th>Vyakti</th><th>Bheda</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><th class="sam-rh">Vāta</th><td>shīta</td><td>rūksha/ laghu</td><td>chala</td><td>sūkshma</td><td>vishada</td><td>khāra</td></tr>
-            <tr><th class="sam-rh">Pitta</th><td>drava/ amla</td><td>ushna/ katu</td><td>sara/ snigdha/ tikta</td><td>tīkshna</td><td>laghu</td><td>āmisha gandha</td></tr>
-            <tr><th class="sam-rh">Kapha</th><td>guru/ hima</td><td>drava/ manda</td><td>snigdha</td><td>picchila</td><td>mrudu/ āvila</td><td>kathina/ sandra/ sthūla/ sthira</td></tr>
-            <tr class="sam-marga"><th class="sam-rh">Mārga</th><td colspan="2">Abhyantara</td><td>Bāhya</td><td colspan="3">Madhyama</td></tr>
-            <tr><th class="sam-rh" rowspan="3">Āgni</th><td class="sam-fill" colspan="2">Jāthara Agni</td><td class="sam-empty" colspan="4"></td></tr>
-            <tr><td class="sam-empty"></td><td class="sam-fill" colspan="2">Bhūta Agni</td><td class="sam-empty" colspan="3"></td></tr>
-            <tr><td class="sam-empty" colspan="2"></td><td class="sam-fill sam-dhatuagni" colspan="4">Dhātu Agni</td></tr>
-            <tr class="sam-dhatu"><th class="sam-rh">Dhātu</th><td class="sam-empty" colspan="2"></td><td>Rasa &amp; Rakta</td><td colspan="3">Māmsa, Medha, Asthi, Majjā, Shukra, Ārtava</td></tr>
-          </tbody>
-        </table>
+        <div class="sam-grid">
+          <div class="sam-cell sam-hd" style="grid-area:1/2/2/3">Sañchaya</div>
+          <div class="sam-cell sam-hd" style="grid-area:1/3/2/4">Prakopa</div>
+          <div class="sam-cell sam-hd" style="grid-area:1/4/2/5">Prasara</div>
+          <div class="sam-cell sam-hd" style="grid-area:1/5/2/6">Sthāna Samshraya</div>
+          <div class="sam-cell sam-hd" style="grid-area:1/6/2/7">Vyakti</div>
+          <div class="sam-cell sam-hd" style="grid-area:1/7/2/8">Bheda</div>
+
+          <div class="sam-cell sam-lbl sam-doshalbl" style="grid-area:2/1/5/2"><span>Vāta</span><span>Pitta</span><span>Kapha</span></div>
+          <div class="sam-cell sam-val" style="grid-area:2/2/3/3">shīta</div>
+          <div class="sam-cell sam-val" style="grid-area:2/3/3/4">rūksha/ laghu</div>
+          <div class="sam-cell sam-val" style="grid-area:2/4/3/5">chala</div>
+          <div class="sam-cell sam-val" style="grid-area:2/5/3/6">sūkshma</div>
+          <div class="sam-cell sam-val" style="grid-area:2/6/3/7">vishada</div>
+          <div class="sam-cell sam-val" style="grid-area:2/7/3/8">khāra</div>
+          <div class="sam-cell sam-val" style="grid-area:3/2/4/3">drava/ amla</div>
+          <div class="sam-cell sam-val" style="grid-area:3/3/4/4">ushna/ katu</div>
+          <div class="sam-cell sam-val" style="grid-area:3/4/4/5">sara/ snigdha/ tikta</div>
+          <div class="sam-cell sam-val" style="grid-area:3/5/4/6">tīkshna</div>
+          <div class="sam-cell sam-val" style="grid-area:3/6/4/7">laghu</div>
+          <div class="sam-cell sam-val" style="grid-area:3/7/4/8">āmisha gandha</div>
+          <div class="sam-cell sam-val" style="grid-area:4/2/5/3">guru/ hima</div>
+          <div class="sam-cell sam-val" style="grid-area:4/3/5/4">drava/ manda</div>
+          <div class="sam-cell sam-val" style="grid-area:4/4/5/5">snigdha</div>
+          <div class="sam-cell sam-val" style="grid-area:4/5/5/6">picchila</div>
+          <div class="sam-cell sam-val" style="grid-area:4/6/5/7">mrudu/ āvila</div>
+          <div class="sam-cell sam-val" style="grid-area:4/7/5/8">kathina/ sandra/ sthūla/ sthira</div>
+
+          <div class="sam-cell sam-lbl" style="grid-area:5/1/6/2">Mārga</div>
+          <div class="sam-cell sam-proc" style="grid-area:5/2/6/4">Abhyantara</div>
+          <div class="sam-cell sam-proc" style="grid-area:5/4/6/5">Bāhya</div>
+          <div class="sam-cell sam-proc" style="grid-area:5/5/6/8">Madhyama</div>
+
+          <div class="sam-cell sam-lbl" style="grid-area:6/1/9/2">Āgni</div>
+          <div class="sam-cell sam-proc" style="grid-area:6/2/7/4">Jāthara Agni</div>
+          <div class="sam-cell sam-proc" style="grid-area:7/3/8/5">Bhūta Agni</div>
+          <div class="sam-cell sam-proc" style="grid-area:8/4/9/8">Dhātu Agni</div>
+
+          <div class="sam-cell sam-lbl" style="grid-area:9/1/10/2">Dhātu</div>
+          <div class="sam-cell sam-proc" style="grid-area:9/4/10/5">Rasa &amp; Rakta</div>
+          <div class="sam-cell sam-proc" style="grid-area:9/5/10/8">Māmsa, Medha, Asthi, Majjā, Shukra, Ārtava</div>
+        </div>
       </div>
     </figure>
 
