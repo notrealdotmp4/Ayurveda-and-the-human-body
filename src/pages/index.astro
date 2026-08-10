@@ -271,35 +271,35 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val">fundus of the uterus</div>
           <div class="sam-cell sam-val">endometrium uterus</div>
           <div class="sam-cell sam-val">cervix and vaginal passage</div>
-          <div class="sam-cell sam-val">none</div>
+          <div class="sam-cell sam-empty"></div>
 
           <div class="sam-cell sam-lbl">Stanya</div>
           <div class="sam-cell sam-empty"></div>
           <div class="sam-cell sam-val">lactiferous gland</div>
           <div class="sam-cell sam-val">lactiferous ducts</div>
           <div class="sam-cell sam-val">duct openings in nipples</div>
-          <div class="sam-cell sam-val">none</div>
+          <div class="sam-cell sam-empty"></div>
 
           <div class="sam-cell sam-lbl">Purīsha</div>
           <div class="sam-cell sam-empty"></div>
           <div class="sam-cell sam-val">cecum, rectum, sigmoid colon</div>
           <div class="sam-cell sam-val">large intestine</div>
           <div class="sam-cell sam-val">anal orifice</div>
-          <div class="sam-cell sam-val">none</div>
+          <div class="sam-cell sam-empty"></div>
 
           <div class="sam-cell sam-lbl">Mūtra</div>
           <div class="sam-cell sam-empty"></div>
           <div class="sam-cell sam-val">kidneys</div>
           <div class="sam-cell sam-val">ureter, bladder, urethra</div>
           <div class="sam-cell sam-val">urethral opening</div>
-          <div class="sam-cell sam-val">none</div>
+          <div class="sam-cell sam-empty"></div>
 
           <div class="sam-cell sam-lbl">Sveda</div>
           <div class="sam-cell sam-empty"></div>
           <div class="sam-cell sam-val">sebaceous glands, sweat glands</div>
           <div class="sam-cell sam-val">sebaceous ducts, sweat ducts</div>
           <div class="sam-cell sam-val">sweat duct, openings in pores of skin</div>
-          <div class="sam-cell sam-val">none</div>
+          <div class="sam-cell sam-empty"></div>
 
           <div class="sam-cell sam-lbl">Mano</div>
           <div class="sam-cell sam-empty"></div>
@@ -351,9 +351,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" style="grid-area:4/7/5/8">kathina/ sandra/ sthūla/ sthira</div>
 
           <div class="sam-cell sam-lbl" style="grid-area:5/1/6/2">Mārga</div>
-          <div class="sam-cell sam-proc" style="grid-area:5/2/6/4">Abhyantara</div>
-          <div class="sam-cell sam-proc" style="grid-area:5/4/6/5">Bāhya</div>
-          <div class="sam-cell sam-proc" style="grid-area:5/5/6/8">Madhyama</div>
+          <div class="sam-cell sam-proc sam-marga-cell" style="grid-area:5/2/6/4">Abhyantara</div>
+          <div class="sam-cell sam-proc sam-marga-cell" style="grid-area:5/4/6/5">Bāhya</div>
+          <div class="sam-cell sam-proc sam-marga-cell" style="grid-area:5/5/6/8">Madhyama</div>
 
           <div class="sam-cell sam-lbl" style="grid-area:6/1/9/2">Āgni</div>
           <div class="sam-cell sam-proc" style="grid-area:6/2/7/4">Jāthara Agni</div>
@@ -833,7 +833,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       Array.from(hmRail.children).forEach((b, n) => b.classList.toggle('is-on', n === i));
       const m = SYS_MAPS[i];
       hmTextBody.innerHTML = '<h3 class="hm-text-title">' + m.label + ' System</h3>' + m.html; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
-      currentMapSrc = null; setHeroMode(m.svg, 'The Living Body - System Maps', false); showMap();
+      currentMapSrc = null; setHeroMode(m.svg, 'The Living Body - Sharīra Samsthāna', false); showMap();
     }
     function openSystems() {
       exitSys();
@@ -849,8 +849,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       heroKind = 'margas';
       organDock = true;
       { const w = document.querySelector('.hero-win'); if (w) w.classList.add('sys'); }
-      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title">Srotāmsi, Dhātu and Mārga</h3><p class="hm-dock-hint">Tap an organ on the map to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
-      setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Srotāmsi, Dhātu and Mārga', false);
+      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">Mārga, Srotāmsi and Dhātu</h3><p class="hm-dock-hint">Tap an organ on the map to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
+      setHeroMode('/anim/vyadhi-marga-map.svg', 'The Living Body - Mārga, Srotāmsi and Dhātu', false);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       showMap();
     }
@@ -860,8 +860,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       organDock = true;
       { const w = document.querySelector('.hero-win'); if (w) w.classList.add('sys'); }
       if (hmRail) { hmRail.hidden = false; hmRail.innerHTML = ''; }
-      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title">Digestion</h3><p class="hm-dock-hint">Select an organ from the list, or tap one on the map, to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
-      setHeroMode('/anim/digestive-map.svg', 'The Living Body - Digestion', false);
+      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">Āgni</h3><p class="hm-dock-hint">Select an organ from the list, or tap one on the map, to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
+      setHeroMode('/anim/digestive-map.svg', 'The Living Body - Āgni', false);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
       if (seenHero) { showMap(); }
@@ -915,7 +915,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function showCallout(el, key) {
       if (organDock) {
         const gd = MAP_GLOSSARY[key];
-        hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-anatomy)">' + ((gd && gd.title) || key) + '</h3>' + window.iconHTML(key) + ((gd && gd.body) || '<p>Definition coming soon.</p>');
+        hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">' + ((gd && gd.title) || key) + '</h3>' + window.iconHTML(key) + ((gd && gd.body) || '<p>Definition coming soon.</p>');
         hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
         if (curOrgan) curOrgan.classList.remove('is-active'); el.classList.add('is-active'); curOrgan = el; mapCanvas.classList.add('has-focus');
         return;
