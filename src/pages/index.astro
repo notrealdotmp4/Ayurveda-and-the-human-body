@@ -828,7 +828,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       { label: 'Skeletal', svg: '/anim/skeletal-system-map.svg', html: '<p>Description coming soon.</p>' },
       { label: 'Urinary', svg: '/anim/urinary-system-map.svg', html: '<p>Description coming soon.</p>' }
     ];
-    function exitSys() { const w = document.querySelector('.hero-win'); if (w) { w.classList.remove('sys'); w.classList.remove('docked'); } organDock = false; if (hmRail) hmRail.hidden = true; if (hmText) hmText.hidden = true; }
+    function exitSys() { const w = document.querySelector('.hero-win'); if (w) { w.classList.remove('sys'); w.classList.remove('docked'); w.classList.remove('sysmaps'); } organDock = false; if (hmRail) hmRail.hidden = true; if (hmText) hmText.hidden = true; }
     function selectSys(i) {
       Array.from(hmRail.children).forEach((b, n) => b.classList.toggle('is-on', n === i));
       const m = SYS_MAPS[i];
@@ -838,7 +838,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function openSystems() {
       exitSys();
       heroKind = 'systems';
-      const w = document.querySelector('.hero-win'); if (w) w.classList.add('sys');
+      const w = document.querySelector('.hero-win'); if (w) { w.classList.add('sys'); w.classList.add('sysmaps'); }
       hmRail.hidden = false; hmText.hidden = false; hmRail.innerHTML = '';
       SYS_MAPS.forEach((m, i) => { const b = document.createElement('button'); b.className = 'sys-btn'; b.textContent = m.label; b.addEventListener('click', () => selectSys(i)); hmRail.appendChild(b); });
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
