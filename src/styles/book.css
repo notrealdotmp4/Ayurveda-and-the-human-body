@@ -257,4 +257,15 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .simple-vid{width:100%;display:block;background:#000;border-radius:20px 20px 0 0;aspect-ratio:16/9;object-fit:cover}
 .simple-text{padding:22px 26px 26px;font-family:'Montserrat',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:15.5px;line-height:1.65;color:var(--ink)}
 .simple-title{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:24px;font-weight:600;margin:0 0 14px;color:var(--ink)}
+.simple-term{cursor:pointer;color:var(--c-ayurveda);border-bottom:1px dotted currentColor}
+.simple-term[data-cat="physiology"]{color:var(--c-physiology)}
+.simple-term[data-cat="anatomy"]{color:var(--c-anatomy)}
+.simple-term:hover{background:rgba(0,0,0,.05)}
+.simple-pop{position:fixed;z-index:20;width:min(300px,86vw);max-height:300px;overflow-y:auto;overscroll-behavior:contain;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 14px 34px rgba(44,38,34,.24);font-family:'Montserrat',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.simple-pop[hidden]{display:none}
+.sp-title{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:18px;font-weight:700;margin:0 0 6px;padding-right:18px}
+.sp-body{font-size:14px;line-height:1.5;color:var(--ink)}
+.sp-body p{margin:0 0 8px}
+.sp-body p:last-child{margin-bottom:0}
+.sp-close{position:absolute;top:5px;right:9px;border:0;background:transparent;font-size:19px;line-height:1;color:var(--ink-soft);cursor:pointer}
 .simple-text p{margin:0 0 12px}.simple-text .tw-lede{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:18px 0 10px}.simple-text h4{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;margin:20px 0 8px}.simple-text ul{margin:0 0 14px;padding-left:20px}.simple-text li{margin:0 0 7px}.simple-text li strong{color:var(--ink)}

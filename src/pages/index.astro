@@ -189,7 +189,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-hd">Mukha</div>
           <div class="sam-cell sam-hd">Mala</div>
 
-          <button class="sr-group" data-group="intake" aria-expanded="true"><span>Prāna, Ambu &amp; Anna</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="intake" aria-expanded="true"><span>The receiving channels</span><span class="sr-chev" aria-hidden="true">▾</span></button>
           <div class="sam-cell sam-lbl" data-grp="intake">Prāna</div>
           <div class="sam-cell sam-empty" data-grp="intake"></div>
           <div class="sam-cell sam-val" data-grp="intake">left chamber of heart, maha srotas</div>
@@ -209,7 +209,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" data-grp="intake">ileocecal valve</div>
           <div class="sam-cell sam-val" data-grp="intake">purīsha</div>
 
-          <button class="sr-group" data-group="dhatus" aria-expanded="true"><span>Sapta Dhātu — the seven tissues</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="dhatus" aria-expanded="true"><span>The nourishing channels</span><span class="sr-chev" aria-hidden="true">▾</span></button>
           <div class="sam-cell sam-lbl" data-grp="dhatus">Rasa</div>
           <div class="sam-cell sam-val" data-grp="dhatus">twak, stanya, rajah</div>
           <div class="sam-cell sam-val" data-grp="dhatus">right chamber of heart, 10 great vessels</div>
@@ -259,21 +259,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" data-grp="dhatus">labia minor/major (yoni oshtha)</div>
           <div class="sam-cell sam-val" data-grp="dhatus">none, functionally pubic and axillary hair, &amp; secondary sexual characteristics</div>
 
-          <button class="sr-group" data-group="upadhatu" aria-expanded="true"><span>Upadhātu</span><span class="sr-chev" aria-hidden="true">▾</span></button>
-          <div class="sam-cell sam-lbl" data-grp="upadhatu">Rajah</div>
-          <div class="sam-cell sam-empty" data-grp="upadhatu"></div>
-          <div class="sam-cell sam-val" data-grp="upadhatu">fundus of the uterus</div>
-          <div class="sam-cell sam-val" data-grp="upadhatu">endometrium uterus</div>
-          <div class="sam-cell sam-val" data-grp="upadhatu">cervix and vaginal passage</div>
-          <div class="sam-cell sam-empty" data-grp="upadhatu"></div>
-          <div class="sam-cell sam-lbl" data-grp="upadhatu">Stanya</div>
-          <div class="sam-cell sam-empty" data-grp="upadhatu"></div>
-          <div class="sam-cell sam-val" data-grp="upadhatu">lactiferous gland</div>
-          <div class="sam-cell sam-val" data-grp="upadhatu">lactiferous ducts</div>
-          <div class="sam-cell sam-val" data-grp="upadhatu">duct openings in nipples</div>
-          <div class="sam-cell sam-empty" data-grp="upadhatu"></div>
+          <div class="sam-cell sam-lbl" data-grp="dhatus">Rajah</div>
+          <div class="sam-cell sam-empty" data-grp="dhatus"></div>
+          <div class="sam-cell sam-val" data-grp="dhatus">fundus of the uterus</div>
+          <div class="sam-cell sam-val" data-grp="dhatus">endometrium uterus</div>
+          <div class="sam-cell sam-val" data-grp="dhatus">cervix and vaginal passage</div>
+          <div class="sam-cell sam-empty" data-grp="dhatus"></div>
+          <div class="sam-cell sam-lbl" data-grp="dhatus">Stanya</div>
+          <div class="sam-cell sam-empty" data-grp="dhatus"></div>
+          <div class="sam-cell sam-val" data-grp="dhatus">lactiferous gland</div>
+          <div class="sam-cell sam-val" data-grp="dhatus">lactiferous ducts</div>
+          <div class="sam-cell sam-val" data-grp="dhatus">duct openings in nipples</div>
+          <div class="sam-cell sam-empty" data-grp="dhatus"></div>
 
-          <button class="sr-group" data-group="mala" aria-expanded="true"><span>Mala — wastes</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="mala" aria-expanded="true"><span>The eliminating channels</span><span class="sr-chev" aria-hidden="true">▾</span></button>
           <div class="sam-cell sam-lbl" data-grp="mala">Purīsha</div>
           <div class="sam-cell sam-empty" data-grp="mala"></div>
           <div class="sam-cell sam-val" data-grp="mala">cecum, rectum, sigmoid colon</div>
@@ -293,7 +292,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" data-grp="mala">sweat duct, openings in pores of skin</div>
           <div class="sam-cell sam-empty" data-grp="mala"></div>
 
-          <button class="sr-group" data-group="mano" aria-expanded="true"><span>Mano</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="mano" aria-expanded="true"><span>The mind channel</span><span class="sr-chev" aria-hidden="true">▾</span></button>
           <div class="sam-cell sam-lbl" data-grp="mano">Mano</div>
           <div class="sam-cell sam-empty" data-grp="mano"></div>
           <div class="sam-cell sam-val" data-grp="mano">heart, cardiac plexus, brain, chakra system</div>
@@ -470,6 +469,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <button class="close-x" id="simpleClose" aria-label="Close">×</button>
       <video class="simple-vid" id="simpleVid" controls playsinline preload="metadata"></video>
       <div class="simple-text" id="simpleText"></div>
+      <div class="simple-pop" id="simplePop" hidden><button class="sp-close" id="spClose" aria-label="Close">×</button><div class="sp-title" id="spTitle"></div><div class="sp-body" id="spBody"></div></div>
     </div>
   </div>
 
@@ -790,18 +790,67 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const simpleModal = document.getElementById('simpleModal');
     const simpleVid = document.getElementById('simpleVid');
     const simpleText = document.getElementById('simpleText');
+    let GLOSS_NORM = null;
+    function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
+    function linkSimpleTerms(root) {
+      if (!GLOSS_NORM) { GLOSS_NORM = {}; Object.keys(MAP_GLOSSARY).forEach((k) => { const nk = normTerm(k); if (!(nk in GLOSS_NORM)) GLOSS_NORM[nk] = k; }); }
+      const used = new Set();
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode(n) { if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT; const p = n.parentElement; if (!p || p.closest('.simple-title') || p.classList.contains('simple-term')) return NodeFilter.FILTER_REJECT; return NodeFilter.FILTER_ACCEPT; } });
+      const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach((node) => {
+        const text = node.nodeValue; const toks = []; const re = /[\p{L}\p{M}]+/gu; let m;
+        while ((m = re.exec(text))) toks.push({ s: m.index, e: m.index + m[0].length });
+        if (!toks.length) return;
+        const pieces = []; let cursor = 0, i = 0, changed = false;
+        while (i < toks.length) {
+          let matched = null;
+          for (let n = Math.min(4, toks.length - i); n >= 1; n--) {
+            let ok = true;
+            for (let g = i; g < i + n - 1; g++) { if (!/^\s+$/.test(text.slice(toks[g].e, toks[g + 1].s))) { ok = false; break; } }
+            if (!ok) continue;
+            const s = toks[i].s, e = toks[i + n - 1].e, real = GLOSS_NORM[normTerm(text.slice(s, e))];
+            if (real && !used.has(real)) { matched = { s, e, key: real }; break; }
+          }
+          if (matched) {
+            if (matched.s > cursor) pieces.push(document.createTextNode(text.slice(cursor, matched.s)));
+            const g = MAP_GLOSSARY[matched.key], span = document.createElement('span');
+            span.className = 'simple-term'; span.dataset.term = matched.key; if (g && g.cat) span.dataset.cat = g.cat;
+            span.textContent = text.slice(matched.s, matched.e); pieces.push(span);
+            used.add(matched.key); cursor = matched.e; changed = true;
+            while (i < toks.length && toks[i].s < matched.e) i++;
+          } else { i++; }
+        }
+        if (changed) { if (cursor < text.length) pieces.push(document.createTextNode(text.slice(cursor))); const frag = document.createDocumentFragment(); pieces.forEach((p) => frag.appendChild(p)); node.parentNode.replaceChild(frag, node); }
+      });
+      root.querySelectorAll('.simple-term').forEach((el) => { el.addEventListener('click', (e) => { e.stopPropagation(); showSimplePop(el); }); });
+    }
+    function showSimplePop(el) {
+      const pop = document.getElementById('simplePop'), g = MAP_GLOSSARY[el.dataset.term]; if (!pop || !g) return;
+      const t = document.getElementById('spTitle'); t.textContent = g.title || el.textContent;
+      const cat = el.dataset.cat; t.style.color = cat === 'physiology' ? 'var(--c-physiology)' : cat === 'anatomy' ? 'var(--c-anatomy)' : 'var(--c-ayurveda)';
+      document.getElementById('spBody').innerHTML = g.body || '<p>Definition coming soon.</p>';
+      pop.hidden = false; const pw = pop.offsetWidth, ph = pop.offsetHeight, r = el.getBoundingClientRect();
+      let left = Math.min(Math.max(8, r.left), window.innerWidth - pw - 8);
+      let top = r.bottom + 6; if (top + ph > window.innerHeight - 8) top = Math.max(8, r.top - ph - 6);
+      pop.style.left = left + 'px'; pop.style.top = top + 'px';
+    }
+    function hideSimplePop() { const pop = document.getElementById('simplePop'); if (pop) pop.hidden = true; }
     function openSimple(i) {
       const it = SIMPLE_ITEMS[i]; if (!it) return;
       simpleVid.src = it.video;
-      simpleText.innerHTML = '<h3 class="simple-title">' + it.title + '</h3>' + it.html; simpleText.scrollTop = 0;
+      simpleText.innerHTML = '<h3 class="simple-title">' + it.title + '</h3>' + it.html;
+      linkSimpleTerms(simpleText); simpleText.scrollTop = 0; hideSimplePop();
       simpleModal.classList.add('open'); simpleModal.setAttribute('aria-hidden', 'false');
     }
-    function closeSimple() { simpleModal.classList.remove('open'); simpleModal.setAttribute('aria-hidden', 'true'); if (simpleVid) simpleVid.pause(); }
+    function closeSimple() { simpleModal.classList.remove('open'); simpleModal.setAttribute('aria-hidden', 'true'); if (simpleVid) simpleVid.pause(); hideSimplePop(); }
     if (simpleModal) {
       document.getElementById('simpleClose').addEventListener('click', closeSimple);
       simpleModal.addEventListener('click', (e) => { if (e.target === simpleModal) closeSimple(); });
       document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && simpleModal.classList.contains('open')) closeSimple(); });
       document.querySelectorAll('.tri-btn').forEach((b) => b.addEventListener('click', () => openSimple(parseInt(b.dataset.simple, 10))));
+      { const _sc = document.getElementById('spClose'); if (_sc) _sc.addEventListener('click', hideSimplePop); }
+      { const _sw = simpleModal.querySelector('.simple-win'); if (_sw) _sw.addEventListener('scroll', hideSimplePop, { passive: true }); }
+      document.addEventListener('click', (e) => { const pop = document.getElementById('simplePop'); if (pop && !pop.hidden && !pop.contains(e.target) && !(e.target.closest && e.target.closest('.simple-term'))) hideSimplePop(); });
     }
     const hmRail = document.getElementById('hmRail');
     const hmText = document.getElementById('hmText');
