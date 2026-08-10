@@ -1002,6 +1002,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     document.getElementById('tourExit').addEventListener('click', endTour);
 
     function animateVessels() {
+      { const heart = mapCanvas.querySelector('#heart, [id^="heart"], [id^="Heart"]'); if (heart) heart.classList.add('heart-anim'); }
       const groups = mapCanvas.querySelectorAll('#Artery, #Vein, [id^="Artery"], [id^="Vein"]');
       if (!groups.length) return;
       const svgEl = mapCanvas.querySelector('svg');
