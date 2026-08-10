@@ -218,7 +218,7 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .sam-scroll{overflow:visible;-webkit-overflow-scrolling:touch;padding-bottom:4px}
 @media(max-width:980px){.sam-scroll{overflow-x:auto}}
 .sr-grid .sam-hd{position:sticky;top:0;z-index:5}
-.sr-group{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;border:0;cursor:pointer;background:#b98a53;color:#fff;border-radius:14px;padding:13px 18px;margin-top:2px;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:14px;font-weight:600;letter-spacing:.03em;text-align:left}
+.sr-group{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;border:0;cursor:pointer;background:#b98a53;color:#fff;border-radius:14px;padding:13px 18px;margin:6px 0 0;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:14px;font-weight:600;letter-spacing:.03em;text-align:left}
 .sr-group:hover{filter:brightness(1.06)}
 .sr-chev{transition:transform .2s ease;font-size:12px;line-height:1}
 .sr-group.collapsed .sr-chev{transform:rotate(-90deg)}
