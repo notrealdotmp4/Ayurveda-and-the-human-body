@@ -173,27 +173,27 @@
         fill: #e09978;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="684.3" y1="3540.1" x2="684.3" y2="3351.2" gradientTransform="translate(0 4107.5884) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="684.3" y1="-3028.1" x2="684.3" y2="-2839.2" gradientTransform="translate(0 3595.5884)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#feede5"/>
       <stop offset=".5" stop-color="#fde1d4"/>
       <stop offset="1" stop-color="#fbc8b4"/>
     </linearGradient>
-    <linearGradient id="linear-gradient1" x1="651.8" y1="3821.4" x2="651.8" y2="3507.4" gradientTransform="translate(0 4107.5884) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient1" x1="651.8" y1="-3309.4" x2="651.8" y2="-2995.4" gradientTransform="translate(0 3595.5884)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#feede5"/>
       <stop offset=".5" stop-color="#fde1d4"/>
       <stop offset="1" stop-color="#fbc8b4"/>
     </linearGradient>
-    <linearGradient id="linear-gradient2" x1="526.2" y1="3934.1" x2="526.2" y2="3912.4" gradientTransform="translate(0 4107.5884) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient2" x1="526.2" y1="-3422.1" x2="526.2" y2="-3400.4" gradientTransform="translate(0 3595.5884)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#feede5"/>
       <stop offset=".5" stop-color="#fde1d4"/>
       <stop offset="1" stop-color="#fbc8b4"/>
     </linearGradient>
-    <linearGradient id="linear-gradient3" x1="570.5" y1="3953.8" x2="570.5" y2="3930.2" gradientTransform="translate(0 4107.5884) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient3" x1="570.5" y1="-3441.8" x2="570.5" y2="-3418.2" gradientTransform="translate(0 3595.5884)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#feede5"/>
       <stop offset=".5" stop-color="#fde1d4"/>
       <stop offset="1" stop-color="#fbc8b4"/>
     </linearGradient>
-    <linearGradient id="linear-gradient4" x1="566.3" y1="3938.4" x2="566.3" y2="3921.2" gradientTransform="translate(0 4107.5884) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient4" x1="566.3" y1="-3426.4" x2="566.3" y2="-3409.2" gradientTransform="translate(0 3595.5884)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#feede5"/>
       <stop offset=".5" stop-color="#fde1d4"/>
       <stop offset="1" stop-color="#fbc8b4"/>
@@ -239,10 +239,10 @@
       </g>
       <path id="_33" class="st35" d="M723.6,916.7c-9.7,6.5-24.2,7.5-32.2-2.5l-2.2-.8c-4.4.5-8.8,2-13,4.4l-1.5-.5c-1.3.6-3.1-.2-4.3-.9,0,0-16.4-4.3-17.1-4l1-6.1c5.3-5,13.1-13.2,20.1-8.7,2.8,3.2,4.1,1.4,7.1,0,5.2-6.5,5.9-1.9,12.1,1.6,5.8,4.6,11.8,7.7,17.3,5.4h.2-.2c-2.3,0-5-1-6.2-2.8l-4.5-9.4c-1.4-3-3.5-4.6-6.6-5.2-5.1-1-9.5,1.3-11.9,6.5-1.3,2.9-4.1,3.8-6.6,2.4-8.3-4.6-11.8,2.7-18.6.3-3.6-1.3-5.5-5.2-5.6-10-2,3.8-5.1,4.7-9.1,4.3-6.6-.6-4.7-7.6-7.1-17.1-2.5-9.7,11.3-13.3,19.6-10.3,5.8,2.1,9.9,8,11.8,14.5.3,1,.5,1.8,1.4,2.4,3.2-6.7,9.1-10.8,15.5-11.3,10.7-.9,26.8,7.8,34.7,16,.8.8.9,2.4,1.9,2.5-.8-7.3-6.1-13.7-12.2-16.7-11-5.4-30.4-9.5-38.2,4.3-.9.8-1.3,1-2,0-2.9-12.8-13.6-16-23.5-12.8-.5,0-.8-.2-1.1-.6-6.5,5.3-14.1-1-22.3-1.7l-17.9-1.6c-9.1-.8-17.5-3.8-25.9-7.1-.9-.3-1.8-.2-2.1.5-.4.9,0,2,.9,2.4,19.6,9.5,33.2,5.6,48.2,9.4,4.5,1.1,8.5,4.2,9.8,9.6,1.1,4.6.2,10.3-2.5,13.8-4.6,6.1-17.6,6.7-25.6,4.3,2.8,5.1,4.9,10.6,6.2,16.4,1.6,5.3,3.5,10.3,5.6,15.2,3.2,3.2,3.1,1-.2-6.2-2-6.7-3.2-12.7.5-19.2,4.1-7,14.8-8.6,18.7-6.6,5.2,2.7,11.1,9.6,14.7,14.7l-.6,6.3c-5-1-14.3-6.8-22,11.2-2.4,5.5-3.2,11.8-2.8,17.8-18.1,1.7-25-9.2-30-28.6-4.3-16.8-10.9-27.7-24.9-33.8-2.1-.9-4.1-2.1-6.3-1.4-1.1-3.2-3.2-6.1-5.8-8.2,0-1.2,0-2.2.2-2.9v-4.4c3-.9,6.8-.2,9.8.5,9.1,2,17.9,7,25.3,14.2l16.5,2.5c2.2.6,4.5,1.4,6.6.8.7-.2.6-2,.2-2.5-.3-.4-.8-1.2-1.4-1.3-7.3-2.1-14.6-3.5-22.3-4.1-7.8-6.8-16.6-10.4-26.2-11-4.5-.3-8.3-3.9-8.5-9l-.2-4.1.2-1.4c.8-5.1,3.2-9.1,6.8-12.1,2.1,6.2,7.1,8.9,12.1,6.8,2.9-1.2,6-1.3,8.9.2,6.5,3.5,12.6,3,20.5,2.8,1.7,0,10-2.6,15.6-3.2,5-.5,12.1.2,16.4,1.6-7.6-6-20.5-4.2-29.9-1.3-7.1,2.2-14.2,1.7-20.9-1.7-3.7-1.9-7.1-2.2-11-.8-3.6,1.4-7.3.4-9.5-3.3-3.2-5.5-5-11.8-4.2-18.5l2.1-19.6c.5-5.1,0-9.5-2.1-13.9-3.8-8.3-5.5-18-.2-24.8,3,1.2,11.2,12.4,11.2,12.4-1.1,0,1,27.3,8.5,45.5,2,4.8,6.9,6.9,11.3,8.3,6.5,2,12.6.2,17.8-4.8,8.4-8,15.5-2.9,23,5,6.1,7.7,21.4,24.3,22,23.1l.8-.5c4.9,1,9.8,1.7,14.8,1.8,21.1-2.5,47-5,61,18.2,9.1,16.7,5,39.5-9.9,49.5h0l.2-.2h-.2,0Z"/>
       <path id="_505050" class="st35" d="M730.4,775.3c-1.1-4.7-6.8-19.6-10.3-21.1-.3-.2-.7-.2-1-.2-3.8,3.8-10.1,5.5-14.6,1.7-1.8.6-2,2.7-2.8,3.8,5,5.8,9.2,12.6,11.4,20.7,1.6,5.4,2.5,12.1-.7,12.5-1.3.2-2.2-1-2.6-2.5l-4.3-14.2c-1.8-4.1-4.5-7.8-8.4-9.1-6.2-2.1-12.9,1-16.5,7.3-1.9,3.2-1.2,6.5.5,9.4,3.5,6.1,6.2,12.7,6,20.2l-.2,10.9c0,5.1,3,8.5,7.2,9.5l14,3.2c1,.2,1.6,1.3,1.5,2.1-.2,2.5-2.8,2.3-6.2,1.1-8.2-3.1-18.4-4.3-26.6-.2l3.5-7.5c3-6.5,4.4-13.9,4-21.2-.5-9.5-4.2-17.4-10.6-22.9-5.9-5.1-13-7.5-20.2-5.3-8.3,2.5-13.8,11.7-12.4,21.7.3,2.3,1.8,4.7,3.1,8.4-2.8-6.6-8.3-8.1-6.5-15.1l1.5-5.8c.6-2.2.2-4.8-1-6.5s-3.1-2.4-4.9-3.2l-3-1.2c-.8-1.7-3.6-1.6-4.7-.2-5.7-.2-13.6-1.1-16.5-7.6-2.4,2-4.7,3.2-7.8,3.5-2.1,9.9,1.2,20.2.2,26.8-.2.9-1.4,2.3-2.1,1.3-1.4-2-1.3-5.1-1.3-7.7.2-7.3,0-14.2-1.3-21.2-1.7-1.2-2.9-2.5-4.2-4.5-6.2,5.3-14.5,2.8-19.5-3.8-3.2,1.2-6.3.2-9.3-1-5.4,6.8.9,23.2,11.7,12.1,2.3-2.3,7.8,9.8,7.4,21.3l-.4,12.7c-.2,6.8,2.5,12.3,7.7,15.1,6.5,3.5,14.3,3.2,20-2.4,6.2-6.1,6.5-19.9,6.9-30,0-1.2.3-3.6,1.7-3.5,2.8.2.9,16.3-.2,23.2-.5,3.2.9,5.9,3.5,6.5,3.8.8,7.1,2.7,10.2,5.5l9,8c0,.5.2,1,.3,1.5.5,1.7,2,3.5,3.9,4.4,3.5,1.6,7.1.3,10-2.5,7.3-7.1,8.2-18.8,5.3-29.5-.3-1.3-.8-3.6.2-4.4,3.2-2.6,5.2,9.8,4.1,19.1-.8,7-3.9,12.7-8.2,17.2.2,1.3-4.5,3-6.2,4.9-.2.2,1.1,3.2,1.1,3.5,2.4,2.4,5.4,3.8,8.7,4.7,14,3.9,26.2-2.2,36-.8l21.5,3.1c3.8.5,6.7-1.3,8.9-5.2,3.8-6.8,3.6-16.6-1.3-22.7-5.5-7-16-1.7-22.7-12.1-3.8-5.9-7.5-12.6-8.4-20.3,2.5,3.7,3.4,8.1,5.2,11.9,1.7,3.5,3.5,6.6,6,9.2,6.1,6.2,17.3,6.4,21.4.2,2.2-3.3,3.7-7.7,3.7-11.9v-6.5l-.2-3.2c.2-.3.4-.6.5-1,.8-1.8-.6-8-1.1-10.3h.4,0ZM645.5,808.6c.2,1,.2,2,.2,2.9,0-1-.2-2.1-.2-2.9-.4-2-.8-3.7-1.3-5.2.6,1.4,1,3.2,1.3,5.2Z"/>
-      <path class="st22" d="M156.4,160.7h55c12.5,0,22.7,10.2,22.7,22.7v35.1"/>
-      <path class="st22" d="M156.4,277.4h55c12.5,0,22.7-10.2,22.7-22.7v-35.1"/>
-      <path id="flow-dhatu" class="st22" d="M162.4,218.2h449.8c11.2,0,20.3,8.9,20.7,20l1.5,329.7c0,11.3,9.2,20.4,20.5,20.3,23.8-.2,62-.3,78.8.5,7.8.3,13.5,7.5,13.4,15.2l-.6,57c0,8.6-7.2,15.6-15.8,15.6l-108.8.3c-9.1,0-16.5,7.5-16.5,16.6v13.4c.2,9.1,7.5,16.4,16.6,16.4h36.1l-1.3,64.7-66.2-1.1c-8.8,0-16.1,6.8-16.3,15.7l-.2,8.7c-.2,8.9,6.8,16.2,15.7,16.4l106.6,2.2c8.7.2,15.7,7.3,15.7,16v10.3c0,8.9-7.3,16.1-16.2,16l-137.8-1.2c-7.8,0-14.2-6.5-14.2-14.3v-95.3"/>
-      <path id="flow-dhatu-2" class="st17" d="M166.4,218.2h445.8c11.2,0,20.3,8.9,20.2,21.1l1.9,328.8c0,11.2,9.2,20.3,20.4,20.3,23.7,0,61.8,0,78.9.3,8.3.2,13.5,7,13.4,15.2l-.6,57c0,8.6-7.2,15.6-15.8,15.6l-108.8.3c-9.1,0-16.5,7.5-16.5,16.6v13.4c.2,9.1,7.5,16.4,16.6,16.4h36.1l-.7,64.9-66.9-1.3c-8.8,0-16.1,6.8-16.3,15.7l-.2,8.7c-.2,8.9,6.8,16.2,15.7,16.4l106.6,2.2c8.7.2,15.7,7.3,15.7,16v10.3c0,8.9-7.3,16.1-16.2,16l-137.8-1.2c-7.8,0-14.2-6.5-14.2-14.3v-93.3"/>
+      <path class="st22" d="M177.4,160.7h34c12.5,0,22.7,10.2,22.7,22.7v35.1"/>
+      <path class="st22" d="M178.4,277.4h33c12.5,0,22.7-10.2,22.7-22.7v-35.1"/>
+      <path id="flow-dhatu" class="st22" d="M180.4,218.2h431.8c11.2,0,20.3,8.9,20.7,20l1.5,329.7c0,11.3,9.2,20.4,20.5,20.3,23.8-.2,62-.3,78.8.5,7.8.3,13.5,7.5,13.4,15.2l-.6,57c0,8.6-7.2,15.6-15.8,15.6l-108.8.3c-9.1,0-16.5,7.5-16.5,16.6v13.4c.2,9.1,7.5,16.4,16.6,16.4h36.1l-1.3,64.7-66.2-1.1c-8.8,0-16.1,6.8-16.3,15.7l-.2,8.7c-.2,8.9,6.8,16.2,15.7,16.4l106.6,2.2c8.7.2,15.7,7.3,15.7,16v10.3c0,8.9-7.3,16.1-16.2,16l-137.8-1.2c-7.8,0-14.2-6.5-14.2-14.3v-95.3"/>
+      <path id="flow-dhatu-2" class="st17" d="M186.4,218.2h425.8c11.2,0,20.3,8.9,20.2,21.1l1.9,328.8c0,11.2,9.2,20.3,20.4,20.3,23.7,0,61.8,0,78.9.3,8.3.2,13.5,7,13.4,15.2l-.6,57c0,8.6-7.2,15.6-15.8,15.6l-108.8.3c-9.1,0-16.5,7.5-16.5,16.6v13.4c.2,9.1,7.5,16.4,16.6,16.4h36.1l-.7,64.9-66.9-1.3c-8.8,0-16.1,6.8-16.3,15.7l-.2,8.7c-.2,8.9,6.8,16.2,15.7,16.4l106.6,2.2c8.7.2,15.7,7.3,15.7,16v10.3c0,8.9-7.3,16.1-16.2,16l-137.8-1.2c-7.8,0-14.2-6.5-14.2-14.3v-93.3"/>
       <path id="_666" class="st30" d="M698.1,959.3c-12.7-.2-16.5-3.7-19.6-7.3l-1.7-2.4c-4,3.4-8.7,2.7-12.8-.8,1.6,8.8-8.1-41.7-7.2-41.1l8.2,3.4c2.6.4,4.7,1.6,7,3,1.3.3,2.3.8,3.2,1.5h1.5l5,4.3c5.6,0,11.2,1.7,16,5.2,4.8-1.1,9.6-.6,14.4,1.4,4.3-2.5,8.2-5.7,11.7-9.7l3.5-2.4c2.4-4.1,5.1-7.9,8.3-11.1,1.7-5,4.1-9.8,7.7-13.1-.7-3.4,32.8-9.6,29.4-2,2.7,7,1.5,15.2-3.3,20.7-.8,8-4,15.6-9.2,20.6-3.1,8-7.3,14.4-15,15-4.3,8.2-11.7,14.5-19.9,12.2-5.5,7.1-16.5,8.9-21.6,1.3-2,1-3.8,1.3-5.5,1.3h-.1Z"/>
       <path id="_444" class="st13" d="M663.5,775c-4.1,5.1-11,4-13.1,2,0-6.5,1-28.5.8-34.2,2.7-2.1,2.9-2,7.8-4.4l.7-1c2.5,0,1.3,1,4.7.9.6,0-.6,27-.9,36.7h0Z"/>
       <path id="_444-2" class="st30" d="M736.1,741.9c-3.4,5.5-8.8,7.8-14.2,8.3-.8,1-1.2,2.1-1.5,3.5l-1,.2c.2.8,0,1.1-.3,1.7-2.8,3.5-11.1,4.4-14.4,1.2-.7.7-1.3,1.6-1.7,2.7h-1.1c.2.4.2.9,0,1.3-1.7,4-12.2,4.7-15.4,2.8-5,5-12.1,7.6-17.9,2.9-3.8,4.6-8.1,5.6-13.3,5.4-2.6,1-4.4.2-6.6-1.6-2.3,2.5-5.4,3.9-8.5,4.3-.5,1.3-1.1,1.8-1.9,1.3l-1,.3c-2-1.6-4.2-2.7-6.6-3.4l-.2-1.2c-1.8-1.7-2.5-1.5-4.7-.2l-.8,1c-5.6-.3-12.2-1.1-15.9-6.9-7.6,5.1-13,3.9-16.6-2.1-6.4,4.7-15,2.2-19.5-4.4-.4.6-1.3.6-2,.6-2.1,0-6.5-.2-7.1-2.5l-.9.8-3.8-2.2c1.3,6-33.7-13.6-32.4-20.2-2-7.3-.2-14.6,4.4-19.6,6.3-6.6,13.2-6.8,19.1-11.7,4-3.3,9.5-1.7,11.6,3.5,4.4,1,7.8,4.3,9.6,9.2,4.5.7,8.5,3.2,10.3,8,5.7-2,12.2-1.1,15.3,4.7,5.7-3.8,12.2-1.8,16.3,4.5,5.5-4.6,12.4-4.3,17.3,1.4,6-4.3,13.2-3.5,18.9,1,2.9,2.4,4.5-2.4,9.4-4.5l.7-.9c2.5,0,5,.7,7.3,1.8,2.4-2.7,7.1-6.2,10.5-6.3.6,0,1.3.4,1.8.8,1.6,1.1,3.3,1,5-.5,3.5-1.4,7-3.2,10.8-2.5,1.3.3,2.2.2,3.1-1.1,2.8-4.6,7.3-7.7,12.1-7.6,1.5-6.8,7.4-8.9,13.3-8.7,2.7-5.6,8.5-8.1,13.5-5.5.5.3,1,1.1,1.6.9.4-.2.8-1,1.3-1.3,4.5-3.4,12.9-1.7,14.8,4.9,3.1-.5,5.8,1,7.7,3.5,2,2.3,2.8,6.2,2.2,9.6-.4,2.4.3,3.1,1.1,5,6,13.6-14.3,33.1-29.6,17.6h0l-.2.2h.1Z"/>
@@ -250,8 +250,8 @@
       <path id="flow-dhatu-4" class="st17" d="M543.8,761.8v-2.7c0-7.6,6.2-13.8,13.8-13.8l175.7-.5c7.7,0,13.9,6.2,13.9,13.8v129.4"/>
       <path id="_11" class="st26" d="M556.5,877.9s2.1,4,2.6,7.1-.5,6.3-1.7,7.6.9,3.3,2.5,1.6,3.5-3,3.4-9.4-.8-6.7-.8-7.7-.9,1.5-2.5.5-2.7-1-3.5.2h0Z"/>
       <path id="_131313" class="st32" d="M733.3,481.5c6,7.9,12.2,31.7,7.2,42.1s-4.1,10.6-6.3,18c-2.2,7.3-16.4,38.5-28.3,40.1-11.9,1.7-27.1-20.1-33-21.1s-25.2-20.4-23.8-32.2c1.4-11.9.8-12.6-2-21.4s0-22.2,6.3-34.7,5.2-14.3,1.7-20.1c-5.1-8.4-12.6-13-12.6-13v-15.2s23.5,4.8,24.4,12.9c.9,8.5,7.2,8.6,7.8,9.3s11.3-8.3,20.7-6.2c9.4,2.1,12.3,7.1,12.3,7.1,0,0-1.9-13.4.3-15.9,2.1-2.5,8.5-4,9-.2.6,3.8-2.6,18.7,0,19.5s4.6-.2,5.7-2.6,4-18.6,6.7-18,13.3,2.8,12.5,6.5-6.9,17.4-5.6,18.1,1,2.4,2.3.7,5.9-9.6,7.6-9.6,5,2.6,4.9,4.5-4.9,6.1-5.6,9.1-2.4,3.4,1.4,6.3,10.3,3.5,8.3,9.3c-1.9,5.7-4.4,13.6-8.8,11.7-4.4-1.9-13.2-4.9-13.2-4.9h0Z"/>
-      <path id="flow-dhatu-5" class="st17" d="M156.4,160.7h55c12.5,0,22.7,10.2,22.7,22.7v35.1"/>
-      <path id="flow-dhatu-6" class="st17" d="M156.4,277.4h55c12.5,0,22.7-10.2,22.7-22.7v-35.1"/>
+      <path id="flow-dhatu-5" class="st17" d="M181.4,160.7h30c12.5,0,22.7,10.2,22.7,22.7v35.1"/>
+      <path id="flow-dhatu-6" class="st17" d="M182.4,277.4h29c12.5,0,22.7-10.2,22.7-22.7v-35.1"/>
     </g>
     <line class="st6" x1="753.7" y1="795.3" x2="740.7" y2="795.3"/>
   </g>
@@ -279,6 +279,15 @@
     <path id="End" class="st18" d="M1096,1062.2c0,13-3.9,27.5-28.2,28.2-47.6,1.3-661.2-2-702.9-2s-57.9,1.6-57.9-34.1,1.6-482.3,1.6-510.8,5.9-24.7,26.4-24.7c47.8,0,296.7,2,316,2s28-4.5,28-31.4-8.3-31.1-30.9-31.1-529-1-540.6-1c-17.1,0-21.7,11.5-21.7,24.6,0,34.9,1.1,631.6,1.1,631.6"/>
     <path id="End-2" class="st23" d="M1096,1062.2c0,13-3.9,27.5-28.2,28.2-47.6,1.3-661.2-2-702.9-2s-57.9,1.6-57.9-34.1,1.6-482.3,1.6-510.8,5.9-24.7,26.4-24.7c47.8,0,296.7,2,316,2s28-4.5,28-31.4-8.3-31.1-30.9-31.1-493.3-1-535.3-1-27,8.7-27,24.6c0,34.9,1.1,631.6,1.1,631.6"/>
   </g>
+  <g id="Masks">
+    <circle class="st28" cx="308.5" cy="902.9" r="79.5"/>
+    <circle class="st28" cx="431.3" cy="1088.7" r="79.5"/>
+    <circle class="st28" cx="703" cy="1088.7" r="79.5"/>
+    <circle class="st28" cx="973.4" cy="1089.7" r="79.5"/>
+    <circle class="st28" cx="1099.7" cy="902.9" r="79.5"/>
+    <circle class="st28" cx="1098.7" cy="641.9" r="79.5"/>
+    <ellipse class="st28" cx="307.5" cy="646.4" rx="79.5" ry="87.1"/>
+  </g>
   <g id="rasaGroup">
     <polygon class="st28" points="1175 668.8 1024.3 668.8 1019.3 647 1019.3 634.3 1023.7 617.1 1174.3 617.1 1179 634.3 1179.1 647.1 1175 668.8"/>
     <path id="rasa-dhatu" class="st38" d="M1179.6,648.5c0,40.1-35.8,72.6-79.8,72.6s-79.8-32.5-79.8-72.6h18.1c1.5,12,12.4,21.3,25.7,21.3h71.6c13.2,0,24.1-9.3,25.7-21.3h18.6,0Z"/>
@@ -288,7 +297,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(1061.8284 652.5939)"><tspan x="0" y="0">RASA</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(1061.8284 652.5939)"><tspan x="0" y="0">RASA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -304,7 +315,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(1052.7963 915.6265)"><tspan x="0" y="0">RA</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(1052.7963 915.6265)"><tspan x="0" y="0">RA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -313,7 +326,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(1091.6763 915.6265)"><tspan x="0" y="0">K</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(1091.6763 915.6265)"><tspan x="0" y="0">K</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -322,7 +337,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(1109.7963 915.6265)"><tspan x="0" y="0">T</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(1109.7963 915.6265)"><tspan x="0" y="0">T</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -331,7 +348,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(1124.3463 915.6265)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(1124.3463 915.6265)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -347,7 +366,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(918.3965 1101.4515)"><tspan x="0" y="0">MĀMSA</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(918.3965 1101.4515)"><tspan x="0" y="0">MĀMSA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -363,7 +384,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(657.4288 1101.4712)"><tspan x="0" y="0">ME</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(657.4288 1101.4712)"><tspan x="0" y="0">ME</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -372,7 +395,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(702.9288 1101.4712)"><tspan x="0" y="0">D</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(702.9288 1101.4712)"><tspan x="0" y="0">D</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -381,7 +406,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(725.7888 1101.4712)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(725.7888 1101.4712)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -397,7 +424,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(385.9742 1101.4712)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(385.9742 1101.4712)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -406,7 +435,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(406.0642 1101.4712)"><tspan x="0" y="0">S</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(406.0642 1101.4712)"><tspan x="0" y="0">S</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -415,7 +446,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(423.0142 1101.4712)"><tspan x="0" y="0">THI</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(423.0142 1101.4712)"><tspan x="0" y="0">THI</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -431,7 +464,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(261.2 917.1)"><tspan x="0" y="0">M</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(261.2 917.1)"><tspan x="0" y="0">M</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -440,7 +475,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(287.9 917.1)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(287.9 917.1)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -449,7 +486,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(308.4 917.1)"><tspan x="0" y="0">J</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(308.4 917.1)"><tspan x="0" y="0">J</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -458,7 +497,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(322.5 917.1)"><tspan x="0" y="0">J</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(322.5 917.1)"><tspan x="0" y="0">J</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -467,7 +508,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st8" transform="translate(336.1 917.1)"><tspan x="0" y="0">Ā</tspan></text>
+              <g class="st10">
+                <text class="st8" transform="translate(336.1 917.1)"><tspan x="0" y="0">Ā</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -475,15 +518,17 @@
     </g>
   </g>
   <g id="shukra-artavaGroup">
-    <polygon class="st28" points="378.8 686.1 230.6 686.1 225 662.2 224.4 635.3 229.5 612.8 377.7 612.8 384.1 635.3 384.6 662.2 378.8 686.1"/>
-    <path id="shukra-dhatu" class="st38" d="M384.6,662.2c0,40.1-35.8,72.6-79.8,72.6s-79.8-32.5-79.8-72.6h18.1c1.5,12,12.4,21.3,25.6,21.3h71.6c13.2,0,24.1-9.3,25.6-21.3h18.7Z"/>
-    <path id="shukra-vaha-srotas" class="st16" d="M384.1,632.3h-19.5c-3.2-10-13.1-17.3-24.7-17.3h-71.6c-11.7,0-21.5,7.3-24.7,17.3h-19c0-40.7,35.8-73.6,79.8-73.6s79.8,33,79.8,73.6h-.1Z"/>
+    <polygon class="st28" points="381.8 686.1 233.6 686.1 228 662.2 227.4 635.3 232.5 612.8 380.7 612.8 387.1 635.3 387.6 662.2 381.8 686.1"/>
+    <path id="shukra-dhatu" class="st38" d="M387.6,662.2c0,40.1-35.8,72.6-79.8,72.6s-79.8-32.5-79.8-72.6h18.1c1.5,12,12.4,21.3,25.6,21.3h71.6c13.2,0,24.1-9.3,25.6-21.3h18.7Z"/>
+    <path id="shukra-vaha-srotas" class="st16" d="M387.1,632.3h-19.5c-3.2-10-13.1-17.3-24.7-17.3h-71.6c-11.7,0-21.5,7.3-24.7,17.3h-19c0-40.7,35.8-73.6,79.8-73.6s79.8,33,79.8,73.6h-.1Z"/>
     <g class="st10">
       <g class="st10">
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(244.8 645.6)"><tspan x="0" y="0">SHUKRA</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(247.8 645.6)"><tspan x="0" y="0">SHUKRA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -492,7 +537,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(249.4 671.6)"><tspan x="0" y="0">Ā</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(252.4 671.6)"><tspan x="0" y="0">Ā</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -501,7 +548,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(268.8 671.6)"><tspan x="0" y="0">R</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(271.8 671.6)"><tspan x="0" y="0">R</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -510,7 +559,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(288 671.6)"><tspan x="0" y="0">T</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(291 671.6)"><tspan x="0" y="0">T</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -519,7 +570,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(302.6 671.6)"><tspan x="0" y="0">AV</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(305.6 671.6)"><tspan x="0" y="0">AV</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -528,7 +581,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st4" transform="translate(338.8 671.6)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st4" transform="translate(341.8 671.6)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -542,7 +597,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(34.2 171.6)"><tspan x="0" y="0">P</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(34.2 171.6)"><tspan x="0" y="0">P</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -551,7 +608,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(57.2 171.6)"><tspan x="0" y="0">RĀNA</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(57.2 171.6)"><tspan x="0" y="0">RĀNA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -559,13 +618,15 @@
     </g>
   </g>
   <g id="anna-vaha-srotas">
-    <rect class="st16" x=".6" y="193.4" width="181.3" height="50" rx="24.7" ry="24.7"/>
+    <rect class="st16" x=".6" y="250.2" width="181.3" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(37.6 229)"><tspan x="0" y="0">ANNA</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(37.6 285.8)"><tspan x="0" y="0">ANNA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -573,13 +634,15 @@
     </g>
   </g>
   <g id="ambu-vaha-srotas">
-    <rect id="Legend" class="st16" x=".6" y="250.4" width="181.3" height="50" rx="24.7" ry="24.7"/>
+    <rect id="Legend" class="st16" x=".8" y="193" width="181.3" height="50" rx="24.7" ry="24.7"/>
     <g class="st10">
       <g class="st10">
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(35 285.6)"><tspan x="0" y="0">AMBU</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(35.2 228.2)"><tspan x="0" y="0">AMBU</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -593,7 +656,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(746.8 296.7)"><tspan x="0" y="0">P</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(746.8 296.7)"><tspan x="0" y="0">P</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -602,7 +667,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(768.6 296.7)"><tspan x="0" y="0">ARA</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(768.6 296.7)"><tspan x="0" y="0">ARA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -611,7 +678,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(847.1 296.7)"><tspan x="0" y="0">OJ</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(847.1 296.7)"><tspan x="0" y="0">OJ</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -620,7 +689,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st5" transform="translate(889.7 296.7)"><tspan x="0" y="0">AS</tspan></text>
+              <g class="st10">
+                <text class="st5" transform="translate(889.7 296.7)"><tspan x="0" y="0">AS</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -635,7 +706,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(37.7 532.4)"><tspan x="0" y="0">R</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(37.7 532.4)"><tspan x="0" y="0">R</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -644,7 +717,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(57.9 532.4)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(57.9 532.4)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -653,7 +728,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(78.4 532.4)"><tspan x="0" y="0">J</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(78.4 532.4)"><tspan x="0" y="0">J</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -662,7 +739,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(92 532.4)"><tspan x="0" y="0">AH</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(92 532.4)"><tspan x="0" y="0">AH</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -676,7 +755,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(29.9 645.7)"><tspan x="0" y="0">S</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(29.9 645.7)"><tspan x="0" y="0">S</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -685,7 +766,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(46.8 645.7)"><tspan x="0" y="0">T</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(46.8 645.7)"><tspan x="0" y="0">T</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -694,7 +777,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(61.9 645.7)"><tspan x="0" y="0">AN</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(61.9 645.7)"><tspan x="0" y="0">AN</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -703,7 +788,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(104.8 645.7)"><tspan x="0" y="0">Y</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(104.8 645.7)"><tspan x="0" y="0">Y</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -712,7 +799,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(121.4 645.7)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(121.4 645.7)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -726,7 +815,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(20.2 759.7)"><tspan x="0" y="0">P</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(20.2 759.7)"><tspan x="0" y="0">P</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -735,7 +826,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(40.2 759.7)"><tspan x="0" y="0">URISHA</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(40.2 759.7)"><tspan x="0" y="0">URISHA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -749,7 +842,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(33.8 871.2)"><tspan x="0" y="0">M</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(33.8 871.2)"><tspan x="0" y="0">M</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -758,7 +853,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(60.6 871.2)"><tspan x="0" y="0">Ū</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(60.6 871.2)"><tspan x="0" y="0">Ū</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -767,7 +864,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(82.3 871.2)"><tspan x="0" y="0">TRA</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(82.3 871.2)"><tspan x="0" y="0">TRA</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -781,7 +880,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(36.7 984.9)"><tspan x="0" y="0">S</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(36.7 984.9)"><tspan x="0" y="0">S</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -790,7 +891,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(53.9 984.9)"><tspan x="0" y="0">V</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(53.9 984.9)"><tspan x="0" y="0">V</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -799,7 +902,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(73 984.9)"><tspan x="0" y="0">E</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(73 984.9)"><tspan x="0" y="0">E</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -808,7 +913,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(91.8 984.9)"><tspan x="0" y="0">D</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(91.8 984.9)"><tspan x="0" y="0">D</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -817,7 +924,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(114.6 984.9)"><tspan x="0" y="0">A</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(114.6 984.9)"><tspan x="0" y="0">A</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -831,7 +940,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st9" transform="translate(39.1621 1097.6191)"><tspan x="0" y="0">MANO</tspan></text>
+              <g class="st10">
+                <text class="st9" transform="translate(39.1621 1097.6191)"><tspan x="0" y="0">MANO</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -844,7 +955,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1029.2592 205.7354)"><tspan x="0" y="0">Ab</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1029.2592 205.7354)"><tspan x="0" y="0">Ab</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -853,7 +966,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1062.739 205.7354)"><tspan x="0" y="0">h</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1062.739 205.7354)"><tspan x="0" y="0">h</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -862,7 +977,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1078.749 205.7354)"><tspan x="0" y="0">y</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1078.749 205.7354)"><tspan x="0" y="0">y</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -871,7 +988,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1091.369 205.7354)"><tspan x="0" y="0">anta</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1091.369 205.7354)"><tspan x="0" y="0">anta</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -880,7 +999,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1145.6791 205.7354)"><tspan x="0" y="0">r</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1145.6791 205.7354)"><tspan x="0" y="0">r</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -889,7 +1010,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1155.089 205.7354)"><tspan x="0" y="0">a</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1155.089 205.7354)"><tspan x="0" y="0">a</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -903,7 +1026,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1061.7302 258.1592)"><tspan x="0" y="0">Bā</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1061.7302 258.1592)"><tspan x="0" y="0">Bā</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -912,7 +1037,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1093.9904 258.1592)"><tspan x="0" y="0">h</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1093.9904 258.1592)"><tspan x="0" y="0">h</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -921,7 +1048,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1109.9904 258.1592)"><tspan x="0" y="0">y</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1109.9904 258.1592)"><tspan x="0" y="0">y</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -930,7 +1059,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1122.6202 258.1592)"><tspan x="0" y="0">a</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1122.6202 258.1592)"><tspan x="0" y="0">a</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -943,7 +1074,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1030.3469 317.3182)"><tspan x="0" y="0">M</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1030.3469 317.3182)"><tspan x="0" y="0">M</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -952,7 +1085,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1053.267 317.3182)"><tspan x="0" y="0">a</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1053.267 317.3182)"><tspan x="0" y="0">a</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -961,7 +1096,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1067.4771 317.3182)"><tspan x="0" y="0">d</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1067.4771 317.3182)"><tspan x="0" y="0">d</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -970,7 +1107,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1083.7469 317.3182)"><tspan x="0" y="0">h</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1083.7469 317.3182)"><tspan x="0" y="0">h</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -979,7 +1118,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1099.757 317.3182)"><tspan x="0" y="0">y</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1099.757 317.3182)"><tspan x="0" y="0">y</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -988,7 +1129,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st3" transform="translate(1112.377 317.3182)"><tspan x="0" y="0">ama</tspan></text>
+              <g class="st10">
+                <text class="st3" transform="translate(1112.377 317.3182)"><tspan x="0" y="0">ama</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -1002,7 +1145,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st7" transform="translate(1059.4661 47.6183)"><tspan x="0" y="0">S</tspan></text>
+              <g class="st10">
+                <text class="st7" transform="translate(1059.4661 47.6183)"><tspan x="0" y="0">S</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -1011,7 +1156,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st7" transform="translate(1075.4561 47.6183)"><tspan x="0" y="0">r</tspan></text>
+              <g class="st10">
+                <text class="st7" transform="translate(1075.4561 47.6183)"><tspan x="0" y="0">r</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -1020,7 +1167,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st7" transform="translate(1085.546 47.6183)"><tspan x="0" y="0">otās</tspan></text>
+              <g class="st10">
+                <text class="st7" transform="translate(1085.546 47.6183)"><tspan x="0" y="0">otās</tspan></text>
+              </g>
             </g>
           </g>
         </g>
@@ -1031,7 +1180,9 @@
         <g class="st10">
           <g class="st10">
             <g class="st10">
-              <text class="st7" transform="translate(1057.7505 135.4067)"><tspan x="0" y="0">Dhātu</tspan></text>
+              <g class="st10">
+                <text class="st7" transform="translate(1057.7505 135.4067)"><tspan x="0" y="0">Dhātu</tspan></text>
+              </g>
             </g>
           </g>
         </g>
