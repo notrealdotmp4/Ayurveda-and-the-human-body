@@ -1061,13 +1061,17 @@ const rest = isLO ? chapters.slice(1) : chapters;
         });
       });
     }
+    const MAP_CACHE = {}; let loadSeq = 0;
+    const MAP_PLACEHOLDER = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>';
     function loadMap() {
       const src = heroMapSrc || '/anim/digestive-map.svg';
       if (currentMapSrc === src) { mReset(); return; }
       currentMapSrc = src; hideCallout(); if (mapList) mapList.classList.remove('show');
-      fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => {
+      const myid = ++loadSeq;
+      const render = (svg) => {
+        if (myid !== loadSeq || currentMapSrc !== src) return; // a newer map won the race
         const _low = svg.slice(0, 500).toLowerCase();
-        if (svg.indexOf('<svg') === -1 || _low.indexOf('<!doctype') !== -1 || _low.indexOf('<html') !== -1) { throw new Error('not an svg'); }
+        if (svg.indexOf('<svg') === -1 || _low.indexOf('<!doctype') !== -1 || _low.indexOf('<html') !== -1) { mapCanvas.innerHTML = MAP_PLACEHOLDER; return; }
         mapCanvas.innerHTML = svg;
         const svgEl = mapCanvas.querySelector('svg'); if (svgEl) { svgEl.setAttribute('preserveAspectRatio', 'xMidYMid meet'); svgEl.setAttribute('width', '100%'); svgEl.setAttribute('height', '100%'); }
         const organMap = new Map();
@@ -1084,7 +1088,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
         buildOrganList(organMap); mapOrgansByKey = organMap; { const _tb = document.getElementById('mapTourBtn'); if (_tb) _tb.style.display = TOUR[src] ? '' : 'none'; } mapTour.hidden = true; if (mapList) mapList.classList.remove('show'); { const _rp = document.getElementById('mapReplay'); if (_rp) _rp.style.display = (heroKind === 'digestion') ? '' : 'none'; }
         animateVessels();
         mReset();
-      }).catch(() => { mapCanvas.innerHTML = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>'; });
+      };
+      if (MAP_CACHE[src]) { render(MAP_CACHE[src]); return; }
+      fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => { MAP_CACHE[src] = svg; render(svg); }).catch(() => { if (myid === loadSeq) mapCanvas.innerHTML = MAP_PLACEHOLDER; });
     }
     document.getElementById('heroClose').addEventListener('click', closeHero);
     { const _mc = document.getElementById('mapCta'); if (_mc) _mc.addEventListener('click', openHero); }
