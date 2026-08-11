@@ -1150,12 +1150,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
     if (loRevisit) loRevisit.addEventListener('click', () => { try { localStorage.removeItem('seenIntro'); } catch (e) {} document.documentElement.classList.remove('skip-intro'); window.scrollTo({ top: 0 }); location.reload(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeHero(); notebook.classList.remove('open'); } });
     document.querySelectorAll('.sr-group').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const g = btn.dataset.group;
-        const collapsed = btn.classList.toggle('collapsed');
+      const g = btn.dataset.group;
+      const setState = (collapsed) => {
+        btn.classList.toggle('collapsed', collapsed);
         btn.setAttribute('aria-expanded', String(!collapsed));
         document.querySelectorAll('[data-grp="' + g + '"]').forEach((c) => { c.style.display = collapsed ? 'none' : ''; });
-      });
+      };
+      setState(true); // start collapsed
+      btn.addEventListener('click', () => setState(!btn.classList.contains('collapsed')));
     });
   </script>
 </body>
