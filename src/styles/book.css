@@ -263,7 +263,7 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .dosha-table tr:last-child td{border-bottom:0}
 .dosha-table th:first-child{border-top-left-radius:8px}
 .dosha-table th:last-child{border-top-right-radius:8px}
-.simple-term{cursor:pointer;color:var(--c-ayurveda);border-bottom:1px dotted currentColor}
+.simple-term{cursor:pointer;color:var(--c-ayurveda);font-weight:700}
 .simple-term[data-cat="physiology"]{color:var(--c-physiology)}
 .simple-term[data-cat="anatomy"]{color:var(--c-anatomy)}
 .simple-term:hover{background:rgba(0,0,0,.05)}
