@@ -456,6 +456,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <svg class="map-leader" id="mapLeader" hidden><line id="mcLine" x1="0" y1="0" x2="0" y2="0"/></svg>
           <div class="map-callout" id="mapCallout" hidden><button class="mc-close" id="mcClose" aria-label="Close">×</button><div class="mc-title" id="mcTitle"></div><div class="mc-body" id="mcBody"></div></div>
           <div class="map-list" id="mapList"><div class="map-list-title">Clickable organs — tap to jump</div><div class="map-chips" id="mapChips"></div></div>
+          <div class="map-sex" id="mapSex" hidden><button type="button" data-sex="female" class="is-on">Female</button><button type="button" data-sex="male">Male</button></div>
           <div class="map-controls"><button id="mapReplay" title="Replay animation" style="display:none">↻ Replay</button><button id="mapTourBtn" title="Guided tour" style="display:none">Tour</button><button id="mapListBtn" title="List of clickable organs">Organs</button><button id="mapReset" title="Reset view">Reset view</button></div>
           <div class="map-tour" id="mapTour" hidden><button id="tourBack">‹ Back</button><span class="map-tour-count" id="tourCount"></span><button id="tourNext">Next ›</button><button id="tourExit" class="map-tour-exit">Exit</button></div>
         </div>
@@ -785,6 +786,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const heroVideo = document.getElementById('heroVideo');
     const heroMap = document.getElementById('heroMap');
     let currentMapSrc = null; let heroMapSrc = '/anim/digestive-map.svg'; const MAP_ALIAS = { 'rasa': 'rasa dhatu' };
+    let sysSex = 'female'; let sysIndex = -1;
     function showVideo() { if (typeof hideCallout==='function') hideCallout(); heroMap.classList.remove('show'); heroVideo.style.display = 'block'; heroVideo.currentTime = 0; heroVideo.play().catch(() => {}); }
     function showMap() { heroVideo.pause(); heroVideo.style.display = 'none'; heroMap.classList.add('show'); loadMap(); }
     function setHeroMode(src, title, showBar) { heroMapSrc = src; const t = document.getElementById('hmTitle'); if (t) t.textContent = title; const bar = document.querySelector('.hm-bar'); if (bar) bar.style.display = showBar ? '' : 'none'; }
@@ -873,16 +875,23 @@ const rest = isLO ? chapters.slice(1) : chapters;
       { label: 'Skeletal', svg: '/anim/skeletal-system-map.svg' },
       { label: 'Urinary', svg: '/anim/urinary-system-map.svg' }
     ];
-    function exitSys() { const w = document.querySelector('.hero-win'); if (w) { w.classList.remove('sys'); w.classList.remove('docked'); w.classList.remove('sysmaps'); } organDock = false; if (hmRail) hmRail.hidden = true; if (hmText) hmText.hidden = true; }
+    function exitSys() { const w = document.querySelector('.hero-win'); if (w) { w.classList.remove('sys'); w.classList.remove('docked'); w.classList.remove('sysmaps'); } organDock = false; if (hmRail) hmRail.hidden = true; if (hmText) hmText.hidden = true; { const ms = document.getElementById('mapSex'); if (ms) ms.hidden = true; } }
     function selectSys(i) {
+      sysIndex = i;
       Array.from(hmRail.children).forEach((b, n) => b.classList.toggle('is-on', n === i));
       const m = SYS_MAPS[i];
-      hmTextBody.innerHTML = '<h3 class="hm-text-title">' + m.label + ' System</h3>' + (SYS_TEXT[m.label] || '<p>Description coming soon.</p>'); hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
-      currentMapSrc = null; setHeroMode(m.svg, 'The Living Body - Sharīra Samsthāna', false); showMap();
+      const entry = SYS_TEXT[m.label];
+      const isMf = entry && typeof entry === 'object';
+      { const ms = document.getElementById('mapSex'); if (ms) { ms.hidden = !isMf; if (isMf) Array.from(ms.children).forEach((b) => b.classList.toggle('is-on', b.dataset.sex === sysSex)); } }
+      const html = isMf ? (entry[sysSex] || '<p>Description coming soon.</p>') : (entry || '<p>Description coming soon.</p>');
+      hmTextBody.innerHTML = '<h3 class="hm-text-title">' + m.label + ' System</h3>' + html; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
+      const src = isMf ? m.svg.replace(/\.svg$/, '-' + sysSex + '.svg') : m.svg;
+      currentMapSrc = null; setHeroMode(src, 'The Living Body - Sharīra Samsthāna', false); showMap();
     }
+    function setSysSex(sex) { if (sex === sysSex) return; sysSex = sex; if (sysIndex >= 0) selectSys(sysIndex); }
     function openSystems() {
       exitSys();
-      heroKind = 'systems';
+      heroKind = 'systems'; sysSex = 'female';
       const w = document.querySelector('.hero-win'); if (w) { w.classList.add('sys'); w.classList.add('sysmaps'); }
       hmRail.hidden = false; hmText.hidden = false; hmRail.innerHTML = '';
       SYS_MAPS.forEach((m, i) => { const b = document.createElement('button'); b.className = 'sys-btn'; b.textContent = m.label; b.addEventListener('click', () => selectSys(i)); hmRail.appendChild(b); });
@@ -1017,6 +1026,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     mapViewport.addEventListener('click', () => { if (!mDragged) hideCallout(); });
     document.getElementById('mcClose').addEventListener('click', hideCallout);
     document.getElementById('mapReset').addEventListener('click', () => { mReset(); hideCallout(); });
+    { const ms = document.getElementById('mapSex'); if (ms) ms.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => setSysSex(b.dataset.sex))); }
     const mapListBtn = document.getElementById('mapListBtn');
     if (mapListBtn) mapListBtn.addEventListener('click', () => mapList.classList.toggle('show'));
     let mapOrgansByKey = null, tourStops = [], tourI = -1;
@@ -1068,7 +1078,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const MAP_PLACEHOLDER = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>';
     function loadMap() {
       const src = heroMapSrc || '/anim/digestive-map.svg';
-      if (currentMapSrc === src) { mReset(); return; }
+      if (currentMapSrc === src) { mReset(); if (mapOrgansByKey) buildOrganList(mapOrgansByKey); return; }
       currentMapSrc = src; hideCallout(); if (mapList) mapList.classList.remove('show');
       const myid = ++loadSeq;
       const render = (svg) => {
@@ -1093,7 +1103,11 @@ const rest = isLO ? chapters.slice(1) : chapters;
         mReset();
       };
       if (MAP_CACHE[src]) { render(MAP_CACHE[src]); return; }
-      fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => { MAP_CACHE[src] = svg; render(svg); }).catch(() => { if (myid === loadSeq) mapCanvas.innerHTML = MAP_PLACEHOLDER; });
+      fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => { MAP_CACHE[src] = svg; render(svg); }).catch(() => {
+        const baseSrc = src.replace(/-(female|male)\.svg$/, '.svg');
+        if (baseSrc !== src) { currentMapSrc = null; heroMapSrc = baseSrc; loadMap(); return; } // sexed file missing -> fall back to base
+        if (myid === loadSeq) mapCanvas.innerHTML = MAP_PLACEHOLDER;
+      });
     }
     document.getElementById('heroClose').addEventListener('click', closeHero);
     { const _mc = document.getElementById('mapCta'); if (_mc) _mc.addEventListener('click', openHero); }
