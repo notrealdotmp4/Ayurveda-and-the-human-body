@@ -1804,5 +1804,53 @@
     "title": "contractions",
     "phon": "",
     "body": ""
+  },
+  "vata": {
+    "cat": "ayurveda",
+    "title": "Vāta",
+    "phon": "",
+    "body": ""
+  },
+  "abhyantara": {
+    "cat": "ayurveda",
+    "title": "Abhyantara",
+    "phon": "",
+    "body": ""
+  },
+  "bahya": {
+    "cat": "ayurveda",
+    "title": "Bāhya",
+    "phon": "",
+    "body": ""
+  },
+  "madhyama": {
+    "cat": "ayurveda",
+    "title": "Madhyama",
+    "phon": "",
+    "body": ""
+  },
+  "bhuta agni": {
+    "cat": "ayurveda",
+    "title": "Bhūta Agni",
+    "phon": "",
+    "body": ""
+  },
+  "dhatu agni": {
+    "cat": "ayurveda",
+    "title": "Dhātu Agni",
+    "phon": "",
+    "body": ""
+  },
+  "rasa": {
+    "cat": "ayurveda",
+    "title": "Rasa",
+    "phon": "",
+    "body": ""
+  },
+  "amisha gandha": {
+    "cat": "ayurveda",
+    "title": "Āmisha Gandha",
+    "phon": "",
+    "body": ""
   }
 }
