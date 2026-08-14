@@ -1,0 +1,40 @@
+[
+  { "name": "Jāthara", "desc": "The main digestive fire — four states", "items": [
+    { "term": "Vishama", "def": "Irregular agni — variable, erratic digestion (Vāta)." },
+    { "term": "Tīkshna", "def": "Sharp agni — intense, fast digestion (Pitta)." },
+    { "term": "Manda", "def": "Slow agni — dull, sluggish digestion (Kapha)." },
+    { "term": "Sama", "def": "Balanced agni — steady, healthy digestion." } ] },
+  { "name": "Kloma", "desc": "", "items": [
+    { "term": "Kloma", "def": "Pancreas — governs digestion." } ] },
+  { "name": "Bhūta", "desc": "Liver — the five elements", "items": [
+    { "term": "Ether", "def": "Nabhasa — the ether element." },
+    { "term": "Air", "def": "Vāyavya — the air element." },
+    { "term": "Fire", "def": "Tejo — the fire element." },
+    { "term": "Water", "def": "Āpo — the water element." },
+    { "term": "Earth", "def": "Pārthiva — the earth element." } ] },
+  { "name": "Jatru", "desc": "", "items": [
+    { "term": "Jatru", "def": "Thyroid and thymus gland; maintains immunity by producing Ojas. The bridge between Bhūta Agni and Dhātu Agni." } ] },
+  { "name": "Dhātu", "desc": "Tissues", "items": [
+    { "term": "Rasa", "def": "Plasma (serum, white blood cells, lymphatic system)." },
+    { "term": "Rakta", "def": "Red blood cells." },
+    { "term": "Māmsa", "def": "Muscle." },
+    { "term": "Meda", "def": "Fat." },
+    { "term": "Asthi", "def": "Bones and cartilage." },
+    { "term": "Majjā", "def": "Nerve tissue." },
+    { "term": "Shukra", "def": "Male reproductive tissue." },
+    { "term": "Ārtava", "def": "Female reproductive tissue." } ] },
+  { "name": "Pīlu & Pithara", "desc": "", "items": [
+    { "term": "Pīlu & Pithara", "def": "Genes, cellular Agni, cellular intelligence, family history." } ] },
+  { "name": "Indriya", "desc": "Senses", "items": [
+    { "term": "Hearing", "def": "Ether." },
+    { "term": "Touch", "def": "Air." },
+    { "term": "Vision", "def": "Fire." },
+    { "term": "Taste", "def": "Water." },
+    { "term": "Smell", "def": "Earth." } ] },
+  { "name": "Dosha", "desc": "Subtypes of the Doshas", "items": [
+    { "term": "Vāta", "def": "Prāna, Udāna, Samāna, Vyāna, Apāna." },
+    { "term": "Pitta", "def": "Sādhaka, Ālochaka, Pāchaka, Rañjaka, Bhrājaka." },
+    { "term": "Kapha", "def": "Tarpaka, Avalambaka, Kledaka, Bodhaka, Shleshaka." } ] },
+  { "name": "Mala", "desc": "", "items": [
+    { "term": "Mala", "def": "Waste — feces, urine, and sweat." } ] }
+]

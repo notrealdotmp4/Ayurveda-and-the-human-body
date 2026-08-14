@@ -1498,5 +1498,311 @@
     "title": "Shadrasa",
     "phon": "",
     "body": ""
+  },
+  "accessory organs": {
+    "cat": "anatomy",
+    "title": "Accessory organs",
+    "phon": "",
+    "body": ""
+  },
+  "pruthivi": {
+    "cat": "ayurveda",
+    "title": "Pruthivī",
+    "phon": "",
+    "body": ""
+  },
+  "starches": {
+    "cat": "physiology",
+    "title": "Starches",
+    "phon": "",
+    "body": ""
+  },
+  "digestive acids": {
+    "cat": "physiology",
+    "title": "Digestive acids",
+    "phon": "",
+    "body": ""
+  },
+  "cardiovascular system": {
+    "cat": "anatomy",
+    "title": "cardiovascular system",
+    "phon": "",
+    "body": ""
+  },
+  "jivana": {
+    "cat": "ayurveda",
+    "title": "jīvana",
+    "phon": "",
+    "body": ""
+  },
+  "blood vessels": {
+    "cat": "anatomy",
+    "title": "blood vessels",
+    "phon": "",
+    "body": ""
+  },
+  "blood": {
+    "cat": "physiology",
+    "title": "blood",
+    "phon": "",
+    "body": ""
+  },
+  "oxygen": {
+    "cat": "physiology",
+    "title": "oxygen",
+    "phon": "",
+    "body": ""
+  },
+  "nutrients": {
+    "cat": "physiology",
+    "title": "nutrients",
+    "phon": "",
+    "body": ""
+  },
+  "hormones": {
+    "cat": "physiology",
+    "title": "hormones",
+    "phon": "",
+    "body": ""
+  },
+  "metabolic wastes": {
+    "cat": "physiology",
+    "title": "metabolic wastes",
+    "phon": "",
+    "body": ""
+  },
+  "muscular septum": {
+    "cat": "anatomy",
+    "title": "muscular septum",
+    "phon": "",
+    "body": ""
+  },
+  "atria": {
+    "cat": "anatomy",
+    "title": "atria",
+    "phon": "",
+    "body": ""
+  },
+  "receiving chambers": {
+    "cat": "anatomy",
+    "title": "receiving chambers",
+    "phon": "",
+    "body": ""
+  },
+  "ventricles": {
+    "cat": "anatomy",
+    "title": "ventricles",
+    "phon": "",
+    "body": ""
+  },
+  "discharging chambers": {
+    "cat": "anatomy",
+    "title": "discharging chambers",
+    "phon": "",
+    "body": ""
+  },
+  "arteries": {
+    "cat": "anatomy",
+    "title": "arteries",
+    "phon": "",
+    "body": ""
+  },
+  "conduction system": {
+    "cat": "anatomy",
+    "title": "conduction system",
+    "phon": "",
+    "body": ""
+  },
+  "sinoatrial node": {
+    "cat": "anatomy",
+    "title": "sinoatrial node",
+    "phon": "",
+    "body": ""
+  },
+  "pacemaker": {
+    "cat": "anatomy",
+    "title": "pacemaker",
+    "phon": "",
+    "body": ""
+  },
+  "cardiac cycle": {
+    "cat": "anatomy",
+    "title": "cardiac cycle",
+    "phon": "",
+    "body": ""
+  },
+  "systole": {
+    "cat": "physiology",
+    "title": "systole",
+    "phon": "",
+    "body": ""
+  },
+  "diastole": {
+    "cat": "physiology",
+    "title": "diastole",
+    "phon": "",
+    "body": ""
+  },
+  "circulation": {
+    "cat": "physiology",
+    "title": "Circulation",
+    "phon": "",
+    "body": ""
+  },
+  "pulmonary circuit": {
+    "cat": "anatomy",
+    "title": "pulmonary circuit",
+    "phon": "",
+    "body": ""
+  },
+  "deoxygenated blood": {
+    "cat": "physiology",
+    "title": "deoxygenated blood",
+    "phon": "",
+    "body": ""
+  },
+  "gas exchange": {
+    "cat": "physiology",
+    "title": "gas exchange",
+    "phon": "",
+    "body": ""
+  },
+  "systemic circuit": {
+    "cat": "anatomy",
+    "title": "systemic circuit",
+    "phon": "",
+    "body": ""
+  },
+  "oxygenated blood": {
+    "cat": "physiology",
+    "title": "oxygenated blood",
+    "phon": "",
+    "body": ""
+  },
+  "aorta": {
+    "cat": "anatomy",
+    "title": "aorta",
+    "phon": "",
+    "body": ""
+  },
+  "capillaries": {
+    "cat": "anatomy",
+    "title": "capillaries",
+    "phon": "",
+    "body": ""
+  },
+  "nutrient": {
+    "cat": "physiology",
+    "title": "nutrient",
+    "phon": "",
+    "body": ""
+  },
+  "waste exchange": {
+    "cat": "physiology",
+    "title": "waste exchange",
+    "phon": "",
+    "body": ""
+  },
+  "diffusion": {
+    "cat": "physiology",
+    "title": "diffusion",
+    "phon": "",
+    "body": ""
+  },
+  "starling forces": {
+    "cat": "physiology",
+    "title": "starling forces",
+    "phon": "",
+    "body": ""
+  },
+  "veins": {
+    "cat": "anatomy",
+    "title": "veins",
+    "phon": "",
+    "body": ""
+  },
+  "fluid connective tissue": {
+    "cat": "physiology",
+    "title": "fluid connective tissue",
+    "phon": "",
+    "body": ""
+  },
+  "plasma": {
+    "cat": "physiology",
+    "title": "plasma",
+    "phon": "",
+    "body": ""
+  },
+  "red blood cells": {
+    "cat": "physiology",
+    "title": "red blood cells",
+    "phon": "",
+    "body": ""
+  },
+  "hemoglobin": {
+    "cat": "physiology",
+    "title": "hemoglobin",
+    "phon": "",
+    "body": ""
+  },
+  "white blood cells": {
+    "cat": "physiology",
+    "title": "white blood cells",
+    "phon": "",
+    "body": ""
+  },
+  "immune defense": {
+    "cat": "physiology",
+    "title": "immune defense",
+    "phon": "",
+    "body": ""
+  },
+  "platelets": {
+    "cat": "physiology",
+    "title": "platelets",
+    "phon": "",
+    "body": ""
+  },
+  "clotting": {
+    "cat": "physiology",
+    "title": "clotting",
+    "phon": "",
+    "body": ""
+  },
+  "solid waste": {
+    "cat": "physiology",
+    "title": "solid waste",
+    "phon": "",
+    "body": ""
+  },
+  "cellular metabolism": {
+    "cat": "physiology",
+    "title": "cellular metabolism",
+    "phon": "",
+    "body": ""
+  },
+  "chemical breakdown": {
+    "cat": "physiology",
+    "title": "chemical breakdown",
+    "phon": "",
+    "body": ""
+  },
+  "deglutition": {
+    "cat": "physiology",
+    "title": "deglutition",
+    "phon": "",
+    "body": ""
+  },
+  "smooth muscle": {
+    "cat": "anatomy",
+    "title": "smooth muscle",
+    "phon": "",
+    "body": ""
+  },
+  "contractions": {
+    "cat": "physiology",
+    "title": "contractions",
+    "phon": "",
+    "body": ""
   }
 }

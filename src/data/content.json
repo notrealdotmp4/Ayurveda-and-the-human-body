@@ -1,6 +1,6 @@
 {
   "title": "The Living Body",
-  "subtitle": "Tap any colored word and button to explore it.",
+  "subtitle": "Tap any colored word to explore it — red for Āyurveda, amber for physiology, olive for anatomy.",
   "invocation": "IIश्री:II",
   "chapters": [
     {
@@ -38,10 +38,25 @@
           "info": "The human organism, the highest level of complexity, is an integrated structure comprising cells, tissues, organs, and systems. Each level is functionally interconnected and crucial for health, as any change in one part affects multiple processes or structures."
         },
         {
+          "type": "h",
+          "text": "Tridosha",
+          "level": 3
+        },
+        {
+          "type": "h",
+          "text": "Vāta - Pitta - Kapha",
+          "level": 3
+        },
+        {
+          "type": "h",
+          "text": "The Āyurvedic Architecture",
+          "level": 3
+        },
+        {
           "type": "p",
           "segments": [
             {
-              "t": "Tridosha"
+              "t": "In Āyurvedic philosophy, the concepts of Trayopastambha, Tridanda, and Purushartha constitute an integrated framework that links daily lifestyle choices to the balance of human health and the overarching purpose of life."
             }
           ]
         },
@@ -49,20 +64,47 @@
           "type": "p",
           "segments": [
             {
-              "t": "Vāta - "
-            },
+              "t": "Trayopastambha "
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
             {
-              "t": "Pitta",
-              "term": "pitta",
-              "cat": "ayurveda"
-            },
+              "t": "The three pillars of daily life: Āhāra, wholesome, tailored nutrition; Nidrā, restorative sleep for tissue repair and mental renewal; and Brahmacharya, conservation of vital and sexual energy for stamina and resilience. These pillars sustain the Tridanda, the three foundations of the living being."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
             {
-              "t": " - "
-            },
+              "t": "Tridanda"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
             {
-              "t": "Kapha",
-              "term": "kapha",
-              "cat": "ayurveda"
+              "t": "The three foundations of life: Sharira, the physical body of elements; Sattva, the mind, clarity, emotion, perception; and Ātma, the immortal soul that animates both. When the pillars stabilize the foundations, one gains the strength and clarity to pursue the Purushartha, life's four goals."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "Purushārtha"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "The four aims of life: Dharma, ethical duty and righteousness, which frames Artha, wealth and material security, within which one enjoys Kama, sensory pleasure, love, beauty, ultimately leading to Moksha, the spiritual liberation."
             }
           ]
         }
@@ -84,7 +126,7 @@
               "cat": "anatomy"
             },
             {
-              "t": " is responsible for converting food into usable nutrients and consists of several key components: the "
+              "t": " converts food into usable nutrients and consists of several key components: the "
             },
             {
               "t": "mouth",
@@ -127,12 +169,20 @@
               "t": ", and "
             },
             {
-              "t": "large intestine/colon",
-              "term": "large intestinecolon",
+              "t": "colon",
+              "term": "colon",
               "cat": "anatomy"
             },
             {
-              "t": ". Additionally, accessory organs include the "
+              "t": ". Additionally, "
+            },
+            {
+              "t": "accessory organs",
+              "term": "accessory organs",
+              "cat": "anatomy"
+            },
+            {
+              "t": " include the "
             },
             {
               "t": "liver",
@@ -324,12 +374,12 @@
               "t": " are "
             },
             {
-              "t": "Prthivī",
-              "term": "prthivi",
+              "t": "Pruthivī",
+              "term": "pruthivi",
               "cat": "ayurveda"
             },
             {
-              "t": " (earth) and "
+              "t": " and "
             },
             {
               "t": "Āpas",
@@ -337,7 +387,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (water), representing the principle of "
+              "t": ", representing the principle of "
             },
             {
               "t": "Kapha",
@@ -353,7 +403,7 @@
               "cat": "physiology"
             },
             {
-              "t": " that nourishes immature, "
+              "t": " that nourishes "
             },
             {
               "t": "asthāyi",
@@ -361,7 +411,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", "
+              "t": " "
             },
             {
               "t": "Rasa Dhātu",
@@ -369,7 +419,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma). Through "
+              "t": ". Through "
             },
             {
               "t": "mastication",
@@ -409,7 +459,15 @@
               "cat": "physiology"
             },
             {
-              "t": ", starches decompose into simple sugars and mix into a lubricated "
+              "t": ", "
+            },
+            {
+              "t": "starches",
+              "term": "starches",
+              "cat": "physiology"
+            },
+            {
+              "t": " decompose into simple sugars and mix into a lubricated "
             },
             {
               "t": "bolus",
@@ -423,14 +481,6 @@
               "t": "Jihvā",
               "term": "jihva",
               "cat": "ayurveda"
-            },
-            {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -553,11 +603,11 @@
               "cat": "anatomy"
             },
             {
-              "t": " wall from digestive "
+              "t": " wall from "
             },
             {
-              "t": "acids",
-              "term": "acids",
+              "t": "digestive acids",
+              "term": "digestive acids",
               "cat": "physiology"
             },
             {
@@ -577,7 +627,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma). Located on the tip of the "
+              "t": ". Located on the tip of the "
             },
             {
               "t": "Jihvā",
@@ -585,15 +635,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and energetically linked to the "
+              "t": " and energetically linked to the "
             },
             {
               "t": "thyroid",
@@ -617,7 +659,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " is "
             },
             {
               "t": "Madhura",
@@ -698,12 +740,12 @@
               "t": " of "
             },
             {
-              "t": "Prthivī",
-              "term": "prthivi",
+              "t": "Pruthivī",
+              "term": "pruthivi",
               "cat": "ayurveda"
             },
             {
-              "t": " (earth) and "
+              "t": " and "
             },
             {
               "t": "Āgni",
@@ -711,7 +753,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (fire) manifest as "
+              "t": " manifest as "
             },
             {
               "t": "Pāchaka Pitta",
@@ -879,7 +921,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", categorizing it as Ushna (warming) or Shīta (cooling). Lipase, secreted by the "
+              "t": ", categorizing it as Ushna or Shīta. Lipase, secreted by the "
             },
             {
               "t": "pancreas",
@@ -911,7 +953,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma), this phase specifically coordinates the nourishment of immature, "
+              "t": ", this phase specifically coordinates the nourishment of "
             },
             {
               "t": "asthāyi",
@@ -927,7 +969,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (blood). Located on the anterior outer sides of the "
+              "t": ". Located on the anterior outer sides of the "
             },
             {
               "t": "Jihvā",
@@ -935,15 +977,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and energetically linked to the "
+              "t": " and energetically linked to the "
             },
             {
               "t": "lungs",
@@ -967,7 +1001,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " is "
             },
             {
               "t": "Amla",
@@ -1069,7 +1103,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (water) and "
+              "t": " and "
             },
             {
               "t": "Agni",
@@ -1077,7 +1111,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (fire), this stage begins when "
+              "t": ", this stage begins when "
             },
             {
               "t": "Samāna Vāyu",
@@ -1309,7 +1343,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
+              "t": " and specifically coordinates the nourishment of "
             },
             {
               "t": "asthāyi",
@@ -1325,7 +1359,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (muscle) and "
+              "t": " and "
             },
             {
               "t": "Meda",
@@ -1333,7 +1367,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (fat) Dhātus. Located on the posterior outer sides of the "
+              "t": " Dhātus. Located on the posterior outer sides of the "
             },
             {
               "t": "Jihvā",
@@ -1341,15 +1375,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and energetically linked to the "
+              "t": " and energetically linked to the "
             },
             {
               "t": "kidneys",
@@ -1373,7 +1399,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " is "
             },
             {
               "t": "Madhura",
@@ -1443,7 +1469,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (air) and "
+              "t": " and "
             },
             {
               "t": "Agni",
@@ -1451,7 +1477,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (fire) manifest through the functional integrity of "
+              "t": " manifest through the functional integrity of "
             },
             {
               "t": "Pāchaka Pitta",
@@ -1475,7 +1501,7 @@
               "cat": "physiology"
             },
             {
-              "t": " with pungent properties facilitate the chemical breakdown of macronutrients while the Ushna (heating) fire element enhances "
+              "t": " with pungent properties facilitate the chemical breakdown of macronutrients while the Ushna fire element enhances "
             },
             {
               "t": "thermogenesis",
@@ -1571,7 +1597,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
+              "t": " and specifically coordinates the nourishment of "
             },
             {
               "t": "asthāyi",
@@ -1579,7 +1605,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", "
+              "t": " "
             },
             {
               "t": "Asthi Dhātu",
@@ -1587,7 +1613,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (bone). Located on the central part of the "
+              "t": ". Located on the central part of the "
             },
             {
               "t": "Jihvā",
@@ -1595,15 +1621,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": " anterior to the "
             },
             {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
+              "t": "Tikta",
+              "term": "tikta",
+              "cat": "ayurveda"
             },
             {
-              "t": ", anterior to the bitter area, "
+              "t": " area, "
             },
             {
               "t": "Katu",
@@ -1643,7 +1669,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " is "
             },
             {
               "t": "Katu",
@@ -1724,7 +1750,7 @@
               "t": ". Governed by "
             },
             {
-              "t": "the bhūtas",
+              "t": "the Bhūtas",
               "term": "the bhutas",
               "cat": "ayurveda"
             },
@@ -1737,7 +1763,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (air) and "
+              "t": " and "
             },
             {
               "t": "Ākāsha",
@@ -1745,7 +1771,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (ether), this stage is characterized by the continued stimulation of "
+              "t": ", this stage is characterized by the continued stimulation of "
             },
             {
               "t": "Samāna Vāyu",
@@ -1793,7 +1819,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
+              "t": " and specifically coordinates the nourishment of "
             },
             {
               "t": "asthāyi",
@@ -1809,7 +1835,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (nerve/ bone marrow). Located on the central part of the "
+              "t": ". Located on the central part of the "
             },
             {
               "t": "Jihvā",
@@ -1817,15 +1843,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
+              "t": ", posterior to the "
             },
             {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
+              "t": "Katu",
+              "term": "katu",
+              "cat": "ayurveda"
             },
             {
-              "t": ", posterior to the pungent area, "
+              "t": " area, "
             },
             {
               "t": "Tikta",
@@ -1865,7 +1891,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " is "
             },
             {
               "t": "Katu",
@@ -1927,14 +1953,6 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
-            },
-            {
-              "t": "large intestine",
-              "term": "large intestine",
-              "cat": "anatomy"
-            },
-            {
               "t": ", where "
             },
             {
@@ -1951,15 +1969,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (air) and "
+              "t": " and "
             },
             {
-              "t": "Prthivī",
-              "term": "prthivi",
+              "t": "Pruthivī",
+              "term": "pruthivi",
               "cat": "ayurveda"
             },
             {
-              "t": " (earth) manifest. This process begins when "
+              "t": " manifest. This process begins when "
             },
             {
               "t": "Apāna Vāyu",
@@ -2135,7 +2153,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": " (plasma) and specifically coordinates the nourishment of immature, "
+              "t": " and specifically coordinates the nourishment of "
             },
             {
               "t": "asthāyi",
@@ -2151,15 +2169,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the "
-            },
-            {
-              "t": "tongue",
-              "term": "tongue",
-              "cat": "anatomy"
-            },
-            {
-              "t": ", and energetically linked to the "
+              "t": " and energetically linked to the "
             },
             {
               "t": "colon",
@@ -2183,7 +2193,7 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", the post-digestive effect, is "
+              "t": " is "
             },
             {
               "t": "Katu",

@@ -3,6 +3,7 @@ import content from '../data/content.json';
 import glossary from '../data/glossary.json';
 import tridosha from '../data/tridosha.json';
 import systems from '../data/systems.json';
+import agnis from '../data/agnis.json';
 import '../styles/book.css';
 import fs from 'node:fs';
 let ICON_FILES = [];
@@ -502,6 +503,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <script id="glossary-data" type="application/json" set:html={JSON.stringify(glossary)} />
   <script id="tridosha-data" type="application/json" set:html={JSON.stringify(tridosha)} />
   <script id="systems-data" type="application/json" set:html={JSON.stringify(systems)} />
+  <script id="agnis-data" type="application/json" set:html={JSON.stringify(agnis)} />
   <script id="icon-files" type="application/json" set:html={JSON.stringify(ICON_FILES)} />
 
   <script>
@@ -862,6 +864,28 @@ const rest = isLO ? chapters.slice(1) : chapters;
     let organDock = false;
     let heroKind = 'digestion';
     const SYS_TEXT = JSON.parse(document.getElementById('systems-data').textContent);
+    const AGNIS = JSON.parse(document.getElementById('agnis-data').textContent);
+    function buildAgniAccordion() {
+      if (!hmRail) return;
+      hmRail.hidden = false; hmRail.innerHTML = '';
+      AGNIS.forEach((g) => {
+        const grp = document.createElement('button'); grp.type = 'button'; grp.className = 'agni-group';
+        grp.innerHTML = '<span>' + g.name + '</span><span class="agni-chev" aria-hidden="true">▾</span>';
+        const items = document.createElement('div'); items.className = 'agni-items'; items.hidden = true;
+        if (g.desc) { const d = document.createElement('div'); d.className = 'agni-desc'; d.textContent = g.desc; items.appendChild(d); }
+        g.items.forEach((it) => {
+          const b = document.createElement('button'); b.type = 'button'; b.className = 'agni-item'; b.textContent = it.term;
+          b.addEventListener('click', () => {
+            hmRail.querySelectorAll('.agni-item.is-on').forEach((x) => x.classList.remove('is-on')); b.classList.add('is-on');
+            hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">' + it.term + '</h3><p>' + (it.def || 'Definition coming soon.') + '</p>';
+            hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
+          });
+          items.appendChild(b);
+        });
+        grp.addEventListener('click', () => { const willOpen = items.hidden; items.hidden = !willOpen; grp.classList.toggle('is-open', willOpen); });
+        hmRail.appendChild(grp); hmRail.appendChild(items);
+      });
+    }
     const SYS_MAPS = [
       { label: 'Cardiovascular', svg: '/anim/cardiovascular-system-map.svg' },
       { label: 'Digestive', svg: '/anim/digestive-system-map.svg' },
@@ -913,8 +937,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       heroKind = 'digestion';
       organDock = true;
       { const w = document.querySelector('.hero-win'); if (w) w.classList.add('sys'); }
-      if (hmRail) { hmRail.hidden = false; hmRail.innerHTML = ''; }
-      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">Āgni</h3><p class="hm-dock-hint">Select an organ from the list, or tap one on the map, to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
+      if (hmRail) buildAgniAccordion();
+      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">Āgni</h3><p class="hm-dock-hint">Open an Agni on the left, then tap a term to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
       setHeroMode('/anim/digestive-map.svg', 'The Living Body - Āgni', false);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
@@ -993,14 +1017,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const entries = [...organMap.entries()].map(([key, el]) => ({ key, el, title: (MAP_GLOSSARY[key] && MAP_GLOSSARY[key].title) || key }))
         .sort((a, b) => a.title.localeCompare(b.title));
       if (heroKind === 'digestion') {
-        if (hmRail) {
-          hmRail.hidden = false; hmRail.innerHTML = '';
-          entries.forEach(({ key, el, title }) => {
-            const b = document.createElement('button'); b.className = 'sys-btn'; b.textContent = title;
-            b.addEventListener('click', () => { Array.from(hmRail.children).forEach((x) => x.classList.remove('is-on')); b.classList.add('is-on'); focusOrgan(el); showCallout(el, key); });
-            hmRail.appendChild(b);
-          });
-        }
+        // Āgni popup: left rail is the 40-Agni accordion (built in openHero), not the organ list.
         if (mapListBtn) mapListBtn.style.display = 'none';
         return;
       }
@@ -1182,6 +1199,29 @@ const rest = isLO ? chapters.slice(1) : chapters;
       setState(true); // start collapsed
       btn.addEventListener('click', () => setState(!btn.classList.contains('collapsed')));
     });
+    // Samprāpti table: make quality/term cells open their glossary definition in the sidebar.
+    (function () {
+      const GL = JSON.parse(document.getElementById('glossary-data').textContent);
+      const normG = (s) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim();
+      const linkCell = (el) => {
+        const parts = el.textContent.split(/(\s*[\/,&]\s*)/);
+        let html = '', any = false;
+        parts.forEach((p, i) => {
+          const esc = p.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+          if (i % 2 === 1) { html += esc; return; }
+          const key = normG(p);
+          if (p.trim() && GL[key]) { html += '<span class="sam-link" data-term="' + key + '">' + esc + '</span>'; any = true; }
+          else html += esc;
+        });
+        if (any) el.innerHTML = html;
+      };
+      const grid = document.querySelector('.sam-grid');
+      if (grid) {
+        grid.querySelectorAll('.sam-val, .sam-proc, .sam-marga-cell').forEach(linkCell);
+        grid.querySelectorAll('.sam-doshalbl span').forEach(linkCell);
+        grid.addEventListener('click', (e) => { const t = e.target.closest('.sam-link'); if (t && window.openGlossary) window.openGlossary(t.dataset.term); });
+      }
+    })();
   </script>
 </body>
 </html>

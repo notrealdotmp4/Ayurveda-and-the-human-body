@@ -1,6 +1,6 @@
 {
   "title": "The Living Body",
-  "subtitle": "Tap any colored word and button to explore it.",
+  "subtitle": "Tap any colored word to explore it — red for Āyurveda, amber for physiology, olive for anatomy.",
   "invocation": "IIश्री:II",
   "chapters": [
     {
@@ -38,10 +38,25 @@
           "info": "The human organism, the highest level of complexity, is an integrated structure comprising cells, tissues, organs, and systems. Each level is functionally interconnected and crucial for health, as any change in one part affects multiple processes or structures."
         },
         {
+          "type": "h",
+          "text": "Tridosha",
+          "level": 3
+        },
+        {
+          "type": "h",
+          "text": "Vāta - Pitta - Kapha",
+          "level": 3
+        },
+        {
+          "type": "h",
+          "text": "The Āyurvedic Architecture",
+          "level": 3
+        },
+        {
           "type": "p",
           "segments": [
             {
-              "t": "Tridosha"
+              "t": "In Āyurvedic philosophy, the concepts of Trayopastambha, Tridanda, and Purushartha constitute an integrated framework that links daily lifestyle choices to the balance of human health and the overarching purpose of life."
             }
           ]
         },
@@ -49,7 +64,47 @@
           "type": "p",
           "segments": [
             {
-              "t": "Vāta - Pitta - Kapha"
+              "t": "Trayopastambha "
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "The three pillars of daily life: Āhāra, wholesome, tailored nutrition; Nidrā, restorative sleep for tissue repair and mental renewal; and Brahmacharya, conservation of vital and sexual energy for stamina and resilience. These pillars sustain the Tridanda, the three foundations of the living being."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "Tridanda"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "The three foundations of life: Sharira, the physical body of elements; Sattva, the mind, clarity, emotion, perception; and Ātma, the immortal soul that animates both. When the pillars stabilize the foundations, one gains the strength and clarity to pursue the Purushartha, life's four goals."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "Purushārtha"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "The four aims of life: Dharma, ethical duty and righteousness, which frames Artha, wealth and material security, within which one enjoys Kama, sensory pleasure, love, beauty, ultimately leading to Moksha, the spiritual liberation."
             }
           ]
         }
@@ -63,7 +118,159 @@
           "type": "p",
           "segments": [
             {
-              "t": "The digestive system is responsible for converting food into usable nutrients and consists of several key components: the mouth, pharynx, esophagus, stomach, small intestine, and large intestine/colon. Additionally, accessory organs include the liver, gallbladder, and pancreas. Together, these parts facilitate the mechanical digestion and chemical digestion of food for nutrient absorption. The digestive system performs five main functions: ingestion, propulsion, digestion, absorption, and elimination."
+              "t": "The "
+            },
+            {
+              "t": "digestive system",
+              "term": "digestive system",
+              "cat": "anatomy"
+            },
+            {
+              "t": " converts food into usable nutrients and consists of several key components: the "
+            },
+            {
+              "t": "mouth",
+              "term": "mouth",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "pharynx",
+              "term": "pharynx",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "esophagus",
+              "term": "esophagus",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "stomach",
+              "term": "stomach",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "small intestine",
+              "term": "small intestine",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "colon",
+              "term": "colon",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". Additionally, "
+            },
+            {
+              "t": "accessory organs",
+              "term": "accessory organs",
+              "cat": "anatomy"
+            },
+            {
+              "t": " include the "
+            },
+            {
+              "t": "liver",
+              "term": "liver",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "gallbladder",
+              "term": "gallbladder",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "pancreas",
+              "term": "pancreas",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". Together, these parts facilitate the "
+            },
+            {
+              "t": "mechanical digestion",
+              "term": "mechanical digestion",
+              "cat": "physiology"
+            },
+            {
+              "t": " and "
+            },
+            {
+              "t": "chemical digestion",
+              "term": "chemical digestion",
+              "cat": "physiology"
+            },
+            {
+              "t": " of food for nutrient absorption. The "
+            },
+            {
+              "t": "digestive system",
+              "term": "digestive system",
+              "cat": "anatomy"
+            },
+            {
+              "t": " performs five main functions: "
+            },
+            {
+              "t": "ingestion",
+              "term": "ingestion",
+              "cat": "physiology"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "propulsion",
+              "term": "propulsion",
+              "cat": "physiology"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "digestion",
+              "term": "digestion",
+              "cat": "physiology"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "absorption",
+              "term": "absorption",
+              "cat": "physiology"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "elimination",
+              "term": "elimination",
+              "cat": "physiology"
+            },
+            {
+              "t": "."
             }
           ]
         },
@@ -71,7 +278,396 @@
           "type": "p",
           "segments": [
             {
-              "t": "Madhura Avastha Pāka, the sweet stage of digestion, begins in Bodhaka Kapha, the oral cavity, which governs salivary secretions from the parotid gland, submandibular gland, and sublingual gland and facilitates the perception of the Shadrasa. The Bhūtas of Madhura are Prthivī (earth) and Āpas (water), representing the principle of Kapha-predominant liquefaction that nourishes immature, asthāyi, Rasa Dhātu (plasma). Through mastication, mechanical digestion, and chemical digestion by the enzyme amylase, starches decompose into simple sugars and mix into a lubricated bolus, providing a feeling of fullness. When food touches the Jihvā, the tongue, taste receptors send signals to the hypothalamus, where Sādhaka Pitta, located in the brain's grey matter for comprehension and emotions, processes this perception. Prāna Vāyu, moving in a downward and inward direction, initiates mastication and propels the bolus through the pharynx and esophagus via peristalsis into the fundus, the upper stomach. There, Kledaka Kapha produces protective mucus to shield the stomach wall from digestive acids while Samāna Vāyu initiates the churning process and yields into Rasa Dhātu (plasma). Located on the tip of the Jihvā, the tongue, and energetically linked to the thyroid, Madhura stimulates the emotions of joy and contentment. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha."
+              "t": "Madhura Avastha Pāka",
+              "term": "madhura avastha paka",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", the sweet stage of "
+            },
+            {
+              "t": "digestion",
+              "term": "digestion",
+              "cat": "physiology"
+            },
+            {
+              "t": ", begins in "
+            },
+            {
+              "t": "Bodhaka Kapha",
+              "term": "bodhaka kapha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", the "
+            },
+            {
+              "t": "oral cavity",
+              "term": "oral cavity",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", which governs "
+            },
+            {
+              "t": "salivary secretions",
+              "term": "salivary secretions",
+              "cat": "physiology"
+            },
+            {
+              "t": " from the "
+            },
+            {
+              "t": "parotid gland",
+              "term": "parotid gland",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "submandibular gland",
+              "term": "submandibular gland",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "sublingual gland",
+              "term": "sublingual gland",
+              "cat": "anatomy"
+            },
+            {
+              "t": " and facilitates the perception of the "
+            },
+            {
+              "t": "Shadrasa",
+              "term": "shadrasa",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ". The "
+            },
+            {
+              "t": "Bhūtas",
+              "term": "bhutas",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " of "
+            },
+            {
+              "t": "Madhura",
+              "term": "madhura",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " are "
+            },
+            {
+              "t": "Pruthivī",
+              "term": "pruthivi",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " and "
+            },
+            {
+              "t": "Āpas",
+              "term": "apas",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", representing the principle of "
+            },
+            {
+              "t": "Kapha",
+              "term": "kapha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "-predominant "
+            },
+            {
+              "t": "liquefaction",
+              "term": "liquefaction",
+              "cat": "physiology"
+            },
+            {
+              "t": " that nourishes "
+            },
+            {
+              "t": "asthāyi",
+              "term": "asthayi",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " "
+            },
+            {
+              "t": "Rasa Dhātu",
+              "term": "rasa dhatu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ". Through "
+            },
+            {
+              "t": "mastication",
+              "term": "mastication",
+              "cat": "physiology"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "mechanical digestion",
+              "term": "mechanical digestion",
+              "cat": "physiology"
+            },
+            {
+              "t": ", and "
+            },
+            {
+              "t": "chemical digestion",
+              "term": "chemical digestion",
+              "cat": "physiology"
+            },
+            {
+              "t": " by the "
+            },
+            {
+              "t": "enzyme",
+              "term": "enzyme",
+              "cat": "physiology"
+            },
+            {
+              "t": " "
+            },
+            {
+              "t": "amylase",
+              "term": "amylase",
+              "cat": "physiology"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "starches",
+              "term": "starches",
+              "cat": "physiology"
+            },
+            {
+              "t": " decompose into simple sugars and mix into a lubricated "
+            },
+            {
+              "t": "bolus",
+              "term": "bolus",
+              "cat": "physiology"
+            },
+            {
+              "t": ", providing a feeling of fullness. When food touches the "
+            },
+            {
+              "t": "Jihvā",
+              "term": "jihva",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", taste receptors send signals to the "
+            },
+            {
+              "t": "hypothalamus",
+              "term": "hypothalamus",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", where "
+            },
+            {
+              "t": "Sādhaka Pitta",
+              "term": "sadhaka pitta",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", located in the "
+            },
+            {
+              "t": "brain's grey matter",
+              "term": "brains grey matter",
+              "cat": "anatomy"
+            },
+            {
+              "t": " for comprehension and emotions, processes this perception. "
+            },
+            {
+              "t": "Prāna Vāyu",
+              "term": "prana vayu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", moving in a downward and inward direction, initiates "
+            },
+            {
+              "t": "mastication",
+              "term": "mastication",
+              "cat": "physiology"
+            },
+            {
+              "t": " and propels the "
+            },
+            {
+              "t": "bolus",
+              "term": "bolus",
+              "cat": "physiology"
+            },
+            {
+              "t": " through the "
+            },
+            {
+              "t": "pharynx",
+              "term": "pharynx",
+              "cat": "anatomy"
+            },
+            {
+              "t": " and "
+            },
+            {
+              "t": "esophagus",
+              "term": "esophagus",
+              "cat": "anatomy"
+            },
+            {
+              "t": " via "
+            },
+            {
+              "t": "peristalsis",
+              "term": "peristalsis",
+              "cat": "physiology"
+            },
+            {
+              "t": " into the "
+            },
+            {
+              "t": "fundus",
+              "term": "fundus",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", the upper "
+            },
+            {
+              "t": "stomach",
+              "term": "stomach",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". There, "
+            },
+            {
+              "t": "Kledaka Kapha",
+              "term": "kledaka kapha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " produces protective "
+            },
+            {
+              "t": "mucus",
+              "term": "mucus",
+              "cat": "physiology"
+            },
+            {
+              "t": " to shield the "
+            },
+            {
+              "t": "stomach",
+              "term": "stomach",
+              "cat": "anatomy"
+            },
+            {
+              "t": " wall from "
+            },
+            {
+              "t": "digestive acids",
+              "term": "digestive acids",
+              "cat": "physiology"
+            },
+            {
+              "t": " while "
+            },
+            {
+              "t": "Samāna Vāyu",
+              "term": "samana vayu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " initiates the churning process and yields into "
+            },
+            {
+              "t": "Rasa Dhātu",
+              "term": "rasa dhatu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ". Located on the tip of the "
+            },
+            {
+              "t": "Jihvā",
+              "term": "jihva",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " and energetically linked to the "
+            },
+            {
+              "t": "thyroid",
+              "term": "thyroid",
+              "cat": "anatomy"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "Madhura",
+              "term": "madhura",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " stimulates the emotions of joy and contentment. Its "
+            },
+            {
+              "t": "Vipāka",
+              "term": "vipaka",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " is "
+            },
+            {
+              "t": "Madhura",
+              "term": "madhura",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", which is "
+            },
+            {
+              "t": "anabolic",
+              "term": "anabolic",
+              "cat": "physiology"
+            },
+            {
+              "t": " and increases "
+            },
+            {
+              "t": "Kapha Dosha",
+              "term": "kapha dosha",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "."
             }
           ],
           "num": "1"
@@ -80,7 +676,7 @@
           "type": "p",
           "segments": [
             {
-              "t": "Amla Avastha Pāka, the sour stage of digestion, occurs as the bolus enters the Āmāshaya, the central stomach, where the Bhūtas of Prthivī (earth) and Āgni (fire) manifest as Pāchaka Pitta. This Pitta-predominant acidification process secretes hydrochloric acid (HCl) and enzymes like pepsin, activated by HCl, to initiate protein decomposition and destroy pathogens. To maintain functional integrity, Kledaka Kapha, the protective mucous membrane known as Shleshma Dhārā Kalā, shields the stomach wall from corrosive acidity. As the bolus is churned into chyme, Anna-Drava, Samāna Vāyu, and Prāna Vāyu work together to facilitate its release in small amounts through the pyloric valve and pyloric sphincter via peristalsis into the duodenum. This stage releases a substance's thermal potency, Vīrya, categorizing it as Ushna (warming) or Shīta (cooling). Lipase, secreted by the pancreas, further breaks down triglycerides into free fatty acids and glycerol, facilitating their absorption. While the sour taste is yielded into Rasa Dhātu (plasma), this phase specifically coordinates the nourishment of immature, asthāyi, Rakta Dhātu (blood). Located on the anterior outer sides of the Jihvā, the tongue, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its Vipāka, the post-digestive effect, is Amla, which is metabolic and increases Pitta Dosha."
+              "t": "Amla Avastha Pāka, the sour stage of digestion, occurs as the bolus enters the Āmāshaya, the central stomach, where the Bhūtas of Pruthivī and Āgni manifest as Pāchaka Pitta. This Pitta-predominant acidification process secretes hydrochloric acid (HCl) and enzymes like pepsin, activated by HCl, to initiate protein decomposition and destroy pathogens. To maintain functional integrity, Kledaka Kapha, the protective mucous membrane known as Shleshma Dhārā Kalā, shields the stomach wall from corrosive acidity. As the bolus is churned into chyme, Anna-Drava, Samāna Vāyu, and Prāna Vāyu work together to facilitate its release in small amounts through the pyloric valve and pyloric sphincter via peristalsis into the duodenum. This stage releases a substance's thermal potency, Vīrya, categorizing it as Ushna or Shīta. Lipase, secreted by the pancreas, further breaks down triglycerides into free fatty acids and glycerol, facilitating their absorption. While the sour taste is yielded into Rasa Dhātu, this phase specifically coordinates the nourishment of asthāyi, Rakta Dhātu. Located on the anterior outer sides of the Jihvā and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its Vipāka is Amla, which is metabolic and increases Pitta Dosha."
             }
           ],
           "num": "2"
@@ -89,7 +685,7 @@
           "type": "p",
           "segments": [
             {
-              "t": "Lavana Avastha Pāka, the salty stage of digestion, represents the principle of Pitta-predominant emulsification and occurs as chyme, Anna-Drava, moves into the duodenum, the first segment of the small intestine. Governed by the Bhūtas of Āpas (water) and Agni (fire), this stage begins when Samāna Vāyu opens the pyloric valve, allowing highly acidic contents to enter and trigger the secretion of large amounts of protective mucus. While the intestine produces minor enzymes, most digestion is driven by secretions from the liver and pancreas, Kloma Āgni, entering via a common duct. Secretin stimulates the release of pancreatic bicarbonates and water to neutralize HCl and inactivate pepsin, while cholecystokinin (CCK), which links the digestive, nervous, and immune systems, triggers the release of pancreatic enzymes and bile, Rañjaka Pitta, to facilitate fat emulsification and absorption. Samāna Vāyu facilitates the linear movement that propels chyme and regulates water-electrolyte balance, while plicae, villi, and microvilli, the brush border, vastly increase the surface area for nutrient uptake. Lacteals within the villi absorb long-chain fatty acids as chyle, transporting them through the lymphatic system to the subclavian veins. This process is made efficient by lipase, which has already broken down fats into absorbable components. The salty taste is yielded into Rasa Dhātu (plasma) and specifically coordinates the nourishment of immature, asthāyi, Māmsa (muscle) and Meda (fat) Dhātus. Located on the posterior outer sides of the Jihvā, the tongue, and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha."
+              "t": "Lavana Avastha Pāka, the salty stage of digestion, represents the principle of Pitta-predominant emulsification and occurs as chyme, Anna-Drava, moves into the duodenum, the first segment of the small intestine. Governed by the Bhūtas of Āpas and Agni, this stage begins when Samāna Vāyu opens the pyloric valve, allowing highly acidic contents to enter and trigger the secretion of large amounts of protective mucus. While the intestine produces minor enzymes, most digestion is driven by secretions from the liver and pancreas, Kloma Āgni, entering via a common duct. Secretin stimulates the release of pancreatic bicarbonates and water to neutralize HCl and inactivate pepsin, while cholecystokinin (CCK), which links the digestive, nervous, and immune systems, triggers the release of pancreatic enzymes and bile, Rañjaka Pitta, to facilitate fat emulsification and absorption. Samāna Vāyu facilitates the linear movement that propels chyme and regulates water-electrolyte balance, while plicae, villi, and microvilli, the brush border, vastly increase the surface area for nutrient uptake. Lacteals within the villi absorb long-chain fatty acids as chyle, transporting them through the lymphatic system to the subclavian veins. This process is made efficient by lipase, which has already broken down fats into absorbable components. The salty taste is yielded into Rasa Dhātu and specifically coordinates the nourishment of asthāyi, Māmsa and Meda Dhātus. Located on the posterior outer sides of the Jihvā and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its Vipāka is Madhura, which is anabolic and increases Kapha Dosha."
             }
           ],
           "num": "3"
@@ -98,7 +694,7 @@
           "type": "p",
           "segments": [
             {
-              "t": "Katu Avastha Pāka, the pungent stage of digestion, occurs primarily in the jejunum where the Bhūtas of Vāyu (air) and Agni (fire) manifest through the functional integrity of Pāchaka Pitta and Samāna Vāyu. During this stage, intestinal enzymes with pungent properties facilitate the chemical breakdown of macronutrients while the Ushna (heating) fire element enhances thermogenesis and GI circulation, turning the chyme yellowish-brown. Simultaneously, the air element produces gases and stimulates peristalsis via Samāna Vāyu, which is essential for the effective propulsion of digestive contents. While significant absorption later occurs in the ileum, the jejunum serves as the major site for the initial absorption of Āhāra Rasa, the nutritive chyle. The pungent taste is yielded into Rasa Dhātu (plasma) and specifically coordinates the nourishment of immature, asthāyi, Asthi Dhātu (bone). Located on the central part of the Jihvā, the tongue, anterior to the bitter area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha."
+              "t": "Katu Avastha Pāka, the pungent stage of digestion, occurs primarily in the jejunum where the Bhūtas of Vāyu and Agni manifest through the functional integrity of Pāchaka Pitta and Samāna Vāyu. During this stage, intestinal enzymes with pungent properties facilitate the chemical breakdown of macronutrients while the Ushna fire element enhances thermogenesis and GI circulation, turning the chyme yellowish-brown. Simultaneously, the air element produces gases and stimulates peristalsis via Samāna Vāyu, which is essential for the effective propulsion of digestive contents. While significant absorption later occurs in the ileum, the jejunum serves as the major site for the initial absorption of Āhāra Rasa, the nutritive chyle. The pungent taste is yielded into Rasa Dhātu and specifically coordinates the nourishment of asthāyi Asthi Dhātu. Located on the central part of the Jihvā anterior to the Tikta area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its Vipāka is Katu, which is catabolic and increases Vāta Dosha."
             }
           ],
           "num": "4"
@@ -107,7 +703,7 @@
           "type": "p",
           "segments": [
             {
-              "t": "Tikta Avastha Pāka, the bitter stage of digestion, representing the principle of Vāta-predominant absorption, occurs as chyme moves into the ileum, the terminal and longest segment of the small intestine. Governed by the bhūtas of Vāyu (air) and Ākāsha (ether), this stage is characterized by the continued stimulation of Samāna Vāyu, which maintains peristalsis necessary for efficient transit and rapid absorption through intestinal villi, with nutrient assimilation as a key focus. This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated Pitta Dosha. The bitter taste is yielded into Rasa Dhātu (plasma) and specifically coordinates the nourishment of immature, asthāyi, Majjā Dhātu (nerve/ bone marrow). Located on the central part of the Jihvā, the tongue, posterior to the pungent area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha."
+              "t": "Tikta Avastha Pāka, the bitter stage of digestion, representing the principle of Vāta-predominant absorption, occurs as chyme moves into the ileum, the terminal and longest segment of the small intestine. Governed by the Bhūtas of Vāyu and Ākāsha, this stage is characterized by the continued stimulation of Samāna Vāyu, which maintains peristalsis necessary for efficient transit and rapid absorption through intestinal villi, with nutrient assimilation as a key focus. This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated Pitta Dosha. The bitter taste is yielded into Rasa Dhātu and specifically coordinates the nourishment of asthāyi, Majjā Dhātu. Located on the central part of the Jihvā, posterior to the Katu area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its Vipāka is Katu, which is catabolic and increases Vāta Dosha."
             }
           ],
           "num": "5"
@@ -116,7 +712,7 @@
           "type": "p",
           "segments": [
             {
-              "t": "Kashāya Avastha Pāka, the astringent stage of digestion, representing the principle of Vāta-predominant elimination, occurs in the Pakvāshaya, the large intestine, where the Bhūtas of Vāyu (air) and Prthivī (earth) manifest. This process begins when Apāna Vāyu and Samāna Vāyu open the ileocecal valve, allowing chyme, Anna-Drava, to enter the cecum for the absorption of remaining water, minerals, and electrolytes. Udāna, Apāna, and Samāna Vāyu, moving in an upward, downward, outward, and linear direction, govern material transit through the ascending, transverse, and descending colon segments and their respective hepatic and splenic flexures. The earth element provides the roughness, khāra, and bulk necessary to compact waste material into well-bound feces, Purīsha, in the descending and sigmoid colon, stimulating mass peristalsis. Simultaneously, the air element nourishes Poshaka Vāta to facilitate the urge to defecate, with Apāna Vāyu propelling the waste through the rectum and anal canal for elimination at the anus. Following this elimination, the air element stimulates Prāna Vāyu in the brain’s hunger center to signal the return of true appetite and the reactivation of Jāthara Āgni. The astringent taste is yielded into Rasa Dhātu (plasma) and specifically coordinates the nourishment of immature, asthāyi, Shukra or Ārtava Dhātus. Located on the posterior part of the Jihvā, the tongue, and energetically linked to the colon, Kashāya stimulates emotions of fear, anxiety, and nervousness. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha."
+              "t": "Kashāya Avastha Pāka, the astringent stage of digestion, representing the principle of Vāta-predominant elimination, occurs in the Pakvāshaya, where the Bhūtas of Vāyu and Pruthivī manifest. This process begins when Apāna Vāyu and Samāna Vāyu open the ileocecal valve, allowing chyme, Anna-Drava, to enter the cecum for the absorption of remaining water, minerals, and electrolytes. Udāna, Apāna, and Samāna Vāyu, moving in an upward, downward, outward, and linear direction, govern material transit through the ascending, transverse, and descending colon segments and their respective hepatic and splenic flexures. The earth element provides the roughness, khāra, and bulk necessary to compact waste material into well-bound feces, Purīsha, in the descending and sigmoid colon, stimulating mass peristalsis. Simultaneously, the air element nourishes Poshaka Vāta to facilitate the urge to defecate, with Apāna Vāyu propelling the waste through the rectum and anal canal for elimination at the anus. Following this elimination, the air element stimulates Prāna Vāyu in the brain’s hunger center to signal the return of true appetite and the reactivation of Jāthara Āgni. The astringent taste is yielded into Rasa Dhātu and specifically coordinates the nourishment of asthāyi, Shukra or Ārtava Dhātus. Located on the posterior part of the Jihvā and energetically linked to the colon, Kashāya stimulates emotions of fear, anxiety, and nervousness. Its Vipāka is Katu, which is catabolic and increases Vāta Dosha."
             }
           ],
           "num": "6"
