@@ -3,7 +3,7 @@
     "cat": "ayurveda",
     "title": "Madhura Avastha Pāka",
     "phon": "",
-    "body": "<p>Madhura Avastha Pāka is the Sanskrit term for the sweet stage of digestion. It represents the principle of Kapha-predominant liquefaction and is associated with the nourishment of immature (asthāyi) Rasa Dhātu in the body. Located on the tip of the Jihvā, the tongue, and energetically linked to the thyroid, Madhura stimulates the emotions of joy and contentment. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
+    "body": "<p>Madhura Avastha Pāka is the Sanskrit term for the sweet stage of digestion. It represents the principle of Kapha-predominant liquefaction and is associated with the nourishment of immature, asthāyi, Rasa Dhātu in the body. Located on the tip of the tongue, jihvā, and energetically linked to the thyroid, Madhura stimulates the emotions of joy and contentment. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
   },
   "bodhaka kapha": {
     "cat": "ayurveda",
@@ -39,7 +39,7 @@
     "cat": "ayurveda",
     "title": "Āpas",
     "phon": "",
-    "body": "<p>Āpas is the Sanskrit term for the Water element, the fourth of the five basic elements (pañcha mahābhūtas). It represents the principle of cohesiveness and is associated with chemical energy in the body.</p>"
+    "body": "<p>Āpas is the Sanskrit term for the Water element, the fourth of the five basic elements, pañcha mahābhūtas. It represents the principle of cohesiveness and is associated with chemical energy in the body.</p>"
   },
   "saliva": {
     "cat": "physiology",
@@ -105,7 +105,7 @@
     "cat": "ayurveda",
     "title": "Jihvā",
     "phon": "",
-    "body": "<p>Jihvā is the Sanskrit term for the tongue.</p>"
+    "body": "<p>Jihva is the Sanskrit term for the tongue.</p>"
   },
   "tongue": {
     "cat": "anatomy",
@@ -165,7 +165,7 @@
     "cat": "ayurveda",
     "title": "Rasa Dhātu",
     "phon": "",
-    "body": "<p>Rasa Dhātu is the Sanskrit term for the plasma or lymph tissue, the first of the biological tissues. It represents the principle of nutrition and immunity (prīnana), serving as the essential \"juice of life\" that circulates through the cardiovascular and lymphatic systems to provide sustenance to every cell in the body. Upa-Dhātu (superior by-product): the top layer of the skin (tvak), lactation (stanya), and menstruation (rajah). Mala (inferior by-product): Poshaka Kapha, which manifests as kleda (mucus).</p>"
+    "body": "<p>Rasa Dhātu is the Sanskrit term for the plasma or lymph tissue, the first of the biological tissues. It represents the principle of nutrition and immunity, prīnana, serving as the essential \"juice of life\" that circulates through the cardiovascular and lymphatic systems to provide sustenance to every cell in the body.</p><p><strong>Upa-Dhātu:</strong> the top layer of the skin, tvak, lactation stanya, and menstruation, rajah</p><p><strong>Mala:</strong> Poshaka Kapha, precursor Kapha, which manifests as mucus, kleda</p>"
   },
   "thyroid": {
     "cat": "anatomy",
@@ -183,19 +183,19 @@
     "cat": "ayurveda",
     "title": "Vipāka",
     "phon": "",
-    "body": "<p>Vipāka is the Sanskrit term for the post-digestive effect, the third of the three pharmacological principles. It represents the principle of metabolic transformation and is associated with the elemental combinations of the three resulting post-digestive tastes: earth and water (sweet/anabolic), earth and fire (sour/metabolic), and fire and air (pungent/catabolic) in the body.</p>"
+    "body": "<p>Vipāka is the Sanskrit term for the post-digestive effect, the third of the three pharmacological principles. It represents the principle of metabolic transformation and is associated with the elemental combinations of the three resulting post-digestive tastes: pruthivī, earth and āpas, water (madhura, sweet and anabolic), pruthivī, earth and āgni, fire (amla, sour and metabolic), and āgni, fire and vāyu, air (katu, pungent and catabolic) in the body.</p>"
   },
   "anabolic": {
     "cat": "physiology",
     "title": "Anabolic",
     "phon": "",
-    "body": "<p>Anabolic/ Anabolism is a metabolic building-up process where complex molecules are constructed from simpler ones to create or repair tissue or to store nutrients for future use. This process is essential for tissue growth and repair through activities like protein synthesis, where amino acids are linked together to build cells and tissues. Beyond structural repair, anabolism is responsible for the synthesis of vital molecules such as hormones, neurotransmitters, and ligands. It also serves a critical role in nutrient storage, exemplified by the conversion of excess glucose into glycogen, which is then stored in the liver and skeletal muscles for later energy needs.</p>"
+    "body": "<p>Anabolic/ Anabolism is a metabolic building-up process where complex molecules are constructed from simpler ones to create or repair tissue or to store nutrients for future use. This process is essential for tissue growth and repair through activities like protein synthesis, where amino acids are linked together to build cells and tissues. Beyond structural repair, anabolism is responsible for the synthesis of vital molecules such as hormones, neurotransmitters, and ligands. It also serves a critical role in nutrient storage, exemplified by the conversion of excess glucose into glycogen, which is then stored in the liver and skeletal muscles for later energy needs</p>"
   },
   "kapha dosha": {
     "cat": "ayurveda",
     "title": "Kapha Dosha",
     "phon": "",
-    "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations (tridosha). It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
+    "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations, tridosha. It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
   },
   "amashaya": {
     "cat": "ayurveda",
@@ -225,7 +225,7 @@
     "cat": "ayurveda",
     "title": "Āgni",
     "phon": "",
-    "body": "<p>Āgni is the Sanskrit term for the Fire element, the third of the five basic elements (pañcha mahābhūtas). It represents the principle of transformation and is associated with radiant energy in the body.</p>"
+    "body": "<p>Āgni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
   },
   "jathara agni": {
     "cat": "ayurveda",
@@ -261,13 +261,13 @@
     "cat": "physiology",
     "title": "HCl",
     "phon": "",
-    "body": "<p>HCl (hydrochloric acid) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
+    "body": "<p>HCI (hydrochloric acid)  is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
   },
   "kledaka kapha": {
     "cat": "ayurveda",
     "title": "Kledaka Kapha",
     "phon": "",
-    "body": "<p>Kledaka Kapha is the subdosha of Kapha related to the fire element. It is primarily located in the stomach and represents the principles of gastric secretion, digestion, absorption, and the nourishment of rasa (plasma).</p>"
+    "body": "<p>Kledaka Kapha is the subdosha of Kapha related to the fire element. It is primarily located in the stomach and represents the principles of gastric secretion, digestion, absorption, and the nourishment of rasa, plasma.</p>"
   },
   "mucous membrane": {
     "cat": "physiology",
@@ -279,7 +279,7 @@
     "cat": "ayurveda",
     "title": "Shleshma Dhārā Kalā",
     "phon": "",
-    "body": "<p>Shleshma Dhārā Kalā is the Sanskrit term for the gastric mucous membrane, one of the internal membranous structures (Kalas) located in the stomach (Āmāshaya). It represents the principle of gastric protection and lubrication, producing mucosal secretions that shield the stomach wall from the corrosive intensity of digestive acids and enzymes, and is associated with the water and earth elements in the body.</p>"
+    "body": "<p>Shleshma Dhārā Kalā is the Sanskrit term for the gastric mucous membrane, one of the internal membranous structures, Kalās, located in the stomach, āmāshaya. It represents the principle of gastric protection and lubrication, producing mucosal secretions that shield the stomach wall from the corrosive intensity of digestive acids and enzymes, and is associated with the water and earth elements in the body.</p>"
   },
   "chyme": {
     "cat": "physiology",
@@ -315,7 +315,7 @@
     "cat": "ayurveda",
     "title": "Vīrya",
     "phon": "",
-    "body": "<p>Vīrya is the Sanskrit term for potent energy, the second of the three pharmacological principles. It represents the principle of thermal potency and is associated with the fire element (for heating energy or ushna) and the water element (for cooling energy or shīta) in the body.</p>"
+    "body": "<p>Vīrya is the Sanskrit term for potent energy, the second of the three pharmacological principles. It represents the principle of thermal potency and is associated with the āgni, fire element (for heating energy, ushna) and the āpas, water element (for cooling energy, shīta) in the body.</p>"
   },
   "ushna": {
     "cat": "ayurveda",
@@ -339,13 +339,13 @@
     "cat": "ayurveda",
     "title": "Pitta Dosha",
     "phon": "",
-    "body": "<p>Pitta Dosha is the Sanskrit term for the fire or transformation principle, the second of the three biological organizations (tridosha). It represents the principle of transformation, governing digestion, metabolism, and body temperature, and is associated with the fire and water elements.</p>"
+    "body": "<p>Pitta Dosha is the Sanskrit term for the fire or transformation principle, the second of the three biological organizations, tridosha. It represents the principle of transformation, governing digestion, metabolism, and body temperature, and is associated with the fire and water elements.</p>"
   },
   "lavana avastha paka": {
     "cat": "ayurveda",
     "title": "Lavana Avastha Pāka",
     "phon": "",
-    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature (asthāyi) Māmsa and Meda Dhātus in the body. Located on the posterior outer sides of the Jihvā, the tongue, and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
+    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature, asthāyi, Māmsa and Meda Dhātus in the body. Located on the posterior outer sides of the tongue, jihvā, and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
   },
   "lavana": {
     "cat": "ayurveda",
@@ -453,7 +453,7 @@
     "cat": "anatomy",
     "title": "Gallbladder",
     "phon": "",
-    "body": "<p>The gallbladder is a small, pear-shaped organ located underneath the liver. Its main job is to store and concentrate bile, a fluid made by the liver. When you eat, the gallbladder contracts and releases bile into the small intestine. This bile helps break down and digest fats, making it easier for your body to absorb them.</p>"
+    "body": "<p>The gallbladder is a small, pear-shaped organ located underneath the liver. Its main job is to store and concentrate bile, a fluid made by the liver. When you eat, the gallbladder contracts and releases bile into the small intestine. This bile helps break down and digest fats, making it easier for your body to absorb.</p>"
   },
   "kidneys": {
     "cat": "anatomy",
@@ -465,7 +465,7 @@
     "cat": "ayurveda",
     "title": "Katu Avastha Pāka",
     "phon": "",
-    "body": "<p>Katu Avastha Pāka is the Sanskrit term for the pungent stage of digestion. It represents the principle of Vāta-predominant thermogenesis and is associated with the nourishment of immature (asthāyi) Asthi Dhātu in the body. Located on the central part of the Jihvā, the tongue, anterior to the bitter area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
+    "body": "<p>Katu Avastha Pāka is the Sanskrit term for the pungent stage of digestion. It represents the principle of Vāta-predominant thermogenesis and is associated with the nourishment of immature, asthāyi, Asthi Dhātu in the body. Located on the central part of the tongue, jihvā, anterior to the bitter area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "jejunum": {
     "cat": "anatomy",
@@ -483,7 +483,7 @@
     "cat": "ayurveda",
     "title": "Vāyu",
     "phon": "",
-    "body": "<p>Vāyu is the Sanskrit term for the Air element, the second of the five basic elements (pañcha mahābhūtas). It represents the principle of movement and is associated with electrical energy in the body.</p>"
+    "body": "<p>Vāyu is the Sanskrit term for the Air element, the second of the five basic elements, pañcha mahābhūtas. It represents the principle of movement and is associated with electrical energy in the body.</p>"
   },
   "thermogenesis": {
     "cat": "physiology",
@@ -513,7 +513,7 @@
     "cat": "ayurveda",
     "title": "Āhāra Rasa",
     "phon": "",
-    "body": "<p>Āhāra Rasa is the nutritive juice or chyle that serves as the post-digestive precursor for the nourishment of all seven bodily tissues (Dhātus) and every cell in the body.</p>"
+    "body": "<p>Āhāra Rasa is the nutritive juice or chyle that serves as the post-digestive precursor for the nourishment of all seven bodily tissues, Dhātus, and every cell in the body.</p>"
   },
   "chyle": {
     "cat": "physiology",
@@ -537,13 +537,13 @@
     "cat": "ayurveda",
     "title": "Vāta Dosha",
     "phon": "",
-    "body": "<p>Vāta Dosha is the Sanskrit term for the air or movement principle, the first of the three biological organizations (tridosha). It represents the principle of mobility, which regulates all bodily activity, and is associated with the ether and air elements.</p>"
+    "body": "<p>Vāta Dosha is the Sanskrit term for the air or movement principle, the first of the three biological organizations, tridosha. It represents the principle of mobility, which regulates all bodily activity, and is associated with the ether and air elements.</p>"
   },
   "tikta avastha paka": {
     "cat": "ayurveda",
     "title": "Tikta Avastha Pāka",
     "phon": "",
-    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature (asthāyi) Majjā Dhātu in the body. Located on the central part of the Jihvā, the tongue, posterior to the pungent area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
+    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature, asthāyi, Majjā Dhātu in the body. Located on the central part of the tongue, jihvā posterior to the pungent area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "tikta": {
     "cat": "ayurveda",
@@ -555,7 +555,7 @@
     "cat": "ayurveda",
     "title": "Ākāsha",
     "phon": "",
-    "body": "<p>Ākāsha is the Sanskrit term for the Ether or Space element, the first of the five basic elements (pañcha mahābhūtas). It represents the principle of freedom and is associated with nuclear energy in the body.</p>"
+    "body": "<p>Ākāsha is the Sanskrit term for the Ether or Space element, the first of the five basic elements, pañcha mahābhūtas. It represents the principle of freedom and is associated with nuclear energy in the body.</p>"
   },
   "villi": {
     "cat": "anatomy",
@@ -579,13 +579,13 @@
     "cat": "ayurveda",
     "title": "Kashāya Avastha Pāka",
     "phon": "",
-    "body": "<p>Kashāya Avastha Pāka is the Sanskrit term for the astringent stage of digestion. It represents the principle of Vāta-predominant elimination and is associated with the nourishment of immature (asthāyi) Shukra or Ārtava Dhātu in the body. Located on the posterior part of the Jihvā, the tongue, and energetically linked to the colon, Kashāya stimulates emotions of fear, anxiety, and nervousness. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
+    "body": "<p>Kashāya Avastha Pāka is the Sanskrit term for the astringent stage of digestion. It represents the principle of Vāta-predominant elimination and is associated with the nourishment of immature, asthāyi, Shukra or Ārtava Dhātu in the body. Located on the posterior part of the tongue, jihvā, and energetically linked to the colon, Kashāya stimulates emotions of fear, anxiety, and nervousness. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "pakvashaya": {
     "cat": "ayurveda",
     "title": "Pakvashaya",
     "phon": "",
-    "body": "<p>Pakvashaya is the Sanskrit term for Colon (large intestine).</p>"
+    "body": "<p>Pākvāshaya is the Sanskrit term for colon/ large intestine.</p>"
   },
   "large intestine": {
     "cat": "anatomy",
@@ -651,7 +651,7 @@
     "cat": "ayurveda",
     "title": "Purīsha",
     "phon": "",
-    "body": "<p>Purisha is the Sanskrit term for feces or stool, one of the primary bodily wastes (malas). It represents the principle of elimination and support, helping to absorb minerals and water while providing essential structural stability to the colon wall, and is associated with the earth element in the body.</p>"
+    "body": "<p>Purīsha is the Sanskrit term for feces or stool, one of the primary bodily wastes, malas. It represents the principle of elimination and support, helping to absorb minerals and water while providing essential structural stability to the colon wall, and is associated with the earth element in the body.</p>"
   },
   "sigmoid colon": {
     "cat": "anatomy",
@@ -663,7 +663,7 @@
     "cat": "ayurveda",
     "title": "Poshaka Vāta",
     "phon": "",
-    "body": "<p>Poshaka Vāta is the Sanskrit term for the nourishing or precursor Vāta, the unstable or unprocessed form of the movement principle. It represents the principle of Vāta nourishment, is formed in the lower gut during the discrimination between essential nutrients and waste products (sāra kitta vivechana), and is associated with the ether and air elements in the body.</p>"
+    "body": "<p>Poshaka Vāta is the Sanskrit term for the nourishing or precursor Vāta, the unstable or unprocessed form of the movement principle. It represents the principle of Vāta nourishment, is formed in the lower gut during the discrimination between essential nutrients and waste products, sāra kitta vivechana, and is associated with the ākāsha, ether, and vayu, air, elements in the body.</p>"
   },
   "rectum": {
     "cat": "anatomy",
@@ -687,7 +687,7 @@
     "cat": "ayurveda",
     "title": "Ruksha Guna",
     "phon": "",
-    "body": "<p>Ruksha is the Sanskrit term for the dry quality, representing the principle of dehydration and is associated with absorption and constipation in the body.</p>"
+    "body": "<p>Rūksha is the Sanskrit term for the dry quality, representing the principle of dehydration and is associated with absorption and constipation in the body.</p>"
   },
   "laghu": {
     "cat": "ayurveda",
@@ -699,13 +699,13 @@
     "cat": "ayurveda",
     "title": "Khara Guna",
     "phon": "",
-    "body": "<p>Khara is the Sanskrit term for the rough quality, representing the principle of rigidity, and is associated with the cracking of the skin and bones in the body.</p>"
+    "body": "<p>Khāra is the Sanskrit term for the rough quality, representing the principle of rigidity, and is associated with the cracking of the skin and bones in the body.</p>"
   },
   "sukshma": {
     "cat": "ayurveda",
     "title": "Sukshma Guna",
     "phon": "",
-    "body": "<p>Sukshma is the Sanskrit term for the subtle quality, representing the principle of penetration and associated with entry into the body's minute capillaries.</p>"
+    "body": "<p>Sūkshma is the Sanskrit term for the subtle quality, representing the principle of penetration and associated with entry into the body's minute capillaries.</p>"
   },
   "chala": {
     "cat": "ayurveda",
@@ -825,13 +825,13 @@
     "cat": "ayurveda",
     "title": "Avila Guna",
     "phon": "",
-    "body": "<p>Avila is the Sanskrit term for the cloudy quality, representing the principle of adhesiveness, and is associated with a lack of clarity in the body.</p>"
+    "body": "<p>Āvila is the Sanskrit term for the cloudy quality, representing the principle of adhesiveness, and is associated with a lack of clarity in the body.</p>"
   },
   "sthula": {
     "cat": "ayurveda",
     "title": "Sthula Guna",
     "phon": "",
-    "body": "<p>Sthula is the Sanskrit term for the gross quality, representing the principle of bulk and is associated with obstruction and obesity in the body.</p>"
+    "body": "<p>Sthūla is the Sanskrit term for the gross quality, representing the principle of bulk and is associated with obstruction and obesity in the body.</p>"
   },
   "manda agni": {
     "cat": "ayurveda",
@@ -855,7 +855,7 @@
     "cat": "ayurveda",
     "title": "Amla Avastha Pāka",
     "phon": "",
-    "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature (asthāyi) Rakta Dhātu in the body. Located on the anterior outer sides of the Jihvā, the tongue, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its Vipāka, the post-digestive effect, is Amla, which is metabolic and increases Pitta Dosha.</p>"
+    "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature, asthāyi, Rakta Dhātu in the body. Located on the anterior outer sides of the tongue, jihvā, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its Vipāka, the post-digestive effect, is Amla, which is metabolic and increases Pitta Dosha.</p>"
   },
   "enzymes": {
     "cat": "physiology",
@@ -873,7 +873,7 @@
     "cat": "ayurveda",
     "title": "Pañcha Mahābhūtas",
     "phon": "",
-    "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom ākāsha (ether), movement vāyu (air), transformation āgni (fire), cohesiveness āpas (water), and stability prthivī (earth), and combine in specific proportions to form the three biological organizations (tridosha).</p>"
+    "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom ākāsha, ether, movement vāyu, air, transformation āgni, fire, cohesiveness āpas, water, and stability pruthivī, earth, and combine in specific proportions to form the three biological organizations, tridosha.</p>"
   },
   "rakta": {
     "cat": "ayurveda",
@@ -951,37 +951,37 @@
     "cat": "ayurveda",
     "title": "Ambu Vaha Srotas",
     "phon": "",
-    "body": "<p>Ambu Vaha Srotas (also known as Udaka Vaha Srotas) is the Sanskrit term for the water-regulating channel, one of the receiving channels. It represents the principle of hydration, electrolyte balance, and body temperature regulation, functioning to moisten tissues and select liquid wastes. Mūla (root): the soft palate (tālu), pancreas (kloma), and the third ventricle of the brain. Mārga (passage): the mucous membrane of the gastrointestinal tract (Maha Srotas). Mukha (opening): the kidneys (vrukka), tongue, and pores of the skin. Mala (excreta): urine and sweat.</p>"
+    "body": "<p>Ambu Vaha Srotas, also known as Udaka Vaha Srotas, is the Sanskrit term for the water-regulating channel, one of the receiving channels. It represents the principle of hydration, electrolyte balance, and body temperature regulation, functioning to moisten tissues and select liquid wastes.</p><p><strong>Mūla:</strong> the soft palate, tālu, pancreas, kloma, and the third ventricle of the brain</p><p><strong>Mārga:</strong> the mucous membrane of the gastrointestinal tract, Maha Srotas</p><p><strong>Mukha:</strong> the kidneys, vrukka, tongue, jihva, and pores of the skin</p><p><strong>Mala: </strong>urine, mūtra, sweat, sveda</p>"
   },
   "anna vaha srotas": {
     "cat": "ayurveda",
     "title": "Anna Vaha Srotas",
     "phon": "",
-    "body": "<p>Anna Vaha Srotas is the Sanskrit term for the food-carrying channel, one of the receiving channels. It represents the principle of digestion, absorption, and assimilation of nutrients, corresponding to the gastrointestinal tract from the mouth to the ileocecal valve. Mūla (root): the esophagus and stomach fundus (greater curvature). Mārga (passage): the GI tract from the lips through to the ileocecal valve. Mukha (opening): the ileocecal valve and mouth. Mala (excreta): feces (purīsha).</p>"
+    "body": "<p>Anna Vaha Srotas is the Sanskrit term for the food-carrying channel, one of the receiving channels. It represents the principle of digestion, absorption, and assimilation of nutrients, corresponding to the gastrointestinal tract from the mouth to the ileocecal valve.</p><p><strong>Mūla:</strong> the esophagus and stomach fundus (greater curvature)</p><p><strong>Mārga:</strong> the GI tract from the lips through to the ileocecal valve</p><p><strong>Mukha:</strong> the ileocecal valve and mouth</p><p><strong>Mala:</strong> feces, purīsha</p>"
   },
   "artava dhatu": {
     "cat": "ayurveda",
     "title": "Ārtava Dhātu",
     "phon": "",
-    "body": "<p>Ārtava Dhātu is the Sanskrit term for the female reproductive tissue. It represents the principle of ovulation and conception (prajanana), functioning to continue human life through the union of male and female energy. Upa-Dhātu (superior by-product): Ojas (the pure essence of all tissues). Mala (inferior by-product): none (pubic and axillary hair are functionally related).</p>"
+    "body": "<p>Ārtava Dhātu is the Sanskrit term for the female reproductive tissue. It represents the principle of ovulation and conception, prajanana, functioning to continue human life through the union of male and female energy.</p><p><strong>Upa-Dhātu:</strong> Ojas, the pure essence of all tissues</p><p><strong>Mala:</strong> none, pubic and axillary hair are functionally related</p>"
   },
   "artava vaha srotas": {
     "cat": "ayurveda",
     "title": "Ārtava Vaha Srotas",
     "phon": "",
-    "body": "<p>Ārtava Vaha Srotas is the Sanskrit term for the female reproductive channel, one of the nourishing channels. It represents the principle of ovulation, conception, and the production of ojas, including the ovaries and uterus. Mūla (root): the ovaries and areola of the nipples. Mārga (passage): the fallopian tubes, uterus, cervical canal, and vaginal passage. Mukha (opening): the labia (yoni oshtha). Mala (excreta): none (functionally related to pubic and axillary hair).</p>"
+    "body": "<p>Ārtava Vaha Srotas is the Sanskrit term for the female reproductive channel, one of the nourishing channels. It represents the principle of ovulation, conception, and the production of ojas, including the ovaries and uterus.</p><p><strong>Mūla:</strong> the ovaries and areola of the nipples</p><p><strong>Mārga:</strong> the fallopian tubes, uterus, cervical canal, and vaginal passage</p><p><strong>Mukha:</strong> the labia, yoni oshtha</p><p><strong>Mala:</strong> none, pubic and axillary hair are functionally related</p>"
   },
   "asthi dhatu": {
     "cat": "ayurveda",
     "title": "Asthi Dhātu",
     "phon": "",
-    "body": "<p>Asthi Dhātu is the Sanskrit term for the bone tissue, the densest tissue in the body. It represents the principle of structural support and protection (dhārana), forming the skeletal framework that protects vital organs and provides the internal shape for the head, face, and limbs. Upa-Dhātu (superior by-product): teeth (danta) and cartilage (taruna asthi). Mala (inferior by-product): hair (kesha) and nails (nakha).</p>"
+    "body": "<p>Asthi Dhātu is the Sanskrit term for the bone tissue, the densest tissue in the body. It represents the principle of structural support and protection, dhārana, forming the skeletal framework that protects vital organs and provides the internal shape for the head, face, and limbs.</p><p><strong>Upa-Dhātu:</strong> teeth, danta, and cartilage, taruna asthi</p><p><strong>Mala:</strong> hair, kesha, and nails, nakha</p>"
   },
   "asthi vaha srotas": {
     "cat": "ayurveda",
     "title": "Asthi Vaha Srotas",
     "phon": "",
-    "body": "<p>Asthi Vaha Srotas is the Sanskrit term for the bone tissue channel, one of the nourishing channels. It represents the principle of structural support and protection (dhārana), functioning to form the skeletal framework. Mūla (root): the pelvic girdle and sacrum. Mārga (passage): the skeletal system. Mukha (opening): the nails and hair. Mala (excreta): hair and nails.</p>"
+    "body": "<p>Asthi Vaha Srotas is the Sanskrit term for the bone tissue channel, one of the nourishing channels. It represents the principle of structural support and protection, dhārana, functioning to form the skeletal framework.</p><p><strong>Mūla:</strong> the pelvic girdle and sacrum</p><p><strong>Mārga:</strong> the skeletal system</p><p><strong>Mukha:</strong> nails, nakha and hair, kesha</p><p><strong>Mala:</strong> hair, kesha, and nails, nakha</p>"
   },
   "avila guna": {
     "cat": "ayurveda",
@@ -993,7 +993,7 @@
     "cat": "ayurveda",
     "title": "Bāhya Mārga",
     "phon": "",
-    "body": "<p>Bāhya Mārga is the Sanskrit term for the external or superficial pathway, representing the principle of peripheral circulation. It consists of the channels that carry Rasa and Rakta Dhātus (plasma and blood), is associated with the Ectoderm embryological layer, and is the primary site for the spread (Prasara) stages of disease.</p>"
+    "body": "<p>Bāhya Mārga is the Sanskrit term for the external or superficial pathway, representing the principle of peripheral circulation. It consists of the channels that carry Rasa and Rakta Dhātus, plasma and blood, is associated with the Ectoderm embryological layer, and is the primary site for the spread, Prasara, stages of disease.</p>"
   },
   "chala guna": {
     "cat": "ayurveda",
@@ -1047,31 +1047,31 @@
     "cat": "ayurveda",
     "title": "Madhyama Mārga",
     "phon": "",
-    "body": "<p>Madhyama Mārga is the Sanskrit term for the middle or deep pathway, representing the principle of vital organ and deep tissue involvement. It includes the deep connective tissues, the subsequent five biological tissues (Māmsa, Meda, Asthi, Majjā, and Shukra/Ārtava), and the vital organs such as the brain, heart, and kidneys, and is associated with the Mesoderm embryological layer, and is the primary site for the deposition, manifestation, and disease differentiation (Sthāna Samshraya, Vyakti, and Bheda) stages of disease.</p>"
+    "body": "<p>Madhyama Mārga is the Sanskrit term for the middle or deep pathway, representing the principle of vital organ and deep tissue involvement. It includes the deep connective tissues, the subsequent five biological tissues (Māmsa, Meda, Asthi, Majjā, and Shukra/Ārtava), and the vital organs such as the brain, heart, and kidneys, and is associated with the Mesoderm embryological layer, and is the primary site for the deposition, manifestation, and disease differentiation, Sthāna Samshraya, Vyakti, and Bheda, stages of disease.</p>"
   },
   "majja dhatu": {
     "cat": "ayurveda",
     "title": "Majjā Dhātu",
     "phon": "",
-    "body": "<p>Majjā Dhātu is the Sanskrit term for the nerve tissue and bone marrow, the sixth biological tissue. It represents the principle of filling bone spaces (pūrana), functioning to maintain communication, memory, coordination, and the flow of intelligence through the central and peripheral nervous systems. Upa-Dhātu (superior by-product): lacrimal secretions (ashru). Mala (inferior by-product): oily secretions in the eyes (akshi vitta sneha) and mucosal discharges.</p>"
+    "body": "<p>Majjā Dhātu is the Sanskrit term for the nerve tissue and bone marrow, the sixth biological tissue. It represents the principle of filling bone spaces, pūrana, functioning to maintain communication, memory, coordination, and the flow of intelligence through the central and peripheral nervous systems.</p><p><strong>Upa-Dhātu:</strong> lacrimal secretions, ashru</p><p><strong>Mala:</strong> oily secretions in the eyes, akshi vitta sneha, and mucosal discharges</p>"
   },
   "majja vaha srotas": {
     "cat": "ayurveda",
     "title": "Majjā Vaha Srotas",
     "phon": "",
-    "body": "<p>Majjā Vaha Srotas is the Sanskrit term for the nerve and bone marrow channel, one of the nourishing channels. It represents the principle of communication, memory, and filling spaces (pūrana), functioning to maintain coordination and higher mental functions. Mūla (root): the brain, spinal cord, bone marrow, and joints (sandhi). Mārga (passage): the central, sympathetic, and parasympathetic nervous systems. Mukha (opening): the synaptic space and neuromuscular cleft. Mala (excreta): lacrimal and mucosal discharges.</p>"
+    "body": "<p>Majjā Vaha Srotas is the Sanskrit term for the nerve and bone marrow channel, one of the nourishing channels. It represents the principle of communication, memory, and filling spaces (pūrana), functioning to maintain coordination and higher mental functions.</p><p><strong>Mūla</strong> (root): the brain, spinal cord, bone marrow, and joints (sandhi)</p><p><strong>Mārga </strong>(passage): the central, sympathetic, and parasympathetic nervous systems</p><p><strong>Mukha</strong> (opening): the synaptic space and neuromuscular cleft</p><p><strong>Mala:</strong> oily secretions in the eyes, akshi vitta sneha, and mucosal discharges</p>"
   },
   "mamsa dhatu": {
     "cat": "ayurveda",
     "title": "Māmsa Dhātu",
     "phon": "",
-    "body": "<p>Māmsa Dhātu is the Sanskrit term for the muscle tissue, the third biological tissue. It represents the principle of plastering (lepana), providing support, strength, coordination, and locomotion while covering and protecting the delicate internal organs. Upa-Dhātu (superior by-product): muscle fat (vasā) and the six layers of skin (tvacha). Mala (inferior by-product): Khamala (nasal crust, earwax, sebaceous secretions, dental tartar, and smegma).</p>"
+    "body": "<p>Māmsa Dhātu is the Sanskrit term for the muscle tissue, the third biological tissue. It represents the principle of plastering, lepana, providing support, strength, coordination, and locomotion while covering and protecting the delicate internal organs.</p><p><strong>Upa-Dhātu:</strong> muscle fat, vasā, and the six layers of skin, tvacha</p><p><strong>Mala:</strong> khamala (nasal crust, earwax, sebaceous secretions, dental tartar, and smegma)</p>"
   },
   "mamsa vaha srotas": {
     "cat": "ayurveda",
     "title": "Māmsa Vaha Srotas",
     "phon": "",
-    "body": "<p>Māmsa Vaha Srotas is the Sanskrit term for the muscle tissue channel, one of the nourishing channels. It represents the principle of strength, form, and coordination, functioning to provide support and cover the delicate organs (lepana). Mūla (root): the fascia, six layers of skin (tvacha), small tendons (snāyu), and mesoderm. Mārga (passage): the entire muscle system. Mukha (opening): the pores of the skin and sites of khamala. Mala (excreta): Khamala (nasal crust, ear wax, sebaceous secretions, smegma, and tartar).</p>"
+    "body": "<p>Māmsa Vaha Srotas is the Sanskrit term for the muscle tissue channel, one of the nourishing channels. It represents the principle of strength, form, and coordination, functioning to provide support and cover the delicate organs.</p><p><strong>Mūla:</strong> the fascia, six layers of skin, tvacha, small tendons, snāyu, and mesoderm</p><p><strong>Mārga:</strong> the entire muscle system</p><p><strong>Mukha:</strong> the pores of the skin and sites of khamala</p><p><strong>Mala:</strong> khamala (nasal crust, earwax, sebaceous secretions, dental tartar, and smegma)</p>"
   },
   "manda guna": {
     "cat": "ayurveda",
@@ -1089,19 +1089,19 @@
     "cat": "ayurveda",
     "title": "Mano Vaha Srotas",
     "phon": "",
-    "body": "<p>Mano Vaha Srotas is the Sanskrit term for the mind-carrying channel, the pathway of the entire person. It represents the principle of thinking, feeling, inquiring, and memory, serving as the bridge through which perception becomes attention and understanding throughout the whole body. Mūla (root): the heart, cardiac plexus, brain, and chakra system. Mārga (passage): the entire body. Mukha (opening): the marma points and the five sensory organs (ears, skin, eyes, tongue, and nose). Mala (excreta): excess of Rajas and Tamas qualities.</p>"
+    "body": "<p>Mano Vaha Srotas is the Sanskrit term for the mind-carrying channel, the pathway of the entire person. It represents the principle of thinking, feeling, inquiring, and memory, serving as the bridge through which perception becomes attention and understanding throughout the whole body.</p><p><strong>Mūla:</strong> the heart, cardiac plexus, brain, and chakra system</p><p><strong>Mārga:</strong> the entire body</p><p><strong>Mukha:</strong> the marma points and the five sensory organs (ears, skin, eyes, tongue, and nose)</p><p><strong>Mala:</strong> excess rajas and tamas qualities</p>"
   },
   "meda dhatu": {
     "cat": "ayurveda",
     "title": "Meda Dhātu",
     "phon": "",
-    "body": "<p>Meda Dhātu is the Sanskrit term for the adipose or fat tissue, the fourth biological tissue. It represents the principle of lubrication (snehan), functioning to store energy as a food reservoir, provide insulation, and manifest personal love and softness in the body. Upa-Dhātu (superior by-product): tendons, sinews, ligaments, and flat muscles (snāyu). Mala (inferior by-product): sweat (sveda).</p>"
+    "body": "<p>Meda Dhātu is the Sanskrit term for the adipose or fat tissue, the fourth biological tissue. It represents the principle of lubrication, snehan, functioning to store energy as a food reservoir, provide insulation, and manifest personal love and softness in the body.</p><p><strong>Upa-Dhātu:</strong> tendons, sinews, ligaments, and flat muscles, snāyu</p><p><strong>Mala:</strong> sweat, sveda</p>"
   },
   "meda vaha srotas": {
     "cat": "ayurveda",
     "title": "Meda Vaha Srotas",
     "phon": "",
-    "body": "<p>Meda Vaha Srotas is the Sanskrit term for the fat-carrying channel, one of the nourishing channels. It represents the principle of lubrication (snehan), insulation, and personal love, functioning to store energy and add bulk to the body. Mūla (root): the omentum and adrenal glands (vrukka). Mārga (passage): the subcutaneous fat tissue. Mukha (opening): the sweat glands. Mala (excreta): sweat (sveda).</p>"
+    "body": "<p>Meda Vaha Srotas is the Sanskrit term for the fat-carrying channel, one of the nourishing channels. It represents the principle of lubrication, insulation, and personal love, functioning to store energy and add bulk to the body.</p><p><strong>Mūla:</strong> the omentum and adrenal glands, vrukka</p><p><strong>Mārga:</strong> the subcutaneous fat tissue, meda</p><p><strong>Mukha:</strong> the sweat glands</p><p><strong>Mala:</strong> sweat, sveda</p>"
   },
   "mrudu guna": {
     "cat": "ayurveda",
@@ -1113,13 +1113,13 @@
     "cat": "ayurveda",
     "title": "Mūtra Vaha Srotas",
     "phon": "",
-    "body": "<p>Mūtra Vaha Srotas is the Sanskrit term for the urinary channel, one of the channels of elimination. It represents the principle of electrolyte balance and elimination of liquid waste, functioning to maintain blood pressure and excrete nitrogenous toxins. Mūla (root): the kidneys. Mārga (passage): the ureters, bladder, and urethra. Mukha (opening): the urethral opening. Mala (excreta): none.</p>"
+    "body": "<p>Mūtra Vaha Srotas is the Sanskrit term for the urinary channel, one of the channels of elimination. It represents the principle of electrolyte balance and elimination of liquid waste, functioning to maintain blood pressure and excrete nitrogenous toxins.</p><p><strong>Mūla: </strong>the kidneys</p><p><strong>Mārga:</strong> the ureters, bladder, and urethra</p><p><strong>Mukha:</strong> the urethral opening</p><p><strong>Mala:</strong> none</p>"
   },
   "ojas": {
     "cat": "ayurveda",
     "title": "Ojas",
     "phon": "",
-    "body": "<p>Ojas is the Sanskrit term for the vital essence, the pure essence of Kapha Dosha and the water element in particular. It represents the principle of natural immunity and vitality, serving as a superfine biological substance that circulates via the heart throughout the body to maintain the resistance and stability of all tissues. It is composed of two types: Apara Ojas (unprocessed), which circulates throughout the system, and Para Ojas (superior), which consists of eight drops that remain in the heart to maintain the life of the individual.</p>"
+    "body": "<p>Ojas is the Sanskrit term for the vital essence, the pure essence of Kapha Dosha and the water element in particular. It represents the principle of natural immunity and vitality, serving as a superfine biological substance that circulates via the heart throughout the body to maintain the resistance and stability of all tissues. It is composed of two types: Apara Ojas, unprocessed, which circulates throughout the system, and Para Ojas, superior, which consists of eight drops that remain in the heart to maintain the life of the individual.</p>"
   },
   "picchila guna": {
     "cat": "ayurveda",
@@ -1131,43 +1131,43 @@
     "cat": "ayurveda",
     "title": "Prāna",
     "phon": "",
-    "body": "<p>Prāna is the Sanskrit term for the vital life force, the pure essence of Vāta Dosha and the ether element in particular. It represents the principle of cellular communication and respiration, serving as the flow of intelligence that governs all motor and sensory functions, oxygenation, and the pulsation of the heart. In its role as the bridge between body, mind, and consciousness, it directs attention to create perception and enkindles the central bodily fire, Āgni, to express the body's natural intelligence.</p>"
+    "body": "<p>Prāna is the Sanskrit term for the vital life force, the pure essence of Vāta Dosha and the ākāsha, ether element in particular. It represents the principle of cellular communication and respiration, serving as the flow of intelligence that governs all motor and sensory functions, oxygenation, and the pulsation of the heart. In its role as the bridge between body, mind, and consciousness, it directs attention to create perception and enkindles the central bodily fire, Āgni, to express the body's natural intelligence.</p>"
   },
   "prana vaha srotas": {
     "cat": "ayurveda",
     "title": "Prāna Vaha Srotas",
     "phon": "",
-    "body": "<p>Prāna Vaha Srotas is the Sanskrit term for the respiratory channel, one of the receiving channels. It represents the principle of respiration, maintaining life functions, and communication with the higher self, functioning to maintain the flow of intelligence between the body and mind. Mūla (root): the left chamber of the heart and the entire gastrointestinal (GI) tract (Maha Srotas). Mārga (passage): the respiratory tract, including the bronchial tree, alveoli, larynx, and pharynx. Mukha (opening): the nose (Nasa). Mala (excreta): carbon dioxide.</p>"
+    "body": "<p>Prāna Vaha Srotas is the Sanskrit term for the respiratory channel, one of the receiving channels. It represents the principle of respiration, maintaining life functions, and communication with the higher self, functioning to maintain the flow of intelligence between the body and mind.</p><p><strong>Mūla:</strong> the left chamber of the heart and the entire gastrointestinal tract, Maha Srotas</p><p><strong>Mārga:</strong> the respiratory tract, including the bronchial tree, alveoli, larynx, and pharynx</p><p><strong>Mukha:</strong> nose, nasa</p><p><strong>Mala:</strong> carbon dioxide</p>"
   },
   "purisha vaha srotas": {
     "cat": "ayurveda",
     "title": "Purisha Vaha Srotas",
     "phon": "",
-    "body": "<p>Purīsha Vaha Srotas is the Sanskrit term for the feces-carrying channel, one of the channels of elimination. It represents the principle of absorption of minerals and elimination of solid waste, functioning to provide structural stability to the colon. Mūla (root): the cecum, rectum (guda), and sigmoid colon. Mārga (passage): the large intestine. Mukha (opening): the anal orifice. Mala (excreta): none.</p>"
+    "body": "<p>Purīsha Vaha Srotas is the Sanskrit term for the feces carrying channel, one of the channels of elimination. It represents the principle of absorption of minerals and elimination of solid waste, functioning to provide structural stability to the colon.</p><p><strong>Mūla:</strong> the cecum, rectum, guda, and sigmoid colon</p><p><strong>Mārga:</strong> the large intestine</p><p><strong>Mukha: </strong>the anal orifice</p><p><strong>Mala:</strong> none</p>"
   },
   "rajah vaha srotas": {
     "cat": "ayurveda",
     "title": "Rajah Vaha Srotas",
     "phon": "",
-    "body": "<p>Rajah Vaha Srotas is the Sanskrit term for the menstrual channel, one of the specific female nourishing channels. It represents the principle of menstrual cleansing, functioning to clear away the unfertilized ovum and the old endometrial lining after each cycle. Mūla, Mārga, and Mukha: these components share structural confluence with Ārtava Vaha Srotas. Mala (excreta): the menstrual flow is itself a byproduct and means of cleansing.</p>"
+    "body": "<p>Rajah Vaha Srotas is the Sanskrit term for the menstrual channel, one of the specific female nourishing channels. It represents the principle of menstrual cleansing, functioning to clear away the unfertilized ovum and the old endometrial lining after each cycle.</p><p><strong>Mūla</strong>, <strong>Mārga</strong>, and <strong>Mukha</strong>: these components share structural confluence with Ārtava Vaha Srotas</p>"
   },
   "rakta dhatu": {
     "cat": "ayurveda",
     "title": "Rakta Dhātu",
     "phon": "",
-    "body": "<p>Rakta Dhātu is the Sanskrit term for the blood tissue, specifically the red blood cells. It represents the principle of life function (jīvana), responsible for oxygenation, enthusiasm, and maintaining the life of every cell while serving as a bridge between the internal and external environments. Upa-Dhātu (superior by-product): blood vessels (sirā) and small tendons or sinews (kandara). Mala (inferior by-product): Poshaka Pitta, which manifests as bile.</p>"
+    "body": "<p>Rakta Dhātu is the Sanskrit term for the blood tissue, specifically the red blood cells. It represents the principle of life function, jīvana, responsible for oxygenation, enthusiasm, and maintaining the life of every cell while serving as a bridge between the internal and external environments.</p><p><strong>Upa-Dhātu:</strong> blood vessels, sirā, and small tendons or sinews, kandara</p><p><strong>Mala:</strong> Poshaka Pitta, precursor Pitta, which manifests as bile</p>"
   },
   "rakta vaha srotas": {
     "cat": "ayurveda",
     "title": "Rakta Vaha Srotas",
     "phon": "",
-    "body": "<p>Rakta Vaha Srotas is the Sanskrit term for the blood-carrying channel, one of the nourishing channels. It represents the principle of oxygenation, life function (jīvana), and enthusiasm, responsible for transporting nutrients, hormones, and heat. Mūla (root): the liver (yakrut) and spleen (plīha). Mārga (passage): the arteries and circulatory system. Mukha (opening): the arteriole-venous junctions. Mala (excreta): Poshaka Pitta (precursor Pitta).</p>"
+    "body": "<p>Rakta Raha Srotas is the Sanskrit term for the blood-carrying channel, one of the nourishing channels. It represents the principle of oxygenation, life function, and enthusiasm, responsible for transporting nutrients, hormones, and heat.</p><p><strong>Mūla:</strong> the liver, yakrut, and spleen, plīha</p><p><strong>Mārga:</strong> the arteries and circulatory system</p><p><strong>Mukha:</strong> the arteriole-venous junctions</p><p><strong>Mala:</strong> Poshaka Pitta, precursor Pitta, which manifests as bile</p>"
   },
   "rasa vaha srotas": {
     "cat": "ayurveda",
     "title": "Rasa Vaha Srotas",
     "phon": "",
-    "body": "<p>Rasa Vaha Srotas is the Sanskrit term for the plasma channel, one of the nourishing channels. It represents the principle of nutrition, immunity, and faith (prīnana), functioning to provide nourishment to every cell in the body. Mūla (root): the right chamber of the heart and the ten great vessels. Mārga (passage): the venous and lymphatic systems. Mukha (opening): the arteriole-venous junctions. Mala (excreta): Poshaka Kapha (precursor Kapha).</p>"
+    "body": "<p>Rasa Vaha Srotas is the Sanskrit term for the plasma channel, one of the nourishing channels. It represents the principle of nutrition, immunity, and faith, functioning to provide nourishment to every cell in the body.</p><p><strong>Mūla: </strong>the right chamber of the heart and the ten great vessels</p><p><strong>Mārga:</strong> the venous and lymphatic systems</p><p><strong>Mukha:</strong> the arteriole-venous junctions</p><p><strong>Mala:</strong> Poshaka Kapha, precursor Kapha, which manifests as mucus, kleda</p>"
   },
   "ruksha guna": {
     "cat": "ayurveda",
@@ -1209,13 +1209,13 @@
     "cat": "ayurveda",
     "title": "Shukra Dhātu",
     "phon": "",
-    "body": "<p>Shukra Dhātu is the Sanskrit term for the male reproductive tissue. It represents the principle of procreation (prajanana), supreme intelligence, and emotional release, serving as the refined essence of all tissues that ultimately produces ojas for vigor and vitality. Upa-Dhātu (superior by-product): Ojas (the pure essence of all tissues). Mala (inferior by-product): none (pubic and axillary hair are functionally related).</p>"
+    "body": "<p>Shukra Dhātu is the Sanskrit term for the male reproductive tissue. It represents the principle of procreation, prajanana, supreme intelligence, and emotional release, serving as the refined essence of all tissues that ultimately produces ojas for vigor and vitality.</p><p><strong>Upa-Dhātu:</strong> Ojas, the pure essence of all tissues</p><p><strong>Mala:</strong> none, pubic and axillary hair are functionally related</p>"
   },
   "shukra vaha srotas": {
     "cat": "ayurveda",
     "title": "Shukra Vaha Srotas",
     "phon": "",
-    "body": "<p>Shukra Vaha Srotas is the Sanskrit term for the male reproductive channel, one of the nourishing channels. It represents the principle of procreation (prajanana), supreme intelligence, and emotional release, functioning to produce semen and ojas. Mūla (root): the testicles and nipples. Mārga (passage): the vas deferens, epididymis, prostate, urethra, and urinogenital tract. Mukha (opening): the urethral opening. Mala (excreta): none (functionally related to pubic and axillary hair).</p>"
+    "body": "<p>Shukra Vaha Srotas is the Sanskrit term for the male reproductive channel, one of the nourishing channels. It represents the principle of procreation (prajanana), supreme intelligence, and emotional release, functioning to produce semen and ojas.</p><p><strong>Mūla:</strong> the testicles and nipples</p><p><strong>Mārga:</strong> the vas deferens, epididymis, prostate, urethra, and urinogenital tract</p><p><strong>Mukha:</strong> the urethral opening</p><p><strong>Mala:</strong> none, pubic and axillary hair are functionally related</p>"
   },
   "snigdha guna": {
     "cat": "ayurveda",
@@ -1227,7 +1227,7 @@
     "cat": "ayurveda",
     "title": "Stanya Vaha Srotas",
     "phon": "",
-    "body": "<p>Stanya Vaha Srotas is the Sanskrit term for the lactation channel, one of the specific female nourishing channels. It represents the principle of lactation, functioning to create and transport mother's milk. Mūla (root): the lactiferous glands and Rasa Dhātu. Mārga (passage): the lactiferous ducts. Mukha (opening): the nipple ducts. Mala (excreta): none.</p>"
+    "body": "<p>Stanya Vaha Srotas is the Sanskrit term for the lactation channel, one of the specific female nourishing channels. It represents the principle of lactation, functioning to create and transport mother's milk.</p><p><strong>Mūla:</strong> the lactiferous glands and Rasa Dhātu</p><p><strong>Mārga:</strong> the lactiferous ducts</p><p><strong>Mukha:</strong> the nipple ducts</p><p><strong>Mala:</strong> none</p>"
   },
   "sthira guna": {
     "cat": "ayurveda",
@@ -1251,7 +1251,7 @@
     "cat": "ayurveda",
     "title": "Sveda Vaha Srotas",
     "phon": "",
-    "body": "<p>Sveda Vaha Srotas is the Sanskrit term for the sweat-carrying channel, one of the channels of elimination. It represents the principle of body temperature regulation and skin lubrication, functioning to excrete excess liquid wastes. Mūla (root): the sweat glands and sebaceous glands. Mārga (passage): the sweat ducts and sebaceous ducts. Mukha (opening): the pores of the skin and openings of the sweat glands. Mala (excreta): none.</p>"
+    "body": "<p>Sveda Vaha Srotas is the Sanskrit term for the sweat-carrying channel, one of the channels of elimination. It represents the principle of body temperature regulation and skin lubrication, functioning to excrete excess liquid wastes.</p><p><strong>Mūla:</strong> the sweat glands and sebaceous glands</p><p><strong>Mārga:</strong> the sweat ducts and sebaceous ducts</p><p><strong>Mukha:</strong> the pores of the skin and openings of the sweat glands</p><p><strong>Mala:</strong> none</p>"
   },
   "tejas": {
     "cat": "ayurveda",
@@ -1383,7 +1383,7 @@
     "cat": "ayurveda",
     "title": "Para Ojas",
     "phon": "",
-    "body": "<p>Para Ojas is the Sanskrit term for superior or superfine Ojas, representing the pure and fully processed essence of all seven Dhātus (biological tissues). It consists of exactly eight drops, each roughly the size of a poppy seed, which stay permanently in the heart to maintain the individual’s life and serve as the stable foundation for the body's vital essence.</p>"
+    "body": "<p>Para Ojas is the Sanskrit term for superior or superfine Ojas, representing the pure and fully processed essence of all seven Dhātus. It consists of exactly eight drops, each roughly the size of a poppy seed, which stay permanently in the heart to maintain the individual’s life and serve as the stable foundation for the body's vital essence.</p>"
   },
   "cholecystokinin cck": {
     "cat": "physiology",
@@ -1509,7 +1509,7 @@
     "cat": "ayurveda",
     "title": "Pruthivī",
     "phon": "",
-    "body": ""
+    "body": "<p>Pruthivī is the Sanskrit term for the Earth element, the fifth of the five basic elements, pañcha mahābhūtas. It represents the principle of stability and is associated with mechanical energy in the body.</p>"
   },
   "starches": {
     "cat": "physiology",
@@ -1850,6 +1850,30 @@
   "amisha gandha": {
     "cat": "ayurveda",
     "title": "Āmisha Gandha",
+    "phon": "",
+    "body": ""
+  },
+  "agnis": {
+    "cat": "ayurveda",
+    "title": "Āgnis",
+    "phon": "",
+    "body": "<p>Āgni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
+  },
+  "anna drava": {
+    "cat": "ayurveda",
+    "title": "Anna-Drava",
+    "phon": "",
+    "body": "<p>Food liquefied into chyme during digestion.</p>"
+  },
+  "mamsa medha asthi majja shukra artava": {
+    "cat": "ayurveda",
+    "title": "Māmsa, Medha, Asthi, Majjā, Shukra, Ārtava",
+    "phon": "",
+    "body": ""
+  },
+  "rasa rakta": {
+    "cat": "ayurveda",
+    "title": "Rasa & Rakta",
     "phon": "",
     "body": ""
   }
