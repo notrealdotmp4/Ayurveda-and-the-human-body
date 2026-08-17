@@ -1093,6 +1093,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     }
     const MAP_CACHE = {}; let loadSeq = 0;
     const MAP_PLACEHOLDER = '<p style="font-family:system-ui,sans-serif;color:var(--ink-soft);text-align:center;max-width:30ch;margin:auto;padding:20px">Interactive map coming soon — drop the SVG into /public/anim.</p>';
+    const MAP_LOADING = '<div style="display:flex;align-items:center;justify-content:center;height:100%;min-height:180px"><div class="map-spinner" aria-label="Loading map"></div></div>';
     function loadMap() {
       const src = heroMapSrc || '/anim/digestive-map.svg';
       if (currentMapSrc === src) { mReset(); if (mapOrgansByKey) buildOrganList(mapOrgansByKey); return; }
@@ -1120,6 +1121,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
         mReset();
       };
       if (MAP_CACHE[src]) { render(MAP_CACHE[src]); return; }
+      mapCanvas.innerHTML = MAP_LOADING; // clear the previous map so it isn't shown under the new title while fetching
       fetch(src).then((r) => r.ok ? r.text() : Promise.reject()).then((svg) => { MAP_CACHE[src] = svg; render(svg); }).catch(() => {
         const baseSrc = src.replace(/-(female|male)\.svg$/, '.svg');
         if (baseSrc !== src) { currentMapSrc = null; heroMapSrc = baseSrc; loadMap(); return; } // sexed file missing -> fall back to base

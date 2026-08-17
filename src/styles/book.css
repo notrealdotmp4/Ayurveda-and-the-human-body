@@ -294,3 +294,7 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .sp-body p:last-child{margin-bottom:0}
 .sp-close{position:absolute;top:5px;right:9px;border:0;background:transparent;font-size:19px;line-height:1;color:var(--ink-soft);cursor:pointer}
 .simple-text p{margin:0 0 12px}.simple-text .tw-lede{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:18px 0 10px}.simple-text h4{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;margin:20px 0 8px}.simple-text ul{margin:0 0 14px;padding-left:20px}.simple-text li{margin:0 0 7px}.simple-text li strong{color:var(--ink)}
+
+/* Map loading spinner — shown while a map SVG is being fetched (prevents the previous map showing under the new title) */
+.map-spinner{width:34px;height:34px;border-radius:50%;border:3px solid rgba(148,41,0,.18);border-top-color:var(--c-ayurveda,#942900);animation:mapSpin .7s linear infinite}
+@keyframes mapSpin{to{transform:rotate(360deg)}}
