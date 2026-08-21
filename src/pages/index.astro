@@ -173,8 +173,18 @@ const rest = isLO ? chapters.slice(1) : chapters;
             <h4 class={b.level === 2 ? 'subhead subhead-lg' : 'subhead'}>{b.text}</h4>
           ) : b.type === 'list' ? (
             <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
+          ) : b.num ? (
+            <div class="stage">
+              <button class="stage-toggle" type="button" aria-expanded="false">
+                <span class="stage-label">{b.num}. {b.segments[0].t}</span>
+                <span class="stage-chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+              </button>
+              <div class="stage-panel" hidden>
+                <p>{b.segments.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</p>
+              </div>
+            </div>
           ) : (
-            <p>{b.num && <span class="p-num">{b.num}</span>}{b.segments.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</p>
+            <p>{b.segments.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</p>
           )
         ))}
       </section>
@@ -1191,6 +1201,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const loRevisit = document.getElementById('loRevisit');
     if (loRevisit) loRevisit.addEventListener('click', () => { try { localStorage.removeItem('seenIntro'); } catch (e) {} document.documentElement.classList.remove('skip-intro'); window.scrollTo({ top: 0 }); location.reload(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeHero(); notebook.classList.remove('open'); } });
+    document.querySelectorAll('.stage-toggle').forEach((btn) => {
+      const panel = btn.nextElementSibling;
+      btn.addEventListener('click', () => {
+        const open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        if (panel) panel.hidden = open;
+      });
+    });
     document.querySelectorAll('.sr-group').forEach((btn) => {
       const g = btn.dataset.group;
       const setState = (collapsed) => {
