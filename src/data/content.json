@@ -1,6 +1,6 @@
 {
   "title": "The Living Body",
-  "subtitle": "Tap any colored word to explore it — red for Āyurveda, amber for physiology, olive for anatomy.",
+  "subtitle": "Tap any colored word to explore it — red for Ayurveda, amber for physiology, olive for anatomy.",
   "invocation": "IIश्री:II",
   "chapters": [
     {
@@ -126,7 +126,15 @@
               "cat": "anatomy"
             },
             {
-              "t": " converts food into usable nutrients and consists of several key components: the "
+              "t": " converts food into usable "
+            },
+            {
+              "t": "nutrients",
+              "term": "nutrients",
+              "cat": "physiology"
+            },
+            {
+              "t": " and consists of several key components: the "
             },
             {
               "t": "mouth",
@@ -222,7 +230,15 @@
               "cat": "physiology"
             },
             {
-              "t": " of food for nutrient "
+              "t": " of food for "
+            },
+            {
+              "t": "nutrient",
+              "term": "nutrient",
+              "cat": "physiology"
+            },
+            {
+              "t": " "
             },
             {
               "t": "absorption",
@@ -1295,7 +1311,15 @@
               "cat": "anatomy"
             },
             {
-              "t": ", the brush border, vastly increase the surface area for nutrient uptake. "
+              "t": ", the brush border, vastly increase the surface area for "
+            },
+            {
+              "t": "nutrient",
+              "term": "nutrient",
+              "cat": "physiology"
+            },
+            {
+              "t": " uptake. "
             },
             {
               "t": "Lacteals",
@@ -1335,7 +1359,15 @@
               "cat": "anatomy"
             },
             {
-              "t": " to the subclavian veins. This process is made efficient by lipase, which has already broken down fats into absorbable components. The salty taste is yielded into "
+              "t": " to the subclavian "
+            },
+            {
+              "t": "veins",
+              "term": "veins",
+              "cat": "anatomy"
+            },
+            {
+              "t": ". This process is made efficient by lipase, which has already broken down fats into absorbable components. The salty taste is yielded into "
             },
             {
               "t": "Rasa Dhātu",
@@ -1501,7 +1533,15 @@
               "cat": "physiology"
             },
             {
-              "t": " with pungent properties facilitate the chemical breakdown of macronutrients while the Ushna fire element enhances "
+              "t": " with pungent properties facilitate the "
+            },
+            {
+              "t": "chemical breakdown",
+              "term": "chemical breakdown",
+              "cat": "physiology"
+            },
+            {
+              "t": " of macronutrients while the Ushna fire element enhances "
             },
             {
               "t": "thermogenesis",
@@ -1509,7 +1549,15 @@
               "cat": "physiology"
             },
             {
-              "t": " and GI circulation, turning the "
+              "t": " and GI "
+            },
+            {
+              "t": "circulation",
+              "term": "circulation",
+              "cat": "physiology"
+            },
+            {
+              "t": ", turning the "
             },
             {
               "t": "chyme",
@@ -1715,7 +1763,15 @@
               "cat": "physiology"
             },
             {
-              "t": ", representing the principle of Vāta-predominant "
+              "t": ", representing the principle of "
+            },
+            {
+              "t": "Vāta",
+              "term": "vata",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "-predominant "
             },
             {
               "t": "absorption",
@@ -1803,7 +1859,15 @@
               "cat": "anatomy"
             },
             {
-              "t": ", with nutrient assimilation as a key focus. This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated "
+              "t": ", with "
+            },
+            {
+              "t": "nutrient",
+              "term": "nutrient",
+              "cat": "physiology"
+            },
+            {
+              "t": " assimilation as a key focus. This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated "
             },
             {
               "t": "Pitta Dosha",
@@ -1937,7 +2001,15 @@
               "cat": "physiology"
             },
             {
-              "t": ", representing the principle of Vāta-predominant "
+              "t": ", representing the principle of "
+            },
+            {
+              "t": "Vāta",
+              "term": "vata",
+              "cat": "ayurveda"
+            },
+            {
+              "t": "-predominant "
             },
             {
               "t": "elimination",

@@ -183,7 +183,7 @@
     "cat": "ayurveda",
     "title": "Vipāka",
     "phon": "",
-    "body": "<p>Vipāka is the Sanskrit term for the post-digestive effect, the third of the three pharmacological principles. It represents the principle of metabolic transformation and is associated with the elemental combinations of the three resulting post-digestive tastes: pruthivī, earth and āpas, water (madhura, sweet and anabolic), pruthivī, earth and āgni, fire (amla, sour and metabolic), and āgni, fire and vāyu, air (katu, pungent and catabolic) in the body.</p>"
+    "body": "<p>Vipāka is the Sanskrit term for the post-digestive effect, the third of the three pharmacological principles. It represents the principle of metabolic transformation and is associated with the elemental combinations of the three resulting post-digestive tastes: Pruthivī, earth and Āpas, water (madhura, sweet and anabolic), Pruthivī, earth and Agni, fire (amla, sour and metabolic), and Agni, fire and Vāyu, air (katu, pungent and catabolic) in the body.</p>"
   },
   "anabolic": {
     "cat": "physiology",
@@ -315,7 +315,7 @@
     "cat": "ayurveda",
     "title": "Vīrya",
     "phon": "",
-    "body": "<p>Vīrya is the Sanskrit term for potent energy, the second of the three pharmacological principles. It represents the principle of thermal potency and is associated with the āgni, fire element (for heating energy, ushna) and the āpas, water element (for cooling energy, shīta) in the body.</p>"
+    "body": "<p>Vīrya is the Sanskrit term for potent energy, the second of the three pharmacological principles. It represents the principle of thermal potency and is associated with the Agni, fire element (for heating energy, ushna) and the āpas, water element (for cooling energy, shīta) in the body.</p>"
   },
   "ushna": {
     "cat": "ayurveda",
@@ -873,7 +873,7 @@
     "cat": "ayurveda",
     "title": "Pañcha Mahābhūtas",
     "phon": "",
-    "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom ākāsha, ether, movement vāyu, air, transformation āgni, fire, cohesiveness āpas, water, and stability pruthivī, earth, and combine in specific proportions to form the three biological organizations, tridosha.</p>"
+    "body": "<p>Pañcha Mahābhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom. Ākāsha, ether, movement Vāyu, air, transformation Agni, fire, cohesiveness Āpas, water, and stability Pruthivī, earth, and combine in specific proportions to form the three biological organizations, Tridosha.</p>"
   },
   "rakta": {
     "cat": "ayurveda",
@@ -1407,7 +1407,7 @@
     "cat": "ayurveda",
     "title": "6 Rasas",
     "phon": "",
-    "body": ""
+    "body": "<p>6 Rasas or Shadrasa is the Sanskrit term for the six tastes: madhura, amla, lavana, katu, tikta, and kashāya.</p>"
   },
   "kapha": {
     "cat": "ayurveda",
@@ -1425,7 +1425,7 @@
     "cat": "ayurveda",
     "title": "Asthāyi",
     "phon": "",
-    "body": ""
+    "body": "<p>Asthāyi is the Sanskrit term for unstable, immature, unprocessed, or unformed. It represents the raw, circulating precursor stage of a biological tissue, Dhātu, before it is fully assimilated into its stable, mature counterpart.</p>"
   },
   "enzyme": {
     "cat": "physiology",
@@ -1497,7 +1497,7 @@
     "cat": "ayurveda",
     "title": "Shadrasa",
     "phon": "",
-    "body": ""
+    "body": "<p>Shadrasa is the Sanskrit term for the six tastes: madhura, amla, lavana, katu, tikta, and kashāya.</p>"
   },
   "accessory organs": {
     "cat": "anatomy",
@@ -1815,7 +1815,7 @@
     "cat": "ayurveda",
     "title": "Abhyantara",
     "phon": "",
-    "body": ""
+    "body": "<p>Abhyantara Mārga is the Sanskrit term for the internal pathway, representing the innermost channel of the body. It consists of the gastrointestinal tract, Mahā Srotas, is associated with the Endoderm embryological layer, and is the primary site for the accumulation and provocation (Sañchaya and Prakopa) stages of disease.</p>"
   },
   "bahya": {
     "cat": "ayurveda",
@@ -1876,5 +1876,17 @@
     "title": "Rasa & Rakta",
     "phon": "",
     "body": ""
+  },
+  "brain s grey matter": {
+    "cat": "anatomy",
+    "title": "Brain's grey matter",
+    "phon": "",
+    "body": "<p>Grey matter consists of the areas in the brain and spinal cord made primarily of unmyelinated axons, cell bodies, dendrites, and glial cells. In the brain, it is found in the cerebral cortex, which is the thin outer rim of the cerebrum, and in deep internal structures known as basal ganglia. Functionally, grey matter acts as the integration center for complex cognitive processes, including conscious thinking, problem-solving, memory, learning, and sensory perception. It is also the site where Sādhaka Pitta processes comprehension and emotions, effectively coordinating motor planning and the body's higher mental functions.</p>"
+  },
+  "large intestine colon": {
+    "cat": "anatomy",
+    "title": "Large intestine/colon",
+    "phon": "",
+    "body": "<p>Where water is absorbed and waste is formed; the colon.</p>"
   }
 }
