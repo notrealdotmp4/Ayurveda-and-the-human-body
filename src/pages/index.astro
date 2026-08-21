@@ -191,7 +191,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-hd">Mukha</div>
           <div class="sam-cell sam-hd">Mala</div>
 
-          <button class="sr-group" data-group="intake" aria-expanded="true"><span>The receiving channels</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="intake" aria-expanded="true"><span>The receiving channels</span><span class="sr-chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span></button>
           <div class="sam-cell sam-lbl" data-grp="intake">Prāna</div>
           <div class="sam-cell sam-empty" data-grp="intake"></div>
           <div class="sam-cell sam-val" data-grp="intake">left chamber of heart, maha srotas</div>
@@ -211,7 +211,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" data-grp="intake">ileocecal valve</div>
           <div class="sam-cell sam-val" data-grp="intake">purīsha</div>
 
-          <button class="sr-group" data-group="dhatus" aria-expanded="true"><span>The nourishing channels</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="dhatus" aria-expanded="true"><span>The nourishing channels</span><span class="sr-chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span></button>
           <div class="sam-cell sam-lbl" data-grp="dhatus">Rasa</div>
           <div class="sam-cell sam-val" data-grp="dhatus">twak, stanya, rajah</div>
           <div class="sam-cell sam-val" data-grp="dhatus">right chamber of heart, 10 great vessels</div>
@@ -274,7 +274,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" data-grp="dhatus">duct openings in nipples</div>
           <div class="sam-cell sam-empty" data-grp="dhatus"></div>
 
-          <button class="sr-group" data-group="mala" aria-expanded="true"><span>The eliminating channels</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="mala" aria-expanded="true"><span>The eliminating channels</span><span class="sr-chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span></button>
           <div class="sam-cell sam-lbl" data-grp="mala">Purīsha</div>
           <div class="sam-cell sam-empty" data-grp="mala"></div>
           <div class="sam-cell sam-val" data-grp="mala">cecum, rectum, sigmoid colon</div>
@@ -294,7 +294,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-val" data-grp="mala">sweat duct, openings in pores of skin</div>
           <div class="sam-cell sam-empty" data-grp="mala"></div>
 
-          <button class="sr-group" data-group="mano" aria-expanded="true"><span>The mind channel</span><span class="sr-chev" aria-hidden="true">▾</span></button>
+          <button class="sr-group" data-group="mano" aria-expanded="true"><span>The mind channel</span><span class="sr-chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span></button>
           <div class="sam-cell sam-lbl" data-grp="mano">Mano</div>
           <div class="sam-cell sam-empty" data-grp="mano"></div>
           <div class="sam-cell sam-val" data-grp="mano">heart, cardiac plexus, brain, chakra system</div>
@@ -870,7 +870,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       hmRail.hidden = false; hmRail.innerHTML = '';
       AGNIS.forEach((g) => {
         const grp = document.createElement('button'); grp.type = 'button'; grp.className = 'agni-group';
-        grp.innerHTML = '<span>' + g.name + '</span><span class="agni-chev" aria-hidden="true">▾</span>';
+        grp.innerHTML = '<span>' + g.name + '</span><span class="agni-chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span>';
         const items = document.createElement('div'); items.className = 'agni-items'; items.hidden = true;
         if (g.desc) { const d = document.createElement('div'); d.className = 'agni-desc'; d.textContent = g.desc; items.appendChild(d); }
         g.items.forEach((it) => {
