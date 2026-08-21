@@ -156,7 +156,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <div class="map-cta-wrap">
     <button class="map-btn" id="mapCta" aria-label="Open the body map">
       <img src="/anim/digestive.svg" alt="" />
-      <span>Āgni</span>
+      <span>Agni</span>
     </button>
   </div>
   <img class="lo-dinkus" src="/anim/dinkusSecond.svg" alt="" />
@@ -349,7 +349,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           <div class="sam-cell sam-proc sam-marga-cell" style="grid-area:5/4/6/5">Bāhya</div>
           <div class="sam-cell sam-proc sam-marga-cell" style="grid-area:5/5/6/8">Madhyama</div>
 
-          <div class="sam-cell sam-lbl" style="grid-area:6/1/9/2">Āgni</div>
+          <div class="sam-cell sam-lbl" style="grid-area:6/1/9/2">Agni</div>
           <div class="sam-cell sam-proc" style="grid-area:6/2/7/4">Jāthara Agni</div>
           <div class="sam-cell sam-proc" style="grid-area:7/3/8/5">Bhūta Agni</div>
           <div class="sam-cell sam-proc" style="grid-area:8/4/9/8">Dhātu Agni</div>
@@ -938,8 +938,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       organDock = true;
       { const w = document.querySelector('.hero-win'); if (w) w.classList.add('sys'); }
       if (hmRail) buildAgniAccordion();
-      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">Āgni</h3><p class="hm-dock-hint">Open an Agni on the left, then tap a term to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
-      setHeroMode('/anim/digestive-map.svg', 'The Living Body - Āgni', false);
+      if (hmText) { hmText.hidden = false; hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">Agni</h3><p class="hm-dock-hint">Open an Agni on the left, then tap a term to read about it.</p>'; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint); }
+      setHeroMode('/anim/digestive-map.svg', 'The Living Body - Agni', false);
       heroModal.classList.add('open'); heroModal.setAttribute('aria-hidden', 'false');
       let seenHero = false; try { seenHero = !!localStorage.getItem('seenHeroVideo'); } catch (e) {}
       if (seenHero) { showMap(); }
@@ -1017,7 +1017,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const entries = [...organMap.entries()].map(([key, el]) => ({ key, el, title: (MAP_GLOSSARY[key] && MAP_GLOSSARY[key].title) || key }))
         .sort((a, b) => a.title.localeCompare(b.title));
       if (heroKind === 'digestion') {
-        // Āgni popup: left rail is the 40-Agni accordion (built in openHero), not the organ list.
+        // Agni popup: left rail is the 40-Agni accordion (built in openHero), not the organ list.
         if (mapListBtn) mapListBtn.style.display = 'none';
         return;
       }
@@ -1205,24 +1205,34 @@ const rest = isLO ? chapters.slice(1) : chapters;
     (function () {
       const GL = JSON.parse(document.getElementById('glossary-data').textContent);
       const normG = (s) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim();
-      const linkCell = (el) => {
-        const parts = el.textContent.split(/(\s*[\/,&]\s*)/);
-        let html = '', any = false;
+      const linkify = (text) => {
+        const parts = text.split(/(\s*[\/,&]\s*)/);
+        let html = '';
         parts.forEach((p, i) => {
           const esc = p.replace(/&/g, '&amp;').replace(/</g, '&lt;');
           if (i % 2 === 1) { html += esc; return; }
           const key = normG(p);
-          if (p.trim() && GL[key]) { html += '<span class="sam-link" data-term="' + key + '">' + esc + '</span>'; any = true; }
+          if (p.trim() && GL[key]) { html += '<span class="sam-link" data-term="' + key + '">' + esc + '</span>'; }
           else html += esc;
         });
-        if (any) el.innerHTML = html;
+        return html;
       };
-      const grid = document.querySelector('.sam-grid');
-      if (grid) {
-        grid.querySelectorAll('.sam-val, .sam-proc, .sam-marga-cell').forEach(linkCell);
-        grid.querySelectorAll('.sam-doshalbl span').forEach(linkCell);
-        grid.addEventListener('click', (e) => { const t = e.target.closest('.sam-link'); if (t && window.openGlossary) window.openGlossary(t.dataset.term); });
-      }
+      const samGrid = document.querySelector('.sam-grid');
+      // Wrap every table cell's content in a plain (non-grid-item) inner element so
+      // `display:table-cell; vertical-align:middle` actually centers it — a direct
+      // CSS Grid item can't use table-cell vertical-align (browsers force it to block).
+      document.querySelectorAll('.sam-cell').forEach((el) => {
+        if (el.classList.contains('sam-doshalbl')) return; // handled separately below
+        const shouldLink = samGrid && samGrid.contains(el) && el.matches('.sam-val, .sam-proc, .sam-marga-cell');
+        const inner = document.createElement('span');
+        inner.className = 'cell-inner';
+        inner.innerHTML = shouldLink ? linkify(el.textContent) : el.innerHTML;
+        el.replaceChildren(inner);
+      });
+      document.querySelectorAll('.sam-doshalbl span').forEach((span) => {
+        span.innerHTML = linkify(span.textContent);
+      });
+      document.addEventListener('click', (e) => { const t = e.target.closest('.sam-link'); if (t && window.openGlossary) window.openGlossary(t.dataset.term); });
     })();
   </script>
 </body>

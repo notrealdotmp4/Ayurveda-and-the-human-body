@@ -223,15 +223,15 @@
   },
   "agni": {
     "cat": "ayurveda",
-    "title": "Āgni",
+    "title": "Agni",
     "phon": "",
-    "body": "<p>Āgni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
+    "body": "<p>Agni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
   },
   "jathara agni": {
     "cat": "ayurveda",
-    "title": "Jāthara Āgni",
+    "title": "Jāthara Agni",
     "phon": "",
-    "body": "<p>Jāthara Āgni is the Sanskrit term for the central digestive fire, the main Āgni out of the 40 types of Āgni.</p>"
+    "body": "<p>Jāthara Agni is the Sanskrit term for the central digestive fire, the main Agni out of the 40 types of Agni.</p>"
   },
   "pachaka pitta": {
     "cat": "ayurveda",
@@ -409,9 +409,9 @@
   },
   "kloma agni": {
     "cat": "ayurveda",
-    "title": "Kloma Āgni",
+    "title": "Kloma Agni",
     "phon": "",
-    "body": "<p>Kloma Āgni is the Sanskrit term for the pancreatic fire, one of the 40 types of Āgni located in the pancreas and choroid plexuses.</p>"
+    "body": "<p>Kloma Agni is the Sanskrit term for the pancreatic fire, one of the 40 types of Agni located in the pancreas and choroid plexuses.</p>"
   },
   "hydrochloric acid": {
     "cat": "physiology",
@@ -727,9 +727,9 @@
   },
   "vishama agni": {
     "cat": "ayurveda",
-    "title": "Vishama Āgni",
+    "title": "Vishama Agni",
     "phon": "",
-    "body": "<p>Vishama Āgni is the Sanskrit term for irregular metabolism, one of the four clinical varieties of Āgni. It represents the principle of fluctuation and is associated with aggravated Vāta Dosha in the body.</p>"
+    "body": "<p>Vishama Agni is the Sanskrit term for irregular metabolism, one of the four clinical varieties of Agni. It represents the principle of fluctuation and is associated with aggravated Vāta Dosha in the body.</p>"
   },
   "sarpa": {
     "cat": "ayurveda",
@@ -769,9 +769,9 @@
   },
   "tikshna agni": {
     "cat": "ayurveda",
-    "title": "Tikshna Āgni",
+    "title": "Tikshna Agni",
     "phon": "",
-    "body": "<p>Tīkshna Āgni is the Sanskrit term for sharp metabolism or hypermetabolism, one of the four clinical varieties of Āgni. It represents the principle of intensity and is associated with aggravated Pitta Dosha in the body.</p>"
+    "body": "<p>Tīkshna Agni is the Sanskrit term for sharp metabolism or hypermetabolism, one of the four clinical varieties of Agni. It represents the principle of intensity and is associated with aggravated Pitta Dosha in the body.</p>"
   },
   "manduka": {
     "cat": "ayurveda",
@@ -835,9 +835,9 @@
   },
   "manda agni": {
     "cat": "ayurveda",
-    "title": "Manda Āgni",
+    "title": "Manda Agni",
     "phon": "",
-    "body": "<p>Manda Āgni is the Sanskrit term for slow or dull metabolism, one of the four clinical varieties of Āgni. It represents the principle of sluggishness and is associated with increased Kapha Dosha in the body.</p>"
+    "body": "<p>Manda Agni is the Sanskrit term for slow or dull metabolism, one of the four clinical varieties of Agni. It represents the principle of sluggishness and is associated with increased Kapha Dosha in the body.</p>"
   },
   "hamsa": {
     "cat": "ayurveda",
@@ -1131,7 +1131,7 @@
     "cat": "ayurveda",
     "title": "Prāna",
     "phon": "",
-    "body": "<p>Prāna is the Sanskrit term for the vital life force, the pure essence of Vāta Dosha and the ākāsha, ether element in particular. It represents the principle of cellular communication and respiration, serving as the flow of intelligence that governs all motor and sensory functions, oxygenation, and the pulsation of the heart. In its role as the bridge between body, mind, and consciousness, it directs attention to create perception and enkindles the central bodily fire, Āgni, to express the body's natural intelligence.</p>"
+    "body": "<p>Prāna is the Sanskrit term for the vital life force, the pure essence of Vāta Dosha and the ākāsha, ether element in particular. It represents the principle of cellular communication and respiration, serving as the flow of intelligence that governs all motor and sensory functions, oxygenation, and the pulsation of the heart. In its role as the bridge between body, mind, and consciousness, it directs attention to create perception and enkindles the central bodily fire, Agni, to express the body's natural intelligence.</p>"
   },
   "prana vaha srotas": {
     "cat": "ayurveda",
@@ -1855,9 +1855,9 @@
   },
   "agnis": {
     "cat": "ayurveda",
-    "title": "Āgnis",
+    "title": "Agnis",
     "phon": "",
-    "body": "<p>Āgni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
+    "body": "<p>Agni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
   },
   "anna drava": {
     "cat": "ayurveda",
