@@ -3,13 +3,13 @@
     "cat": "ayurveda",
     "title": "Madhura Avastha Pāka",
     "phon": "",
-    "body": "<p>Madhura Avastha Pāka is the Sanskrit term for the sweet stage of digestion. It represents the principle of Kapha-predominant liquefaction and is associated with the nourishment of immature, asthāyi, Rasa Dhātu in the body. Located on the tip of the tongue, jihvā, and energetically linked to the thyroid, Madhura stimulates the emotions of joy and contentment. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
+    "body": "<p>Madhura Avastha Pāka is the Sanskrit term for the sweet stage of digestion. It represents the principle of Kapha-predominant liquefaction and is associated with the nourishment of immature, asthāyi, Rasa Dhātu in the body. Located on the tip of the tongue, jihvā, and energetically linked to the thyroid, Madhura stimulates the emotions of joy and contentment. Its post-digestive effect, Vipāka, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
   },
   "bodhaka kapha": {
     "cat": "ayurveda",
     "title": "Bodhaka Kapha",
     "phon": "",
-    "body": "<p>Bodhaka Kapha is the subdosha of Kapha related to the water element. It is primarily located in the mouth and oral cavity and is responsible for salivary secretions, taste, swallowing, and speech.</p>"
+    "body": "<p>Bodhaka Kapha is the Subdosha of Kapha related to the water element. It is primarily located in the mouth and oral cavity and is responsible for salivary secretions, taste, swallowing, and speech.</p>"
   },
   "oral cavity": {
     "cat": "anatomy",
@@ -27,19 +27,19 @@
     "cat": "ayurveda",
     "title": "Madhura",
     "phon": "",
-    "body": "<p>Madhura is the Sanskrit term for the sweet taste, the first of the six essential rasas. It represents the principle of anabolic growth and is associated with the earth and water elements in the body.</p>"
+    "body": "<p>Madhura is the Sanskrit term for the sweet taste, the first Shadrasas. It represents the principle of anabolic growth and is associated with the Pruthivi and Āpas elements in the body.</p>"
   },
   "prthivi": {
     "cat": "ayurveda",
     "title": "Prthivī",
     "phon": "",
-    "body": "<p>Prthivī is the Sanskrit term for the Earth element, the fifth of the five basic elements (pañcha mahābhūtas). It represents the principle of stability and is associated with mechanical energy in the body.</p>"
+    "body": "<p>Prthivī is the Sanskrit term for the Earth element, the fifth of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of stability and is associated with mechanical energy in the body.</p>"
   },
   "apas": {
     "cat": "ayurveda",
     "title": "Āpas",
     "phon": "",
-    "body": "<p>Āpas is the Sanskrit term for the Water element, the fourth of the five basic elements, pañcha mahābhūtas. It represents the principle of cohesiveness and is associated with chemical energy in the body.</p>"
+    "body": "<p>Āpas is the Sanskrit term for the Water element. It represents the principle of cohesiveness and is associated with chemical energy in the body.</p>"
   },
   "saliva": {
     "cat": "physiology",
@@ -123,13 +123,13 @@
     "cat": "ayurveda",
     "title": "Sādhaka Pitta",
     "phon": "",
-    "body": "<p>Sādhaka Pitta is the subdosha of Pitta related to the ether element. It is primarily located in the brain's grey matter and represents the principles of conscious thinking, emotions, and comprehension.</p>"
+    "body": "<p>Sādhaka Pitta is the Subdosha of Pitta related to the Ākāsha, element. It is primarily located in the brain's grey matter and represents the principles of conscious thinking, emotions, and comprehension.</p>"
   },
   "prana vayu": {
     "cat": "ayurveda",
     "title": "Prāna Vāyu",
     "phon": "",
-    "body": "<p>Prāna Vāyu is the subdosha of Vāta related to the ether element. It is primarily located in the head, brain, and synaptic cleft, represents the principle of inhalation, and moves in a downward and inward direction.</p>"
+    "body": "<p>Prāna Vāyu is the Subdosha of Vāta related to the ether element. It is primarily located in the head, brain, and synaptic cleft, represents the principle of inhalation, and moves in a downward and inward direction.</p>"
   },
   "pharynx": {
     "cat": "anatomy",
@@ -159,7 +159,7 @@
     "cat": "ayurveda",
     "title": "Samāna Vāyu",
     "phon": "",
-    "body": "<p>Sāmana Vāyu is the subdosha of Vāta related to the fire element. It is primarily located in the small intestine and navel, represents the principle of digestion, and moves in a linear direction.</p>"
+    "body": "<p>Sāmana Vāyu is the Subdosha of Vāta related to the fire element. It is primarily located in the small intestine and navel, represents the principle of digestion, and moves in a linear direction.</p>"
   },
   "rasa dhatu": {
     "cat": "ayurveda",
@@ -201,7 +201,7 @@
     "cat": "ayurveda",
     "title": "Āmāshaya",
     "phon": "",
-    "body": "<p>Āmāshaya is the Sanskrit term for the stomach. It is the main site of Kapha and Pitta Dosha and the therapeutic site for Kapha Dosha.</p>"
+    "body": "<p>Āmāshaya is the Sanskrit term for the stomach. It is the main and therapeutic site of Kapha Dosha.</p>"
   },
   "central stomach": {
     "cat": "anatomy",
@@ -213,19 +213,19 @@
     "cat": "ayurveda",
     "title": "Bhūtas",
     "phon": "",
-    "body": "<p>The five great elements: earth, water, fire, air, and ether.</p>"
+    "body": "<p>Bhūta is the Sanskrit word for element.</p>"
   },
   "amla": {
     "cat": "ayurveda",
     "title": "Amla",
     "phon": "",
-    "body": "<p>Amla is the Sanskrit term for the sour taste, the second of the six essential rasas. It represents the principle of metabolic stimulation and is associated with the earth and fire elements in the body.</p>"
+    "body": "<p>Amla is the Sanskrit term for the sour taste, the second Shadrasas. It represents the principle of metabolic stimulation and is associated with the Agni and Pruthivī elements in the body.</p>"
   },
   "agni": {
     "cat": "ayurveda",
     "title": "Agni",
     "phon": "",
-    "body": "<p>Agni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
+    "body": "<p>Agni is the Sanskrit term for the Fire element, the third of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
   },
   "jathara agni": {
     "cat": "ayurveda",
@@ -237,7 +237,7 @@
     "cat": "ayurveda",
     "title": "Pāchaka Pitta",
     "phon": "",
-    "body": "<p>Pāchaka Pitta is the subdosha of Pitta related to the fire element. It is primarily located in the small intestine and stomach and represents the principles of digestion, absorption, and assimilation of food.</p>"
+    "body": "<p>Pāchaka Pitta is the Subdosha of Pitta related to the fire element. It is primarily located in the small intestine and stomach and represents the principles of digestion, absorption, and assimilation of food.</p>"
   },
   "hydrochloric acid hcl": {
     "cat": "physiology",
@@ -267,7 +267,7 @@
     "cat": "ayurveda",
     "title": "Kledaka Kapha",
     "phon": "",
-    "body": "<p>Kledaka Kapha is the subdosha of Kapha related to the fire element. It is primarily located in the stomach and represents the principles of gastric secretion, digestion, absorption, and the nourishment of rasa, plasma.</p>"
+    "body": "<p>Kledaka Kapha is the Subdosha of Kapha related to the fire element. It is primarily located in the stomach and represents the principles of gastric secretion, digestion, absorption, and the nourishment of rasa, plasma.</p>"
   },
   "mucous membrane": {
     "cat": "physiology",
@@ -321,13 +321,13 @@
     "cat": "ayurveda",
     "title": "Ushna Guna",
     "phon": "",
-    "body": "<p>Ushna is the Sanskrit term for the hot quality, representing the principle of digestion and is associated with increased circulation in the body.</p>"
+    "body": "<p>Ushna is the Sanskrit term for the hot quality, which increases Pitta, decreases Vata and Kapha, stimulates the central digestive fire, improves peripheral circulation, and promotes systemic cleansing.</p>"
   },
   "shita": {
     "cat": "ayurveda",
     "title": "Shīta Guna",
     "phon": "",
-    "body": "<p>Shīta is the Sanskrit term for the cold quality, representing the principle of contraction and is associated with reduced metabolic rate in the body.</p>"
+    "body": "<p>Shīta is the Sanskrit term for the cold quality, which increases Vata and Kapha, decreases Pitta, and encourages physical contraction, cooling of bodily heat, and the accumulation of protective mucus.</p>"
   },
   "metabolic": {
     "cat": "physiology",
@@ -345,13 +345,13 @@
     "cat": "ayurveda",
     "title": "Lavana Avastha Pāka",
     "phon": "",
-    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature, asthāyi, Māmsa and Meda Dhātus in the body. Located on the posterior outer sides of the tongue, jihvā, and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its Vipāka, the post-digestive effect, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
+    "body": "<p>Lavana Avastha Pāka is the Sanskrit term for the salty stage of digestion. It represents the principle of Pitta-predominant emulsification and is associated with the nourishment of immature, asthāyi, Māmsa and Meda Dhātus in the body. Located on the posterior outer sides of the tongue, jihvā, and energetically linked to the kidneys, Lavana stimulates emotions of attachment, greed, and possessiveness. Its post-digestive effect, Vipāka, is Madhura, which is anabolic and increases Kapha Dosha.</p>"
   },
   "lavana": {
     "cat": "ayurveda",
     "title": "Lavana",
     "phon": "",
-    "body": "<p>Lavana is the Sanskrit term for the salty taste, the third of the six essential rasas. It represents the principle of buffering and lubrication and is associated with the water and fire elements in the body.</p>"
+    "body": "<p>Lavana is the Sanskrit term for the salty taste, the third Shadrasa. It represents the principle of buffering and lubrication and is associated with the Agni and Āpas elements in the body.</p>"
   },
   "stomach": {
     "cat": "anatomy",
@@ -411,7 +411,7 @@
     "cat": "ayurveda",
     "title": "Kloma Agni",
     "phon": "",
-    "body": "<p>Kloma Agni is the Sanskrit term for the pancreatic fire, one of the 40 types of Agni located in the pancreas and choroid plexuses.</p>"
+    "body": "<p>Kloma Agni is the Sanskrit term for the transformative and metabolic energy of Kloma, which refers anatomically to the pancreas and the choroid plexuses in the brain that secretes cerebrospinal fluid. Its primary physiological function is to govern thirst, water metabolism, and fluid regulation. It ensures that water is properly digested. If water remains unprocessed due to impaired Kloma Agni, it can damage the kidneys and accumulate under the skin as edema.</p><p>Furthermore, because the sweet taste is composed of Āpas and Pruthivī elements, Kloma Agni regulates Āpas, the water component of sweet substances, manages the digestion of Madhura, the sweet taste, and plays an essential role in regulating blood sugar. Operating during the salty phase of digestion—which provides vital buffering for carbohydrate and fat metabolism—Kloma Agni works closely with Bhūta Agni, the liver enzymes, to facilitate the digestion of proteins, carbohydrates, and fats.</p>"
   },
   "hydrochloric acid": {
     "cat": "physiology",
@@ -447,7 +447,7 @@
     "cat": "ayurveda",
     "title": "Rañjaka Pitta",
     "phon": "",
-    "body": "<p>Rānjaka Pitta is the subdosha of Pitta related to the water element. It is primarily located in the liver, spleen, and stomach (as an intrinsic factor), is involved in the production of bile and liver enzymes, and gives blood its color.</p>"
+    "body": "<p>Rānjaka Pitta is the Subdosha of Pitta related to the water element. It is primarily located in the liver, spleen, and stomach (as an intrinsic factor), is involved in the production of bile and liver enzymes, and gives blood its color.</p>"
   },
   "gallbladder": {
     "cat": "anatomy",
@@ -465,7 +465,7 @@
     "cat": "ayurveda",
     "title": "Katu Avastha Pāka",
     "phon": "",
-    "body": "<p>Katu Avastha Pāka is the Sanskrit term for the pungent stage of digestion. It represents the principle of Vāta-predominant thermogenesis and is associated with the nourishment of immature, asthāyi, Asthi Dhātu in the body. Located on the central part of the tongue, jihvā, anterior to the bitter area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
+    "body": "<p>Katu Avastha Pāka is the Sanskrit term for the pungent stage of digestion. It represents the principle of Vāta-predominant thermogenesis and is associated with the nourishment of immature, asthāyi, Asthi Dhātu in the body. Located on the central part of the tongue, jihvā, anterior to the bitter area, Katu is energetically linked to the heart, stomach, and diaphragm and stimulates emotions of anger, irritation, and frustration. Its post-digestive effect, Vipāka, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "jejunum": {
     "cat": "anatomy",
@@ -477,13 +477,13 @@
     "cat": "ayurveda",
     "title": "Katu",
     "phon": "",
-    "body": "<p>Katu is the Sanskrit term for the pungent taste, the fourth of the six essential rasas. It represents the principle of circulation and cleansing and is associated with the fire and air elements in the body.</p>"
+    "body": "<p>Katu is the Sanskrit term for the pungent taste, the fourth Shadrasas. It represents the principle of circulation and cleansing and is associated with the Vāyu and Agni elements in the body.</p>"
   },
   "vayu": {
     "cat": "ayurveda",
     "title": "Vāyu",
     "phon": "",
-    "body": "<p>Vāyu is the Sanskrit term for the Air element, the second of the five basic elements, pañcha mahābhūtas. It represents the principle of movement and is associated with electrical energy in the body.</p>"
+    "body": "<p>Vāyu is the Sanskrit term for the Air element, the second of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of movement and is associated with electrical energy in the body.</p>"
   },
   "thermogenesis": {
     "cat": "physiology",
@@ -513,7 +513,7 @@
     "cat": "ayurveda",
     "title": "Āhāra Rasa",
     "phon": "",
-    "body": "<p>Āhāra Rasa is the nutritive juice or chyle that serves as the post-digestive precursor for the nourishment of all seven bodily tissues, Dhātus, and every cell in the body.</p>"
+    "body": "<p>Āhāra Rasa is the Sanskrit term for the nutritive juice or chyle that serves as the post-digestive precursor for the nourishment of all seven bodily tissues, Dhātus, and every cell in the body.</p>"
   },
   "chyle": {
     "cat": "physiology",
@@ -543,19 +543,19 @@
     "cat": "ayurveda",
     "title": "Tikta Avastha Pāka",
     "phon": "",
-    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature, asthāyi, Majjā Dhātu in the body. Located on the central part of the tongue, jihvā posterior to the pungent area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its Vipāka, the post-digestive effect, is Katu, which is catabolic and increases Vāta Dosha.</p>"
+    "body": "<p>Tikta Avastha Pāka is the Sanskrit term for the bitter stage of digestion. It represents the principle of Vāta-predominant absorption and is associated with the nourishment of immature, asthāyi, Majjā Dhātu in the body. Located on the central part of the tongue, jihvā posterior to the pungent area, Tikta is energetically linked to the liver, spleen, and pancreas and stimulates emotions of loneliness, isolation, and separation. Its post-digestive effect, Vipāka, is Katu, which is catabolic and increases Vāta Dosha.</p>"
   },
   "tikta": {
     "cat": "ayurveda",
     "title": "Tikta",
     "phon": "",
-    "body": "<p>Tikta is the Sanskrit term for the bitter taste, the fifth of the six essential rasas. It represents the principle of detoxification and scraping and is associated with the air and ether elements in the body.</p>"
+    "body": "<p>Tikta is the Sanskrit term for the bitter taste, the fifth Shadrasas. It represents the principle of detoxification and scraping and is associated with the Ākāsha and Vāyu elements in the body.</p>"
   },
   "akasha": {
     "cat": "ayurveda",
     "title": "Ākāsha",
     "phon": "",
-    "body": "<p>Ākāsha is the Sanskrit term for the Ether or Space element, the first of the five basic elements, pañcha mahābhūtas. It represents the principle of freedom and is associated with nuclear energy in the body.</p>"
+    "body": "<p>Ākāsha is the Sanskrit term for the ether or space element, the first of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of freedom and is associated with nuclear energy in the body.</p>"
   },
   "villi": {
     "cat": "anatomy",
@@ -603,7 +603,7 @@
     "cat": "ayurveda",
     "title": "Apāna Vāyu",
     "phon": "",
-    "body": "<p>Āpana Vāyu is the subdosha of Vāta related to the earth element. It is primarily located in the colon and pelvic cavity, represents the principle of eliminating flatulence, feces, and menses, as well as the movement of the fetus, and moves downward and outward.</p>"
+    "body": "<p>Āpana Vāyu is the Subdosha of Vāta related to the earth element. It is primarily located in the colon and pelvic cavity, represents the principle of eliminating flatulence, feces, and menses, as well as the movement of the fetus, and moves downward and outward.</p>"
   },
   "ileocecal valve": {
     "cat": "anatomy",
@@ -687,43 +687,43 @@
     "cat": "ayurveda",
     "title": "Ruksha Guna",
     "phon": "",
-    "body": "<p>Rūksha is the Sanskrit term for the dry quality, representing the principle of dehydration and is associated with absorption and constipation in the body.</p>"
+    "body": "<p>Rūksha is the Sanskrit term for the dry quality, which increases Vata, decreases Pitta and Kapha, and promotes bodily absorption, dehydration, and the stimulation of the metabolic fire.</p>"
   },
   "laghu": {
     "cat": "ayurveda",
     "title": "Laghu Guna",
     "phon": "",
-    "body": "<p>Laghu is the Sanskrit term for the light quality, representing the principle of alertness and is associated with catabolic reduction in the body.</p>"
+    "body": "<p>Laghu is the Sanskrit term for the light quality, which increases Vata and Pitta, decreases Kapha, assists in digestion, reduces tissue bulk, and promotes physical freshness and mental alertness.</p>"
   },
   "khara": {
     "cat": "ayurveda",
     "title": "Khara Guna",
     "phon": "",
-    "body": "<p>Khāra is the Sanskrit term for the rough quality, representing the principle of rigidity, and is associated with the cracking of the skin and bones in the body.</p>"
+    "body": "<p>Khara is the Sanskrit term for the rough quality, which increases Vata, decreases Pitta and Kapha, and intensifies structural dryness, cellular absorption, and constipation.</p>"
   },
   "sukshma": {
     "cat": "ayurveda",
     "title": "Sukshma Guna",
     "phon": "",
-    "body": "<p>Sūkshma is the Sanskrit term for the subtle quality, representing the principle of penetration and associated with entry into the body's minute capillaries.</p>"
+    "body": "<p>Sūkshma is the Sanskrit term for the subtle quality, which increases Vata and Pitta, decreases Kapha, and easily pierces and penetrates microscopic capillaries, cell membranes, and emotional pathways.</p>"
   },
   "chala": {
     "cat": "ayurveda",
     "title": "Chala Guna",
     "phon": "",
-    "body": "<p>Chala is the Sanskrit term for the mobile quality, representing the principle of motion and is associated with shakiness and restlessness in the body.</p>"
+    "body": "<p>Chala is the Sanskrit term for the mobile quality, which increases Vata and Pitta, decreases Kapha, and governs all physical motion, breathing, walking, and the flow of thoughts.</p>"
   },
   "vishada": {
     "cat": "ayurveda",
     "title": "Vishada Guna",
     "phon": "",
-    "body": "<p>Vishada is the Sanskrit term for the clear quality, representing the principle of purity and is associated with isolation and mental lucidity in the body.</p>"
+    "body": "<p>Vishada is the Sanskrit term for the clear quality, which increases Vata and Pitta, decreases Kapha, pacifies the bodily humors, clears the physical channels, and yields mental understanding.</p>"
   },
   "akruti": {
     "cat": "ayurveda",
     "title": "Ākruti",
     "phon": "",
-    "body": "<p>Ākruti is a Sanskrit term that broadly translates to form, figure, shape, or appearance. In the context of Āyurveda, it has two primary clinical applications: assessing a person's physical appearance and examining a specific characteristic of the pulse. Volume corresponds to systolic blood pressure, and tension corresponds to diastolic blood pressure.</p>"
+    "body": "<p>Ākruti is the Sanskrit term that broadly translates to form, figure, shape, or appearance. In the context of Āyurveda, it has two primary clinical applications: assessing a person's physical appearance and examining a specific characteristic of the pulse. Volume corresponds to systolic blood pressure, and tension corresponds to diastolic blood pressure.</p>"
   },
   "vishama agni": {
     "cat": "ayurveda",
@@ -741,19 +741,19 @@
     "cat": "ayurveda",
     "title": "Tikshna Guna",
     "phon": "",
-    "body": "<p>Tīkshna is the Sanskrit term for the sharp or penetrating quality, representing the principle of quick understanding and is associated with hyper-metabolism in the body.</p>"
+    "body": "<p>Tīkshna is the Sanskrit term for the sharp quality, which increases Vata and Pitta, decreases Kapha, penetrates deeply into the tissues, and improves focus, learning, and mental comprehension.</p>"
   },
   "drava": {
     "cat": "ayurveda",
     "title": "Drava Guna",
     "phon": "",
-    "body": "<p>Drava is the Sanskrit term for the liquid quality, representing the principle of liquefaction and is associated with salivation and cohesiveness in the body.</p>"
+    "body": "<p>Drava is the Sanskrit term for the liquid quality, which increases Pitta and Kapha, decreases Vata, dissolves and liquefies bodily substances, and governs salivation and sweating.</p>"
   },
   "snigdha": {
     "cat": "ayurveda",
     "title": "Snigdha Guna",
     "phon": "",
-    "body": "<p>Snigdha is the Sanskrit term for the oily or unctuous quality, representing the principle of lubrication and is associated with moisture and compassion in the body.</p>"
+    "body": "<p>Snigdha is the Sanskrit term for the oily quality, which increases Pitta and Kapha, decreases Vata, and provides moisture, lubrication, joint flexibility, and physical vigor.</p>"
   },
   "saram": {
     "cat": "ayurveda",
@@ -783,43 +783,43 @@
     "cat": "ayurveda",
     "title": "Guru Guna",
     "phon": "",
-    "body": "<p>Guru is the Sanskrit term for the heavy quality, representing the principle of bulk nutrition and is associated with anabolic growth in the body.</p>"
+    "body": "<p>Guru is the Sanskrit term for the heavy quality, which increases Kapha, decreases Vata and Pitta, and promotes physical growth, nourishment, groundedness, and stability.</p>"
   },
   "manda": {
     "cat": "ayurveda",
     "title": "Manda Guna",
     "phon": "",
-    "body": "<p>Manda is the Sanskrit term for the slow or dull quality, representing the principle of sluggishness and is associated with metabolic relaxation in the body.</p>"
+    "body": "<p>Manda Agni is the Sanskrit term for slow or dull metabolism, one of the four clinical varieties of Agni. It represents the principle of sluggishness and is associated with increased Kapha Dosha in the body.</p>"
   },
   "shlakshna": {
     "cat": "ayurveda",
     "title": "Shlakshna Guna",
     "phon": "",
-    "body": "<p>Shlakshna is the Sanskrit term for the slimy or smooth quality, representing the principle of flexibility and is associated with joint lubrication in the body.</p>"
+    "body": "<p>Shlakshna is the Sanskrit term for the smooth quality, which increases Pitta and Kapha, decreases Vata, lubricates the internal organs, and prevents arthritic or degenerative bone changes.</p>"
   },
   "sandra": {
     "cat": "ayurveda",
     "title": "Sandra Guna",
     "phon": "",
-    "body": "<p>Sandra is the Sanskrit term for the dense quality, representing the principle of solidity and is associated with compactness and groundedness in the body.</p>"
+    "body": "<p>Sandra is the Sanskrit term for the dense quality, which increases Kapha, decreases Vata and Pitta, and promotes biological compactness, structural solidity, and tissue strength.</p>"
   },
   "mrudu": {
     "cat": "ayurveda",
     "title": "Mrudu Guna",
     "phon": "",
-    "body": "<p>Mrudu is the Sanskrit term for the soft quality, representing the principle of tenderness and is associated with tissue relaxation in the body.</p>"
+    "body": "<p>Mrudu is the Sanskrit term for the soft quality, which increases Pitta and Kapha, decreases Vata, pacifies the rough quality of air, and creates physical relaxation, delicacy, and tenderness.</p>"
   },
   "sthira": {
     "cat": "ayurveda",
     "title": "Sthira Guna",
     "phon": "",
-    "body": "<p>Sthira is the Sanskrit term for the static or stable quality, representing the principle of support and is associated with obstruction and fixity in the body.</p>"
+    "body": "<p>Sthira is the Sanskrit term for the static quality, which increases Kapha, decreases Vata and Pitta, and promotes physical stability, support, groundedness, and systemic healing.</p>"
   },
   "picchila": {
     "cat": "ayurveda",
     "title": "Picchila Guna",
     "phon": "",
-    "body": "<p>Picchila is the Sanskrit term for the sticky quality, representing the principle of adhesiveness and is associated with a lack of clarity in the body.</p>"
+    "body": "<p>Picchila is the Sanskrit term for the sticky quality, which increases Kapha, decreases Vata and Pitta, and promotes biological cohesiveness, compact firming of the joints, and the healing of bone fractures.</p>"
   },
   "avila": {
     "cat": "ayurveda",
@@ -831,7 +831,7 @@
     "cat": "ayurveda",
     "title": "Sthula Guna",
     "phon": "",
-    "body": "<p>Sthūla is the Sanskrit term for the gross quality, representing the principle of bulk and is associated with obstruction and obesity in the body.</p>"
+    "body": "<p>Sthūla is the Sanskrit term for the gross quality, which increases Kapha, decreases Vata and Pitta, and represents large, bulky, and structurally dense forms that build up the body's physical frame.</p>"
   },
   "manda agni": {
     "cat": "ayurveda",
@@ -855,7 +855,7 @@
     "cat": "ayurveda",
     "title": "Amla Avastha Pāka",
     "phon": "",
-    "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature, asthāyi, Rakta Dhātu in the body. Located on the anterior outer sides of the tongue, jihvā, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its Vipāka, the post-digestive effect, is Amla, which is metabolic and increases Pitta Dosha.</p>"
+    "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature, asthāyi, Rakta Dhātu in the body. Located on the anterior outer sides of the tongue, jihvā, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its post-digestive effect, Vipāka, is Amla, which is metabolic and increases Pitta Dosha.</p>"
   },
   "enzymes": {
     "cat": "physiology",
@@ -867,7 +867,7 @@
     "cat": "ayurveda",
     "title": "Kathina Guna",
     "phon": "",
-    "body": "<p>Kathina is the Sanskrit term for the hard quality, representing the principle of strength and is associated with callousness and rigidity in the body.</p>"
+    "body": "<p>Kathina is the Sanskrit term for the hard quality, which increases Vata and Kapha, decreases Pitta, and provides structural strength, rigidity, and skeletal firmness.</p>"
   },
   "pancha mahabhutas": {
     "cat": "ayurveda",
@@ -879,7 +879,7 @@
     "cat": "ayurveda",
     "title": "Rakta",
     "phon": "",
-    "body": "<p>Rakta (blood tissue) — the second bodily tissue (dhātu); carries oxygen and vitality, and governs circulation and complexion.</p>"
+    "body": "<p>Rakta is the Sanskrit term for the blood.</p>"
   },
   "mamsa": {
     "cat": "ayurveda",
@@ -891,19 +891,19 @@
     "cat": "ayurveda",
     "title": "Meda",
     "phon": "",
-    "body": "<p>Meda (fat / adipose tissue) — the fourth dhātu; lubricates, insulates, and stores energy.</p>"
+    "body": "<p>Meda is the Sanskrit term for the adipose or fat tissue.</p>"
   },
   "asthi": {
     "cat": "ayurveda",
     "title": "Asthi",
     "phon": "",
-    "body": "<p>Asthi (bone tissue) — the fifth dhātu; gives the body structure, support, and protection.</p>"
+    "body": "<p>Asthi is the Sanskrit term for the bone tissue.</p>"
   },
   "majja": {
     "cat": "ayurveda",
     "title": "Majjā",
     "phon": "",
-    "body": "<p>Majjā (bone marrow and nerve tissue) — the sixth dhātu; fills the bones and carries nerve impulses.</p>"
+    "body": "<p>Majjā (bone marrow and nerve tissue) — the sixth Dhātus; fills the bones and carries nerve impulses.</p>"
   },
   "shukra artava": {
     "cat": "ayurveda",
@@ -927,7 +927,7 @@
     "cat": "ayurveda",
     "title": "Mūtra",
     "phon": "",
-    "body": "<p>Mūtra — urine; one of the three primary wastes (malas), the body’s liquid waste.</p>"
+    "body": "<p>Mūtra is the Sanskrit word for urine, one of the three primary  Malas.</p>"
   },
   "sveda": {
     "cat": "ayurveda",
@@ -939,13 +939,13 @@
     "cat": "ayurveda",
     "title": "Mano",
     "phon": "",
-    "body": "<p>Mano — the mind; the seat of thought, emotion, and perception, linking the senses to consciousness.</p>"
+    "body": "<p>Mano is the Sanskrit term for the mind.</p>"
   },
   "abhyantara marga": {
     "cat": "ayurveda",
     "title": "Abhyantara Mārga",
     "phon": "",
-    "body": "<p>Abhyantara Mārga is the Sanskrit term for the internal pathway, representing the innermost channel of the body. It consists of the gastrointestinal tract, Mahā Srotas, is associated with the Endoderm embryological layer, and is the primary site for the accumulation and provocation (Sañchaya and Prakopa) stages of disease.</p>"
+    "body": "<p>Abhyantara Mārga is the Sanskrit term for the internal pathway, representing the innermost channel of the body. It consists of the gastrointestinal tract, Maha Srotas, is associated with the Endoderm embryological layer, and is the primary site for the accumulation and provocation, Sañchaya and Prakopa, stages of disease.</p>"
   },
   "ambu vaha srotas": {
     "cat": "ayurveda",
@@ -957,7 +957,7 @@
     "cat": "ayurveda",
     "title": "Anna Vaha Srotas",
     "phon": "",
-    "body": "<p>Anna Vaha Srotas is the Sanskrit term for the food-carrying channel, one of the receiving channels. It represents the principle of digestion, absorption, and assimilation of nutrients, corresponding to the gastrointestinal tract from the mouth to the ileocecal valve.</p><p><strong>Mūla:</strong> the esophagus and stomach fundus (greater curvature)</p><p><strong>Mārga:</strong> the GI tract from the lips through to the ileocecal valve</p><p><strong>Mukha:</strong> the ileocecal valve and mouth</p><p><strong>Mala:</strong> feces, purīsha</p>"
+    "body": "<p>Anna Vaha Srotas is the Sanskrit term for the food-carrying channel, one of the receiving channels. It represents the principle of digestion, absorption, and assimilation of nutrients, corresponding to the gastrointestinal tract from the mouth to the ileocecal valve.</p><p><strong>Mūla:</strong> the esophagus and stomach fundus, greater curvature</p><p><strong>Mārga:</strong> the GI tract from the lips through to the ileocecal valve</p><p><strong>Mukha:</strong> the ileocecal valve and mouth</p><p><strong>Mala:</strong> feces, purīsha</p>"
   },
   "artava dhatu": {
     "cat": "ayurveda",
@@ -969,7 +969,7 @@
     "cat": "ayurveda",
     "title": "Ārtava Vaha Srotas",
     "phon": "",
-    "body": "<p>Ārtava Vaha Srotas is the Sanskrit term for the female reproductive channel, one of the nourishing channels. It represents the principle of ovulation, conception, and the production of ojas, including the ovaries and uterus.</p><p><strong>Mūla:</strong> the ovaries and areola of the nipples</p><p><strong>Mārga:</strong> the fallopian tubes, uterus, cervical canal, and vaginal passage</p><p><strong>Mukha:</strong> the labia, yoni oshtha</p><p><strong>Mala:</strong> none, pubic and axillary hair are functionally related</p>"
+    "body": "<p>Ārtava Vaha Srotas is the Sanskrit term for the female reproductive channel, one of the nourishing channels. It represents the principle of ovulation, conception, and the production of Ojas.</p><p><strong>Mūla:</strong> the ovaries and areola of the nipples</p><p><strong>Mārga:</strong> the fallopian tubes, uterus, cervical canal, and vaginal passage</p><p><strong>Mukha:</strong> the labia, yoni oshtha</p><p><strong>Mala:</strong> none, pubic and axillary hair are functionally related</p>"
   },
   "asthi dhatu": {
     "cat": "ayurveda",
@@ -999,13 +999,13 @@
     "cat": "ayurveda",
     "title": "Chala Guna",
     "phon": "",
-    "body": "<p>Chala is the Sanskrit term for the mobile quality, representing the principle of motion and is associated with shakiness and restlessness in the body.</p>"
+    "body": "<p>Chala is the Sanskrit term for the mobile quality, which increases Vata and Pitta, decreases Kapha, and governs all physical motion, breathing, walking, and the flow of thoughts.</p>"
   },
   "drava guna": {
     "cat": "ayurveda",
     "title": "Drava Guna",
     "phon": "",
-    "body": "<p>Drava is the Sanskrit term for the liquid quality, representing the principle of liquefaction and is associated with salivation and cohesiveness in the body.</p>"
+    "body": "<p>Drava is the Sanskrit term for the liquid quality, which increases Pitta and Kapha, decreases Vata, dissolves and liquefies bodily substances, and governs salivation and sweating.</p>"
   },
   "guna": {
     "cat": "ayurveda",
@@ -1017,31 +1017,31 @@
     "cat": "ayurveda",
     "title": "Guru Guna",
     "phon": "",
-    "body": "<p>Guru is the Sanskrit term for the heavy quality, representing the principle of bulk nutrition and is associated with anabolic growth in the body.</p>"
+    "body": "<p>Guru is the Sanskrit term for the heavy quality, which increases Kapha, decreases Vata and Pitta, and promotes physical growth, nourishment, groundedness, and stability.</p>"
   },
   "hamsa gati": {
     "cat": "ayurveda",
     "title": "Hamsa Gati",
     "phon": "",
-    "body": "<p>Hamsa Gati is the Sanskrit term for the swan pulse, one of the primary animal gatis. It is primarily felt under the ring finger, represents the principle of stable, wavy movement, is characterized as being deep, slow, and cool, and is associated with Kapha Dosha and the water and earth elements.</p>"
+    "body": "<p>Hamsa Gati is the Sanskrit term for the swan pulse, one of the primary animal gatis. It is primarily felt under the ring finger, represents the principle of stable, wavy movement, and is characterized as being deep, slow, and cool. It is associated with Kapha Dosha and the Āpas and Pruthivī elements.</p>"
   },
   "kathina guna": {
     "cat": "ayurveda",
     "title": "Kathina Guna",
     "phon": "",
-    "body": "<p>Kathina is the Sanskrit term for the hard quality, representing the principle of strength and is associated with callousness and rigidity in the body.</p>"
+    "body": "<p>Kathina is the Sanskrit term for the hard quality, which increases Vata and Kapha, decreases Pitta, and provides structural strength, rigidity, and skeletal firmness.</p>"
   },
   "khara guna": {
     "cat": "ayurveda",
     "title": "Khara Guna",
     "phon": "",
-    "body": "<p>Khara is the Sanskrit term for the rough quality, representing the principle of rigidity, and is associated with the cracking of the skin and bones in the body.</p>"
+    "body": "<p>Khara is the Sanskrit term for the rough quality, which increases Vata, decreases Pitta and Kapha, and intensifies structural dryness, cellular absorption, and constipation.</p>"
   },
   "laghu guna": {
     "cat": "ayurveda",
     "title": "Laghu Guna",
     "phon": "",
-    "body": "<p>Laghu is the Sanskrit term for the light quality, representing the principle of alertness and is associated with catabolic reduction in the body.</p>"
+    "body": "<p>Laghu is the Sanskrit term for the light quality, which increases Vata and Pitta, decreases Kapha, assists in digestion, reduces tissue bulk, and promotes physical freshness and mental alertness.</p>"
   },
   "madhyama marga": {
     "cat": "ayurveda",
@@ -1053,7 +1053,7 @@
     "cat": "ayurveda",
     "title": "Majjā Dhātu",
     "phon": "",
-    "body": "<p>Majjā Dhātu is the Sanskrit term for the nerve tissue and bone marrow, the sixth biological tissue. It represents the principle of filling bone spaces, pūrana, functioning to maintain communication, memory, coordination, and the flow of intelligence through the central and peripheral nervous systems.</p><p><strong>Upa-Dhātu:</strong> lacrimal secretions, ashru</p><p><strong>Mala:</strong> oily secretions in the eyes, akshi vitta sneha, and mucosal discharges</p>"
+    "body": "<p>Majjā Dhātu is the Sanskrit term for the nerve tissue and bone marrow. It represents the principle of filling bone spaces, pūrana, functioning to maintain communication, memory, coordination, and the flow of intelligence through the central and peripheral nervous systems.</p><p><strong>Upa-Dhātu:</strong> lacrimal secretions, ashru</p><p><strong>Mala:</strong> oily secretions in the eyes, akshi vitta sneha, and mucosal discharges</p>"
   },
   "majja vaha srotas": {
     "cat": "ayurveda",
@@ -1065,7 +1065,7 @@
     "cat": "ayurveda",
     "title": "Māmsa Dhātu",
     "phon": "",
-    "body": "<p>Māmsa Dhātu is the Sanskrit term for the muscle tissue, the third biological tissue. It represents the principle of plastering, lepana, providing support, strength, coordination, and locomotion while covering and protecting the delicate internal organs.</p><p><strong>Upa-Dhātu:</strong> muscle fat, vasā, and the six layers of skin, tvacha</p><p><strong>Mala:</strong> khamala (nasal crust, earwax, sebaceous secretions, dental tartar, and smegma)</p>"
+    "body": "<p>Māmsa Dhātu is the Sanskrit term for the muscle tissue. It represents the principle of plastering, lepana, providing support, strength, coordination, and locomotion while covering and protecting the delicate internal organs.</p><p><strong>Upa-Dhātu:</strong> muscle fat, vasā, and the six layers of skin, tvacha</p><p><strong>Mala:</strong> khamala (nasal crust, earwax, sebaceous secretions, dental tartar, and smegma)</p>"
   },
   "mamsa vaha srotas": {
     "cat": "ayurveda",
@@ -1077,13 +1077,13 @@
     "cat": "ayurveda",
     "title": "Manda Guna",
     "phon": "",
-    "body": "<p>Manda is the Sanskrit term for the slow or dull quality, representing the principle of sluggishness and is associated with metabolic relaxation in the body.</p>"
+    "body": "<p>Manda is the Sanskrit term for the slow quality, which increases Kapha, decreases Vata and Pitta, and promotes calmness, quiet, relaxation, and silent stillness.</p>"
   },
   "manduka gati": {
     "cat": "ayurveda",
     "title": "Manduka Gati",
     "phon": "",
-    "body": "<p>Mandūka Gati is the Sanskrit term for the frog pulse, one of the primary animal gatis. It is primarily felt under the middle finger, represents the principle of jumping or pounding movement, is characterized as being full, bounding, and hot, and is associated with Pitta Dosha and the fire and water elements.</p>"
+    "body": "<p>Mandūka Gati is the Sanskrit term for the frog pulse, one of the primary animal gatis. It is primarily felt under the middle finger, represents the principle of jumping or pounding movement, and is characterized as being full, bounding, and hot. It is associated with Pitta Dosha and the Agni and Āpas elements.</p>"
   },
   "mano vaha srotas": {
     "cat": "ayurveda",
@@ -1095,7 +1095,7 @@
     "cat": "ayurveda",
     "title": "Meda Dhātu",
     "phon": "",
-    "body": "<p>Meda Dhātu is the Sanskrit term for the adipose or fat tissue, the fourth biological tissue. It represents the principle of lubrication, snehan, functioning to store energy as a food reservoir, provide insulation, and manifest personal love and softness in the body.</p><p><strong>Upa-Dhātu:</strong> tendons, sinews, ligaments, and flat muscles, snāyu</p><p><strong>Mala:</strong> sweat, sveda</p>"
+    "body": "<p>Meda Dhātu is the Sanskrit term for the adipose or fat tissue. It represents the principle of lubrication, snehan, functioning to store energy as a food reservoir, provide insulation, and manifest personal love and softness in the body.</p><p><strong>Upa-Dhātu:</strong> tendons, sinews, ligaments, and flat muscles, snāyu</p><p><strong>Mala:</strong> sweat, sveda</p>"
   },
   "meda vaha srotas": {
     "cat": "ayurveda",
@@ -1107,7 +1107,7 @@
     "cat": "ayurveda",
     "title": "Mrudu Guna",
     "phon": "",
-    "body": "<p>Mrudu is the Sanskrit term for the soft quality, representing the principle of tenderness and is associated with tissue relaxation in the body.</p>"
+    "body": "<p>Mrudu is the Sanskrit term for the soft quality, which increases Pitta and Kapha, decreases Vata, pacifies the rough quality of air, and creates physical relaxation, delicacy, and tenderness.</p>"
   },
   "mutra vaha srotas": {
     "cat": "ayurveda",
@@ -1125,7 +1125,7 @@
     "cat": "ayurveda",
     "title": "Picchila Guna",
     "phon": "",
-    "body": "<p>Picchila is the Sanskrit term for the sticky quality, representing the principle of adhesiveness and is associated with a lack of clarity in the body.</p>"
+    "body": "<p>Picchila is the Sanskrit term for the sticky quality, which increases Kapha, decreases Vata and Pitta, and promotes biological cohesiveness, compact firming of the joints, and the healing of bone fractures.</p>"
   },
   "prana": {
     "cat": "ayurveda",
@@ -1173,13 +1173,13 @@
     "cat": "ayurveda",
     "title": "Ruksha Guna",
     "phon": "",
-    "body": "<p>Ruksha is the Sanskrit term for the dry quality, representing the principle of dehydration and is associated with absorption and constipation in the body.</p>"
+    "body": "<p>Rūksha is the Sanskrit term for the dry quality, which increases Vata, decreases Pitta and Kapha, and promotes bodily absorption, dehydration, and the stimulation of the metabolic fire.</p>"
   },
   "sandra guna": {
     "cat": "ayurveda",
     "title": "Sandra Guna",
     "phon": "",
-    "body": "<p>Sandra is the Sanskrit term for the dense quality, representing the principle of solidity and is associated with compactness and groundedness in the body.</p>"
+    "body": "<p>Sandra is the Sanskrit term for the dense quality, which increases Kapha, decreases Vata and Pitta, and promotes biological compactness, structural solidity, and tissue strength.</p>"
   },
   "sara guna": {
     "cat": "ayurveda",
@@ -1191,19 +1191,19 @@
     "cat": "ayurveda",
     "title": "Sarpa Gati",
     "phon": "",
-    "body": "<p>Sarpa Gati is the Sanskrit term for the cobra pulse, one of the primary animal gatis. It is primarily felt under the index finger, represents the principle of serpentine or slithering movement, is characterized as being thin, fast, and feeble, and is associated with Vāta Dosha and the ether and air elements.</p>"
+    "body": "<p>Sarpa Gati is the Sanskrit term for the cobra pulse, one of the primary animal gatis. It is primarily felt under the index finger, represents the principle of serpentine or slithering movement, and is characterized as being thin, fast, and feeble. It is associated with Vāta Dosha and the Ākāsha and air elements.</p>"
   },
   "shita guna": {
     "cat": "ayurveda",
     "title": "Shīta Guna",
     "phon": "",
-    "body": "<p>Shīta is the Sanskrit term for the cold quality, representing the principle of contraction and is associated with reduced metabolic rate in the body.</p>"
+    "body": "<p>Shīta is the Sanskrit term for the cold quality, which increases Vata and Kapha, decreases Pitta, and encourages physical contraction, cooling of bodily heat, and the accumulation of protective mucus.</p>"
   },
   "shlakshna guna": {
     "cat": "ayurveda",
     "title": "Shlakshna Guna",
     "phon": "",
-    "body": "<p>Shlakshna is the Sanskrit term for the slimy or smooth quality, representing the principle of flexibility and is associated with joint lubrication in the body.</p>"
+    "body": "<p>Shlakshna is the Sanskrit term for the smooth quality, which increases Pitta and Kapha, decreases Vata, lubricates the internal organs, and prevents arthritic or degenerative bone changes.</p>"
   },
   "shukra dhatu": {
     "cat": "ayurveda",
@@ -1221,7 +1221,7 @@
     "cat": "ayurveda",
     "title": "Snigdha Guna",
     "phon": "",
-    "body": "<p>Snigdha is the Sanskrit term for the oily or unctuous quality, representing the principle of lubrication and is associated with moisture and compassion in the body.</p>"
+    "body": "<p>Snigdha is the Sanskrit term for the oily quality, which increases Pitta and Kapha, decreases Vata, and provides moisture, lubrication, joint flexibility, and physical vigor.</p>"
   },
   "stanya vaha srotas": {
     "cat": "ayurveda",
@@ -1233,19 +1233,19 @@
     "cat": "ayurveda",
     "title": "Sthira Guna",
     "phon": "",
-    "body": "<p>Sthira is the Sanskrit term for the static or stable quality, representing the principle of support and is associated with obstruction and fixity in the body.</p>"
+    "body": "<p>Sthira is the Sanskrit term for the static quality, which increases Kapha, decreases Vata and Pitta, and promotes physical stability, support, groundedness, and systemic healing.</p>"
   },
   "sthula guna": {
     "cat": "ayurveda",
     "title": "Sthula Guna",
     "phon": "",
-    "body": "<p>Sthula is the Sanskrit term for the gross quality, representing the principle of bulk and is associated with obstruction and obesity in the body.</p>"
+    "body": "<p>Sthūla is the Sanskrit term for the gross quality, which increases Kapha, decreases Vata and Pitta, and represents large, bulky, and structurally dense forms that build up the body's physical frame.</p>"
   },
   "sukshma guna": {
     "cat": "ayurveda",
     "title": "Sukshma Guna",
     "phon": "",
-    "body": "<p>Sukshma is the Sanskrit term for the subtle quality, representing the principle of penetration and associated with entry into the body's minute capillaries.</p>"
+    "body": "<p>Sūkshma is the Sanskrit term for the subtle quality, which increases Vata and Pitta, decreases Kapha, and easily pierces and penetrates microscopic capillaries, cell membranes, and emotional pathways.</p>"
   },
   "sveda vaha srotas": {
     "cat": "ayurveda",
@@ -1263,19 +1263,19 @@
     "cat": "ayurveda",
     "title": "Tikshna Guna",
     "phon": "",
-    "body": "<p>Tīkshna is the Sanskrit term for the sharp or penetrating quality, representing the principle of quick understanding and is associated with hyper-metabolism in the body.</p>"
+    "body": "<p>Tīkshna is the Sanskrit term for the sharp quality, which increases Vata and Pitta, decreases Kapha, penetrates deeply into the tissues, and improves focus, learning, and mental comprehension.</p>"
   },
   "ushna guna": {
     "cat": "ayurveda",
     "title": "Ushna Guna",
     "phon": "",
-    "body": "<p>Ushna is the Sanskrit term for the hot quality, representing the principle of digestion and is associated with increased circulation in the body.</p>"
+    "body": "<p>Ushna is the Sanskrit term for the hot quality, which increases Pitta, decreases Vata and Kapha, stimulates the central digestive fire, improves peripheral circulation, and promotes systemic cleansing.</p>"
   },
   "vishada guna": {
     "cat": "ayurveda",
     "title": "Vishada Guna",
     "phon": "",
-    "body": "<p>Vishada is the Sanskrit term for the clear quality, representing the principle of purity and is associated with isolation and mental lucidity in the body.</p>"
+    "body": "<p>Vishada is the Sanskrit term for the clear quality, which increases Vata and Pitta, decreases Kapha, pacifies the bodily humors, clears the physical channels, and yields mental understanding.</p>"
   },
   "lower esophageal sphincter": {
     "cat": "anatomy",
@@ -1371,13 +1371,13 @@
     "cat": "ayurveda",
     "title": "Pitta",
     "phon": "",
-    "body": "<p>Pitta Dosha is the Sanskrit term for the fire or transformation principle, the second of the three biological organizations (tridosha). It represents the principle of transformation, governing digestion, metabolism, and body temperature, and is associated with the fire and water elements.</p>"
+    "body": "<p>Pitta Dosha is the Sanskrit term for the fire or transformation principle, the second of the three biological organizations tridosha. It represents the principle of transformation, governing digestion, metabolism, and body temperature, and is associated with the fire and water elements.</p>"
   },
   "hima": {
     "cat": "ayurveda",
     "title": "Hima",
     "phon": "",
-    "body": "<p>Cool — a Kapha quality, giving cool clammy skin and slow digestion.</p>"
+    "body": "<p>Hima is the Sanskrit term for the cool quality, which increases Vata and Kapha, decreases Pitta, encourages physical contraction, cools down bodily heat, and promotes the accumulation of protective mucus.</p>"
   },
   "para ojas": {
     "cat": "ayurveda",
@@ -1413,7 +1413,7 @@
     "cat": "ayurveda",
     "title": "Kapha",
     "phon": "",
-    "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations (tridosha). It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
+    "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations, tridosha. It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
   },
   "liquefaction": {
     "cat": "physiology",
@@ -1509,7 +1509,7 @@
     "cat": "ayurveda",
     "title": "Pruthivī",
     "phon": "",
-    "body": "<p>Pruthivī is the Sanskrit term for the Earth element, the fifth of the five basic elements, pañcha mahābhūtas. It represents the principle of stability and is associated with mechanical energy in the body.</p>"
+    "body": "<p>Pruthivī is the Sanskrit term for the Earth element, the fifth of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of stability and is associated with mechanical energy in the body.</p>"
   },
   "starches": {
     "cat": "physiology",
@@ -1533,7 +1533,7 @@
     "cat": "ayurveda",
     "title": "jīvana",
     "phon": "",
-    "body": ""
+    "body": "<p>Jīvana is the Sanskrit term for \"life-giving\" or \"maintenance of life\" and is the primary function of Rakta Dhātu.</p>"
   },
   "blood vessels": {
     "cat": "anatomy",
@@ -1809,73 +1809,73 @@
     "cat": "ayurveda",
     "title": "Vāta",
     "phon": "",
-    "body": ""
+    "body": "<p>Vāta Dosha is the Sanskrit term for the air or movement principle, the first of the three biological organizations, tridosha. It represents the principle of mobility, which regulates all bodily activity, and is associated with the ether and air elements.</p>"
   },
   "abhyantara": {
     "cat": "ayurveda",
     "title": "Abhyantara",
     "phon": "",
-    "body": "<p>Abhyantara Mārga is the Sanskrit term for the internal pathway, representing the innermost channel of the body. It consists of the gastrointestinal tract, Mahā Srotas, is associated with the Endoderm embryological layer, and is the primary site for the accumulation and provocation (Sañchaya and Prakopa) stages of disease.</p>"
+    "body": "<p>Abhyantara Mārga is the Sanskrit term for the internal pathway, representing the innermost channel of the body. It consists of the gastrointestinal tract, Maha Srotas, is associated with the Endoderm embryological layer, and is the primary site for the accumulation and provocation, Sañchaya and Prakopa, stages of disease.</p>"
   },
   "bahya": {
     "cat": "ayurveda",
     "title": "Bāhya",
     "phon": "",
-    "body": ""
+    "body": "<p>Bāhya Mārga is the Sanskrit term for the external or superficial pathway, representing the principle of peripheral circulation. It consists of the channels that carry Rasa and Rakta Dhātus, plasma and blood, is associated with the Ectoderm embryological layer, and is the primary site for the spread, Prasara, stages of disease.</p>"
   },
   "madhyama": {
     "cat": "ayurveda",
     "title": "Madhyama",
     "phon": "",
-    "body": ""
+    "body": "<p>Madhyama Mārga is the Sanskrit term for the middle or deep pathway, representing the principle of vital organ and deep tissue involvement. It includes the deep connective tissues, the subsequent five biological tissues (Māmsa, Meda, Asthi, Majjā, and Shukra/Ārtava), and the vital organs such as the brain, heart, and kidneys, and is associated with the Mesoderm embryological layer, and is the primary site for the deposition, manifestation, and disease differentiation, Sthāna Samshraya, Vyakti, and Bheda, stages of disease.</p>"
   },
   "bhuta agni": {
     "cat": "ayurveda",
     "title": "Bhūta Agni",
     "phon": "",
-    "body": ""
+    "body": "<p>Bhūta Agni is the Sanskrit term for the five elemental metabolic fires present in the liver, which correspond on the physical level to specialized liver enzymes. Comprising five distinct fire components—Nabhasa Agni (ether), Vāyavya Agni (air), Tejo Agni (fire), Apo Agni (water), and Pārthiva Agni (earth)—it represents the principle of elemental metabolism and biochemical transformation. The flame of the central digestive fire, Jathara Agni, goes into the liver to manifest as these five elemental fires.</p><p>The primary function of Bhūta Agni is to convert the raw five elements from ingested food and water into biologically available forms that can nourish the seven Dhātus. This essential process can be observed directly at the microscopic level: Nabhasa Agni maintains the shape of the cells, Vāyavya Agni regulates cellular respiration, Tejo Agni maintains cellular metabolic activity, Apo Agni maintains the intracellular cytoplasm, and Pārthiva Agni governs mineral and membrane regulation. Bhūta Agni nourishes cellular consciousness, stimulates the Dhātu Agnis, and supports natural immunity by extracting Ojas, Tejas, and Prāna from the elements in the foods, liquids, and thoughts we consume.</p>"
   },
   "dhatu agni": {
     "cat": "ayurveda",
     "title": "Dhātu Agni",
     "phon": "",
-    "body": ""
+    "body": "<p>Dhātu Agni  is the Sanskrit term for the seven tissue-specific metabolic fires, representing the core principle of cellular transformation, tissue nutrition, and localized immunity within the body. Each of the seven Dhātus contains its own unique Agni component—Rasa Agni, Rakta Agni, Māmsa Agni, Meda Agni, Asthi Agni, Majjā Agni, and Shukra/ Ārtava Agni. Physically, these Agnis manifest as specialized enzymes, hormones, and amino acids that govern cellular metabolism and the biosynthesis of their respective tissues.</p><p>The primary physiological function of Dhātu Agni is to govern the sequential nourishment and metabolic transformation of tissues.</p><p>Each Dhātu Agni resides within its corresponding Dhātu Dhara Kalā, the specialized membranous structure that separates the tissues, holds their unique biological intelligence, and regulates nutrient flow. Within this membranous barrier, Dhātu Agni operates alongside the tissue's Ojas (immunity), Tejas (intelligence), and Prāna (communication) to maintain that tissue's functional and structural activities.</p>"
   },
   "rasa": {
     "cat": "ayurveda",
     "title": "Rasa",
     "phon": "",
-    "body": ""
+    "body": "<p>Rasa is the Sanskrit term for taste.</p>"
   },
   "amisha gandha": {
     "cat": "ayurveda",
     "title": "Āmisha Gandha",
     "phon": "",
-    "body": ""
+    "body": "<p>Amisha Gandha is the Sanskrit term for fleshy smell.</p>"
   },
   "agnis": {
     "cat": "ayurveda",
     "title": "Agnis",
     "phon": "",
-    "body": "<p>Agni is the Sanskrit term for the Fire element, the third of the five basic elements, pañcha mahābhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
+    "body": "<p>Agni is the Sanskrit term for the Fire element, the third of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of transformation and is associated with radiant energy in the body.</p>"
   },
   "anna drava": {
     "cat": "ayurveda",
     "title": "Anna-Drava",
     "phon": "",
-    "body": "<p>Food liquefied into chyme during digestion.</p>"
+    "body": "<p>Anna Drava is the Sanskrit term for the stage when food undergoes liquefaction in the stomach.</p>"
   },
   "mamsa medha asthi majja shukra artava": {
     "cat": "ayurveda",
     "title": "Māmsa, Medha, Asthi, Majjā, Shukra, Ārtava",
     "phon": "",
-    "body": ""
+    "body": "<p>The five Dhātus associated with Madhyama Mārga</p>"
   },
   "rasa rakta": {
     "cat": "ayurveda",
     "title": "Rasa & Rakta",
     "phon": "",
-    "body": ""
+    "body": "<p>The two Dhātus associated with Bāhya Mārga.</p>"
   },
   "brain s grey matter": {
     "cat": "anatomy",
@@ -1888,5 +1888,23 @@
     "title": "Large intestine/colon",
     "phon": "",
     "body": "<p>Where water is absorbed and waste is formed; the colon.</p>"
+  },
+  "dhatu dhara kala": {
+    "cat": "ayurveda",
+    "title": "Dhātu Dhara Kalā",
+    "phon": "",
+    "body": "<p>Dhātu Dhara Kalā is the Sanskrit term for the membranous structure that holds a Dhatu.</p>"
+  },
+  "hima guna": {
+    "cat": "ayurveda",
+    "title": "Hima Guna",
+    "phon": "",
+    "body": "<p>Hima is the Sanskrit term for the cool quality, which increases Vata and Kapha, decreases Pitta, encourages physical contraction, cools down bodily heat, and promotes the accumulation of protective mucus.</p>"
+  },
+  "pancha maha bhutas": {
+    "cat": "ayurveda",
+    "title": "Pañcha Maha Bhūtas",
+    "phon": "",
+    "body": "<p>Pañcha Maha Bhūtas is the Sanskrit term for the five basic elements, which serve as the fundamental building blocks for all matter in the universe. They represent the principles of freedom. Ākāsha, ether, movement Vāyu, air, transformation Agni, fire, cohesiveness Āpas, water, and stability Pruthivī, earth, and combine in specific proportions to form the three biological organizations, Tridosha.</p>"
   }
 }
