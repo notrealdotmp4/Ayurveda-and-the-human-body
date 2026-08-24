@@ -76,7 +76,7 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .stage-panel[hidden]{display:none}
 .chapter-intro{max-width:600px;margin:0 auto;font-size:15.5px;line-height:1.62;color:var(--ink);text-align:center}
 .chapter-dinkus{text-align:center}
-.chapter-dinkus img{max-width:min(608px,72vw);width:100%}
+.chapter-dinkus img{display:inline-block;height:80px;width:auto;max-width:90vw;opacity:.92}
 .subhead{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ayurveda);margin:28px 0 8px;font-weight:700}
 .subhead.subhead-lg{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:clamp(22px,3.4vw,30px);letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:56px 0 14px;text-align:center}
 .bullets{margin:0 0 20px;padding-left:20px}
