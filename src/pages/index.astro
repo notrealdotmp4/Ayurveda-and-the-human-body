@@ -165,7 +165,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
     {rest.map((ch) => (
       <section>
         <h2 class="chapter">{ch.kicker}</h2>
-        <h3>{ch.title}</h3>
+        <h3>{ch.title.includes(' & ') ? (
+          <Fragment>{ch.title.split(' & ')[0]} &<br/>{ch.title.split(' & ').slice(1).join(' & ')}</Fragment>
+        ) : ch.title}</h3>
         {ch.blocks.map((b, bi) => (
           b.type === 'level' ? (
             <div class="level"><div class="thumb">image<br/>goes here</div><div class="lc"><h4>{b.name}</h4>{b.info && <p>{b.info}</p>}</div></div>
@@ -192,8 +194,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       </section>
     ))}
 
-    <div class="chapter-dinkus"><br/><br/><img src="/anim/dinkusWider.svg" alt="" /><br/><br/></div>
     <div class="tongue-illustration"><img src="/anim/tongue.png" alt="" /></div>
+    <div class="chapter-dinkus"><br/><br/><img src="/anim/dinkusWider.svg" alt="" /><br/><br/></div>
 
     <figure class="samprapti">
       <figcaption class="sam-title">Srotāmsi Dhātu</figcaption>
