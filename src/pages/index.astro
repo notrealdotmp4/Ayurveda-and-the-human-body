@@ -174,10 +174,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           ) : b.type === 'list' ? (
             <ul class="bullets">{b.items.map((it) => (<li>{it.map((s) => (s.term ? <span class="term" role="button" tabindex="0" data-cat={s.cat} data-term={s.term}>{s.t}</span> : <Fragment>{s.t}</Fragment>))}</li>))}</ul>
           ) : bi === 0 && b.type === 'p' ? (
-            <Fragment>
-              <p class="chapter-intro">{b.segments.map((s) => s.t).join('')}</p>
-              <div class="chapter-dinkus"><br/><br/><img src="/anim/dinkusWider.svg" alt="" /><br/><br/></div>
-            </Fragment>
+            <p class="chapter-intro">{b.segments.map((s) => s.t).join('')}</p>
           ) : b.num ? (
             <div class="stage">
               <button class="stage-toggle" type="button" aria-expanded="false">
@@ -196,12 +193,13 @@ const rest = isLO ? chapters.slice(1) : chapters;
     ))}
 
     <div class="chapter-dinkus"><br/><br/><img src="/anim/dinkusWider.svg" alt="" /><br/><br/></div>
+    <div class="tongue-illustration"><img src="/anim/tongue.png" alt="" /></div>
 
     <figure class="samprapti">
-      <figcaption class="sam-title">Srotāmsi</figcaption>
+      <figcaption class="sam-title">Srotāmsi Dhātu</figcaption>
       <div class="sam-scroll">
         <div class="sr-grid">
-          <div class="sam-cell sam-hd">Dhātu &amp; Srotāmsi</div>
+          <div class="sam-cell sam-hd">Srotāmsi Dhātu</div>
           <div class="sam-cell sam-hd">Upa-Dhātu</div>
           <div class="sam-cell sam-hd">Mūla</div>
           <div class="sam-cell sam-hd">Mārga</div>
@@ -817,7 +815,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
     function linkSimpleTerms(root) {
       if (!GLOSS_NORM) { GLOSS_NORM = {}; Object.keys(MAP_GLOSSARY).forEach((k) => { const nk = normTerm(k); if (!(nk in GLOSS_NORM)) GLOSS_NORM[nk] = k; }); }
-      const used = new Set();
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode(n) { if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT; const p = n.parentElement; if (!p || p.closest('.simple-title') || p.classList.contains('simple-term')) return NodeFilter.FILTER_REJECT; return NodeFilter.FILTER_ACCEPT; } });
       const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
       nodes.forEach((node) => {
@@ -832,14 +829,14 @@ const rest = isLO ? chapters.slice(1) : chapters;
             for (let g = i; g < i + n - 1; g++) { if (!/^\s+$/.test(text.slice(toks[g].e, toks[g + 1].s))) { ok = false; break; } }
             if (!ok) continue;
             const s = toks[i].s, e = toks[i + n - 1].e, real = GLOSS_NORM[normTerm(text.slice(s, e))];
-            if (real && !used.has(real)) { matched = { s, e, key: real }; break; }
+            if (real) { matched = { s, e, key: real }; break; }
           }
           if (matched) {
             if (matched.s > cursor) pieces.push(document.createTextNode(text.slice(cursor, matched.s)));
             const g = MAP_GLOSSARY[matched.key], span = document.createElement('span');
             span.className = 'simple-term'; span.dataset.term = matched.key; if (g && g.cat) span.dataset.cat = g.cat;
             span.textContent = text.slice(matched.s, matched.e); pieces.push(span);
-            used.add(matched.key); cursor = matched.e; changed = true;
+            cursor = matched.e; changed = true;
             while (i < toks.length && toks[i].s < matched.e) i++;
           } else { i++; }
         }

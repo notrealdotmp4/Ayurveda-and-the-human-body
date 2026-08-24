@@ -77,6 +77,8 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .chapter-intro{max-width:600px;margin:0 auto;font-size:15.5px;line-height:1.62;color:var(--ink);text-align:center}
 .chapter-dinkus{text-align:center}
 .chapter-dinkus img{display:inline-block;height:80px;width:auto;max-width:90vw;opacity:.92}
+.tongue-illustration{text-align:center;margin:24px auto 40px}
+.tongue-illustration img{display:inline-block;width:min(260px,60vw);aspect-ratio:1/1;object-fit:cover;border-radius:14px}
 .subhead{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ayurveda);margin:28px 0 8px;font-weight:700}
 .subhead.subhead-lg{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:clamp(22px,3.4vw,30px);letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:56px 0 14px;text-align:center}
 .bullets{margin:0 0 20px;padding-left:20px}
@@ -250,7 +252,7 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .sam-scroll{overflow:visible;-webkit-overflow-scrolling:touch;padding-bottom:4px}
 @media(max-width:980px){.sam-scroll{overflow-x:auto}}
 .sr-grid .sam-hd{position:sticky;top:0;z-index:5}
-.sr-group{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;border:0;cursor:pointer;background:#b98a53;color:#fff;border-radius:14px;padding:13px 18px;margin:6px 0 0;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:14px;font-weight:600;letter-spacing:.03em;text-align:left}
+.sr-group{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;border:0;cursor:pointer;background:#cc9b69;color:#fff;border-radius:14px;padding:13px 18px;margin:6px 0 0;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:14px;font-weight:600;letter-spacing:.03em;text-align:left}
 .sr-group:hover{filter:brightness(1.06)}
 .sr-chev{display:inline-flex;transition:transform .2s ease;font-size:23px;line-height:1}
 .sr-chev svg{display:block;width:1em;height:1em}
@@ -261,7 +263,7 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .sam-hd{background:#cc9b69;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:12px}
 .sam-lbl{background:#cc9b69;font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:13px}
 .sam-val{background:#e8c5a6}
-.sam-proc{background:#d8ae87;font-weight:600}
+.sam-proc{background:#e8c5a6;font-weight:600}
 .sam-marga-cell{background:#cc9b69}
 .sam-link{cursor:pointer;font-weight:700}
 .sam-link:hover{filter:brightness(1.15)}
