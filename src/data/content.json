@@ -112,7 +112,7 @@
     },
     {
       "kicker": "Chapter Two",
-      "title": "6 Tastes and Stages of Digestion",
+      "title": "Shadrasa & Avastha Pāka",
       "blocks": [
         {
           "type": "p",
@@ -2105,7 +2105,23 @@
               "cat": "physiology"
             },
             {
-              "t": " of remaining water, minerals, and electrolytes. Udāna, Apāna, and "
+              "t": " of remaining water, minerals, and electrolytes. Udāna "
+            },
+            {
+              "t": "Vāyu",
+              "term": "vayu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", "
+            },
+            {
+              "t": "Apāna Vāyu",
+              "term": "apana vayu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ", and "
             },
             {
               "t": "Samāna Vāyu",
@@ -2233,7 +2249,23 @@
               "cat": "ayurveda"
             },
             {
-              "t": ", Shukra or Ārtava Dhātus. Located on the posterior part of the "
+              "t": ", "
+            },
+            {
+              "t": "Shukra Dhātu",
+              "term": "shukra dhatu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": " or "
+            },
+            {
+              "t": "Ārtava Dhātu",
+              "term": "artava dhatu",
+              "cat": "ayurveda"
+            },
+            {
+              "t": ". Located on the posterior part of the "
             },
             {
               "t": "Jihvā",

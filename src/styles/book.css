@@ -65,7 +65,7 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .footnote{font-family:system-ui,sans-serif;font-size:12.5px;color:var(--ink-soft);text-align:center;margin-top:60px;border-top:1px solid var(--line);padding-top:22px}
 .p-num{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:#cc9b69;color:#fff;font-family:system-ui,sans-serif;font-size:16px;font-weight:700;line-height:1;margin:34px auto 16px}
 .stage{margin:26px 0 0}
-.stage-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:14px;border:0;cursor:pointer;background:#e8c5a6;color:#fff;border-radius:14px;padding:16px 20px;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:16px;font-weight:600;letter-spacing:.02em;text-align:left}
+.stage-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:14px;border:0;cursor:pointer;background:#cc9b69;color:#fff;border-radius:14px;padding:16px 20px;font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:16px;font-weight:600;letter-spacing:.02em;text-align:left}
 .stage-toggle:hover{filter:brightness(1.1)}
 .stage-label{flex:1}
 .stage-chev{display:inline-flex;flex:none;font-size:20px;transition:transform .2s ease}
@@ -78,7 +78,7 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .chapter-dinkus{text-align:center}
 .chapter-dinkus img{display:inline-block;height:80px;width:auto;max-width:90vw;opacity:.92}
 .tongue-illustration{text-align:center;margin:24px auto 40px}
-.tongue-illustration img{display:inline-block;width:min(260px,60vw);aspect-ratio:1/1;object-fit:cover;border-radius:14px}
+.tongue-illustration img{display:inline-block;width:min(325px,75vw);aspect-ratio:1/1;object-fit:cover;border-radius:14px}
 .subhead{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ayurveda);margin:28px 0 8px;font-weight:700}
 .subhead.subhead-lg{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:clamp(22px,3.4vw,30px);letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:56px 0 14px;text-align:center}
 .bullets{margin:0 0 20px;padding-left:20px}
