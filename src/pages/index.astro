@@ -44,7 +44,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <title>{content.title} — An Interactive Āyurveda Book</title>
-  <script is:inline>try{if(localStorage.getItem('seenIntro'))document.documentElement.classList.add('skip-intro');var _fs=localStorage.getItem('tlb-fontsize');if(_fs)document.documentElement.classList.add(_fs);}catch(e){}</script>
+  <script is:inline>try{if(localStorage.getItem('seenIntro'))document.documentElement.classList.add('skip-intro');}catch(e){}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Sans:wght@600;700&display=swap" rel="stylesheet" />
@@ -428,7 +428,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
   </nav>
 
   <div class="bm-menu" id="bmMenu" hidden>
-    <button id="bmText">Text size: Normal</button>
     <button id="bmPlace">Place bookmark here</button>
     <button id="bmJump">Go to my bookmark</button>
     <button id="bmNotes">My notes</button>
@@ -788,10 +787,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
     // Toolbox + hero modal + notebook + bookmark
     const T = document.getElementById('toast');
     function toast(msg) { T.textContent = msg; T.classList.add('show'); clearTimeout(T._t); T._t = setTimeout(() => T.classList.remove('show'), 1900); }
-    const FS_STEPS = ['', 'fs-m', 'fs-l'], FS_LABELS = ['Normal', 'Large', 'Larger'];
-    function applyFS(c) { const d = document.documentElement; d.classList.remove('fs-m', 'fs-l'); if (c) d.classList.add(c); try { localStorage.setItem('tlb-fontsize', c); } catch (e) {} }
-    function cycleFontSize() { let cur = ''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = (FS_STEPS.indexOf(cur) + 1) % FS_STEPS.length; applyFS(FS_STEPS[i]); toast('Text size: ' + FS_LABELS[i]); }
-
     const toolbar = document.getElementById('toolbar');
     function revealTools(on) { toolbar.classList.toggle('show', on); }
     const synthEl = document.querySelector('.lo-revisit-wrap');
@@ -1187,9 +1182,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
       else if (t === 'systems') openSystems();
     }));
     const bmMenu = document.getElementById('bmMenu');
-    const bmText = document.getElementById('bmText');
-    function fsCurLabel() { let cur=''; try { cur = localStorage.getItem('tlb-fontsize') || ''; } catch (e) {} const i = FS_STEPS.indexOf(cur); return 'Text size: ' + FS_LABELS[i < 0 ? 0 : i]; }
-    if (bmText) { bmText.textContent = fsCurLabel(); bmText.addEventListener('click', (e) => { e.stopPropagation(); cycleFontSize(); bmText.textContent = fsCurLabel(); }); }
     function toggleBmMenu() {
       const show = bmMenu.hidden; bmMenu.hidden = !show;
       if (show) { const btn = document.querySelector('[data-tool="bookmark"]'); const pill = (btn && btn.closest('.tbar-pill')) || btn; if (pill) { const r = pill.getBoundingClientRect(); bmMenu.style.left = (r.left + r.width / 2) + 'px'; } }

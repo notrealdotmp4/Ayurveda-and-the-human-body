@@ -2105,11 +2105,11 @@
               "cat": "physiology"
             },
             {
-              "t": " of remaining water, minerals, and electrolytes. Udāna "
+              "t": " of remaining water, minerals, and electrolytes. "
             },
             {
-              "t": "Vāyu",
-              "term": "vayu",
+              "t": "Udāna Vāyu",
+              "term": "udana vayu",
               "cat": "ayurveda"
             },
             {
@@ -2225,7 +2225,15 @@
               "cat": "ayurveda"
             },
             {
-              "t": " in the brain’s hunger center to signal the return of true appetite and the reactivation of "
+              "t": " in the "
+            },
+            {
+              "t": "brain",
+              "term": "brain",
+              "cat": "anatomy"
+            },
+            {
+              "t": "’s hunger center to signal the return of true appetite and the reactivation of "
             },
             {
               "t": "Jāthara Agni",
@@ -2325,6 +2333,18 @@
             }
           ],
           "num": "6"
+        },
+        {
+          "type": "p",
+          "segments": [
+            {
+              "t": "Rasanendriya"
+            },
+            {
+              "t": " — content coming soon."
+            }
+          ],
+          "num": 7
         }
       ]
     }

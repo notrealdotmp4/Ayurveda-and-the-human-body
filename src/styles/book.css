@@ -263,8 +263,8 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .sam-cell .cell-inner{display:table-cell;vertical-align:middle;text-align:center;padding:10px 12px;overflow-wrap:anywhere}
 .sam-hd{background:#cc9b69;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:12px}
 .sam-lbl{background:#cc9b69;font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:13px}
-.sam-val{background:#e8c5a6}
-.sam-proc{background:#e8c5a6;font-weight:600}
+.sam-val{background:#d8ae87}
+.sam-proc{background:#d8ae87;font-weight:600}
 .sam-marga-cell{background:#cc9b69}
 .sam-link{cursor:pointer;font-weight:700}
 .sam-link:hover{filter:brightness(1.15)}
