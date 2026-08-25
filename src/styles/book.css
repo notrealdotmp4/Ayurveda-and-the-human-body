@@ -79,7 +79,7 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .chapter-dinkus img{display:inline-block;height:80px;width:auto;max-width:90vw;opacity:.92}
 .tongue-spacer{text-align:center;line-height:1.6}
 .tongue-illustration{text-align:center;margin:24px auto 40px}
-.tongue-illustration img{display:block;width:100%;aspect-ratio:900/512;object-fit:cover;border-radius:14px}
+.tongue-illustration img{display:block;width:100%;aspect-ratio:1280/720;object-fit:cover;border-radius:14px}
 .subhead{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ayurveda);margin:28px 0 8px;font-weight:700}
 .subhead.subhead-lg{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:clamp(22px,3.4vw,30px);letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:56px 0 14px;text-align:center}
 .bullets{margin:0 0 20px;padding-left:20px}
