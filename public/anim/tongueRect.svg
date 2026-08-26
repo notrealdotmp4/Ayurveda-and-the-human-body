@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1280mm"
-   height="720mm"
-   viewBox="0 0 1280 720"
+   width="1620mm"
+   height="820mm"
+   viewBox="0 0 1620 820"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -24,20 +24,30 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="0.41936904"
-     inkscape:cx="2299.8837"
-     inkscape:cy="1424.7595"
+     inkscape:cx="3042.6662"
+     inkscape:cy="1639.3676"
      inkscape:window-width="3779"
      inkscape:window-height="2091"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_2" /><defs
-     id="defs1"><inkscape:path-effect
+     inkscape:current-layer="svg1" /><defs
+     id="defs1"><rect
+       x="107.91172"
+       y="558.1059"
+       width="2309.9854"
+       height="2615.1731"
+       id="rect3" /><rect
+       x="135.91847"
+       y="135.91847"
+       width="1621.4836"
+       height="2441.7634"
+       id="rect2" /><inkscape:path-effect
        effect="fillet_chamfer"
        id="path-effect1"
        is_visible="true"
        lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,52.916665,0,1"
+       nodesatellites_param="F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,52.916665,0,1"
        radius="200"
        unit="px"
        method="auto"
@@ -76,29 +86,33 @@
     </style><linearGradient
        id="linear-gradient"
        x1="110.33"
-       y1="7.4"
+       y1="7.4000001"
        x2="110.33"
-       y2="286.05"
+       y2="286.04999"
        gradientUnits="userSpaceOnUse"><stop
          offset="0"
          stop-color="#942900"
          id="stop1" /><stop
          offset="1"
          stop-color="#7d2400"
-         id="stop2" /></linearGradient></defs><g
+         id="stop2" /></linearGradient><rect
+       x="107.91172"
+       y="558.1059"
+       width="2309.9854"
+       height="2615.1731"
+       id="rect20" /></defs><rect
+     style="fill:#cc9b69;fill-opacity:1;stroke-width:0.316878;stroke-dasharray:none"
+     id="rect1"
+     width="1620"
+     height="820"
+     x="0.39167896"
+     y="0.12220165" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><path
-       style="fill:#cc9b69;fill-opacity:1;stroke-width:0.264583"
-       id="rect1"
-       width="1280.1125"
-       height="721.75891"
-       x="-0.056274414"
-       y="-0.87945557"
-       inkscape:path-effect="#path-effect1"
-       sodipodi:type="rect"
-       d="M 52.860391,-0.87945557 H 1227.1396 A 52.916665,52.916665 45 0 1 1280.0563,52.037209 V 667.96279 a 52.916665,52.916665 135 0 1 -52.9167,52.91667 H 52.860391 A 52.916665,52.916665 45 0 1 -0.05627441,667.96279 V 52.037209 A 52.916665,52.916665 135 0 1 52.860391,-0.87945557 Z" /><g
-       id="g2"><g
+     id="layer1"
+     transform="translate(0,50.696593)"><g
+       id="g2"
+       transform="translate(170)"><g
          id="g1"
          transform="matrix(2.1008278,0,0,2.1008278,408.21326,51.75431)"><g
            id="Layer_2"
@@ -493,4 +507,320 @@
                id="path121" /><path
                class="cls-2"
                d="m 54.84,73.59 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
-               id="path122" /></g></g></g></g></g></svg>
+               id="path122" /></g></g></g></g></g><text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,975.88313,-64.602837)"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.9333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none;fill:#ffffff"
+     x="755.38208"
+     y="0"><tspan
+       x="800.5692"
+       y="636.53475"
+       id="tspan2"><tspan
+         style="font-weight:bold"
+         id="tspan1">WHERE EMOTIONS 
+</tspan></tspan><tspan
+       x="860.28825"
+       y="743.20138"
+       id="tspan14"><tspan
+         style="font-weight:bold"
+         id="tspan12">ARE PROCESSED</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan13">
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="849.868"
+       id="tspan16"><tspan
+         style="fill:#ffffff"
+         id="tspan15">
+</tspan></tspan><tspan
+       x="1059.4562"
+       y="956.53463"
+       id="tspan19"><tspan
+         style="font-weight:bold"
+         id="tspan17">YAKRUT</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan18">
+</tspan></tspan><tspan
+       x="1114.8376"
+       y="1063.2013"
+       id="tspan29"><tspan
+         style="fill:#ffffff"
+         id="tspan28">anger
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1169.8679"
+       id="tspan31"><tspan
+         style="fill:#ffffff"
+         id="tspan30">
+</tspan></tspan><tspan
+       x="683.05078"
+       y="1276.5345"
+       id="tspan34"><tspan
+         style="font-weight:bold"
+         id="tspan32">HIRDAYAM &amp; PHUPHUSA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan33">
+</tspan></tspan><tspan
+       x="865.62183"
+       y="1383.2011"
+       id="tspan36"><tspan
+         style="fill:#ffffff"
+         id="tspan35">hurt, grief, sorrow
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1489.8678"
+       id="tspan38"><tspan
+         style="fill:#ffffff"
+         id="tspan37">
+</tspan></tspan><tspan
+       x="1103.3176"
+       y="1596.5344"
+       id="tspan41"><tspan
+         style="font-weight:bold"
+         id="tspan39">PLĪHA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan40">
+</tspan></tspan><tspan
+       x="988.62967"
+       y="1703.201"
+       id="tspan43"><tspan
+         style="fill:#ffffff"
+         id="tspan42">resentment
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1809.8676"
+       id="tspan45"><tspan
+         style="fill:#ffffff"
+         id="tspan44">
+</tspan></tspan><tspan
+       x="1017.5149"
+       y="1916.5343"
+       id="tspan48"><tspan
+         style="font-weight:bold"
+         id="tspan46">PITTASHA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan47">
+</tspan></tspan><tspan
+       x="1017.6004"
+       y="2023.2009"
+       id="tspan50"><tspan
+         style="fill:#ffffff"
+         id="tspan49">frustration
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2129.8675"
+       id="tspan52"><tspan
+         style="fill:#ffffff"
+         id="tspan51">
+</tspan></tspan><tspan
+       x="1050.3683"
+       y="2236.5343"
+       id="tspan55"><tspan
+         style="font-weight:bold"
+         id="tspan53">VRUKKA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan54">
+</tspan></tspan><tspan
+       x="1041.0244"
+       y="2343.2008"
+       id="tspan57"><tspan
+         style="fill:#ffffff"
+         id="tspan56">guilt, fear
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2449.8673"
+       id="tspan59"><tspan
+         style="fill:#ffffff"
+         id="tspan58">
+</tspan></tspan><tspan
+       x="983.55212"
+       y="2556.5338"
+       id="tspan62"><tspan
+         style="font-weight:bold"
+         id="tspan60">ĀMĀSHAYA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan61">
+</tspan></tspan><tspan
+       x="837.71779"
+       y="2663.2003"
+       id="tspan64"><tspan
+         style="fill:#ffffff"
+         id="tspan63">stress, tension, fear
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2769.8668"
+       id="tspan66"><tspan
+         style="fill:#ffffff"
+         id="tspan65">
+</tspan></tspan><tspan
+       x="933.68902"
+       y="2876.5333"
+       id="tspan68"><tspan
+         style="font-weight:bold"
+         id="tspan67">PAKVĀSHAYA
+</tspan></tspan><tspan
+       x="822.07245"
+       y="2983.1998"
+       id="tspan70"><tspan
+         style="fill:#ffffff"
+         id="tspan69">nervousness, anxiety</tspan></tspan></text><text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-35.915694,-64.602837)"
+     id="text20"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.9333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect20);fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none;fill:#ffffff"
+     x="755.38208"
+     y="0"><tspan
+       x="832.48358"
+       y="636.53475"
+       id="tspan72"><tspan
+         style="font-weight:bold"
+         id="tspan71">SHADRASAS AND 
+</tspan></tspan><tspan
+       x="851.11508"
+       y="743.20138"
+       id="tspan75"><tspan
+         style="font-weight:bold"
+         id="tspan73">THEIR EMOTIONS</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan74">
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="849.868"
+       id="tspan77"><tspan
+         style="fill:#ffffff"
+         id="tspan76">
+</tspan></tspan><tspan
+       x="1000.2349"
+       y="956.53463"
+       id="tspan80"><tspan
+         style="font-weight:bold"
+         id="tspan78">MADHURA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan79">
+</tspan></tspan><tspan
+       x="636.33115"
+       y="1063.2013"
+       id="tspan82"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00010681152"
+         style="fill:#ffffff"
+         id="tspan81">joy, happiness, contentment
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1169.8679"
+       id="tspan84"><tspan
+         style="fill:#ffffff"
+         id="tspan83">
+</tspan></tspan><tspan
+       x="1108.9923"
+       y="1276.5345"
+       id="tspan87"><tspan
+         style="font-weight:bold"
+         id="tspan85">AMLA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan86">
+</tspan></tspan><tspan
+       x="750.80588"
+       y="1383.2011"
+       id="tspan89"><tspan
+         style="fill:#ffffff"
+         id="tspan88">jealousy, hate, criticism
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1489.8678"
+       id="tspan91"><tspan
+         style="fill:#ffffff"
+         id="tspan90">
+</tspan></tspan><tspan
+       x="1053.9949"
+       y="1596.5344"
+       id="tspan94"><tspan
+         style="font-weight:bold"
+         id="tspan92">LAVANA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan93">
+</tspan></tspan><tspan
+       x="820.52313"
+       y="1703.201"
+       id="tspan96"><tspan
+         style="fill:#ffffff"
+         id="tspan95">greed, attachment, 
+</tspan></tspan><tspan
+       x="940.88563"
+       y="1809.8676"
+       id="tspan98"><tspan
+         style="fill:#ffffff"
+         id="tspan97">posessiveness
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1916.5343"
+       id="tspan100"><tspan
+         style="fill:#ffffff"
+         id="tspan99">
+</tspan></tspan><tspan
+       x="1120.2136"
+       y="2023.2009"
+       id="tspan103"><tspan
+         style="font-weight:bold"
+         id="tspan101">KATU</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan102">
+</tspan></tspan><tspan
+       x="903.80858"
+       y="2129.8675"
+       id="tspan105"><tspan
+         style="fill:#ffffff"
+         id="tspan104">anger, irritation,
+</tspan></tspan><tspan
+       x="1033.8137"
+       y="2236.5343"
+       id="tspan107"><tspan
+         style="fill:#ffffff"
+         id="tspan106">frustation
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2343.2008"
+       id="tspan109"><tspan
+         style="fill:#ffffff"
+         id="tspan108">
+</tspan></tspan><tspan
+       x="1112.747"
+       y="2449.8673"
+       id="tspan112"><tspan
+         style="font-weight:bold"
+         id="tspan110">TIKTA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan111">
+</tspan></tspan><tspan
+       x="819.3712"
+       y="2556.5338"
+       id="tspan114"><tspan
+         style="fill:#ffffff"
+         id="tspan113">loneliness, isolation,
+</tspan></tspan><tspan
+       x="1015.4671"
+       y="2663.2003"
+       id="tspan116"><tspan
+         style="fill:#ffffff"
+         id="tspan115">separation
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2769.8668"
+       id="tspan118"><tspan
+         style="fill:#ffffff"
+         id="tspan117">
+</tspan></tspan><tspan
+       x="1026.7308"
+       y="2876.5333"
+       id="tspan121"><tspan
+         style="font-weight:bold"
+         id="tspan119">KASHĀYA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan120">
+</tspan></tspan><tspan
+       x="700.37385"
+       y="2983.1998"
+       id="tspan123"><tspan
+         style="fill:#ffffff"
+         id="tspan122">fear, anxiety, nervousness
+</tspan></tspan></text></svg>

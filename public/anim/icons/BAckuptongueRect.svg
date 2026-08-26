@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1620mm"
+   height="820mm"
+   viewBox="0 0 1620 820"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="tongueRect.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.41936904"
+     inkscape:cx="2799.4437"
+     inkscape:cy="1682.2892"
+     inkscape:window-width="3779"
+     inkscape:window-height="2091"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" /><defs
+     id="defs1"><rect
+       x="107.91172"
+       y="558.1059"
+       width="2309.9854"
+       height="2615.1731"
+       id="rect3" /><rect
+       x="135.91847"
+       y="135.91847"
+       width="1621.4836"
+       height="2441.7634"
+       id="rect2" /><inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,52.916665,0,1 @ F,0,0,1,0,52.916665,0,1"
+       radius="200"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" /><style
+       id="style1">
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #fab458;
+      }
+
+      .cls-3 {
+        fill: #b75f51;
+      }
+
+      .cls-4 {
+        fill: #c67067;
+      }
+
+      .cls-5 {
+        fill: #a5554c;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+    </style><linearGradient
+       id="linear-gradient"
+       x1="110.33"
+       y1="7.4000001"
+       x2="110.33"
+       y2="286.04999"
+       gradientUnits="userSpaceOnUse"><stop
+         offset="0"
+         stop-color="#942900"
+         id="stop1" /><stop
+         offset="1"
+         stop-color="#7d2400"
+         id="stop2" /></linearGradient><rect
+       x="107.91172"
+       y="558.1059"
+       width="2309.9854"
+       height="2615.1731"
+       id="rect20" /></defs><rect
+     style="fill:#cc9b69;fill-opacity:1;stroke-width:0.316878;stroke-dasharray:none"
+     id="rect1"
+     width="1620"
+     height="820"
+     x="0.39167857"
+     y="0.1222024" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,50.696593)"><g
+       id="g2"
+       transform="translate(170,-0.69659297)"><g
+         id="g1"
+         transform="matrix(2.1008278,0,0,2.1008278,408.21326,51.75431)"><g
+           id="Layer_2"
+           data-name="Layer 2"><path
+             class="cls-6"
+             d="m 110.33,12.7 c 29.95,0 53.3,-13.54 70.88,2.67 17.58,16.21 37.5,61.88 33.24,119.58 -4.4,59.62 -28.85,151.1 -104.12,151.1 C 35.06,286.05 10.61,194.57 6.21,134.95 1.96,77.25 21.87,31.58 39.45,15.37 57.03,-0.84 80.38,12.7 110.33,12.7 Z"
+             id="path123"
+             style="fill:url(#linear-gradient)" /></g><g
+           id="Layer_6"
+           data-name="Layer 6"><path
+             class="cls-5"
+             d="m 8.38,128.52 c 5.59,-32.11 24.23,-16.33 37.29,-30.72 4.5,-4.96 6.03,-11.35 12.58,-15.59 10.93,-7.07 27.1,-10.33 51.14,-11.13 18.95,-0.63 38.71,4.6 49.6,10.41 10.89,5.81 9.18,16.81 19.76,20 23.28,7.03 33.98,6.98 33.98,31.11 0,15.24 -2.19,27.7 -22.44,23.17 -14.11,-3.16 -20.49,3.6 -30.22,-2 -12.19,-7.02 -14.31,-34.64 -48.35,-34.64 -38.47,0 -39.87,35.01 -55.33,36.14 -8.37,0.61 -15.65,-2.79 -33.15,0.65 C 7.76,158.97 7.07,136.08 8.39,128.52 Z"
+             id="path3" /></g><g
+           id="Layer_3"
+           data-name="Layer 3"><path
+             class="cls-3"
+             d="m 112.09,278.31 c -24.52,0 -38.19,-12.3 -41.96,-18.33 -14.36,-22.97 26.26,-8.83 41.74,-8.83 17.01,0 56.54,-12.59 41.3,9.5 -6.52,9.45 -24.74,17.67 -41.08,17.67 z"
+             id="path4" /><path
+             class="cls-4"
+             d="m 64.22,193.82 c 9.54,23.93 15.39,29.37 12.08,40.2 -3.31,10.83 -8.83,7.74 -14.36,12.26 -5.53,4.52 -24.52,-3.43 -34.01,-25.73 -9.49,-22.3 -13.5,-37.82 -2.87,-52.34 22.31,-30.48 32.39,8.61 39.16,25.62 z"
+             id="path5" /><path
+             class="cls-4"
+             d="m 155.66,193.82 c -9.54,23.93 -15.39,29.37 -12.08,40.2 3.31,10.82 8.83,7.74 14.36,12.26 5.52,4.52 24.52,-3.43 34.01,-25.73 9.5,-22.31 13.5,-37.82 2.87,-52.34 -22.31,-30.48 -32.39,8.61 -39.16,25.62 z"
+             id="path6" /><g
+             id="Layer_8"
+             data-name="Layer 8"><path
+               class="cls-3"
+               d="m 110.14,122.15 c -14.58,0 -16.12,0.74 -22.45,6.63 -6.33,5.89 -12.66,23.56 -16.34,31.8 -3.68,8.25 -6.63,17.97 -5.89,23.19 0.74,5.22 2.8,17.15 9.28,29.67 6.48,12.52 7.21,16.05 9.28,22.67 2.07,6.62 8.82,11.94 25.98,11.94 h -0.11 c 17.17,0 24.25,-5.31 26.32,-11.94 2.07,-6.63 2.8,-10.16 9.28,-22.67 6.48,-12.51 8.54,-24.44 9.28,-29.67 0.74,-5.23 -2.21,-14.95 -5.89,-23.19 -3.68,-8.24 -10.01,-25.91 -16.34,-31.8 -6.33,-5.89 -7.8,-6.63 -22.38,-6.63 v 0 z"
+               id="path7" /></g><path
+             class="cls-4"
+             d="m 155.91,76.5 c 8.4,4.11 14.58,10.12 18.84,17.36 3.87,6.57 15.58,9.84 22.82,6.71 7.24,-3.13 8.82,-23.39 3.04,-35.27 -5.79,-11.87 -19.96,-26.95 -29.15,-23.63 -9.19,3.32 -4.34,8.1 -14.49,15.58 -13.2,9.71 -12.69,13.57 -1.06,19.26 z"
+             id="path8" /><path
+             class="cls-4"
+             d="m 63.06,76.43 c -8.39,4.13 -14.55,10.16 -18.8,17.4 -3.86,6.58 -15.55,9.87 -22.81,6.76 -7.26,-3.11 -8.88,-23.37 -3.12,-35.26 5.76,-11.89 19.9,-26.99 29.1,-23.7 9.2,3.29 5.73,8.87 14.53,15.54 15.66,11.87 12.72,13.54 1.1,19.26 z"
+             id="path9" /><path
+             class="cls-3"
+             d="m 162.16,46.01 c 6.07,-25.28 -24.5,-32.34 -52.41,-32.34 -27.91,0 -61.08,13.23 -51.77,33.82 5.66,12.52 23.86,19.87 51.77,19.87 27.91,0 49.53,-9.35 52.41,-21.34 z"
+             id="path10" /></g><g
+           id="Layer_5"
+           data-name="Layer 5"><g
+             id="g75"
+             transform="translate(-1.0075394)"><path
+               class="cls-2"
+               d="m 97.94,269.63 v -2.94 c 0,0 -1.45,2.42 -1.45,2.42 h -0.51 l -1.44,-2.36 v 2.88 h -1.06 v -4.9 h 0.94 l 1.83,3.05 1.81,-3.05 h 0.93 v 4.9 z"
+               id="path69" /><path
+               class="cls-2"
+               d="m 103.39,268.58 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.35,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path70" /><path
+               class="cls-2"
+               d="m 105.53,264.73 h 2.23 c 1.6,0 2.7,0.97 2.7,2.45 0,1.48 -1.1,2.45 -2.7,2.45 h -2.23 z m 2.17,3.97 c 0.97,0 1.61,-0.58 1.61,-1.52 0,-0.94 -0.64,-1.52 -1.61,-1.52 h -1.04 v 3.04 z"
+               id="path71" /><path
+               class="cls-2"
+               d="m 115.81,264.73 v 4.9 h -1.13 v -2.01 h -2.23 v 2.01 h -1.13 v -4.9 h 1.13 v 1.93 h 2.23 v -1.93 z"
+               id="path72" /><path
+               class="cls-2"
+               d="m 116.92,267.48 v -2.75 h 1.13 v 2.7 c 0,0.93 0.41,1.32 1.09,1.32 0.68,0 1.09,-0.38 1.09,-1.32 v -2.7 h 1.12 v 2.75 c 0,1.44 -0.83,2.24 -2.22,2.24 -1.39,0 -2.22,-0.8 -2.22,-2.24 z"
+               id="path73" /><path
+               class="cls-2"
+               d="m 125.61,269.63 -0.95,-1.37 h -1.04 v 1.37 h -1.13 v -4.9 h 2.12 c 1.31,0 2.13,0.68 2.13,1.78 0,0.74 -0.37,1.28 -1.01,1.55 l 1.1,1.58 h -1.22 z m -1.07,-3.97 h -0.92 v 1.71 h 0.92 c 0.69,0 1.04,-0.32 1.04,-0.85 0,-0.53 -0.35,-0.85 -1.04,-0.85 z"
+               id="path74" /><path
+               class="cls-2"
+               d="m 130.86,268.58 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path75" /></g><g
+             id="g79"
+             transform="rotate(63,43.089621,206.35754)"><path
+               class="cls-2"
+               d="m 37.12,211.96 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path76" /><path
+               class="cls-2"
+               d="m 43.71,213.01 v -2.94 c 0,0 -1.45,2.42 -1.45,2.42 h -0.51 l -1.44,-2.36 v 2.88 h -1.06 v -4.9 h 0.94 l 1.83,3.05 1.81,-3.05 h 0.93 v 4.9 c 0,0 -1.05,0 -1.05,0 z"
+               id="path77" /><path
+               class="cls-2"
+               d="m 45.93,208.11 h 1.13 v 3.98 h 2.46 v 0.92 h -3.59 z"
+               id="path78" /><path
+               class="cls-2"
+               d="m 53.43,211.96 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path79" /><text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+               x="43.763557"
+               y="204.20926"
+               id="text36"
+               transform="translate(6.1483699e-6)"><tspan
+                 sodipodi:role="line"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+                 x="43.763557"
+                 y="204.20926"
+                 id="tspan36">Phuphusa</tspan></text></g><g
+             id="g79-9"
+             transform="rotate(-67,109.43931,106.26944)"><path
+               class="cls-2"
+               d="m 37.12,211.96 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path76-2"
+               style="fill:#fab458" /><path
+               class="cls-2"
+               d="m 43.71,213.01 v -2.94 c 0,0 -1.45,2.42 -1.45,2.42 h -0.51 l -1.44,-2.36 v 2.88 h -1.06 v -4.9 h 0.94 l 1.83,3.05 1.81,-3.05 h 0.93 v 4.9 c 0,0 -1.05,0 -1.05,0 z"
+               id="path77-5"
+               style="fill:#fab458" /><path
+               class="cls-2"
+               d="m 45.93,208.11 h 1.13 v 3.98 h 2.46 v 0.92 h -3.59 z"
+               id="path78-4"
+               style="fill:#fab458" /><path
+               class="cls-2"
+               d="m 53.43,211.96 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path79-0"
+               style="fill:#fab458" /><text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+               x="43.763557"
+               y="204.20926"
+               id="text36-5"
+               transform="translate(6.1483699e-6)"><tspan
+                 sodipodi:role="line"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+                 x="43.763557"
+                 y="204.20926"
+                 id="tspan36-9">Phuphusa</tspan></text></g><g
+             id="g84"
+             transform="translate(0,3.022618)"><path
+               class="cls-2"
+               d="m 101.43,184.17 -0.66,0.69 v 1.24 h -1.13 v -4.9 h 1.13 v 2.29 l 2.17,-2.29 h 1.26 l -2.03,2.18 2.15,2.72 H 103 Z"
+               id="path80" /><path
+               class="cls-2"
+               d="m 107.84,185.05 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path81" /><path
+               class="cls-2"
+               d="m 110.74,182.12 h -1.57 v -0.92 h 4.27 v 0.92 h -1.57 v 3.98 h -1.13 z"
+               id="path82" /><path
+               class="cls-2"
+               d="m 118.55,181.19 v 4.9 h -1.13 v -2.01 h -2.23 v 2.01 h -1.13 v -4.9 h 1.13 v 1.93 h 2.23 v -1.93 z"
+               id="path83" /><path
+               class="cls-2"
+               d="m 119.66,183.94 v -2.75 h 1.13 v 2.7 c 0,0.93 0.41,1.32 1.09,1.32 0.68,0 1.09,-0.38 1.09,-1.32 v -2.7 h 1.12 v 2.75 c 0,1.44 -0.83,2.24 -2.22,2.24 -1.39,0 -2.22,-0.8 -2.22,-2.24 z"
+               id="path84" /></g><g
+             id="g89"><path
+               class="cls-2"
+               d="m 101.24,101.99 h -1.57 v -0.92 h 4.27 v 0.92 h -1.57 v 3.98 h -1.13 z"
+               id="path85" /><path
+               class="cls-2"
+               d="m 104.55,101.07 h 1.13 v 4.9 h -1.13 z"
+               id="path86" /><path
+               class="cls-2"
+               d="m 108.63,104.05 -0.66,0.69 v 1.24 h -1.13 v -4.9 h 1.13 v 2.29 l 2.17,-2.29 h 1.26 l -2.03,2.18 2.15,2.72 h -1.32 z"
+               id="path87" /><path
+               class="cls-2"
+               d="m 112.71,101.99 h -1.57 v -0.92 h 4.27 v 0.92 h -1.57 v 3.98 h -1.13 z"
+               id="path88" /><path
+               class="cls-2"
+               d="m 119,104.92 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path89" /></g><g
+             id="g95"
+             transform="translate(0.75565452)"><path
+               class="cls-2"
+               d="m 161.95,69.74 h 1.13 v 3.98 h 2.46 v 0.92 h -3.59 z"
+               id="path90" /><path
+               class="cls-2"
+               d="m 169.45,73.59 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path91" /><path
+               class="cls-2"
+               d="m 176.03,69.74 -2.12,4.9 h -1.12 l -2.12,-4.9 h 1.23 l 1.49,3.5 1.51,-3.5 z"
+               id="path92" /><path
+               class="cls-2"
+               d="m 179.5,73.59 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path93" /><path
+               class="cls-2"
+               d="m 186.13,69.74 v 4.9 h -0.93 l -2.44,-2.98 v 2.98 h -1.12 v -4.9 h 0.94 l 2.44,2.98 v -2.98 h 1.12 z"
+               id="path94" /><path
+               class="cls-2"
+               d="m 190.52,73.59 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path95" /></g><g
+             id="g102"
+             transform="translate(0,7.5565452)"><path
+               class="cls-2"
+               d="m 96.57,46.13 -0.66,0.69 v 1.24 h -1.13 v -4.9 h 1.13 v 2.29 l 2.17,-2.29 h 1.26 l -2.03,2.18 2.15,2.72 h -1.32 z"
+               id="path96" /><path
+               class="cls-2"
+               d="m 102.97,47.01 h -2.28 l -0.43,1.05 H 99.1 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.35,-0.87 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path97" /><path
+               class="cls-2"
+               d="m 104.72,47.57 0.38,-0.85 c 0.41,0.3 1.03,0.51 1.62,0.51 0.67,0 0.95,-0.22 0.95,-0.53 0,-0.92 -2.85,-0.29 -2.85,-2.11 0,-0.83 0.67,-1.53 2.07,-1.53 0.62,0 1.25,0.15 1.7,0.43 l -0.35,0.86 c -0.46,-0.26 -0.92,-0.38 -1.36,-0.38 -0.67,0 -0.93,0.25 -0.93,0.56 0,0.9 2.85,0.28 2.85,2.08 0,0.82 -0.68,1.52 -2.08,1.52 -0.78,0 -1.56,-0.23 -2,-0.57 z"
+               id="path98" /><path
+               class="cls-2"
+               d="m 114.07,43.15 v 4.9 h -1.13 v -2.01 h -2.23 v 2.01 h -1.13 v -4.9 h 1.13 v 1.93 h 2.23 v -1.93 z"
+               id="path99" /><path
+               class="cls-2"
+               d="m 118.46,47.01 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m 0.17,-4.45 h -2.59 v -0.62 h 2.59 z m -0.53,3.58 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path100" /><path
+               class="cls-2"
+               d="m 122.64,46.32 v 1.74 h -1.13 v -1.75 l -1.9,-3.15 h 1.2 l 1.31,2.18 1.31,-2.18 h 1.11 l -1.91,3.17 z"
+               id="path101" /><path
+               class="cls-2"
+               d="m 127.95,47.01 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.87 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path102" /></g><g
+             id="g122"
+             style="display:inline"><path
+               class="cls-2"
+               d="m 26.27,69.74 h 1.13 v 3.98 h 2.46 v 0.92 h -3.59 z"
+               id="path117" /><path
+               class="cls-2"
+               d="m 33.77,73.59 h -2.28 l -0.43,1.05 H 29.9 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path118" /><path
+               class="cls-2"
+               d="m 40.35,69.74 -2.12,4.9 h -1.12 l -2.12,-4.9 h 1.23 l 1.49,3.5 1.51,-3.5 z"
+               id="path119" /><path
+               class="cls-2"
+               d="m 43.82,73.59 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path120" /><path
+               class="cls-2"
+               d="m 50.45,69.74 v 4.9 h -0.93 l -2.44,-2.98 v 2.98 h -1.12 v -4.9 h 0.94 l 2.44,2.98 v -2.98 h 1.12 z"
+               id="path121" /><path
+               class="cls-2"
+               d="m 54.84,73.59 h -2.28 l -0.43,1.05 h -1.16 l 2.19,-4.9 h 1.12 l 2.19,4.9 h -1.19 l -0.43,-1.05 z m -0.36,-0.86 -0.78,-1.88 -0.78,1.88 h 1.55 z"
+               id="path122" /></g><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="111.74251"
+             y="31.525841"
+             id="text28"><tspan
+               sodipodi:role="line"
+               id="tspan28"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="111.74251"
+               y="31.525841">Grahani</tspan><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="111.74251"
+               y="44.12009"
+               id="tspan29">Pakvāshaya</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="41.53236"
+             y="67.24086"
+             id="text31"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="41.53236"
+               y="67.24086"
+               id="tspan31">Vrukka</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="177.29811"
+             y="67.24086"
+             id="text32"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="177.29811"
+               y="67.24086"
+               id="tspan32">Vrukka</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="110.23039"
+             y="97.819855"
+             id="text33"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="110.23039"
+               y="97.819855"
+               id="tspan33">Kloma</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="37.605289"
+             y="133.49535"
+             id="text34"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="37.605289"
+               y="133.49535"
+               id="tspan34">Yakrut</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="179.88254"
+             y="133.49535"
+             id="text35"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="179.88254"
+               y="133.49535"
+               id="tspan35">Plīhā</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="110.23039"
+             y="161.20509"
+             id="text39"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="110.23039"
+               y="161.20509"
+               id="tspan39">Āmāshaya</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="110.23039"
+             y="219.13852"
+             id="text40"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="110.23039"
+               y="219.13852"
+               id="tspan40">Hridayam</tspan></text><text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.12614;stroke-dasharray:none"
+             x="110.23039"
+             y="261.20325"
+             id="text41"><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0754px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.126141"
+               x="110.23039"
+               y="261.20325"
+               id="tspan41">Ūrdhva Jatru</tspan></text></g></g></g></g><text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,994.62316,-68.321999)"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none"
+     x="755.38208"
+     y="0"><tspan
+       x="735.25518"
+       y="650.01482"
+       id="tspan2"><tspan
+         style="font-weight:bold;font-size:100px;-inkscape-font-specification:'Montserrat, Bold'"
+         id="tspan1">WHERE EMOTIONS
+</tspan></tspan><tspan
+       x="794.8454"
+       y="775.01482"
+       id="tspan14"><tspan
+         style="font-weight:bold;font-size:100px;-inkscape-font-specification:'Montserrat, Bold'"
+         id="tspan12">ARE PROCESSED</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan13">
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="886.53475"
+       id="tspan16"><tspan
+         style="fill:#ffffff"
+         id="tspan15">
+</tspan></tspan><tspan
+       x="1059.4562"
+       y="993.20138"
+       id="tspan19"><tspan
+         style="font-weight:bold"
+         id="tspan17">YAKRUT</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan18">
+</tspan></tspan><tspan
+       x="1114.8376"
+       y="1099.868"
+       id="tspan37"><tspan
+         style="fill:#ffffff"
+         id="tspan30">anger
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1206.5346"
+       id="tspan42"><tspan
+         style="fill:#ffffff"
+         id="tspan38">
+</tspan></tspan><tspan
+       x="683.05078"
+       y="1313.2013"
+       id="tspan45"><tspan
+         style="font-weight:bold"
+         id="tspan43">HIRDAYAM &amp; PHUPHUSA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan44">
+</tspan></tspan><tspan
+       x="865.62183"
+       y="1419.8679"
+       id="tspan47"><tspan
+         style="fill:#ffffff"
+         id="tspan46">hurt, grief, sorrow
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1526.5345"
+       id="tspan49"><tspan
+         style="fill:#ffffff"
+         id="tspan48">
+</tspan></tspan><tspan
+       x="1103.3176"
+       y="1633.2011"
+       id="tspan52"><tspan
+         style="font-weight:bold"
+         id="tspan50">PLĪHA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan51">
+</tspan></tspan><tspan
+       x="988.62967"
+       y="1739.8678"
+       id="tspan54"><tspan
+         style="fill:#ffffff"
+         id="tspan53">resentment
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1846.5344"
+       id="tspan56"><tspan
+         style="fill:#ffffff"
+         id="tspan55">
+</tspan></tspan><tspan
+       x="1017.5149"
+       y="1953.201"
+       id="tspan59"><tspan
+         style="font-weight:bold"
+         id="tspan57">PITTASHA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan58">
+</tspan></tspan><tspan
+       x="1017.6004"
+       y="2059.8676"
+       id="tspan61"><tspan
+         style="fill:#ffffff"
+         id="tspan60">frustration
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2166.5343"
+       id="tspan63"><tspan
+         style="fill:#ffffff"
+         id="tspan62">
+</tspan></tspan><tspan
+       x="1050.3683"
+       y="2273.2008"
+       id="tspan66"><tspan
+         style="font-weight:bold"
+         id="tspan64">VRUKKA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan65">
+</tspan></tspan><tspan
+       x="1041.0244"
+       y="2379.8673"
+       id="tspan68"><tspan
+         style="fill:#ffffff"
+         id="tspan67">guilt, fear
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2486.5338"
+       id="tspan70"><tspan
+         style="fill:#ffffff"
+         id="tspan69">
+</tspan></tspan><tspan
+       x="983.55212"
+       y="2593.2003"
+       id="tspan73"><tspan
+         style="font-weight:bold"
+         id="tspan71">ĀMĀSHAYA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan72">
+</tspan></tspan><tspan
+       x="837.71779"
+       y="2699.8668"
+       id="tspan75"><tspan
+         style="fill:#ffffff"
+         id="tspan74">stress, tension, fear
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2806.5333"
+       id="tspan77"><tspan
+         style="fill:#ffffff"
+         id="tspan76">
+</tspan></tspan><tspan
+       x="933.68902"
+       y="2913.1998"
+       id="tspan79"><tspan
+         style="font-weight:bold"
+         id="tspan78">PAKVĀSHAYA
+</tspan></tspan><tspan
+       x="822.07245"
+       y="3019.8663"
+       id="tspan81"><tspan
+         style="fill:#ffffff"
+         id="tspan80">nervousness, anxiety</tspan></tspan></text><text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-17.175662,-68.321999)"
+     id="text20"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect20);display:inline;fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none"
+     x="755.38208"
+     y="0"><tspan
+       x="772.65485"
+       y="650.01482"
+       id="tspan83"><tspan
+         style="font-weight:bold;font-size:100px;-inkscape-font-specification:'Montserrat, Bold'"
+         id="tspan82">SHADRASAS AND
+</tspan></tspan><tspan
+       x="784.09559"
+       y="775.01482"
+       id="tspan86"><tspan
+         style="font-weight:bold;font-size:100px;-inkscape-font-specification:'Montserrat, Bold'"
+         id="tspan84">THEIR EMOTIONS</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan85">
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="886.53475"
+       id="tspan88"><tspan
+         style="fill:#ffffff"
+         id="tspan87">
+</tspan></tspan><tspan
+       x="1000.2349"
+       y="993.20138"
+       id="tspan91"><tspan
+         style="font-weight:bold"
+         id="tspan89">MADHURA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan90">
+</tspan></tspan><tspan
+       x="636.33115"
+       y="1099.868"
+       id="tspan93"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00010681152"
+         style="fill:#ffffff"
+         id="tspan92">joy, happiness, contentment
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1206.5346"
+       id="tspan95"><tspan
+         style="fill:#ffffff"
+         id="tspan94">
+</tspan></tspan><tspan
+       x="1108.9923"
+       y="1313.2013"
+       id="tspan98"><tspan
+         style="font-weight:bold"
+         id="tspan96">AMLA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan97">
+</tspan></tspan><tspan
+       x="750.80588"
+       y="1419.8679"
+       id="tspan100"><tspan
+         style="fill:#ffffff"
+         id="tspan99">jealousy, hate, criticism
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1526.5345"
+       id="tspan102"><tspan
+         style="fill:#ffffff"
+         id="tspan101">
+</tspan></tspan><tspan
+       x="1053.9949"
+       y="1633.2011"
+       id="tspan105"><tspan
+         style="font-weight:bold"
+         id="tspan103">LAVANA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan104">
+</tspan></tspan><tspan
+       x="820.52313"
+       y="1739.8678"
+       id="tspan107"><tspan
+         style="fill:#ffffff"
+         id="tspan106">greed, attachment, 
+</tspan></tspan><tspan
+       x="940.88563"
+       y="1846.5344"
+       id="tspan109"><tspan
+         style="fill:#ffffff"
+         id="tspan108">posessiveness
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="1953.201"
+       id="tspan111"><tspan
+         style="fill:#ffffff"
+         id="tspan110">
+</tspan></tspan><tspan
+       x="1120.2136"
+       y="2059.8676"
+       id="tspan114"><tspan
+         style="font-weight:bold"
+         id="tspan112">KATU</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan113">
+</tspan></tspan><tspan
+       x="903.80858"
+       y="2166.5343"
+       id="tspan116"><tspan
+         style="fill:#ffffff"
+         id="tspan115">anger, irritation,
+</tspan></tspan><tspan
+       x="1033.8137"
+       y="2273.2008"
+       id="tspan118"><tspan
+         style="fill:#ffffff"
+         id="tspan117">frustation
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2379.8673"
+       id="tspan120"><tspan
+         style="fill:#ffffff"
+         id="tspan119">
+</tspan></tspan><tspan
+       x="1112.747"
+       y="2486.5338"
+       id="tspan123"><tspan
+         style="font-weight:bold"
+         id="tspan121">TIKTA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan122">
+</tspan></tspan><tspan
+       x="819.3712"
+       y="2593.2003"
+       id="tspan125"><tspan
+         style="fill:#ffffff"
+         id="tspan124">loneliness, isolation,
+</tspan></tspan><tspan
+       x="1015.4671"
+       y="2699.8668"
+       id="tspan127"><tspan
+         style="fill:#ffffff"
+         id="tspan126">separation
+</tspan></tspan><tspan
+       x="1241.0456"
+       y="2806.5333"
+       id="tspan129"><tspan
+         style="fill:#ffffff"
+         id="tspan128">
+</tspan></tspan><tspan
+       x="1026.7308"
+       y="2913.1998"
+       id="tspan132"><tspan
+         style="font-weight:bold"
+         id="tspan130">KASHĀYA</tspan><tspan
+         style="fill:#ffffff"
+         id="tspan131">
+</tspan></tspan><tspan
+       x="700.37385"
+       y="3019.8663"
+       id="tspan134"><tspan
+         style="fill:#ffffff"
+         id="tspan133">fear, anxiety, nervousness
+</tspan></tspan></text></svg>

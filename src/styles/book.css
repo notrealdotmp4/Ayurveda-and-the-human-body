@@ -33,10 +33,10 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .term[data-cat="ayurveda"]{color:var(--c-ayurveda)} .term[data-cat="ayurveda"]::after{background:var(--c-ayurveda)}
 .term[data-cat="physiology"]{color:var(--c-physiology)} .term[data-cat="physiology"]::after{background:var(--c-physiology)}
 .term[data-cat="anatomy"]{color:var(--c-anatomy)} .term[data-cat="anatomy"]::after{background:var(--c-anatomy)}
-.legend{font-family:system-ui,sans-serif;font-size:12.5px;color:var(--ink-soft);
+.legend{font-family:system-ui,sans-serif;font-size:calc(18.5px*var(--rs));color:var(--ink-soft);
   display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:24px auto 0;max-width:560px;}
-.legend span{display:inline-flex;align-items:center;gap:7px}
-.dot{width:11px;height:11px;border-radius:50%}
+.legend span{display:inline-flex;align-items:center;gap:9px}
+.dot{width:16px;height:16px;border-radius:50%;flex:none}
 /* Levels of Organization cards */
 .level{display:flex;gap:16px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);
   border-radius:14px;padding:16px 18px;margin:0 0 14px;box-shadow:0 6px 18px rgba(44,38,34,.05)}
@@ -80,7 +80,7 @@ p{margin:0 0 20px;font-size:calc(18.5px*var(--rs))}
 .chapter-dinkus img{display:inline-block;height:80px;width:auto;max-width:90vw;opacity:.92}
 .tongue-spacer{text-align:center;line-height:1.6}
 .tongue-illustration{text-align:center;margin:24px auto 40px}
-.tongue-illustration img{display:block;width:100%;aspect-ratio:1280/720;object-fit:cover}
+.tongue-illustration img{display:block;width:100%;aspect-ratio:1620/820;object-fit:cover;border-radius:14px}
 .subhead{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ayurveda);margin:28px 0 8px;font-weight:700}
 .subhead.subhead-lg{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:clamp(22px,3.4vw,30px);letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:56px 0 14px;text-align:center}
 .bullets{margin:0 0 20px;padding-left:20px}
