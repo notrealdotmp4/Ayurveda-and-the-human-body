@@ -566,9 +566,9 @@ const rest = isLO ? chapters.slice(1) : chapters;
       return '<div class="rel-explore"><div class="rel-label">Connected terms</div><div class="rel-chips">' + chips + '</div></div>';
     }
     const DOSHAS = [
-      { key: 'vata dosha', label: 'Vata', emoji: '💨', slug: 'vata-dosha' },
-      { key: 'pitta dosha', label: 'Pitta', emoji: '🔥', slug: 'pitta-dosha' },
-      { key: 'kapha dosha', label: 'Kapha', emoji: '🌊', slug: 'kapha-dosha' },
+      { key: 'vata dosha', label: 'Vāta', svg: 'tri-vata' },
+      { key: 'pitta dosha', label: 'Pitta', svg: 'tri-pitta' },
+      { key: 'kapha dosha', label: 'Kapha', svg: 'tri-kapha' },
     ];
     function doshaFor(g) {
       const t = ((g.title || '') + ' ' + (g.body || '')).normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -579,7 +579,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       return hits.length === 1 ? hits[0] : null;
     }
     function doshaExploreHTML(cur) {
-      const cards = DOSHAS.map((d) => '<button class="de-card' + (d.key === cur ? ' is-on' : '') + '" data-term="' + d.key + '"><span class="de-ic"><img class="de-img" src="/anim/icons/' + d.slug + '.svg" alt="" data-emoji="' + d.emoji + '"></span><span class="de-lbl">' + d.label + '</span></button>').join('');
+      const cards = DOSHAS.map((d) => '<button class="de-card' + (d.key === cur ? ' is-on' : '') + '" data-term="' + d.key + '"><img class="de-img" src="/anim/' + d.svg + '.svg" alt="' + d.label + '" data-label="' + d.label + '" onerror="var s=document.createElement(\'span\');s.className=\'de-fallback\';s.textContent=this.dataset.label;this.replaceWith(s)"></button>').join('');
       return '<div class="dosha-explore"><div class="de-label">Explore the doshas</div><div class="de-cards">' + cards + '</div></div>';
     }
     const scrim = document.getElementById('scrim');
@@ -617,7 +617,6 @@ const rest = isLO ? chapters.slice(1) : chapters;
         dBody.insertAdjacentHTML('beforeend', doshaExploreHTML(_dk));
         dBody.querySelectorAll('.de-card').forEach((c) => {
           c.addEventListener('click', () => openTerm(c.dataset.term));
-          const im = c.querySelector('img'); if (im) im.addEventListener('error', () => { const sp = document.createElement('span'); sp.className = 'de-emoji'; sp.textContent = im.dataset.emoji; im.replaceWith(sp); });
         });
       }
       const _rel = relatedHTML(key, !!_dk);
@@ -812,6 +811,23 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const simpleModal = document.getElementById('simpleModal');
     const simpleVid = document.getElementById('simpleVid');
     const simpleText = document.getElementById('simpleText');
+    const simpleWin = simpleModal ? simpleModal.querySelector('.simple-win') : null;
+    const simplePopEl = document.getElementById('simplePop');
+    const attachScrollHintSimple = function (scrollEl, host) {
+      const hint = document.createElement('div');
+      hint.className = 'scroll-hint'; hint.innerHTML = 'Scroll <span class="sh-arrow">↓</span>';
+      host.appendChild(hint);
+      const upd = () => {
+        const more = scrollEl.scrollHeight - scrollEl.clientHeight - scrollEl.scrollTop > 14;
+        if (more) { const r = scrollEl.getBoundingClientRect(), hr = host.getBoundingClientRect(); hint.style.bottom = Math.max(6, hr.bottom - r.bottom + 8) + 'px'; }
+        hint.classList.toggle('show', more);
+      };
+      scrollEl.addEventListener('scroll', upd, { passive: true });
+      window.addEventListener('resize', upd);
+      return upd;
+    };
+    const simpleWinHint = simpleWin ? attachScrollHintSimple(simpleWin, simpleWin) : null;
+    const simplePopHint = simplePopEl ? attachScrollHintSimple(simplePopEl, simplePopEl) : null;
     let GLOSS_NORM = null;
     function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
     function linkSimpleTerms(root) {
@@ -850,18 +866,20 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const t = document.getElementById('spTitle'); t.textContent = g.title || el.textContent;
       const cat = el.dataset.cat; t.style.color = cat === 'physiology' ? 'var(--c-physiology)' : cat === 'anatomy' ? 'var(--c-anatomy)' : 'var(--c-ayurveda)';
       document.getElementById('spBody').innerHTML = g.body || '<p>Definition coming soon.</p>';
-      pop.hidden = false; const pw = pop.offsetWidth, ph = pop.offsetHeight, r = el.getBoundingClientRect();
+      pop.hidden = false; pop.scrollTop = 0; const pw = pop.offsetWidth, ph = pop.offsetHeight, r = el.getBoundingClientRect();
       let left = Math.min(Math.max(8, r.left), window.innerWidth - pw - 8);
       let top = r.bottom + 6; if (top + ph > window.innerHeight - 8) top = Math.max(8, r.top - ph - 6);
       pop.style.left = left + 'px'; pop.style.top = top + 'px';
+      if (simplePopHint) requestAnimationFrame(simplePopHint);
     }
     function hideSimplePop() { const pop = document.getElementById('simplePop'); if (pop) pop.hidden = true; }
     function openSimple(i) {
       const it = SIMPLE_ITEMS[i]; if (!it) return;
       simpleVid.src = it.video;
       simpleText.innerHTML = '<h3 class="simple-title">' + it.title + '</h3>' + it.html;
-      linkSimpleTerms(simpleText); simpleText.scrollTop = 0; hideSimplePop();
+      linkSimpleTerms(simpleText); if (simpleWin) simpleWin.scrollTop = 0; hideSimplePop();
       simpleModal.classList.add('open'); simpleModal.setAttribute('aria-hidden', 'false');
+      if (simpleWinHint) requestAnimationFrame(simpleWinHint);
     }
     function closeSimple() { simpleModal.classList.remove('open'); simpleModal.setAttribute('aria-hidden', 'true'); if (simpleVid) simpleVid.pause(); hideSimplePop(); }
     if (simpleModal) {
