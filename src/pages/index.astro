@@ -492,9 +492,10 @@ const rest = isLO ? chapters.slice(1) : chapters;
       <button class="close-x" id="simpleClose" aria-label="Close">×</button>
       <video class="simple-vid" id="simpleVid" controls playsinline preload="metadata"></video>
       <div class="simple-text" id="simpleText"></div>
-      <div class="simple-pop" id="simplePop" hidden><button class="sp-close" id="spClose" aria-label="Close">×</button><div class="sp-title" id="spTitle"></div><div class="sp-body" id="spBody"></div></div>
     </div>
   </div>
+
+  <div class="simple-pop" id="simplePop" hidden><button class="sp-close" id="spClose" aria-label="Close">×</button><div class="sp-title" id="spTitle"></div><div class="sp-body" id="spBody"></div></div>
 
   <!-- Search -->
   <div class="search-modal" id="searchModal" aria-hidden="true">
@@ -832,7 +833,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
     function linkSimpleTerms(root) {
       if (!GLOSS_NORM) { GLOSS_NORM = {}; Object.keys(MAP_GLOSSARY).forEach((k) => { const nk = normTerm(k); if (!(nk in GLOSS_NORM)) GLOSS_NORM[nk] = k; }); }
-      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode(n) { if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT; const p = n.parentElement; if (!p || p.closest('.simple-title') || p.classList.contains('simple-term')) return NodeFilter.FILTER_REJECT; return NodeFilter.FILTER_ACCEPT; } });
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode(n) { if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT; const p = n.parentElement; if (!p || p.closest('.simple-title') || p.closest('.hm-text-title') || p.classList.contains('simple-term')) return NodeFilter.FILTER_REJECT; return NodeFilter.FILTER_ACCEPT; } });
       const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
       nodes.forEach((node) => {
         const text = node.nodeValue; const toks = []; const re = /[\p{L}\p{M}]+/gu; let m;
@@ -911,7 +912,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           b.addEventListener('click', () => {
             hmRail.querySelectorAll('.agni-item.is-on').forEach((x) => x.classList.remove('is-on')); b.classList.add('is-on');
             hmTextBody.innerHTML = '<h3 class="hm-text-title" style="color:var(--c-ayurveda)">' + it.term + '</h3><p>' + (it.def || 'Definition coming soon.') + '</p>';
-            hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
+            linkSimpleTerms(hmTextBody); hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
           });
           items.appendChild(b);
         });
@@ -941,7 +942,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const isMf = entry && typeof entry === 'object';
       { const ms = document.getElementById('mapSex'); if (ms) { ms.hidden = !isMf; if (isMf) Array.from(ms.children).forEach((b) => b.classList.toggle('is-on', b.dataset.sex === sysSex)); } }
       const html = isMf ? (entry[sysSex] || '<p>Description coming soon.</p>') : (entry || '<p>Description coming soon.</p>');
-      hmTextBody.innerHTML = '<h3 class="hm-text-title">' + m.label + ' System</h3>' + html; hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
+      hmTextBody.innerHTML = '<h3 class="hm-text-title">' + m.label + ' System</h3>' + html; linkSimpleTerms(hmTextBody); hmTextBody.scrollTop = 0; requestAnimationFrame(hmHint);
       const src = isMf ? m.svg.replace(/\.svg$/, '-' + sysSex + '.svg') : m.svg;
       currentMapSrc = null; setHeroMode(src, 'The Living Body - Sharīra Samsthāna', false); showMap();
     }
