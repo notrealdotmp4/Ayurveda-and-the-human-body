@@ -831,7 +831,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const simpleWinHint = simpleWin ? attachScrollHintSimple(simpleWin, simpleModal) : null;
     const simplePopHint = spScrollEl ? attachScrollHintSimple(spScrollEl, simplePopEl) : null;
     let GLOSS_NORM = null;
-    function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
+    function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^\p{L}\p{N}\s]+/gu, ' ').replace(/\s+/g, ' ').trim(); }
     function linkSimpleTerms(root) {
       if (!GLOSS_NORM) { GLOSS_NORM = {}; Object.keys(MAP_GLOSSARY).forEach((k) => { const nk = normTerm(k); if (!(nk in GLOSS_NORM)) GLOSS_NORM[nk] = k; }); }
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode(n) { if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT; const p = n.parentElement; if (!p || p.closest('.simple-title') || p.closest('.hm-text-title') || p.classList.contains('simple-term')) return NodeFilter.FILTER_REJECT; return NodeFilter.FILTER_ACCEPT; } });
@@ -845,7 +845,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
           let matched = null;
           for (let n = Math.min(4, toks.length - i); n >= 1; n--) {
             let ok = true;
-            for (let g = i; g < i + n - 1; g++) { if (!/^\s+$/.test(text.slice(toks[g].e, toks[g + 1].s))) { ok = false; break; } }
+            for (let g = i; g < i + n - 1; g++) { if (!/^[\s-]+$/.test(text.slice(toks[g].e, toks[g + 1].s))) { ok = false; break; } }
             if (!ok) continue;
             const s = toks[i].s, e = toks[i + n - 1].e, real = GLOSS_NORM[normTerm(text.slice(s, e))];
             if (real) { matched = { s, e, key: real }; break; }
