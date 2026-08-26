@@ -18,9 +18,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="2.3664556"
-     inkscape:cx="587.7989"
-     inkscape:cy="1079.0399"
+     inkscape:zoom="0.56157335"
+     inkscape:cx="589.41544"
+     inkscape:cy="650.84998"
      inkscape:window-width="1619"
      inkscape:window-height="981"
      inkscape:window-x="0"
@@ -970,12 +970,10 @@
        d="M782.5,1083h-19.5c-3.2-10-13.1-17.3-24.7-17.3h-71.6c-11.7,0-21.5,7.3-24.7,17.3h-19c0-40.7,35.8-73.6,79.8-73.6s79.8,33,79.8,73.6h0Z" />
     <g
        class="st10"
-       id="g99"
-       transform="translate(3.8031561,-1.6902916)">
+       id="g99">
       <g
          class="st10"
-         id="g86"
-         transform="translate(-13)">
+         id="g86">
         <g
            class="st10"
            id="g85">
@@ -993,7 +991,7 @@
                    id="g81">
                   <text
                      class="st8"
-                     transform="translate(657.4288,1101.4712)"
+                     transform="translate(657.4288 1101.4712)"
                      id="text80"><tspan
                        x="0"
                        y="0"
@@ -1006,8 +1004,7 @@
       </g>
       <g
          class="st10"
-         id="g92"
-         transform="translate(-15)">
+         id="g92">
         <g
            class="st10"
            id="g91">
@@ -1025,7 +1022,7 @@
                    id="g87">
                   <text
                      class="st8"
-                     transform="translate(702.9288,1101.4712)"
+                     transform="translate(702.9288 1101.4712)"
                      id="text86"><tspan
                        x="0"
                        y="0"
@@ -1041,8 +1038,7 @@
          id="g98">
         <g
            class="st10"
-           id="g97"
-           transform="translate(3.8031561,-0.4225729)">
+           id="g97">
           <g
              class="st10"
              id="g96">
@@ -1057,7 +1053,7 @@
                    id="g93">
                   <text
                      class="st8"
-                     transform="translate(725.7888,1101.4712)"
+                     transform="translate(725.7888 1101.4712)"
                      id="text92"><tspan
                        x="0"
                        y="0"
@@ -1068,14 +1064,6 @@
           </g>
         </g>
       </g>
-      <text
-         class="st8"
-         id="text490"
-         x="708.25092"
-         y="1101.0486"><tspan
-           x="708.25092"
-           y="1101.0486"
-           id="tspan490">H</tspan></text>
     </g>
   </g>
   <g
