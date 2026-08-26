@@ -495,7 +495,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     </div>
   </div>
 
-  <div class="simple-pop" id="simplePop" hidden><button class="sp-close" id="spClose" aria-label="Close">×</button><div class="sp-title" id="spTitle"></div><div class="sp-body" id="spBody"></div></div>
+  <div class="simple-pop" id="simplePop" hidden><button class="sp-close" id="spClose" aria-label="Close">×</button><div class="sp-scroll" id="spScroll"><div class="sp-title" id="spTitle"></div><div class="sp-body" id="spBody"></div></div></div>
 
   <!-- Search -->
   <div class="search-modal" id="searchModal" aria-hidden="true">
@@ -814,6 +814,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
     const simpleText = document.getElementById('simpleText');
     const simpleWin = simpleModal ? simpleModal.querySelector('.simple-win') : null;
     const simplePopEl = document.getElementById('simplePop');
+    const spScrollEl = document.getElementById('spScroll');
     const attachScrollHintSimple = function (scrollEl, host) {
       const hint = document.createElement('div');
       hint.className = 'scroll-hint'; hint.innerHTML = 'Scroll <span class="sh-arrow">↓</span>';
@@ -827,8 +828,8 @@ const rest = isLO ? chapters.slice(1) : chapters;
       window.addEventListener('resize', upd);
       return upd;
     };
-    const simpleWinHint = simpleWin ? attachScrollHintSimple(simpleWin, simpleWin) : null;
-    const simplePopHint = simplePopEl ? attachScrollHintSimple(simplePopEl, simplePopEl) : null;
+    const simpleWinHint = simpleWin ? attachScrollHintSimple(simpleWin, simpleModal) : null;
+    const simplePopHint = spScrollEl ? attachScrollHintSimple(spScrollEl, simplePopEl) : null;
     let GLOSS_NORM = null;
     function normTerm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(); }
     function linkSimpleTerms(root) {
@@ -867,7 +868,7 @@ const rest = isLO ? chapters.slice(1) : chapters;
       const t = document.getElementById('spTitle'); t.textContent = g.title || el.textContent;
       const cat = el.dataset.cat; t.style.color = cat === 'physiology' ? 'var(--c-physiology)' : cat === 'anatomy' ? 'var(--c-anatomy)' : 'var(--c-ayurveda)';
       document.getElementById('spBody').innerHTML = g.body || '<p>Definition coming soon.</p>';
-      pop.hidden = false; pop.scrollTop = 0; const pw = pop.offsetWidth, ph = pop.offsetHeight, r = el.getBoundingClientRect();
+      pop.hidden = false; if (spScrollEl) spScrollEl.scrollTop = 0; const pw = pop.offsetWidth, ph = pop.offsetHeight, r = el.getBoundingClientRect();
       let left = Math.min(Math.max(8, r.left), window.innerWidth - pw - 8);
       let top = r.bottom + 6; if (top + ph > window.innerHeight - 8) top = Math.max(8, r.top - ph - 6);
       pop.style.left = left + 'px'; pop.style.top = top + 'px';

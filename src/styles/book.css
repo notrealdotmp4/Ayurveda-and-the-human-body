@@ -309,7 +309,8 @@ html.fs-m{--rs:1.15}html.fs-l{--rs:1.32}
 .simple-term[data-cat="physiology"]{color:var(--c-physiology)}
 .simple-term[data-cat="anatomy"]{color:var(--c-anatomy)}
 .simple-term:hover{background:rgba(0,0,0,.05)}
-.simple-pop{position:fixed;z-index:90;width:min(300px,86vw);max-height:300px;overflow-y:auto;overscroll-behavior:contain;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 14px 34px rgba(44,38,34,.24);font-family:'Montserrat',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.simple-pop{position:fixed;z-index:90;width:min(300px,86vw);max-height:300px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 14px 34px rgba(44,38,34,.24);font-family:'Montserrat',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.sp-scroll{max-height:calc(300px - 28px);overflow-y:auto;overscroll-behavior:contain}
 .simple-pop[hidden]{display:none}
 .sp-title{font-family:'Noto Sans',system-ui,"Segoe UI",Roboto,sans-serif;font-size:18px;font-weight:700;margin:0 0 6px;padding-right:18px}
 .sp-body{font-size:14px;line-height:1.5;color:var(--ink)}
