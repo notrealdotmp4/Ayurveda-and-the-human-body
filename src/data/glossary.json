@@ -42,7 +42,7 @@
     "body": "<p>Āpas is the Sanskrit term for the Water element. It represents the principle of cohesiveness and is associated with chemical energy in the body.</p>"
   },
   "saliva": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Saliva",
     "phon": "",
     "body": "<p>Saliva is a clear secretion of the salivary glands that is mixed with food during the mechanical process of mastication. Its primary functions include acting as a lubricant to help food pass through the gastrointestinal tract and initiating chemical digestion by using the enzyme amylase to break down starches. By mixing with chewed food to form a bolus, saliva facilitates swallowing and allows chemicals to dissolve so they can stimulate taste receptors on the tongue. Additionally, saliva serves as a vital component of the body's nonspecific immune defenses by cleaning microbes from the teeth and gums and using the antimicrobial enzyme lysozyme to destroy pathogenic bacteria.</p>"
@@ -72,31 +72,31 @@
     "body": "<p>The sublingual gland is the smallest of the major salivary glands, located under the mucous membrane in the floor of the mouth, on either side of the tongue. Its primary function is to secrete thick, mucus-rich saliva, which lubricates food for easier swallowing, keeps the mouth moist, and aids in early digestion. The mucus coats food to form a slippery bolus for swallowing and protects the oral mucosa from dryness and irritation.</p>"
   },
   "mastication": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Mastication",
     "phon": "",
     "body": "<p>Mastication is the mechanical process of chewing where food is physically smashed or broken into smaller pieces by the teeth while being positioned by the tongue and the muscles of the cheeks and lips. Its primary function is to prepare food for swallowing and further processing by mixing it with saliva, which lubricates the mass into a bolus and initiates the chemical breakdown of starches through the enzyme amylase. This essential stage of mechanical digestion is driven by the coordinated action of several muscles of the head and face, most notably the temporalis, masseter, and the medial and lateral pterygoids.</p>"
   },
   "mechanical digestion": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Mechanical digestion",
     "phon": "",
     "body": "<p>Mechanical digestion is the metabolic process that physically smashes, grinds, or breaks down food substances into smaller, more usable particles. This process begins in the oral cavity through mastication, where the teeth and tongue work together to smash food and mix it with saliva to form a bolus. Mechanical digestion continues in the stomach as strong smooth muscle contractions churn and mix food with gastric juices to create a semiliquid substance known as chyme. Within the small intestine, this process involves segmentation, which uses alternating smooth muscle contractions to mix and churn the chyme. The primary function of these mechanical actions is to physically break apart food particles and mix them with digestive secretions, which prepares the substance for chemical digestion and nutrient absorption.</p>"
   },
   "chemical digestion": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Chemical digestion",
     "phon": "",
     "body": "<p>Chemical digestion is the metabolic process that utilizes specialized enzymes and acids to decompose food substances into smaller, usable molecules. This complex series of reactions begins in the mouth as salivary amylase starts breaking down starches and continues in the stomach, where hydrochloric acid and pepsin initiate the breakdown of proteins. The majority of chemical digestion takes place in the small intestine, where secretions like pancreatic juice—containing lipase, trypsin, and amylase—work alongside intestinal enzymes to dissolve carbohydrates, fats, and proteins into their simplest forms. The primary function of this process is to transform food into basic nutrients that can be absorbed into the blood or lymph for transportation to cells, providing the necessary materials for energy, tissue repair, and renewal.</p>"
   },
   "amylase": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Amylase",
     "phon": "",
     "body": "<p>Amylase is a specialized enzyme primarily responsible for the chemical digestion of starches, which are a type of carbohydrate. Secreted by the salivary glands, it begins the process of chemical digestion in the mouth during mastication, breaking down complex starches into smaller, simpler molecules that can sometimes be noticed as a slightly sweet taste if starchy foods like bread are held in the mouth for a few minutes. Amylase is also a primary component of the alkaline pancreatic juice produced by the pancreas. This version of the enzyme is transported to the small intestine, where it continues the work of breaking down carbohydrates that were not fully digested in the mouth.</p>"
   },
   "bolus": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Bolus",
     "phon": "",
     "body": "<p>A bolus is a soft, lubricated mass formed in the oral cavity when food is thoroughly chewed and mixed with saliva. Its primary function is to be swallowed via the involuntary reflex of deglutition, which moves the mixture through the pharynx and into the esophagus. Once in the esophagus, mucus secretions further lubricate the bolus as peristalsis—a series of wave-like smooth muscle contractions—propels it toward the stomach for the next stage of digestion.</p>"
@@ -144,7 +144,7 @@
     "body": "<p>The esophagus is a muscular tube that connects the pharynx to the stomach. It serves a critical role in the transport of swallowed food and liquids through a process known as peristalsis, which involves a series of coordinated wave-like muscle contractions. This mechanism allows for the effective movement of food into the stomach, even when in horizontal positions. The esophagus is equipped with sphincter muscles at both the upper and lower ends, functioning as gatekeepers. The lower esophageal sphincter is particularly important, as it prevents the reflux of gastric acid into the esophagus, thereby protecting it from potential damage.</p>"
   },
   "peristalsis": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Peristalsis",
     "phon": "",
     "body": "<p>Peristalsis is a series of involuntary, wave-like smooth muscle contractions that function to propel contents forward through the body's various muscular tubes. Within the digestive system, these coordinated contractions move a bolus through the esophagus and push chyme through the stomach and small intestine to facilitate nutrient processing and absorption. Beyond digestion, peristalsis is essential for transporting urine through the ureters to the bladder and moving an ovum through the fallopian tubes toward the uterus.</p>"
@@ -186,7 +186,7 @@
     "body": "<p>Vipāka is the Sanskrit term for the post-digestive effect, the third of the three pharmacological principles. It represents the principle of metabolic transformation and is associated with the elemental combinations of the three resulting post-digestive tastes: Pruthivī, earth and Āpas, water (madhura, sweet and anabolic), Pruthivī, earth and Agni, fire (amla, sour and metabolic), and Agni, fire and Vāyu, air (katu, pungent and catabolic) in the body.</p>"
   },
   "anabolic": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Anabolic",
     "phon": "",
     "body": "<p>Anabolic/ Anabolism is a metabolic building-up process where complex molecules are constructed from simpler ones to create or repair tissue or to store nutrients for future use. This process is essential for tissue growth and repair through activities like protein synthesis, where amino acids are linked together to build cells and tissues. Beyond structural repair, anabolism is responsible for the synthesis of vital molecules such as hormones, neurotransmitters, and ligands. It also serves a critical role in nutrient storage, exemplified by the conversion of excess glucose into glycogen, which is then stored in the liver and skeletal muscles for later energy needs</p>"
@@ -240,25 +240,25 @@
     "body": "<p>Pāchaka-Pitta is the Subdosha of Pitta related to the fire element. It is primarily located in the small intestine and stomach, represents the principle of digesting, absorbing, and assimilating food into nutrients, and spreads through the gastrointestinal tract to enkindle the central metabolic fire.</p>"
   },
   "hydrochloric acid hcl": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Hydrochloric acid (HCl)",
     "phon": "",
     "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
   },
   "pathogens": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Pathogens",
     "phon": "",
     "body": "<p>Pathogens are microscopic substances or agents, including viruses, bacteria, fungi, parasites, chemicals, and particles, that cause disease and challenge the body’s health and well-being. Their primary function is to create physiologic disruptions that lead to infectious diseases, often by invading body cells to replicate or by triggering harmful immune responses. Most pathogens possess unique chemical markers called antigens, which allow the immune system to identify them as foreign and initiate specific defensive actions. To protect the organism, these invaders are trapped by mucous membranes in internal passageways, blocked from the brain by the blood-brain barrier, or filtered from circulation by the spleen and lymph nodes to be destroyed by phagocytes.</p>"
   },
   "pepsin": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Pepsin",
     "phon": "",
     "body": "<p>Pepsin is a potent protein-digesting enzyme produced by the stomach that plays a critical role in the chemical digestion of food. To protect the stomach wall, it is first secreted in an inactive form called pepsinogen, which is subsequently activated into functional pepsin by the presence of hydrochloric acid. Its primary function is to initiate the breakdown of proteins into smaller, absorbable components as food is processed into a semiliquid mass known as chyme.</p>"
   },
   "hcl": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "HCl",
     "phon": "",
     "body": "<p>HCI (hydrochloric acid)  is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
@@ -270,7 +270,7 @@
     "body": "<p>Kledaka-Kapha is the Subdosha of Kapha related to the fire element. It is primarily located in the stomach and upper gastrointestinal tract, represents the principle of liquefying food and protecting the stomach wall from digestive acids, and coats the gastric mucosal lining to facilitate molecular digestion.</p>"
   },
   "mucous membrane": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Mucous membrane",
     "phon": "",
     "body": "<p>Mucous membranes are epithelial membranes consisting of a simple epithelial layer attached to a thin basement membrane that line cavities open to the external environment, such as the respiratory, digestive, and urinary tracts. Their primary function is to protect the body by secreting a thick substance called mucus, which acts as a physical barrier to trap invading pathogens and foreign particles. In the respiratory system, they also serve to warm and humidify air while using cilia to move trapped microbes out of the body. Furthermore, these membranes safeguard internal linings from wear and erosion, such as protecting the stomach wall from the corrosive effects of hydrochloric acid.</p>"
@@ -282,7 +282,7 @@
     "body": "<p>Shleshma Dhārā Kalā is the Sanskrit term for the gastric mucous membrane, one of the internal membranous structures, Kalās, located in the stomach, āmāshaya. It represents the principle of gastric protection and lubrication, producing mucosal secretions that shield the stomach wall from the corrosive intensity of digestive acids and enzymes, and is associated with the water and earth elements in the body.</p>"
   },
   "chyme": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Chyme",
     "phon": "",
     "body": "<p>Chyme is a semiliquid mixture of food and digestive juices, including hydrochloric acid and pepsin, that is formed in the stomach as strong smooth muscle contractions churn and mix its contents. Its primary function is to transport partially digested food into the small intestine for the next stages of chemical digestion and nutrient absorption. This process is regulated by the pyloric sphincter, which opens to allow only a small amount of the highly acidic chyme into the duodenum at one time. Once it enters the small intestine, chyme is neutralized by alkaline secretions like bicarbonates and further processed through segmentation, which continues to mix and churn the mixture to facilitate the breakdown of nutrients by various enzymes.</p>"
@@ -330,7 +330,7 @@
     "body": "<p>Shīta is the Sanskrit term for the cold quality, which increases Vata and Kapha, decreases Pitta, and encourages physical contraction, cooling of bodily heat, and the accumulation of protective mucus.</p>"
   },
   "metabolic": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Metabolic",
     "phon": "",
     "body": "<p>Metabolic/ Metabolism encompasses the sum of all biochemical reactions and chemical processes that occur within a cell or the human organism to sustain life. Its primary function is to transform nutrients into usable forms to provide energy for cellular work and the necessary materials for tissue growth, repair, and reproduction. These processes are divided into two essential categories: anabolism, which constructs complex molecules from simpler ones to build or repair tissue and store nutrients for future use, and catabolism, which chemically breaks down complex molecules into smaller particles to release or create energy in the form of adenosine triphosphate (ATP). Furthermore, these metabolic activities serve a critical role in regulating body temperature by generating most of the body's internal heat as a byproduct of energy production.</p>"
@@ -366,7 +366,7 @@
     "body": "<p>The small intestine releases its own digestive enzymes.</p>"
   },
   "mucus": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Mucus",
     "phon": "",
     "body": "<p>mucus is a thick, clear, and viscous lubricating fluid secreted by the specialized goblet cells embedded within the mucous membranes (or mucosa) of the body. These membranes line all internal cavities and passageways that open directly to the external environment, including the respiratory, digestive, urinary, and reproductive tracts. At the cellular level, any mucus secreted by a cell is first synthesized, modified, and packaged for export by the Golgi apparatus.</p><p>Physiologically, the primary functions of mucus are to provide mechanical protection, lubrication, and humidification, with its role tailored to the specific organ system it serves:</p><p><strong>Respiratory Tract:</strong> Mucus forms a sticky physical barrier that traps inhaled pathogens, dust, pollen, and other environmental particulates. The coordinated, waving action of microscopic hair-like projections called cilia then acts as a continuous escalator, transporting this particle-laden mucus up to the pharynx to be swallowed or expelled. Additionally, the moisture within respiratory mucus helps to warm and humidify incoming air before it reaches the fragile alveoli for gas exchange.</p><p><strong>Digestive Tract: </strong>Mucus coats the entire length of the tract, protecting the delicate mucosal lining from mechanical wear, friction, and erosion. It lubricates food particles in the mouth to form a cohesive bolus, facilitates smooth movement through the esophagus during peristalsis, and is heavily secreted in the stomach to prevent highly corrosive hydrochloric acid and protein-digesting enzymes from eating through the stomach wall. Similarly, the small intestine secretes large amounts of mucus to neutralize acidic chyme as it exits the stomach.</p><p><strong>Urinary and Reproductive Tracts: </strong>Mucus provides a sterile, protective lining that discourages bacterial growth, while specialized reproductive glands—such as the bulbourethral glands in males and vestibular glands in females—secrete rich mucus to provide essential lubrication and protect tissue pathways.</p>"
@@ -396,13 +396,13 @@
     "body": "<p>A duct is a specialized, tubular canal or passageway that transports fluids, secretions, or cells from their site of origin to a specific target location or into systemic circulation. Their function is to serve as transport corridors, with their roles varying by the system they support: exocrine ducts deliver substances like sweat, saliva, and pancreatic digestive enzymes directly to epithelial surfaces or organs; lymphatic ducts (specifically the thoracic and right lymphatic ducts) serve as the terminal return pathways that empty filtered lymph back into the venous bloodstream; and reproductive ducts store and channel gametes, such as sperm moving through the epididymis and vas deferens.</p>"
   },
   "secretin": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Secretin",
     "phon": "",
     "body": "<p>Secretin is a local hormone produced and secreted by the duodenum of the small intestine that plays a vital role in coordinating the digestive process. Its primary function is to stimulate the pancreas to release bicarbonates and water into the gastrointestinal tract. This alkaline secretion is essential for neutralizing the hydrochloric acid found in highly acidic chyme, which raises the pH level and effectively inactivates the enzyme pepsin to prepare the mixture for further digestion and absorption within the small intestine.</p>"
   },
   "bicarbonates": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Bicarbonates",
     "phon": "",
     "body": "<p>Bicarbonates (HCO3) are inorganic salts that serve as vital electrolytes, playing a central role in maintaining the body's homeostatic pH balance. In the respiratory system, approximately 80% of the carbon dioxide produced by tissues is converted into bicarbonate ions for transport through the bloodstream to the lungs for elimination. Within the digestive system, the pancreas secretes bicarbonates into the small intestine to neutralize highly acidic chyme. This process protects the intestinal lining and creates the necessary alkaline environment for digestive enzymes to function. Furthermore, the kidneys assist in regulating these electrolyte levels by either reabsorbing or eliminating bicarbonate ions to ensure the blood remains within its essential, slightly alkaline range.</p>"
@@ -414,31 +414,31 @@
     "body": "<p>Kloma Agni is the Sanskrit term for the transformative and metabolic energy of Kloma, which refers anatomically to the pancreas and the choroid plexuses in the brain that secretes cerebrospinal fluid. Its primary physiological function is to govern thirst, water metabolism, and fluid regulation. It ensures that water is properly digested. If water remains unprocessed due to impaired Kloma Agni, it can damage the kidneys and accumulate under the skin as edema.</p><p>Furthermore, because the sweet taste is composed of Āpas and Pruthivī elements, Kloma Agni regulates Āpas, the water component of sweet substances, manages the digestion of Madhura, the sweet taste, and plays an essential role in regulating blood sugar. Operating during the salty phase of digestion—which provides vital buffering for carbohydrate and fat metabolism—Kloma Agni works closely with Bhūta Agni, the liver enzymes, to facilitate the digestion of proteins, carbohydrates, and fats.</p>"
   },
   "hydrochloric acid": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Hydrochloric acid",
     "phon": "",
     "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
   },
   "cholecystokinin": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Cholecystokinin",
     "phon": "",
     "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
   },
   "cck": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "CCK",
     "phon": "",
     "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
   },
   "pancreatic digestive enzymes": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Pancreatic digestive enzymes",
     "phon": "",
     "body": "<p>Pancreatic digestive enzymes are biological catalysts produced by the exocrine cells of the pancreas and delivered to the duodenum through the pancreatic duct. These enzymes, which include amylase, lipase, and trypsin, are essential components of alkaline pancreatic juice. Their primary function is to coordinate the chemical digestion of carbohydrates, fats, and proteins by breaking them down into simpler, absorbable molecules. By neutralizing acidic chyme from the stomach and performing the majority of nutrient decomposition in the small intestine, they provide the body with the basic nutrients required for energy production and tissue repair.</p>"
   },
   "bile": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Bile",
     "phon": "",
     "body": "<p>Bile is a yellow-brown or greenish fluid produced by hepatocytes in the liver and then concentrated and stored in the gallbladder until it is required for digestion. Its primary function is to act as a fat emulsifier, physically breaking apart large fat globules into smaller particles so that digestive enzymes can more effectively process lipids within the small intestine. This emulsification is critical for facilitating the proper absorption of fats. Additionally, bile serves as a vehicle for the liver to eliminate bilirubin, a yellow-orange pigment produced during the breakdown of old red blood cells.</p>"
@@ -486,7 +486,7 @@
     "body": "<p>Vāyu is the Sanskrit term for the Air element, the second of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of movement and is associated with electrical energy in the body.</p>"
   },
   "thermogenesis": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Thermogenesis",
     "phon": "",
     "body": "<p>Thermogenesis is the process of heat production in the body. This process occurs as a primary byproduct of metabolism, specifically catabolism, where the chemical breakdown of nutrients to create energy (ATP) releases internal heat. Additionally, muscle contractions generate significant heat when ATP is broken down to power movement. The primary function of this heat generation is to regulate body temperature and maintain homeostasis.</p>"
@@ -516,7 +516,7 @@
     "body": "<p>Āhāra Rasa is the Sanskrit term for the nutritive juice or chyle that serves as the post-digestive precursor for the nourishment of all seven bodily tissues, Dhātus, and every cell in the body.</p>"
   },
   "chyle": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Chyle",
     "phon": "",
     "body": "<p>Chyle is a cloudy white or pale-yellow liquid product of digestion that is primarily composed of emulsified fats. Its function is to transport these long-chain fatty acids after they are absorbed by specialized lymphatic capillaries, known as lacteals, located in the small intestine. During the digestive process, chyle is collected by the lymphatic system and transported through the thoracic duct into the subclavian veins, where it enters the bloodstream and is eventually delivered to the liver for processing.</p>"
@@ -570,7 +570,7 @@
     "body": "<p>The spleen is an encapsulated, highly vascular secondary lymphoid organ located in the upper left quadrant of the abdomen, nestled between the stomach and the diaphragm at the level of ribs 9 to 11. Its primary function is to filter blood rather than lymph. It serves as a critical hub for immune defense by trapping foreign pathogens to initiate specific lymphocyte responses or destroy them through phagocytosis. Additionally, the spleen filters out old or damaged blood cells, stores platelets, and acts as an emergency blood reservoir—holding approximately one pint of blood that can be released into circulation during a severe hemorrhage or blood-destroying infection. While functionally important, humans can survive without a spleen because the liver, kidneys, and lymph nodes can assume its filtration and defense duties.</p>"
   },
   "catabolic": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Catabolic",
     "phon": "",
     "body": "<p>Catabolic/ Catabolism refers to the metabolic category of processes that chemically break down or decompose complex molecules and nutrients into smaller, more usable particles. Its primary function is to provide the body with accessible nutrients and to release or create energy—specifically adenosine triphosphate (ATP)—required for all cellular work and muscle contraction. Key examples of catabolic processes include glycolysis and the Krebs cycle, where glucose is broken down to produce ATP, and the subsequent breakdown of ATP itself to release its stored energy. Furthermore, these catabolic activities are responsible for generating most of the body's internal heat.</p>"
@@ -858,7 +858,7 @@
     "body": "<p>Amla Avastha Pāka is the Sanskrit term for the sour stage of digestion. It represents the principle of Pitta-predominant acidification and is associated with the nourishment of immature, asthāyi, Rakta Dhātu in the body. Located on the anterior outer sides of the tongue, jihvā, and energetically linked to the lungs, Amla stimulates emotions like jealousy and hate. Its post-digestive effect, Vipāka, is Amla, which is metabolic and increases Pitta Dosha.</p>"
   },
   "enzymes": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Enzymes",
     "phon": "",
     "body": "<p>Enzymes are specialized proteins that act as biological catalysts to speed up biochemical reactions, specifically the breakdown and synthesis of various molecules within the body. Their primary function is to facilitate and accelerate these reactions, which is most prominent in chemical digestion. During this process, enzymes and acids decompose food substances into smaller, usable molecules that can be absorbed as basic nutrients. These catalysts are active throughout the body, from lysosomes that use them to digest worn-out cell structures to the small intestine, where they process proteins, fats, and carbohydrates.</p>"
@@ -1332,31 +1332,31 @@
     "body": "<p>Where water is absorbed and waste is formed; the colon.</p>"
   },
   "ingestion": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Ingestion",
     "phon": "",
     "body": "<p>Ingestion is the initial process of taking foods and liquids into the oral cavity (eating and drinking). It serves as the physical entry point and structural gateway to the gastrointestinal (GI) tract, a continuous, convoluted pathway of chambers and tubes extending from the mouth to the anus. The primary function of ingestion is to acquire the external macronutrients, micronutrients, water, and electrolytes that the body requires to sustain life, fuel cellular metabolism, support tissue repair, and maintain systemic homeostasis. Once food is ingested, it immediately triggers a sequence of early digestive events:</p><p><strong>Mastication (Chewing): </strong>A mechanical digestive process where the teeth, cheeks, lips, and tongue work in concert to smash and break food down into smaller, physically manageable pieces.</p><p><strong>Salivary Lubrication &amp; Bolus Formation:</strong> As food is chewed, it is mixed with saliva secreted by the salivary glands. Saliva acts as an essential lubricant to ease passage through the tract and binds the food particles into a soft, cohesive mass called a bolus.</p><p><strong>Enzymatic Activation:</strong> Saliva introduces the digestive enzyme salivary amylase, which initiates the chemical digestion of complex carbohydrates by breaking down starches into simpler sugars.</p><p><strong>Reflexive Passage:</strong> Once fully prepared, the bolus is propelled out of the oral cavity via deglutition (swallowing)—an involuntary reflex that safely routes food past the guarded airway and into the esophagus to be carried toward the stomach.</p>"
   },
   "propulsion": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Propulsion",
     "phon": "",
     "body": "<p>The movement of food along the digestive tract, largely by peristalsis.</p>"
   },
   "digestion": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Digestion",
     "phon": "",
     "body": "<p>Physiologically, digestion is the multi-stage metabolic process of breaking down food into usable nutrients, which are then absorbed into the bloodstream or lymphatic system for cellular transportation, energy production, tissue repair, and systemic renewal. Structurally, this process takes place within the convoluted chambers and tubes of the gastrointestinal (GI) tract—extending from the mouth to the anus—and is assisted by accessory organs like the salivary glands, liver, gallbladder, and pancreas.</p><p>The overarching function of digestion is executed through six tightly coordinated processes:</p><p>Ingestion: The initial process of taking foods and liquids into the oral cavity.</p><p>Secretion: The release of protective mucus, corrosive acids, and buffering chemicals from the GI tract lining and accessory organs to facilitate smooth movement and chemical breakdown.</p><p>Digestion: The physical and chemical decomposition of food. It is divided into mechanical digestion (physically grinding food via mastication, stomach churning, and intestinal segmentation) and chemical digestion (using specialized enzymes and acids like amylase, pepsin, and lipase to split complex macromolecules into their simplest absorbable forms).</p><p>Motility: The continuous mixing and forward propulsion of food—first as a lubricated bolus and later as a semiliquid chyme—driven by rhythmic, wave-like smooth muscle contractions called peristalsis.</p><p>Absorption: The passage of fully processed nutrients, water, and electrolytes through the GI tract mucosa into vascular capillaries or specialized lymphatic lacteals.</p><p>Elimination: The compaction and expulsion of indigestible materials, bacteria, and dead mucosal cells from the body as feces through defecation.</p><p>These functions are locally controlled and coordinated by the enteric nervous system (ENS)—frequently called the \"brain of the gut\". Containing up to 600 million neurons, the ENS gathers sensory information about the chemical nature and expansion of GI tract contents to direct digestion, and it shares this information with the brain to develop close links between gut sensations, thoughts, and emotions.</p>"
   },
   "absorption": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Absorption",
     "phon": "",
     "body": "<p>The passage of nutrients from the gut into the blood and lymph.</p>"
   },
   "elimination": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Elimination",
     "phon": "",
     "body": "<p>Elimination is the process of expelling or removing wastes, toxic substances, and undigested materials from the body to sustain internal stability and maintain homeostasis. This essential function is not confined to a single organ; it is a coordinated, body-wide effort carried out through several primary anatomical pathways: the gastrointestinal (GI) tract, the urinary system, the integumentary system (skin), and the respiratory system.</p><p><strong>Gastrointestinal Elimination (Defecation):</strong> Within the GI tract, elimination is the final of the six core digestive processes. Unabsorbed food residues, bacteria, sloughed-off dead mucosal cells, and indigestible materials (such as dietary fiber) are compacted into solid feces within the colon and expelled through the anus during defecation.</p><p><strong>Urinary Elimination (Micturition/Urination)</strong>: The kidneys continually filter approximately 40 gallons of blood per day, extracting liquid metabolic wastes—including urea, ammonia, uric acid, and bilirubin—along with excess water and electrolytes. This waste is converted into <strong>urine</strong>, transported via the ureters to the bladder for temporary storage, and expelled through the urethra during micturition.</p><p><strong>Integumentary &amp; Respiratory Elimination: </strong>The skin's sudoriferous (sweat) glands eliminate trace amounts of metabolic byproducts, water, and heat through pores, while the lungs continuously expel carbon dioxide (), a metabolic byproduct of cellular respiration, to regulate blood pH.</p>"
@@ -1386,13 +1386,13 @@
     "body": "<p>Para Ojas is the Sanskrit term for superior or superfine Ojas, representing the pure and fully processed essence of all seven Dhātus. It consists of exactly eight drops, each roughly the size of a poppy seed, which stay permanently in the heart to maintain the individual’s life and serve as the stable foundation for the body's vital essence.</p>"
   },
   "cholecystokinin cck": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Cholecystokinin CCK",
     "phon": "",
     "body": "<p>Cholecystokinin (CCK) is a local hormone produced and secreted by the small intestine, specifically the duodenum, that plays a vital role in coordinating chemical digestion. Its primary functions include stimulating the pancreas to release digestive enzymes and signaling the gallbladder and liver to discharge bile into the gastrointestinal tract. Furthermore, CCK serves as a key integrator between body systems; because receptors for the hormone are also located in the brain and spleen, it effectively links digestive activity to both the nervous and immune systems.</p>"
   },
   "salivary secretions": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Salivary secretions",
     "phon": "",
     "body": "<p>Salivary secretions (commonly known as saliva) are watery exocrine fluids produced and released by three major pairs of salivary glands. These specialized glands deliver their secretions directly into the oral cavity through a system of ducts:</p><p><strong>Sublingual glands</strong>: Located immediately beneath the tongue.</p><p><strong>Submandibular glands</strong>: Situated under the mandible.</p><p><strong>Parotid glands</strong>: Positioned anterior and inferior to the ear, directly superficial to the masseter muscle.</p><p>Salivary secretions are composed predominantly of water, mixed with protective mucus, dissolved mineral electrolytes, the digestive enzyme salivary amylase, and the antimicrobial enzyme lysozyme. Salivary secretions perform several critical functions to initiate the digestive process and protect the upper gastrointestinal tract:</p><p><strong>Lubrication and Bolus Formation</strong>: Saliva acts as an essential lubricant that moistens and binds chewed food during mastication. This transforms food particles into a soft, cohesive mass called a bolus, facilitating safe and comfortable swallowing (deglutition) down the esophagus.</p><p><strong>Chemical Digestion</strong>: Saliva initiates the breakdown of macronutrients. The enzyme salivary amylase targets complex carbohydrates, chemically splitting starches into simpler, sweet-tasting sugars.</p><p><strong>Facilitation of Taste</strong>: Saliva serves as a solvent. When gaseous and solid food chemicals dissolve in saliva, they can physically interact with the microscopic cilia of gustatory cells located within the taste buds. This chemical stimulation enables the perception of the five basic tastes: salty, sweet, sour, bitter, and umami.</p><p><strong>Nonspecific Immune Defense</strong>: Saliva continuously washes over the teeth, gums, and oral mucosa to physically clear away invading microbes. Chemically, the enzyme lysozyme actively attacks pathogens by breaking down the cell walls of certain bacteria.</p><p><strong>Autonomic Coordination</strong>: The autonomic nervous system tightly controls salivation. Under parasympathetic (\"rest-and-digest\") activation, salivary gland secretions are stimulated, causing the mouth to water in anticipation of or during a meal to support optimal digestion. Conversely, under sympathetic (\"fight-or-flight\") stimulation, salivary gland activity is sharply suppressed. This shunts fluid and resources away from the digestive tract, leading to a temporary cessation of salivation and the physiological sensation of a dry mouth.</p>"
@@ -1416,7 +1416,7 @@
     "body": "<p>Kapha Dosha is the Sanskrit term for the water or structure principle, the third of the three biological organizations, tridosha. It represents the principle of substance, providing the body's structure, lubrication, and cohesiveness, and is associated with the water and earth elements.</p>"
   },
   "liquefaction": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Liquefaction",
     "phon": "",
     "body": ""
@@ -1428,7 +1428,7 @@
     "body": "<p>Asthāyi is the Sanskrit term for unstable, immature, unprocessed, or unformed. It represents the raw, circulating precursor stage of a biological tissue, Dhātu, before it is fully assimilated into its stable, mature counterpart.</p>"
   },
   "enzyme": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Enzyme",
     "phon": "",
     "body": "<p>Enzymes are specialized proteins that act as biological catalysts to speed up biochemical reactions, specifically the breakdown and synthesis of various molecules within the body. Their primary function is to facilitate and accelerate these reactions, which is most prominent in chemical digestion. During this process, enzymes and acids decompose food substances into smaller, usable molecules that can be absorbed as basic nutrients. These catalysts are active throughout the body, from lysosomes that use them to digest worn-out cell structures to the small intestine, where they process proteins, fats, and carbohydrates.</p>"
@@ -1440,7 +1440,7 @@
     "body": "<p>Taste receptors—scientifically termed gustatory cells—are specialized chemoreceptors housed within sensory structures called taste buds. These taste buds are located primarily within the papillae (the tiny bumps) on the tongue's surface, distributed across its entire surface rather than in outdated, distinct zones. Each gustatory cell has microscopic, hair-like cilia that project outward to interface with the mouth’s chemical environment. They initiate taste by detecting chemical concentrations dissolved in saliva. When dissolved chemicals stimulate these cilia, they generate nerve impulses that travel to the brain via the facial and glossopharyngeal cranial nerves. The brain then integrates these signals to perceive five basic taste sensitivities: salty, sweet, sour, bitter, and savory.</p>"
   },
   "acids": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Acids",
     "phon": "",
     "body": "<p>Hydrochloric acid (HCl) is a highly acidic electrolyte compound secreted by the stomach as a primary component of gastric juice. Its primary digestive functions include initiating the chemical breakdown of proteins and activating the enzyme pepsin from its inactive form, pepsinogen. Beyond digestion, it serves as a critical nonspecific immune defense by killing or destroying bacteria and other pathogens that enter the body with food. Because of its potency, the stomach produces a protective layer of mucus to prevent the acid from damaging the stomach wall or causing ulcers.</p>"
@@ -1506,13 +1506,13 @@
     "body": "<p>Pruthivī is the Sanskrit term for the Earth element, the fifth of the five basic elements, Pañcha Maha Bhūtas. It represents the principle of stability and is associated with mechanical energy in the body.</p>"
   },
   "starches": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Starches",
     "phon": "",
     "body": "<p>Starches are complex carbohydrates (polysaccharides) composed of organic compounds formed by rings of carbon, hydrogen, and oxygen linked together. Acquired from the external environment, rich dietary sources of starches include root vegetables (such as potatoes, carrots, and turnips), squashes, and beans. The primary function of starches is to serve as the body's richest and most efficient source of glucose to fuel cellular metabolism and generate energy:</p><p><strong>Enzymatic Breakdown: </strong>The digestion of starches begins immediately in the oral cavity during mastication, where the salivary glands secrete the enzyme salivary amylase to chemically cleave complex starch chains into simpler, sweeter basic starches. This chemical breakdown is completed in the small intestine by pancreatic amylase and other local intestinal enzymes.</p><p><strong>Cellular Fuel:</strong> Once starches are reduced to the simple sugar glucose, they are absorbed through the wall of the small intestine into the bloodstream. Cells systematically extract this circulating glucose, utilizing their mitochondria to catabolize it via glycolysis and the Krebs (citric acid) cycle to produce adenosine triphosphate (ATP), water, and carbon dioxide.</p><p><strong>Anabolic Storage: </strong>When glucose intake from digested starches exceeds immediate energy demands, the body uses an anabolic process to convert excess glucose into glycogen, which is stored as a ready reserve in skeletal muscles and the liver. Any remaining excess is converted and stored long-term as triglycerides in adipose (fat) tissue.</p>"
   },
   "digestive acids": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Digestive acids",
     "phon": "",
     "body": "<p>Anatomically and chemically, digestive acid—specifically hydrochloric acid (HCl)—is a highly acidic electrolyte compound secreted by specialized cells within the mucosal lining of the stomach. It is a primary component of gastric juice, making the stomach's internal cavity highly acidic to support metabolic processing.</p><p>Physiologically, digestive acid performs several critical, life-sustaining functions:</p><p><strong>Protein Breakdown &amp; Enzyme Activation: </strong>HCl initiates the chemical breakdown of complex proteins. To prevent the stomach from digesting its own muscular walls, the protein-digesting enzyme pepsin is secreted in an inactive form (pepsinogen); HCl activates it into functional pepsin.</p><p><strong>Nonspecific Immune Defense:</strong> Serving as a critical first line of internal defense, the intense acidity of HCl kills or destroys ingested bacteria, viruses, and other pathogens that enter the body with food.</p><p><strong>Autonomic Coordination:</strong> As the highly acidic, semiliquid chyme (anna-drava) is gradually released through the pyloric valve into the duodenum, its low pH triggers the secretion of local duodenal hormones. This signals the pancreas to release water and neutralizing bicarbonates, which raise the pH, inactivate pepsin, and protect the sensitive lining of the small intestine.</p>"
@@ -1536,31 +1536,31 @@
     "body": "<p>Blood vessels form an intricate, tubular transportation network that continuously circulates blood, dynamically adjusting its volume, pressure, and distribution to meet changing tissue needs. Structurally divided into high-pressure arteries, microscopic capillaries where nutrient and waste exchange occurs, and highly distensible veins that return blood to the heart, these vessels all feature an internal channel called a lumen. While the walls of larger arteries and veins are composed of a three-layered structure consisting of a smooth inner endothelium, a middle layer of smooth muscle, and an outer layer of elastic connective tissue, these layers thin out in smaller arterioles and venules, whereas capillaries are reduced to a single layer of epithelial cells to facilitate rapid diffusion.</p>"
   },
   "blood": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "blood",
     "phon": "",
     "body": "<p>Blood is a specialized fluid connective tissue that accounts for approximately 7% to 8% of an individual's total body weight. It is structurally divided into two major components: plasma, a liquid medium comprising about 55% of the blood's total volume (made of roughly 90% water and 10% dissolved gases, electrolytes, and plasma proteins), and formed elements, which are cells and cell fragments produced by stem cells in the red bone marrow through hematopoiesis. These formed elements consist of biconcave, non-nucleated red blood cells (erythrocytes) packed with oxygen-carrying hemoglobin; nucleated white blood cells (leukocytes) that drive immune defense; and small, non-nucleated cell fragments called platelets (thrombocytes).</p><p>Blood performs three vital functions: transportation, regulation, and protection. It serves as the body's primary transport medium, carrying nutrients, hormones, and oxygen to tissues, while delivering metabolic waste products to the kidneys, liver, and spleen to be filtered, recycled, or excreted. Its regulatory role includes distributing metabolic heat throughout the body, retaining vascular fluid volume via osmotic plasma proteins, and using chemical buffers—such as hemoglobin binding free-floating hydrogen ions—to maintain the body's slightly alkaline homeostatic pH range of 7.35 to 7.45. Finally, blood protects the body by delivering immunoglobulins (antibodies) to defend against pathogens and by using platelets and clotting proteins like fibrinogen to drive hemostasis (clotting) and prevent excessive hemorrhage at injured vessels.</p>"
   },
   "oxygen": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "oxygen",
     "phon": "",
     "body": "<p>Oxygen is a vital, life-sustaining gas that makes up a significant portion of the human body by weight and is a fundamental component of water and many organic molecules. The primary function of oxygen is to fuel cellular metabolism. Mitochondria utilize oxygen during aerobic cellular metabolism to efficiently produce adenosine triphosphate (ATP), the primary energy molecule for cellular work. During external respiration in the lungs, oxygen diffuses passively down its concentration gradient across the extremely thin respiratory membrane. It then binds to ionic iron within the protein hemoglobin inside red blood cells to form oxyhemoglobin, giving oxygen-rich blood its bright red color for systemic transport. Within active muscle tissues, oxygen is unloaded to fuel physical work, and muscle cells rely on myoglobin in the sarcoplasm to store a localized, immediate oxygen supply. Arterial chemoreceptors continuously monitor systemic oxygen levels and coordinate reflexes that adjust breathing and heart rate to maintain homeostatic balance.</p>"
   },
   "nutrients": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "nutrients",
     "phon": "",
     "body": "<p>Nutrients are essential chemical compounds obtained from the external environment through the digestive system and assimilated by the body's cells to fuel cellular metabolism, support tissue development and repair, and maintain homeostatic balance. Carried throughout the body by the cardiovascular and lymphatic systems, nutrients continuously circulate within the interstitial fluid of the extracellular environment, creating a dynamic medium from which cells extract the exact molecules they need to survive and perform specialized functions. The nutrients required to sustain life are broadly classified into two primary categories based on the volume the body requires:</p><p><strong>Macronutrients</strong>: Carbohydrates, lipids, and proteins that the body requires in large quantities to meet structural demands and systemic energy needs.</p><p>Carbohydrates (Glucose): The body’s primary and richest source of cellular energy, catabolized via glycolysis and the citric acid (Krebs) cycle to yield ATP, or anabolized into glycogen for storage in the liver and skeletal muscles.</p><p>Lipids (Triglycerides): The body's second choice for energy production, stored as adipose tissue to provide thermal insulation, cushioning for vital organs, hormone synthesis, and structural maintenance of plasma membranes.</p><p>Proteins (Amino Acids): The fundamental structural building blocks of the body, primarily used in anabolic protein synthesis to build and repair tissues, as well as to construct essential enzymes, receptors, antibodies, and peptide ligands.</p><p><strong>Micronutrients</strong>: Vitamins and minerals that the body requires only in small, trace amounts to maintain homeostatic stability.</p><p>Vitamins: Organic compounds that act as crucial coenzymes to support and regulate normal metabolic chemical reactions.</p><p>Minerals: Inorganic elements (such as calcium, phosphorus, and sodium) that support vital homeostatic mechanisms—including blood and bone structure, nerve impulse conduction, muscle contraction, and systemic fluid, pH, and electrolyte balances.</p>"
   },
   "hormones": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "hormones",
     "phon": "",
     "body": "<p>Hormones are powerful chemical messengers secreted by the ductless glands and specialized tissues of the endocrine system. They are structurally divided into two major chemical categories based on how they travel and interact with target cells:</p><p><strong>Water-soluble hormones</strong>: Composed of amino acids, peptides, or proteins, these hormones travel freely in the bloodstream but cannot cross the lipid bilayer of a cell membrane. Instead, they bind to receptors on the cell surface, activate an intracellular G protein, and initiate a second-messenger mechanism (using cyclic AMP, or cAMP) to trigger a cellular response.</p><p><strong>Lipid-soluble hormones</strong>: Composed of steroid hormones (derived from cholesterol) and thyroid hormones, these require special carrier proteins to travel through the blood but can easily diffuse directly through the plasma membrane. Once inside, they bind to intracellular receptors in the cytoplasm or nucleus to form a hormone-receptor complex that directly alters DNA transcription and protein synthesis.</p><p>Most hormones circulate via blood or lymph to reach distant target cells, though some act locally as local hormones (like prostaglandins) in the immediate tissue space to affect neighboring cells. Every hormone is target-specific; it initiates a physiologic response only if a cell has matching receptor proteins. Hormones work closely with the nervous system to communicate, coordinate, and regulate long-term bodily processes. Operating at a slower, more sustained pace than split-second nerve impulses, the endocrine system utilizes hormones to maintain homeostatic balance. Its primary functions include regulating growth and development, coordinating cellular metabolism and energy production, managing reproductive and sleep-wake cycles, and balancing systemic fluids, pH, and electrolytes. To prevent over- or under-secretion, most hormone levels are tightly regulated by negative feedback loops, in which the target cell response ultimately counteracts the original stimulus. A rare exception is oxytocin, which utilizes a positive feedback loop to reinforce and continue its own release during events like childbirth. Glands are stimulated to release these chemicals via three pathways: other hormones (hormonal stimulus), changes in blood ion or nutrient concentrations, or direct nerve signals (neurologic stimulus).</p>"
   },
   "metabolic wastes": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "metabolic wastes",
     "phon": "",
     "body": "<p>Metabolic Waste refers to the diverse array of chemical byproducts generated by cellular metabolism (both anabolism and catabolism) that are no longer useful or are potentially toxic to the body and must be transported, filtered, and eliminated to maintain homeostatic balance.</p><p>Metabolic waste production is simply a natural consequence of energy creation, cellular work, and tissue maintenance. Prompt transport and elimination of these byproducts are vital for keeping the body's internal environment within a stable, slightly alkaline pH range of 7.35 to 7.45.</p><p>The body's primary metabolic waste products and their disposal pathways include:</p><p><strong>Carbon Dioxide:</strong> A gaseous byproduct of aerobic cellular respiration generated in the mitochondria during the production of ATP. It is transported through the bloodstream—primarily converted into bicarbonate ions—to the lungs, where it is expelled during ventilation.</p><p><strong>Nitrogenous Wastes</strong>: Chemical byproducts created during the breakdown of proteins and nucleic acids. These include ammonia (a highly toxic byproduct of amino acid catabolism converted by the liver into less toxic urea), uric acid (produced by nucleic acid breakdown), and creatinine (formed when muscle fibers break down creatine phosphate for energy). The kidneys’ nephrons filter these from the blood and excrete them in urine.</p><p><strong>Bilirubin</strong>: A yellow-orange pigment produced from the destruction of old, worn-out red blood cells in the spleen and liver. The liver secretes bilirubin into bile for elimination in feces, though some is excreted in urine.</p><p><strong>Lactic Acid</strong>: Produced in muscle fibers during anaerobic glycolysis when the demand for energy outpaces the oxygen supply. Most lactic acid diffuses out of the cells into the bloodstream to be metabolized in the liver or excreted through the urinary system.</p><p><strong>Water and Heat</strong>: While often recycled, excess metabolic water is eliminated through sweat, urine, and respiration. Excess metabolic heat is dissipated through breathing and the skin to regulate body temperature.</p>"
@@ -1626,19 +1626,19 @@
     "body": "<p>The cardiac cycle refers to the ordered sequence of atrial and ventricular contraction and relaxation that makes up a single heartbeat. Simply put, this process involves the contraction of the two atria while the ventricles relax, followed by the contraction of the ventricles while the atria relax. The state of contraction in the chambers is called systole, whereas the state of relaxation is known as diastole, during which the chambers dilate and fill with blood.</p>"
   },
   "systole": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "systole",
     "phon": "",
     "body": "<p>Systole refers to the active contraction state of the heart's chambers—either the upper atria or the lower ventricles—during the cardiac cycle. This contraction is driven by the coordinated action of the thick, muscular myocardium after self-generated action potentials are transmitted across the cardiac conduction network. The primary function of systole is to generate the mechanical pressure required to forcefully pump blood out of the heart's chambers and propel it through the pulmonary and systemic circuits. In the cardiac cycle, this occurs in two distinct, sequential phases:</p><p><strong>Atrial Systole</strong>: Initiated when the sinoatrial (SA) node (the heart's pacemaker) self-generates an electrical impulse, causing both atria to contract simultaneously. This contraction forces the blood remaining in the atria through the open atrioventricular (AV) valves (the tricuspid and bicuspid/mitral valves) and into the ventricles.</p><p><strong>Ventricular Systole</strong>: As the electrical signal is ferried down the interventricular septum via the bundle branches and Purkinje fibers, the ventricles contract forcefully. The sudden rise in ventricular pressure snaps the AV valves shut—producing the first heart sound (\"lub\")—and forces the semilunar valves open. This forces blood into the pulmonary trunk (to be oxygenated in the lungs) and the aorta (to be distributed throughout the body). The peak hydrostatic pressure exerted against the arterial walls during this contraction is measured clinically as systolic blood pressure.</p>"
   },
   "diastole": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "diastole",
     "phon": "",
     "body": "<p>Diastole is the relaxation phase of the cardiac cycle, during which the heart muscle relaxes, allowing the chambers to dilate and fill with blood.</p><p>The process of diastole is vital to coordinating the cardiac cycle and unfolds in highly structured stages:</p><p><strong>Ventricular Diastole</strong>: At the start of the cardiac cycle, the ventricles begin to relax, entering a brief phase of mutual diastole alongside the atria. As the ventricles relax, the pressure within them drops below the pressure of the blood-filled atria, causing the atrioventricular (AV) valves to swing open. This allows approximately 75% of the total atrial blood volume to flow passively into the ventricles before the atria contract.</p><p><strong>Atrial Diastole</strong>: While the ventricles contract during ventricular systole to pump blood out of the heart, the atria simultaneously enter diastole. This relaxation allows the atria to act as receiving chambers, steadily filling with blood returning from the great veins (the superior and inferior venae cavae and the pulmonary veins) to prepare for the next cycle.</p><p><strong>Arterial Recoil</strong>: During ventricular diastole, the heart’s pumping pressure temporarily pauses. To maintain continuous blood flow, the highly elastic walls of major systemic arteries—which were stretched and bulged during ventricular contraction—recoil. This elastic recoil creates a crucial secondary push that propels blood further down the arterial network.</p>"
   },
   "circulation": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "Circulation",
     "phon": "",
     "body": "<p>Circulation describes the continuous movement of blood through the cardiovascular system, a closed network of blood vessels with the heart as its physiological center. This network is structurally divided into two distinct circuits: the pulmonary circuit, which routes blood between the right side of the heart and the lungs for gas exchange, and the systemic circuit, which distributes blood from the left side of the heart to all other tissues of the body. The primary function of circulation is to act as a comprehensive, body-wide delivery and return system. It transports oxygen, hormones, and essential nutrients to cells to support cellular metabolism, while carrying carbon dioxide and other metabolic waste products away to organs of elimination like the kidneys, liver, and spleen. Driven by the basic hydrodynamics of fluid movement—where blood flows from high-pressure areas created by ventricular contractions to areas of lower pressure—circulation also plays a vital role in distributing metabolic heat to regulate body temperature, maintaining a stable, slightly alkaline pH range of 7.35 to 7.45, and delivering clotting and immune elements to support tissue healing and defense.</p>"
@@ -1650,13 +1650,13 @@
     "body": "<p>The pulmonary circuit is the loop of the cardiovascular system that circulates blood specifically between the heart and the lungs. Controlled by the right side of the heart, its primary function is to carry deoxygenated blood from the right ventricle to the lungs via the pulmonary artery to release carbon dioxide and absorb oxygen, before returning this freshly oxygenated blood to the left atrium via the pulmonary veins.</p>"
   },
   "deoxygenated blood": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "deoxygenated blood",
     "phon": "",
     "body": "<p>Deoxygenated blood (also referred to as oxygen-poor blood) is blood that has had its oxygen stripped from the iron-rich protein hemoglobin within red blood cells to support cellular metabolism in the body's tissues. Anatomically, this darker red fluid is gathered from systemic capillary beds by venules and veins, and is returned to the right atrium of the heart via the superior and inferior venae cavae and the coronary sinus. The primary function of deoxygenated blood is to serve as a vital return vehicle for cellular byproducts, transporting metabolic wastes—specifically carbon dioxide and hydrogen ions —away from active tissues. It transports approximately 80% of this carbon dioxide by converting it into bicarbonate ions in the plasma, while the remainder travels bound directly to hemoglobin as carbaminohemoglobin or as a dissolved gas. Additionally, because hemoglobin molecules bind to free-floating hydrogen ions once they shed their oxygen, deoxygenated blood plays a critical role in buffering mechanisms that maintain the body's slightly alkaline blood pH range of 7.35 to 7.45. Once it returns to the right side of the heart, the right ventricle pumps it into the pulmonary artery to reach the lungs, where external respiration occurs to release carbon dioxide and replenish the blood with fresh oxygen.</p>"
   },
   "gas exchange": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "gas exchange",
     "phon": "",
     "body": "<p>Anatomically, gas exchange (clinically referred to as respiration) occurs across the respiratory membrane. This extremely thin microscopic barrier is formed by the single-layered epithelial walls of the lung's alveoli and their surrounding pulmonary capillaries. The lungs contain millions of these grape-like alveoli, which collectively expand to create a massive total surface area of approximately 750 square feet (70 m²) to optimize this molecular transfer.</p><p>Physiologically, the primary function of gas exchange is to continuously supply cells with the oxygen needed to fuel cellular metabolism while removing carbon dioxide, a metabolic waste byproduct whose elimination is crucial for maintaining normal blood pH. This exchange occurs passively via simple diffusion down concentration gradients in two distinct locations:</p><p><strong>External Respiration</strong>: Occurring inside the lungs, oxygen in the alveoli diffuses across the respiratory membrane into the bloodstream, where it binds to the iron-rich hemoglobin in red blood cells to form oxyhemoglobin. Simultaneously, carbon dioxide diffuses out of the blood and into the alveoli to be exhaled.</p><p><strong>Internal Respiration</strong>: Occurring in systemic capillary beds throughout the body, oxygen is released from hemoglobin into active tissues and diffuses back into the bloodstream. To return to the lungs, approximately 80% of this carbon dioxide is converted into bicarbonate ions, while the remainder travels bound directly to hemoglobin as carbaminohemoglobin or dissolved as a gas in plasma.</p>"
@@ -1668,7 +1668,7 @@
     "body": "<p>The systemic circuit is the part of the cardiovascular system that circulates blood between the heart and the body's tissues. Its primary function is to distribute oxygen-rich blood, hormones, and essential nutrients to systemic tissues to support cellular metabolism, while transporting carbon dioxide and metabolic wastes away to elimination organs. This vast circuit is driven by the left side of the heart; the left ventricle contracts forcefully to eject oxygenated blood through the aortic valve into the aorta, which branches into systemic arteries, arterioles, and capillary beds. Following nutrient-waste exchange at the capillaries, deoxygenated blood is gathered by venules and veins, ultimately returning to the right atrium of the heart via the superior and inferior venae cavae to complete the loop.</p>"
   },
   "oxygenated blood": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "oxygenated blood",
     "phon": "",
     "body": "<p>Oxygenated blood (oxygen-rich blood) is blood that is bound with oxygen in the lungs, giving it a bright red hue created by the hemoglobin-oxygen bond. Freshly oxygenated blood returns from the lungs to the left atrium of the heart via the pulmonary veins, flows into the left ventricle, and is pumped into the aorta to begin the systemic circuit and distribute oxygen throughout the body. The primary function of oxygenated blood is to continuously deliver the oxygen required to fuel aerobic cellular metabolism and ATP production in tissues. In systemic capillary beds, oxygen molecules dissociate from hemoglobin inside red blood cells and passively diffuse down their concentration gradient across the capillary membrane, into the interstitium, and into active cells to sustain cellular life and tissue repair.</p>"
@@ -1686,25 +1686,25 @@
     "body": "<p>Capillaries are the smallest blood vessels in the cardiovascular system, positioned between arterioles and venules to form vast, interconnected networks called capillary beds. To facilitate rapid transport, their walls are exceptionally thin—reduced to a single layer of epithelial cells (endothelium) covered in a sticky, protective layer of sugars and proteins called the glycocalyx. The density of these beds depends heavily on metabolic demand; organs with high activity, like the brain, liver, and kidneys, are densely packed with capillaries, whereas low-metabolism tissues like ligaments and tendons contain very few.</p>"
   },
   "nutrient": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "nutrient",
     "phon": "",
     "body": "<p>Nutrients are essential chemical compounds obtained from the external environment through the digestive system and assimilated by the body's cells to fuel cellular metabolism, support tissue development and repair, and maintain homeostatic balance. Carried throughout the body by the cardiovascular and lymphatic systems, nutrients continuously circulate within the interstitial fluid of the extracellular environment, creating a dynamic medium from which cells extract the exact molecules they need to survive and perform specialized functions. The nutrients required to sustain life are broadly classified into two primary categories based on the volume the body requires:</p><p><strong>Macronutrients</strong>: Carbohydrates, lipids, and proteins that the body requires in large quantities to meet structural demands and systemic energy needs.</p><p>Carbohydrates (Glucose): The body’s primary and richest source of cellular energy, catabolized via glycolysis and the citric acid (Krebs) cycle to yield ATP, or anabolized into glycogen for storage in the liver and skeletal muscles.</p><p>Lipids (Triglycerides): The body's second choice for energy production, stored as adipose tissue to provide thermal insulation, cushioning for vital organs, hormone synthesis, and structural maintenance of plasma membranes.</p><p>Proteins (Amino Acids): The fundamental structural building blocks of the body, primarily used in anabolic protein synthesis to build and repair tissues, as well as to construct essential enzymes, receptors, antibodies, and peptide ligands.</p><p><strong>Micronutrients</strong>: Vitamins and minerals that the body requires only in small, trace amounts to maintain homeostatic stability.</p><p>Vitamins: Organic compounds that act as crucial coenzymes to support and regulate normal metabolic chemical reactions.</p><p>Minerals: Inorganic elements (such as calcium, phosphorus, and sodium) that support vital homeostatic mechanisms—including blood and bone structure, nerve impulse conduction, muscle contraction, and systemic fluid, pH, and electrolyte balances.</p>"
   },
   "waste exchange": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "waste exchange",
     "phon": "",
     "body": "<p>Waste Exchange (which the body conventionally coordinates alongside nutrient exchange) occurs at the microscopic level across specialized semipermeable membranes and fluid mediums throughout the body. The primary anatomical site for this transfer is the capillary bed, an intricate, densely packed network of microscopic vessels enmeshed within metabolically active tissues. In areas that lack direct blood supply or are structurally isolated, specialized anatomical channels and fluid environments facilitate this transfer:</p><p><strong>Synovial Fluid: </strong>Fills the joint cavity of diarthrotic joints, acting as the vital medium for nutrient and waste exchange for the avascular cartilage covering bone ends.</p><p><strong>Cerebrospinal Fluid (CSF): </strong>Produced from blood plasma by ependymal cells, CSF serves as the essential medium for nutrient and waste exchange between blood capillaries and the highly protected nervous tissue of the central nervous system (CNS).</p><p><strong>Canaliculi:</strong> Intricate microscopic channels radiating through the mineralized matrix of compact bone to allow the exchange of nutrients and wastes to and from mature bone cells (osteocytes).</p><p><strong>Vasa Vasorum:</strong> A network of tiny, dedicated blood vessels arising from the outer layer of major arteries and veins to provide nutrient and waste exchange for the thick tissue walls of the larger vessels themselves.</p><p>Physiologically, the primary function of waste exchange is to continuously clear cellular metabolic byproducts, cellular debris, and foreign substances from the interstitial fluid surrounding active tissues. This continuous removal prevents toxic accumulation and supports proper pH and fluid homeostasis. The mechanics of exchange rely on several fluid dynamics and transport pathways:</p><p><strong>Passive Diffusion</strong>: Small solutes and gaseous wastes, such as carbon dioxide, passively diffuse down their concentration gradients across thin cell membranes, moving from high-concentration tissues into the lower-concentration bloodstream to be carried away for elimination.</p><p><strong>Filtration and Reabsorption</strong>: Driven by Starling forces, capillaries continuously filter fluids into the interstitium. The remaining fluid and waste that blood vessels cannot reabsorb—the lymph obligatory load—must be collected by initial lymph vessels and returned to cardiovascular circulation.</p>"
   },
   "diffusion": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "diffusion",
     "phon": "",
     "body": "<p>Physiologically, diffusion is a passive transport mechanism that relies on differences in the level of concentration between substances. Because it is passive, it occurs without the cell expending metabolic energy in the form of adenosine triphosphate (ATP). Instead, atoms, ions, or molecules move down or with their concentration gradient, traveling spontaneously from an area of higher concentration to an area of lower concentration.</p><p>The body utilizes three primary variations of this passive process:</p><p><strong>Simple Diffusion:</strong> The unassisted movement of small molecules and ions—such as oxygen, carbon dioxide, and electrolytes—directly across a semipermeable membrane.</p><p><strong>Facilitated Diffusion:</strong> The assisted movement of larger particles, such as glucose, that are too big to pass through the lipid bilayer of the cell membrane on their own and must be helped across by specialized transport proteins or carrier molecules.</p><p><strong>Osmosis:</strong> The specialized diffusion of water across a semipermeable membrane. When dissolved particles (solutes) are too large to pass through the membrane, water moves from an area of lower solute concentration (higher water concentration) to an area of higher solute concentration (lower water concentration) to balance the overall concentration of molecules.</p><p>The primary function of diffusion is to facilitate the continuous, life-sustaining exchange of gases, nutrients, and waste products across cellular and tissue boundaries. This is vital across multiple bodily systems:</p><p><strong>Respiration:</strong> External respiration in the lungs relies on passive diffusion across the extremely thin respiratory membrane, moving oxygen from the high-concentration environment of the alveoli into the blood, while carbon dioxide diffuses from the blood into the alveoli to be exhaled. Internal respiration reverses this process in systemic capillaries, diffusing oxygen out of the blood and into active tissues to fuel cellular metabolism, while moving carbon dioxide waste back into the bloodstream.</p><p><strong>Capillary Exchange:</strong> Within systemic capillary beds, vital solutes like oxygen, carbon dioxide, and glucose continuously diffuse through capillary walls to maintain the biochemical balance of the surrounding tissues.</p><p><strong>Integumentary Health:</strong> Because the outer epidermis of the skin is completely avascular, the continuously dividing cells of its deepest germinating (basal) layer rely entirely on the diffusion of oxygen and nutrients from the capillary beds located in the underlying dermal layer to survive, repair, and replicate.</p>"
   },
   "starling forces": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "starling forces",
     "phon": "",
     "body": "<p>Starling forces are the four distinct physical pressures that govern capillary exchange—the continuous filtration and reabsorption of fluids and dissolved solutes across the microscopic semipermeable membrane that separates the bloodstream from the surrounding tissue space. Named after the British physiologist Ernest Henry Starling, these forces are divided into hydrostatic pressures (the mechanical push of fluids) and oncotic or osmotic pressures (the chemical pull exerted by concentrated proteins). Physiologically, the coordination of these four forces manages systemic fluid distribution and maintains the dynamic volume balance between blood plasma and the interstitium:</p><p><strong>Capillary Fluid Pressure (CFP)</strong>: A hydrostatic pressure created by blood inside the capillary pushing outward against the vessel wall, which drives filtration (the physical movement of plasma and solutes out of the vessel). CFP acts as the dominant Starling force throughout the entire length of healthy capillary beds.</p><p><strong>Interstitial Fluid Pressure (IFP)</strong>: A hydrostatic pressure created by the fluid in the interstitial space pressing inward against the outer capillary wall, which supports reabsorption (the movement of fluid back into the bloodstream).</p><p><strong>Plasma Oncotic Pressure (POP)</strong>: An osmotic pressure created inside the capillary by the concentrated proteins (primarily albumin) suspended in blood plasma, which exerts a powerful molecular pull to draw water back into the vessel to facilitate reabsorption.</p><p><strong>Interstitial Oncotic Pressure (IOP)</strong>: An osmotic pressure on the outside of the capillary created by proteins residing in the interstitial fluid, which siphons fluid out of the vessel into the interstitium to promote filtration.</p><p>Historically, it was believed that filtration occurred only at the arteriole end of the capillary and that 90% of this fluid was reabsorbed directly at the venule end. Modern physiology has updated this model, demonstrating that because CFP remains the dominant force across the entire capillary bed, filtration of fluids occurs continuously. The remaining fluid that capillary beds cannot reabsorb—the lymph obligatory load—must be continuously gathered and returned to circulation by the lymphatic system to prevent toxic tissue backup and swelling.</p>"
@@ -1716,73 +1716,73 @@
     "body": "<p>Veins are highly distensible blood vessels that carry blood toward the heart. Their walls share the same three-layered structure as arteries—an inner endothelial lining, a middle layer of smooth muscle, and an outer elastic connective tissue layer—but their middle muscular layer is significantly thinner, allowing them to expand and act as a high-capacity reservoir. A defining anatomical feature of veins is their internal system of one-way valves, specialized extensions of the basement membrane and epithelial lining designed to prevent backflow of blood. Because the initial pumping pressure of the heart has dissipated by the time blood reaches the venous system, venous return relies heavily on external forces. These include the skeletal muscle pump (where surrounding muscle contractions compress the vessels) and the respiratory pump (driven by alternating pressure shifts in the thoracic and abdominopelvic cavities during breathing), which work with the one-way valves to push blood back to the heart.</p>"
   },
   "fluid connective tissue": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "fluid connective tissue",
     "phon": "",
     "body": "<p>Liquid (fluid) connective tissue includes blood and lymph. Like all connective tissues, they are composed of three common structural elements: cells, fibers, and ground substance (which collectively form the extracellular matrix). In liquid tissues, the ground substance is an entirely fluid medium—such as liquid plasma in blood or lymph fluid in lymph—in which specialized cells (like erythrocytes, leukocytes, and lymphocytes) are suspended, and fibers (such as fibrinogen) remain dissolved until they are chemically activated to form a clot. These fluid tissues serve as the body's primary transportation, regulation, and defense systems. Blood circulates through a closed loop of vessels, pumped by the heart, to deliver oxygen, nutrients, and hormones to tissues while transporting metabolic wastes to elimination organs. In contrast, lymph operates as an open, one-way return system. It picks up excess interstitial fluid, large proteins, and cellular debris—collectively known as the lymph obligatory load—and filters it through lymph nodes before returning the cleansed fluid to cardiovascular circulation at the subclavian veins.</p>"
   },
   "plasma": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "plasma",
     "phon": "",
     "body": "<p>Plasma is the pale-yellow liquid component of blood, accounting for approximately 55% of total blood volume. It is a highly complex extracellular fluid composed of roughly 90% water and 10% dissolved or suspended solutes, including hormones, electrolytes, nutrients, metabolic wastes, and a critical concentration of specialized plasma proteins. The primary functions of plasma are to maintain blood volume, facilitate transport, and regulate systemic homeostasis through several key pathways:</p><p><strong>Fluid Flow and Osmotic Balance:</strong> Plasma proteins support healthy blood flow by helping blood retain water and remain fluid. Specifically, albumin—the most abundant plasma protein—exerts the necessary plasma oncotic pressure (POP) to draw water into the vessels and maintain stable blood volume.</p><p><strong>Systemic Transportation</strong>: Plasma acts as the body's primary chemical highway, carrying hormones, electrolytes, and nutrients (like glucose, amino acids, and lipids) from digestive and respiratory systems to cells. It also transports cellular metabolic wastes (such as carbon dioxide, urea, and bilirubin) to the kidneys, liver, and lungs for filtration or elimination.</p><p><strong>Immune Defense</strong>: Plasma contains globulins, a group of proteins that includes antibodies (immunoglobulins) that target and neutralize bacterial and viral pathogens. It also carries complement proteins that chemically enhance general immune responses.</p><p><strong>Coagulation (Hemostasis)</strong>: Plasma contains crucial clotting factors, most notably fibrinogen. During vascular injury, fibrinogen is chemically converted into insoluble fibrin threads, which form a sticky net to trap blood cells and platelets, creating a secure clot to stop active hemorrhaging.</p><p><strong>pH and Temperature Regulation</strong>: Because of water’s high capacity to absorb and retain heat, plasma absorbs metabolic heat generated by muscular work and distributes or dissipates it through the skin and lungs to regulate body temperature. It also carries buffer chemicals that maintain the body’s slightly alkaline homeostatic blood pH range of 7.35 to 7.45.</p><p>Additionally, specialized ependymal cells within the brain's ventricles filter blood plasma to produce cerebrospinal fluid (CSF), which cushions and nourishes the central nervous system.</p>"
   },
   "red blood cells": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "red blood cells",
     "phon": "",
     "body": "<p>Red blood cells (RBCs), also known clinically as erythrocytes, are specialized, biconcave cells curved inward on both sides. To maximize their internal space for oxygen transport, mature red blood cells contain very few organelles and entirely lack a nucleus. Because they lack a nucleus, they cannot undergo mitosis to divide; instead, they are continuously produced in the red bone marrow through hematopoiesis and circulate with an average lifespan of 120 days before being destroyed by the liver or spleen. Their outer membranes also express integral membrane proteins (IMPs) that act as antigens, which define an individual's blood type.</p><p>Physiologically, the primary functions of red blood cells revolve around gas transport and chemical buffering:</p><p><strong>Oxygen Transportation:</strong> RBCs are packed with hemoglobin, an iron-rich protein that chemically binds to oxygen in the lungs to form oxyhemoglobin, which gives oxygenated blood its bright red color. This oxygen is transported and released to systemic tissues to fuel aerobic cellular metabolism.</p><p><strong>Carbon Dioxide Transportation</strong>: After releasing oxygen to the tissues, hemoglobin binds to carbon dioxide at a separate molecular site to carry this metabolic waste back to the lungs to be exhaled.</p><p><strong>Acid-Base buffering</strong>: Hemoglobin is capable of binding to free-floating hydrogen ions after releasing its oxygen cargo. This cellular mechanism serves as a vital pH buffer, maintaining blood within its tight, slightly alkaline homeostatic range of 7.35 to 7.45.</p>"
   },
   "hemoglobin": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "hemoglobin",
     "phon": "",
     "body": "<p>Hemoglobin is an iron-rich, oxygen-binding protein concentrated within the cytoplasm of biconcave red blood cells (erythrocytes). This specialized protein contains ionic iron, which gives red blood cells their red color and serves as the primary molecular vehicle for respiratory gas transport.</p><p>Physiologically, the primary function of hemoglobin is to transport gases and act as a vital chemical buffer:</p><p><strong>Oxygen Transport</strong>: In the high-oxygen environment of the lung's alveoli (external respiration), oxygen binds to hemoglobin to form oxyhemoglobin, giving oxygen-rich blood its bright red hue. In systemic capillaries (internal respiration), hemoglobin releases this oxygen to active tissues to fuel cellular metabolism. While muscle cells rely on a localized, sarcoplasmic protein called myoglobin for immediate oxygen storage, hemoglobin is responsible for systemic delivery.</p><p><strong>Carbon Dioxide Transport</strong>: Once oxygen is delivered to active tissues, hemoglobin binds to carbon dioxide at a different structural site to form <strong>carbaminohemoglobin</strong>. This, along with carbon dioxide dissolved in plasma, accounts for about 20% of the carbon dioxide transported back to the lungs to be exhaled.</p><p><strong>pH Buffering</strong>: Hemoglobin is essential for maintaining the body's slightly alkaline homeostatic blood pH range of 7.35 to 7.45. The molecule binds to free-floating, acidic hydrogen ions only after it has given up its oxygen, acting as a crucial chemical buffer.</p>"
   },
   "white blood cells": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "white blood cells",
     "phon": "",
     "body": "<p>White blood cells (WBCs), clinically referred to as leukocytes, are nucleated, round cells that serve as the body’s primary mobile defense units. Produced in the red bone marrow from stem cells through the process of hematopoiesis, mature leukocytes possess a prominent nucleus and standard cellular organelles, but completely lack oxygen-carrying hemoglobin.</p><p>Leukocytes are far less numerous than red blood cells, circulating in a ratio of about 1 WBC to every 700 RBCs, with a healthy concentration of approximately 7,500 WBCs per microliter of blood. While many leukocytes circulate in the bloodstream for only six to eight hours, those that migrate into body tissues can survive for months or even years. They are classified into two major categories based on the stained appearance of their cytoplasm:</p><p><strong>Granular Leukocytes</strong>: Characterized by highly visible cytoplasmic granules and multilobed nuclei, this group includes neutrophils (the most abundant WBC at 60%–70%), eosinophils (2%–4%), and basophils (0.5%–1%).</p><p><strong>Agranular Leukocytes</strong>: Lacking visible cytoplasmic granules, this group includes lymphocytes (20%–25%) and monocytes (3%–8%).</p><p>Physiologically, the primary function of white blood cells is to defend the body against pathogens, manage inflammatory processes, and coordinate tissue repair. Their functional roles are highly specialized by cell type:</p><p><strong>Acute Inflammation and Phagocytosis</strong>: <strong>Neutrophils</strong> are the body's first responders to bacterial invasion, rapidly migrating to infection sites via chemotaxis to engulf and destroy bacteria. Monocytes also migrate to injured or infected tissues, transforming into highly active, \"big-eating\" macrophages to perform widespread phagocytosis of cellular debris and pathogens.\n <strong>Allergic and Inflammatory Modulation</strong>: Basophils intensify the inflammatory response by releasing signaling chemicals, most notably histamine, which dilates blood vessels and increases capillary permeability, allowing other defense cells to access tissue space. Conversely, eosinophils help combat the effects of histamine in allergic reactions, phagocytize antibody-antigen complexes, and release specialized chemicals to destroy parasitic worms.</p><p><strong>Specific (Adaptive) Immunity</strong>: Lymphocytes are the primary cells of the adaptive immune system. They are divided into B cells (which differentiate into antibody-producing plasma cells to neutralize specific antigens) and T cells (including cytotoxic T cells that directly destroy infected cells and helper T cells that release cytokines to coordinate overall immune activity).</p>"
   },
   "immune defense": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "immune defense",
     "phon": "",
     "body": "<p>The immune system coordinates immune defense through a decentralized, body-wide network of cells, tissues, and organs that are not physically connected but work in concert to provide immunity—defined as protection from or resistance to infection and disease. Its primary cellular forces are lymphocytes (specialized white blood cells), which are produced in primary lymphoid organs and tissues (red bone marrow and the thymus) and carried out or stored in secondary lymphoid organs and tissues (including lymph nodes, the spleen, and mucosa-associated lymphoid tissues like the tonsils, Peyer’s patches, and appendix). This defense system also uses the physical barrier of the skin, the cutaneous membrane, and the body’s extensive mucous membranes. The primary function of immune defense is to protect the body against a continuous stream of disease-causing agents, or pathogens, such as bacteria, viruses, fungi, and parasites. This defense is executed through two highly coordinated, overlapping pathways:</p><p><strong>Nonspecific (Innate) Immune Defenses:</strong> These represent generic, universal responses that are present in all humans from birth and are not directed at a single type of pathogen. They include physical barriers; chemical barriers (such as slightly acidic sebum, sweat, tears containing lysozyme, and highly acidic gastric juice); internal antimicrobial proteins (like interferons and complement proteins); phagocytes (neutrophils and macrophages); natural killer (NK) cells; and systemic processes like inflammation and fever.</p><p><strong>Specific (Adaptive) Immune Responses:</strong> These are acquired over time through exposure to specific pathogens carrying unique antigens. This pathway is split into antibody-mediated immunity (AMI) (where B cells multiply into plasma cells to secrete protective antibodies that neutralize pathogens) and cell-mediated immunity (CMI) (where T cells recognize processed antigens and divide into cytotoxic T cells to directly destroy infected cells). Both pathways generate long-lived memory B and T cells, ensuring a faster, more intense response upon subsequent exposure.</p>"
   },
   "platelets": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "platelets",
     "phon": "",
     "body": "<p>Platelets (clinically referred to as thrombocytes) are not whole cells, but are actually tiny cell fragments suspended within blood plasma. They are produced in the red bone marrow from multipotent stem cells through hematopoiesis.</p><p>Structurally, platelets are much smaller than red and white blood cells. Although they contain mitochondria and active enzymes necessary for survival and function, they lack a nucleus and DNA, so they cannot reproduce through mitosis. Platelets have a brief life span of about 10 days. A healthy adult maintains a constant, significant presence of approximately 300,000 platelets per microliter of blood to ensure the body can respond immediately to vascular damage. Additionally, a substantial reserve of platelets is stored in the highly vascular spleen and released into circulation during emergencies. Platelets primarily facilitate hemostasis, the complex protective process that stops bleeding after blood vessel damage. This sequence of events unfolds in three tightly coordinated steps:</p><p><strong>Vascular Spasm:</strong> When a blood vessel is ruptured or cut, cells inside the vessel wall release signaling chemicals that trigger the smooth muscle inside the wall to contract. This vasoconstriction temporarily narrows the vessel's lumen, slowing blood flow through the injured area.</p><p><strong>Platelet Plug Formation:</strong> The chemical signals released from damaged cells cause nearby platelets to become sticky. They quickly clump together, adhering to the damaged area of the vessel to construct a soft, temporary platelet plug.</p><p><strong>Clot Formation (Coagulation)</strong>: In this final step, the clustered cells within the platelet plug release active clotting factors. These factors combine with prothrombin in blood plasma to form thrombin, an enzyme that reacts with dissolved fibrinogen. This chemical reaction converts fibrinogen into insoluble, thread-like fibrin fibers. Fibrin forms a sticky net around the platelet plug, trapping red blood cells and additional platelets to form a secure, permanent clot that halts active hemorrhaging.</p>"
   },
   "clotting": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "clotting",
     "phon": "",
     "body": "<p>Clotting (clinically referred to as coagulation) is the final, crucial phase of hemostasis—the complex physiological process that stops vascular bleeding and prevents excessive blood loss when a blood vessel is damaged. This life-saving sequence is driven by a highly coordinated interaction between cellular fragments called platelets (thrombocytes), essential calcium ions (Ca²⁺), and specialized plasma proteins known as clotting factors.</p><p>The clotting cascade unfolds in three distinct steps:</p><p>Vascular Spasm: When a blood vessel is ruptured, cells in the vessel wall release chemicals that signal the surrounding smooth muscle to constrict, immediately slowing blood flow.</p><p>Platelet Plug: The same chemicals activate nearby platelets, causing them to become sticky and clump together to form a soft, temporary seal over the damaged area.</p><p>Clot Formation: The cells in the temporary platelet plug release clotting factors, which combine with prothrombin in the plasma to generate the active enzyme thrombin. Thrombin then reacts with the soluble plasma protein fibrinogen, converting it into fibrin—thin, tough protein threads that form an intricate net over the platelet plug, trapping red blood cells and additional platelets to solidify into a secure clot.</p>"
   },
   "solid waste": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "solid waste",
     "phon": "",
     "body": "<p>Solid waste—commonly referred to as feces or fecal matter—is the compacted, non-digestible residue of the digestive process. It is primarily composed of unabsorbed food substances, water, organic metabolic byproducts, indigestible materials (such as dietary fiber), millions of bacteria, and sloughed-off dead mucosal cells from the inner lining of the gastrointestinal (GI) tract. Physiologically, the packaging, temporary storage, and elimination of solid waste serve several critical homeostatic functions:</p><p><strong>Fluid Conservation and Compaction</strong>: While the stomach and small intestine process nutrients, the large intestine (colon) acts as the primary site for reclaiming water from the remaining liquid waste. This reabsorption dehydrates and condenses the remaining slurry of undigested matter into solid feces.</p><p><strong>Nutrient Synthesis</strong>: The temporary storage of feces allows the colon's resident bacteria to act on the waste, synthesizing vital vitamin K and certain B vitamins before the solid matter is excreted.</p><p><strong>Defecation Coordination</strong>: Smooth muscle walls in the colon contract methodically to push solid waste toward the rectum and anal canal via peristalsis. As feces accumulate, they stretch the rectal wall, triggering sensory receptors that register pressure. This mechanical expansion reflexively opens the involuntary internal anal sphincter (smooth muscle) and, when voluntarily directed by the cerebral cortex, relaxes the external anal sphincter (skeletal muscle) to perform defecation.</p>"
   },
   "cellular metabolism": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "cellular metabolism",
     "phon": "",
     "body": "<p>Cellular metabolism is the sum of all biochemical reactions and chemical processes that occur within a cell or the human organism to sustain life. Physiologically, these complex processes are divided into two distinct, highly coordinated metabolic categories:</p><p>Anabolism: A metabolic \"building-up\" process in which the cell uses simpler molecules as building blocks to construct complex structures. This includes vital activities like protein synthesis for tissue growth and repair, the creation of hormones and neurotransmitters, and the storage of excess nutrients—such as converting glucose into glycogen in the liver and skeletal muscles.</p><p>Catabolism: A metabolic \"breaking-down\" process that decomposes complex molecules and nutrients into smaller, more usable particles. Its primary function is to harvest and release chemical energy, specifically in the form of adenosine triphosphate (ATP), which powers all cellular work and muscle contractions.</p><p>The overarching function of cellular metabolism is to transform ingested nutrients into usable forms to support growth, tissue repair, and reproduction. Additionally, these metabolic activities generate the majority of the body's internal heat as a primary byproduct of energy production (thermogenesis), which is vital for maintaining a homeostatic body temperature.</p>"
   },
   "chemical breakdown": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "chemical breakdown",
     "phon": "",
     "body": "<p>Chemical digestion, clinically known as chemical breakdown, is the metabolic process that utilizes specialized enzymes and acids to decompose food substances into smaller, usable molecules. This complex series of reactions begins in the mouth as salivary amylase starts breaking down starches and continues in the stomach, where hydrochloric acid and pepsin initiate the breakdown of proteins. The majority of chemical digestion takes place in the small intestine, where secretions like pancreatic juice—containing lipase, trypsin, and amylase—work alongside intestinal enzymes to dissolve carbohydrates, fats, and proteins into their simplest forms. The primary function of this process is to transform food into basic nutrients that can be absorbed into the blood or lymph for transportation to cells, providing the necessary materials for energy, tissue repair, and renewal.</p>"
   },
   "deglutition": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "deglutition",
     "phon": "",
     "body": "<p>Deglutition—clinically referred to as swallowing—is a highly coordinated neuromuscular reflex that acts as the gateway of the digestive tract. A network of anterior neck muscles attached to the small, U-shaped hyoid bone (outlined in the diagram you uploaded) structurally supports the process. During this reflex, the soft palate and uvula elevate to seal off the nasopharynx, while the epiglottis is pulled down over the glottis of the trachea to guard the airway and prevent inhaled particles or food from entering the lungs. The primary function of deglutition is to safely and efficiently transport a lubricated food mass, or bolus, from the oral cavity, through the pharynx, and into the esophagus. This movement triggers wave-like muscular contractions called peristalsis to propel the food down toward the stomach for further chemical and mechanical breakdown. The autonomic and involuntary phases of this swallowing reflex are governed and integrated by specialized reflex nuclei located in the medulla oblongata of the brainstem.</p>"
@@ -1794,7 +1794,7 @@
     "body": "<p>Smooth muscle (also known as visceral muscle) is a nonstriated, involuntary muscle tissue found in the walls of blood vessels and hollow internal organs, including the stomach, intestines, bladder, trachea, and ureters. Its primary function is to contract involuntarily to mix, propel, or regulate the flow of fluids and substances throughout the body's systems. This is demonstrated through key processes such as squeezing food along the digestive tract via peristalsis, pushing urine through the ureters, rhythmically contracting to propel lymph through collector vessels, and altering blood vessel diameter via vasoconstriction or vasodilation to regulate blood pressure and distribution. Unlike skeletal muscle, which is organized as its own separate system, smooth muscle is regulated entirely by the autonomic nervous system, can slowly regenerate with like cells to repair itself after damage, and can even be found embedded within fascial layers, where its autonomic contractions create independent fascial tone.</p>"
   },
   "contractions": {
-    "cat": "physiology",
+    "cat": "anatomy",
     "title": "contractions",
     "phon": "",
     "body": "<p>At the cellular level, muscle contraction is a physiologic event occurring within the sarcomeres—the contractile units of myofibrils—which are composed of overlapping thick myosin and thin actin protein filaments. When a motor neuron stimulates a muscle fiber at the neuromuscular junction, it triggers the release of stored calcium ions into the sarcoplasm, exposing binding sites on actin. This allows the myosin heads to bind to actin and form cross bridges, utilizing adenosine triphosphate (ATP) to slide the filaments over one another and shorten the sarcomere in a process known as the sliding filament mechanism.</p><p>Physiologically, the primary functions of muscle contractions are to generate pulling force for movement, maintain posture, stabilize joints, and produce metabolic heat. While microscopic cellular shortening remains constant, the mechanical results of contraction on the muscle as a whole are classified into three distinct types:</p><p><strong>Tonic contractions:</strong> Create a constant, low-grade tension that stabilizes joints and resists gravity to maintain an upright posture and readiness, without producing active movement.</p><p><strong>Isometric contractions:</strong> Generate significant force and tension, causing the muscle to bulge, but do not alter the muscle's overall length or create joint movement.</p><p><strong>Isotonic contractions:</strong> Create active joint movement and are divided into concentric contractions (where the muscle shortens as attachment points move closer) and eccentric contractions (where the muscle actively generates force as it lengthens, often serving as a brake to control movement).</p>"
@@ -1858,12 +1858,6 @@
     "title": "Anna-Drava",
     "phon": "",
     "body": "<p>Anna Drava is the Sanskrit term for the stage when food undergoes liquefaction in the stomach.</p>"
-  },
-  "mamsa medha asthi majja shukra artava": {
-    "cat": "ayurveda",
-    "title": "Māmsa, Medha, Asthi, Majjā, Shukra, Ārtava",
-    "phon": "",
-    "body": "<p>The five Dhātus associated with Madhyama Mārga</p>"
   },
   "rasa rakta": {
     "cat": "ayurveda",

@@ -1,6 +1,6 @@
 {
   "title": "The Living Body",
-  "subtitle": "Tap any colored word to explore it — red for Ayurveda, amber for physiology, olive for anatomy.",
+  "subtitle": "Tap any colored word to explore it — red for Ayurveda, amber for philosophy, olive for anatomy.",
   "invocation": "IIश्री:II",
   "chapters": [
     {
@@ -131,7 +131,7 @@
             {
               "t": "nutrients",
               "term": "nutrients",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and consists of several key components: the "
@@ -219,7 +219,7 @@
             {
               "t": "mechanical digestion",
               "term": "mechanical digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and "
@@ -227,7 +227,7 @@
             {
               "t": "chemical digestion",
               "term": "chemical digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " of food for "
@@ -235,7 +235,7 @@
             {
               "t": "nutrient",
               "term": "nutrient",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " "
@@ -243,7 +243,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". The "
@@ -259,7 +259,7 @@
             {
               "t": "ingestion",
               "term": "ingestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -267,7 +267,7 @@
             {
               "t": "propulsion",
               "term": "propulsion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -275,7 +275,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -283,7 +283,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", and "
@@ -291,7 +291,7 @@
             {
               "t": "elimination",
               "term": "elimination",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": "."
@@ -312,7 +312,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", begins in "
@@ -336,7 +336,7 @@
             {
               "t": "salivary secretions",
               "term": "salivary secretions",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " from the "
@@ -416,7 +416,7 @@
             {
               "t": "liquefaction",
               "term": "liquefaction",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " that nourishes "
@@ -440,7 +440,7 @@
             {
               "t": "mastication",
               "term": "mastication",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -448,7 +448,7 @@
             {
               "t": "mechanical digestion",
               "term": "mechanical digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", and "
@@ -456,7 +456,7 @@
             {
               "t": "chemical digestion",
               "term": "chemical digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " by the "
@@ -464,7 +464,7 @@
             {
               "t": "enzyme",
               "term": "enzyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " "
@@ -472,7 +472,7 @@
             {
               "t": "amylase",
               "term": "amylase",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -480,7 +480,7 @@
             {
               "t": "starches",
               "term": "starches",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " decompose into simple sugars and mix into a lubricated "
@@ -488,7 +488,7 @@
             {
               "t": "bolus",
               "term": "bolus",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", providing a feeling of fullness. When food touches the "
@@ -544,7 +544,7 @@
             {
               "t": "mastication",
               "term": "mastication",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and propels the "
@@ -552,7 +552,7 @@
             {
               "t": "bolus",
               "term": "bolus",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " through the "
@@ -576,7 +576,7 @@
             {
               "t": "peristalsis",
               "term": "peristalsis",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " into the "
@@ -608,7 +608,7 @@
             {
               "t": "mucus",
               "term": "mucus",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " to shield the "
@@ -624,7 +624,7 @@
             {
               "t": "digestive acids",
               "term": "digestive acids",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " while "
@@ -688,7 +688,7 @@
             {
               "t": "anabolic",
               "term": "anabolic",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and increases "
@@ -718,7 +718,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", occurs as the "
@@ -726,7 +726,7 @@
             {
               "t": "bolus",
               "term": "bolus",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " enters the "
@@ -790,7 +790,7 @@
             {
               "t": "hydrochloric acid (HCl)",
               "term": "hydrochloric acid hcl",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and "
@@ -798,7 +798,7 @@
             {
               "t": "enzymes",
               "term": "enzymes",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " like "
@@ -806,7 +806,7 @@
             {
               "t": "pepsin",
               "term": "pepsin",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", activated by "
@@ -814,7 +814,7 @@
             {
               "t": "HCl",
               "term": "hcl",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", to initiate protein decomposition and destroy "
@@ -822,7 +822,7 @@
             {
               "t": "pathogens",
               "term": "pathogens",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". To maintain functional integrity, "
@@ -838,7 +838,7 @@
             {
               "t": "mucous membrane",
               "term": "mucous membrane",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " known as "
@@ -862,7 +862,7 @@
             {
               "t": "bolus",
               "term": "bolus",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " is churned into "
@@ -870,7 +870,7 @@
             {
               "t": "chyme",
               "term": "chyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -918,7 +918,7 @@
             {
               "t": "peristalsis",
               "term": "peristalsis",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " into the "
@@ -950,7 +950,7 @@
             {
               "t": "acids",
               "term": "acids",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and glycerol, facilitating their "
@@ -958,7 +958,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". While the sour taste is yielded into "
@@ -1030,7 +1030,7 @@
             {
               "t": "metabolic",
               "term": "metabolic",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and increases "
@@ -1060,7 +1060,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", represents the principle of "
@@ -1076,7 +1076,7 @@
             {
               "t": "chyme",
               "term": "chyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -1148,7 +1148,7 @@
             {
               "t": "mucus",
               "term": "mucus",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". While the intestine produces minor "
@@ -1156,7 +1156,7 @@
             {
               "t": "enzymes",
               "term": "enzymes",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", most "
@@ -1164,7 +1164,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " is driven by secretions from the "
@@ -1204,7 +1204,7 @@
             {
               "t": "Secretin",
               "term": "secretin",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " stimulates the release of pancreatic "
@@ -1212,7 +1212,7 @@
             {
               "t": "bicarbonates",
               "term": "bicarbonates",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and water to neutralize "
@@ -1220,7 +1220,7 @@
             {
               "t": "HCl",
               "term": "hcl",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and inactivate "
@@ -1228,7 +1228,7 @@
             {
               "t": "pepsin",
               "term": "pepsin",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", while "
@@ -1236,7 +1236,7 @@
             {
               "t": "cholecystokinin",
               "term": "cholecystokinin",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " ("
@@ -1244,7 +1244,7 @@
             {
               "t": "CCK",
               "term": "cck",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": "), which links the digestive, nervous, and immune systems, triggers the release of pancreatic "
@@ -1252,7 +1252,7 @@
             {
               "t": "enzymes",
               "term": "enzymes",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and "
@@ -1260,7 +1260,7 @@
             {
               "t": "bile",
               "term": "bile",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -1276,7 +1276,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". "
@@ -1292,7 +1292,7 @@
             {
               "t": "chyme",
               "term": "chyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and regulates water-electrolyte balance, while plicae, "
@@ -1316,7 +1316,7 @@
             {
               "t": "nutrient",
               "term": "nutrient",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " uptake. "
@@ -1340,7 +1340,7 @@
             {
               "t": "acids",
               "term": "acids",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " as "
@@ -1348,7 +1348,7 @@
             {
               "t": "chyle",
               "term": "chyle",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", transporting them through the "
@@ -1444,7 +1444,7 @@
             {
               "t": "anabolic",
               "term": "anabolic",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and increases "
@@ -1474,7 +1474,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", occurs primarily in the "
@@ -1530,7 +1530,7 @@
             {
               "t": "enzymes",
               "term": "enzymes",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " with pungent properties facilitate the "
@@ -1538,7 +1538,7 @@
             {
               "t": "chemical breakdown",
               "term": "chemical breakdown",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " of macronutrients while the Ushna fire element enhances "
@@ -1546,7 +1546,7 @@
             {
               "t": "thermogenesis",
               "term": "thermogenesis",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and GI "
@@ -1554,7 +1554,7 @@
             {
               "t": "circulation",
               "term": "circulation",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", turning the "
@@ -1562,7 +1562,7 @@
             {
               "t": "chyme",
               "term": "chyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " yellowish-brown. Simultaneously, the air element produces gases and stimulates "
@@ -1570,7 +1570,7 @@
             {
               "t": "peristalsis",
               "term": "peristalsis",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " via "
@@ -1586,7 +1586,7 @@
             {
               "t": "propulsion",
               "term": "propulsion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " of digestive contents. While significant "
@@ -1594,7 +1594,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " later occurs in the "
@@ -1618,7 +1618,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " of "
@@ -1634,7 +1634,7 @@
             {
               "t": "chyle",
               "term": "chyle",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". The pungent taste is yielded into "
@@ -1730,7 +1730,7 @@
             {
               "t": "catabolic",
               "term": "catabolic",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and increases "
@@ -1760,7 +1760,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", representing the principle of "
@@ -1776,7 +1776,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", occurs as "
@@ -1784,7 +1784,7 @@
             {
               "t": "chyme",
               "term": "chyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " moves into the "
@@ -1840,7 +1840,7 @@
             {
               "t": "peristalsis",
               "term": "peristalsis",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " necessary for efficient transit and rapid "
@@ -1848,7 +1848,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " through intestinal "
@@ -1864,7 +1864,7 @@
             {
               "t": "nutrient",
               "term": "nutrient",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " assimilation as a key focus. This stage exerts a systemic cooling effect on the body, helping to alleviate symptoms associated with elevated "
@@ -1968,7 +1968,7 @@
             {
               "t": "catabolic",
               "term": "catabolic",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and increases "
@@ -1998,7 +1998,7 @@
             {
               "t": "digestion",
               "term": "digestion",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", representing the principle of "
@@ -2014,7 +2014,7 @@
             {
               "t": "elimination",
               "term": "elimination",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", occurs in the "
@@ -2078,7 +2078,7 @@
             {
               "t": "chyme",
               "term": "chyme",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", "
@@ -2102,7 +2102,7 @@
             {
               "t": "absorption",
               "term": "absorption",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " of remaining water, minerals, and electrolytes. "
@@ -2158,7 +2158,7 @@
             {
               "t": "peristalsis",
               "term": "peristalsis",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ". Simultaneously, the air element nourishes "
@@ -2198,7 +2198,7 @@
             {
               "t": "elimination",
               "term": "elimination",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " at the "
@@ -2214,7 +2214,7 @@
             {
               "t": "elimination",
               "term": "elimination",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": ", the air element stimulates "
@@ -2318,7 +2318,7 @@
             {
               "t": "catabolic",
               "term": "catabolic",
-              "cat": "physiology"
+              "cat": "anatomy"
             },
             {
               "t": " and increases "
